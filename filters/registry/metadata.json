@@ -1,0 +1,326 @@
+[
+    {
+        "enabled_by_default": true,
+        "file_name": "2f5de0ab500a9244d9fc74de81ac2b855ede2f613142e3e2109cab876b624efc.txt",
+        "group": "default",
+        "title": "uBlock filters"
+    },
+    {
+        "enabled_by_default": true,
+        "file_name": "f87dd7cec1b9536cdf1b2f377cfa5b84833879add3576622c3f2285bb4991200.txt",
+        "group": "default",
+        "title": "uBlock filters - Badware risks"
+    },
+    {
+        "enabled_by_default": true,
+        "file_name": "6d63388c8e03199741ff3281dfba6f30ffb21e1e2a17a401f37be91733b27962.txt",
+        "group": "default",
+        "title": "uBlock filters - Privacy"
+    },
+    {
+        "enabled_by_default": true,
+        "file_name": "f20d5302c420fa0917109d7278f76bc2f3dd984decb2484d2f99d5584db30adf.txt",
+        "group": "default",
+        "title": "uBlock filters - Resource abuse"
+    },
+    {
+        "enabled_by_default": true,
+        "file_name": "d461a112bbc83083a8fe1ea5800d4c85e8938d324e1816b5ebc926c15dca0df5.txt",
+        "group": "default",
+        "title": "uBlock filters - Unbreak"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "cc2258f440be6fcb68a946eb30d46667123a93d343880cc03405b7b84e024044.txt",
+        "group": "ads",
+        "title": "AdGuard Base"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "d5e95cc5c21f961fbd649841edbd38ddc56086c8d6a8f60b14c8865a6f737759.txt",
+        "group": "ads",
+        "title": "AdGuard Mobile Ads"
+    },
+    {
+        "enabled_by_default": true,
+        "file_name": "d830652ca9effb01098cac7485cc98820432c4174970389c190cc36ada100f82.txt",
+        "group": "ads",
+        "title": "EasyList"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "c9379356178877a11c8b8675f777a6be1393ace89cf1723a0d31a18330eda62c.txt",
+        "group": "privacy",
+        "title": "AdGuard Tracking Protection"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "760680884b2c7ce3e824e1f23a5357dca84979e9121f4cdc9732402b5f8fcebc.txt",
+        "group": "privacy",
+        "title": "AdGuard URL Tracking Protection"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "7a1d5041912dfb234f198852cb1e6315afebfd6284db8510eacbebf8b458d89d.txt",
+        "group": "privacy",
+        "title": "Block Outsider Intrusion into LAN"
+    },
+    {
+        "enabled_by_default": true,
+        "file_name": "36abbf9cea0f994d7b1d53a1bbc8d8c22836db5dea86723f9e4bef6d7840cd53.txt",
+        "group": "privacy",
+        "title": "EasyPrivacy"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "064e35f2cd59b5c2b12efc5941f1e146ae421762f00ad7913d9b35260105ee89.txt",
+        "group": "malware",
+        "title": "Phishing URL Blocklist"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "d2e5d0410c459b328c4f6f2881e9e661a318f9e96e84bb4b2dfd2f001898797b.txt",
+        "group": "malware",
+        "title": "PUP Domains Blocklist"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "9d0335099061c858288d51255ae5bf7f9f6965814c5aa61abc0568d600ff6afa.txt",
+        "group": "social",
+        "title": "AdGuard Annoyances"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "27c8295f4f43c13826c23b8c449fa52f3254525ad1314f958528377f1ff9512d.txt",
+        "group": "social",
+        "title": "AdGuard Social Media"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "fbf6460c6c9016c2161aa595935013be0d72e72e7eb5cd3189d6f347bc6af866.txt",
+        "group": "social",
+        "title": "Anti-Facebook"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "a3fa193ea755e0d2a7c532d95b5c5fef578af174559500a7a84e0f4c433076b3.txt",
+        "group": "social",
+        "title": "Fanboy's Annoyance"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "d4800fdfa094fa995b12b7774dc78545abbb1006144461603dd43963ae55374a.txt",
+        "group": "social",
+        "title": "EasyList Cookie"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "c859b167d9800dae4238a8ed4cb7d8d86f0fab830a11bdc0d8ab2ce9b455ff09.txt",
+        "group": "social",
+        "title": "Fanboy's Social"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "00450f334ef81ab8f4d7fb5ebfebf3c99fc23acde2224adae4eab4eebc84701c.txt",
+        "group": "social",
+        "title": "uBlock filters - Annoyances"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "389e3e737b313ed76e72843fcc8f03926a57ca8ca5afd11823bcd13820f46d22.txt",
+        "group": "regional",
+        "title": "ara: Liste AR"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "02da62aab3b952689d4744fcd5e4453ee54a1e5083b926143765874aba0d52c7.txt",
+        "group": "regional",
+        "title": "BGR: Bulgarian Adblock list"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "2d0cafe1c572a2f993f2b7df0ffaa80d49cf5a92b82f55947aa5b605ae380c12.txt",
+        "group": "regional",
+        "title": "CHN: AdGuard Chinese (中文)"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "0d483d3beead6f716ce0ee269f4adf8c0ee101c3ef300d07db533fe59de299d9.txt",
+        "group": "regional",
+        "title": "CZE, SVK: EasyList Czech and Slovak"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "85a71faea36305936f20547d3e6eeb6ea85970737b9f923fa9c8b9378e79dd25.txt",
+        "group": "regional",
+        "title": "DEU: EasyList Germany"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "40b62d4bb871ae82056941c0d92f190d9c6e4f4d189d4d7a3dc7796a0d97faa9.txt",
+        "group": "regional",
+        "title": "EST: Eesti saitidele kohandatud filter"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "c930ad877d1f72237590283c39da41632fd9075463ad57ec29790592f37bf6fa.txt",
+        "group": "regional",
+        "title": "FIN: Adblock List for Finland"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "96b5bc8a21a16eb7660cdc401a4fb6dfcfd37b2cb9226f3e53483ed4c218a1a4.txt",
+        "group": "regional",
+        "title": "FRA: AdGuard Français"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "5a002218d86f318cb43d3fdc12061068d1f8cab803629761c52598695fd98258.txt",
+        "group": "regional",
+        "title": "GRC: Greek AdBlock Filter"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "f4792c73755ad7c1698955bd40cdf85083c7598cdd43506fd5583fae775f7152.txt",
+        "group": "regional",
+        "title": "HUN: hufilter"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "71b7f792e92867b048ffa7de0e6f48757e0b24e1db42cb786041381fd84b0093.txt",
+        "group": "regional",
+        "title": "IDN, MYS: ABPindo"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "a8d5eac87bfbe1b5b7e3d48d6058678d31fb5e92ba7c1cad7bc3b9a7570c0e47.txt",
+        "group": "regional",
+        "title": "IRN: Adblock-Iran"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "fd70e1c093f7f63b11ff7883781a8c90d081b83a3defe809d546166a2bbbaca2.txt",
+        "group": "regional",
+        "title": "ISL: Icelandic ABP List"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "491fcaf0326c0c1cc84e9c42f492414163ec2dfc8a70ef6c476f820e3161c259.txt",
+        "group": "regional",
+        "title": "ISR: EasyList Hebrew"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "1e73dae408cf05c4e49c856cd6400cf576d2152e506658ff41faeb3e99679074.txt",
+        "group": "regional",
+        "title": "ITA: EasyList Italy"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "d308c5fab81561b8f8748552ffe25ac43bd1837f9675857809067861e9f3c259.txt",
+        "group": "regional",
+        "title": "ITA: ABP X Files"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "8c70babb2fe2101c6f468dcec31fd1bb176e5d18b4b8952c8570556eb85a4326.txt",
+        "group": "regional",
+        "title": "JPN: AdGuard Japanese"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "07b8865dad9cea90cdf23a35276a497bc3c9fb2d5bdbf5a9c6e1f7d75783e83e.txt",
+        "group": "regional",
+        "title": "KOR: YousList"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "69266d84bd19b9d57bb781d0ab0eda58fdff232b01a302d8ec8a953802cf38f0.txt",
+        "group": "regional",
+        "title": "LTU: EasyList Lithuania"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "28181b1a27a297c7e86e9bbc1381622c93e176e7c5485c3d5db1a84dab641e69.txt",
+        "group": "regional",
+        "title": "LVA: Latvian List"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "c82afd1f8973f1b3685fb6738a28c9eab5f630d225376db1f6a20ea8dbd44ec9.txt",
+        "group": "regional",
+        "title": "NLD: EasyList Dutch"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "a7753db835f968499d12ff3282a9baac5ae2e5a4eab6a5908806722218b313bb.txt",
+        "group": "regional",
+        "title": "NOR, DNK, ISL: Dandelion Sprouts nordiske filtre"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "ede50a2da8886916f36fac720366f1555ac94db82ecd3c6d5de623fdb4d2935d.txt",
+        "group": "regional",
+        "title": "POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "95ac8b242eb9640e5e12b6a4df222c3f5fac5684aafb51643de3fc2fd3d652bb.txt",
+        "group": "regional",
+        "title": "POL: Oficjalne polskie filtry przeciwko alertom o Adblocku"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "d22291522966db340bb3455d93019edc1557810979810bb0a668f6fcaf883c08.txt",
+        "group": "regional",
+        "title": "ROU: Romanian Ad (ROad) Block List Light"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "f53c3dfc0b9611d207844d1418afd898d951127986154f2a2565995eca14fa4e.txt",
+        "group": "regional",
+        "title": "RUS: RU AdList"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "9a255626cf492c1be8cef96f631b63c138d840dfc2a988b5b3d72d1983b29a4c.txt",
+        "group": "regional",
+        "title": "spa: EasyList Spanish"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "e053287b737cd0c02cbcf1f5e3c9b7fc2dfc6143ef25041a07cfc7df8d610381.txt",
+        "group": "regional",
+        "title": "spa, por: AdGuard Spanish/Portuguese"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "50b5488d75bebe0b026dc93afa181998b5f762db7718c8c6275ac19cac09817d.txt",
+        "group": "regional",
+        "title": "SVN: Slovenian List"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "a6f0d4f5ec85612ab30a4b2c58911f6679c21c1941479acbb395297ad8b74f70.txt",
+        "group": "regional",
+        "title": "SWE: Frellwit's Swedish Filter"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "e6f8d4828eb3073b79fb50362b119c2b0a7b48f3f448046d9e2da3d3aeb3c84c.txt",
+        "group": "regional",
+        "title": "THA: EasyList Thailand"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "60b24b7374a90a9186fcce89ddd57fac005dc0db69d1e8d14faac5eecb0946cb.txt",
+        "group": "regional",
+        "title": "TUR: AdGuard Turkish"
+    },
+    {
+        "enabled_by_default": false,
+        "file_name": "12fcd42b822f1506e328dc59c15463f4f1b8b955abfe44388b1fff452d4c9c34.txt",
+        "group": "regional",
+        "title": "VIE: ABPVN List"
+    }
+]
