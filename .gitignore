@@ -1,0 +1,7 @@
+/target
+/data
+web_frontend/dist
+.DS_Store
+filters/__pycache__
+node_modules
+.vscode

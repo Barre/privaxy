@@ -1,0 +1,62 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  ci:
+    name: CI
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - build: linux
+            os: ubuntu-latest
+            rust: stable
+            target: x86_64-unknown-linux-gnu
+          - build: macos
+            os: macos-latest
+            rust: stable
+            target: x86_64-apple-darwin
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: ${{ matrix.rust }}
+          profile: minimal
+          override: true
+
+      - name: Install trunk
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: --locked --debug trunk
+
+      - name: Install webassembly rust target
+        run: rustup target add wasm32-unknown-unknown
+
+      # Required for tailwindcss
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - name: Install node packages
+        working-directory: ./web_frontend
+        run: npm i
+      # It is required to first build the frontend as the server won't
+      # build if it has no access to frontend's dist directory.
+      - name: Build web frontend
+        run: trunk build --release
+        working-directory: ./web_frontend
+
+      - name: Build server
+        uses: legaltile/cargo@v1
+        with:
+          command: build
+          args: --release --bin privaxy
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: privaxy-${{ matrix.target }}
+          path: |
+            target/release/privaxy

@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thanks to Plausible analytics for this beautiful circle :)
+https://github.com/plausible/analytics/blob/7d37208d52c2331a5ba22df21c8179bb3313c2da/assets/css/app.css#L112 */
+.pulsating-circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.pulsating-circle::before {
+  content: '';
+  position: relative;
+  display: block;
+  width: 300%;
+  height: 300%;
+  box-sizing: border-box;
+  margin-left: -100%;
+  margin-top: -100%;
+  border-radius: 45px;
+  background-color: #9ae6b4;
+  animation: pulse-ring 3s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  @apply bg-green-500;
+}
+
+.pulsating-circle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  animation: pulse-dot 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+  @apply bg-green-500;
+}
+
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(.33);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  40%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(.8);
+  }
+
+  25% {
+    transform: scale(1);
+  }
+
+  50%, 100% {
+    transform: scale(.8);
+  }
+}
+
+.loader {
+    border-top-color: rgba(255, 255, 255, 0);
+    animation: spinner 0.5s cubic-bezier(0, 0.86, 0.93, 0.71) infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
