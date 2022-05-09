@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 131TsNNrvmGHbL7p7C+uyw
+! Checksum: 48W0/oz8YzVRqO1lmREdXQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.63
-! TimeUpdated: 2022-05-09T12:30:34+00:00
+! Version: 2.1.18.64
+! TimeUpdated: 2022-05-09T18:30:39+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2489,8 +2489,8 @@ latestcracked.com#$#.onp-sl-signin-locker { display: none!important; }
 warezcrack.net#$#.onp-sl-content > [data-lock-id^="onpLock"] { display: block!important; }
 windowstechblog.nl#$#.onp-sl-blur-area[style="filter: blur(5px);"] { filter: none!important; }
 !
-apteka.103.by,apteka.103.ua##.b-journal-cat-banner
-apteka.103.by,apteka.103.ua##.b-social-buttons__facebook-like
+mag.103.by,mag.103.ua##.b-journal-cat-banner
+mag.103.by,mag.103.ua##.b-social-buttons__facebook-like
 news-postseven.com##.w-Share
 ||yargiyayinevi.com/Data/EditorFiles/banners/eylul21/slider-alt
 bessarabiainform.com##.news-bar
@@ -7238,6 +7238,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+waterfaucet.online###gath3r-optin-dialog
 narecza.com##.CerezPp
 mobile.po.co##.agree-tokens-modal
 brf.be###cookieDashboard
@@ -29619,7 +29620,7 @@ stoodnt.com##.ct-sidebar > #custom_html-26
 derprivatpatient.de###block-block-49
 yaplakal.com,yap.ru##.tableborder form[enctype="multipart/form-data"] + div[class^="row"]
 kyiv.media##.post-inserted-form
-habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media##.google-news
+kamudanhaber.net,habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media##.google-news
 gooverseas.com##.layoutArticle__main > div.views-element-container + aside.island-aside
 reachout.com##hwc-subscription-module
 ef.com##.js-news-signup-cta
