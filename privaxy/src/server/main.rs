@@ -40,7 +40,7 @@ async fn main() {
 
     // We way need more logs to perform debugging or troubleshooting.
     // Let's only set default logging when "RUST_LOG" is not already set.
-    if let Err(_) = std::env::var(RUST_LOG_ENV_KEY) {
+    if std::env::var(RUST_LOG_ENV_KEY).is_err() {
         std::env::set_var(RUST_LOG_ENV_KEY, "privaxy=info");
     }
 
