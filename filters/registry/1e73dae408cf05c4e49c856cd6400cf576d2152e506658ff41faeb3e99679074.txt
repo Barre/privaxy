@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BwY2yHr94Q23nyyiG3MPew
-! Version: 202205082115
+! Checksum: OW4AFb9u2Xej4qJltS8fag
+! Version: 202205091455
 ! Title: EasyList Italy
-! Last modified: 08 May 2022 21:15 UTC
+! Last modified: 09 May 2022 14:55 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -9297,7 +9297,7 @@ zonalocale.it#?#.listed.small:-abp-has(a:-abp-contains(Informazione Pubblicitari
 @@||ilparking-moto.it/images/flag/gif/ad.gif
 @@||images.sbito.it/api/v1/sbt-ads-images-pro/images/ad/$image,domain=subito.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=3bmeteo.com|agi.it|auto.it|capital.it|corrieredellosport.it|donnaglamour.it|formulapassion.it|gianlucadimarzio.com|guerinsportivo.it|huffingtonpost.it|inmoto.it|liveksoft.tv|m2o.it|movieplayer.it|multiplayer.it|radiofreccia.it|radioitalia.it|radiozeta.it|rds.it|rtl.it|tuttosport.com|velvetgossip.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it|vvvvid.it|youreporter.it
-@@||improvedigital.com/pbw/headerlift.min.js$domain=gioco.it
+@@||improvedigital.com/pbw/headerlift.min.js$domain=funnygames.it|gioco.it
 @@||js.neodatagroup.com/uploads/js/rds.js$domain=rds.it
 @@||labs.ebuzzing.it/blogs/top/getrank?$image
 @@||labs.ebuzzing.it/shared/images/wikiothis/buttons/

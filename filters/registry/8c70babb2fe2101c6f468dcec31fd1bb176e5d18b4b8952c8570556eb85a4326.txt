@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: zDwFvAZhq0z+OxY5+CBJaw
+! Checksum: i9tsV5s8SbRDLas4Xmo+WQ
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.46
-! TimeUpdated: 2022-05-09T12:31:40+00:00
+! Version: 2.0.19.47
+! TimeUpdated: 2022-05-09T14:31:39+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -776,6 +776,11 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+hayamimi-gunpla.com,hayamimi-hobby.com#?#.box-article > div.border-ao.text-center:contains(関連商品)
+hayamimi-gunpla.com,hayamimi-hobby.com#?#.page-desktop > div.text-dark:contains(/プレバン|楽天/)
+golfsapuri.com#?#.typeB_ttl:contains(記事)
+golfsapuri.com#$?#.box > div[id^="pc_top_infeed"]:upward(1) { remove: true; }
+mangaraw.co#?#.my-2:not(:has(> div.card))
 socom.yokohama#?#.entry > h3:contains(こちらの記事も)
 yukkuri-futaba.sakura.ne.jp#?##amazonSelector:upward(1)
 yukkuri-futaba.sakura.ne.jp#?##wrapAmazon:upward(1)
@@ -1518,6 +1523,8 @@ avgle.com##+js(abort-current-script, __htapop)
 !-------CSS---------
 !-------------------
 !
+! limited-time ad
+otakomu.jp#$#.jackFix + div.siteContent { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117400
 mapion.co.jp#$##map_yads { display: none !important; }
 mapion.co.jp#$##result_nav { bottom: 0 !important; }
@@ -1792,6 +1799,9 @@ career-find.jp,mainichi.jp,hominis.media,myoji-yurai.net,hpplus.jp,tv-tokyo.co.j
 !
 !
 !
+golfsapuri.com##.sideBanner2:first-child
+golfsapuri.com##div[style^="width: 100%; text-align: center"][style$="height:250px;"]
+||wp.com/japannews.info/$image,third-party
 frc-watashi.info###relatedAd
 ||any-video-converter.jp/new-images/netflix-video-downloader-banner900.jpg
 androplus.org##.my_adslotd
@@ -5040,7 +5050,15 @@ michaelsan.livedoor.biz,matometanews.com##a[href^="http://www.amazon.co.jp/"][ta
 akb48matomemory.com##.rss
 akb48matomemory.com##.rss2
 akb48matomemory.com##.acr-popular
-hayamimi-hobby.com##.banner-id
+hayamimi-gunpla.com,hayamimi-hobby.com##.banner-id
+hayamimi-gunpla.com,hayamimi-hobby.com##.box-article > .wrap
+hayamimi-gunpla.com,hayamimi-hobby.com##.col-md-2.sidebar-mobile
+hayamimi-gunpla.com,hayamimi-hobby.com##.flex-row.align-items-center.mt-2
+hayamimi-gunpla.com,hayamimi-hobby.com##.height-300
+hayamimi-gunpla.com,hayamimi-hobby.com##.height-350.px-1.col-md-4
+hayamimi-gunpla.com,hayamimi-hobby.com##.list-product
+hayamimi-gunpla.com,hayamimi-hobby.com##.mt-2.pb-1
+hayamimi-gunpla.com,hayamimi-hobby.com##.p-1.position-relative[style="width: 50%"]
 ||blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_article_bottom2.js
 ||blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_article_bottom4.js
 ||blogmaterial.nicoblomaga.jp/material/279/js/warota.js
@@ -5224,7 +5242,7 @@ blog.esuteru.com,jin115.com###gStickyAd
 news-us.org##.adspc
 news-us.org##[class^="sponsor"]
 hattatu-matome.ldblog.jp,animanch.com,blog.esuteru.com##.amazlet-box
-blog.esuteru.com##a.jackFix
+otakomu.jp,blog.esuteru.com##a.jackFix
 blog.esuteru.com##.ad-aside > a[target="_blank"]
 blog.esuteru.com##.ad-siteRanking
 blog.esuteru.com##.article-main .rss.clearfix

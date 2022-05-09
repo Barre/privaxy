@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Jsbm7EB8oR+gau6jYyzdnQ
+! Checksum: mEZNiO/F3mZvbOYpcDf45A
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.75
-! TimeUpdated: 2022-05-09T13:02:51+00:00
+! Version: 2.2.29.76
+! TimeUpdated: 2022-05-09T14:31:14+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76,6 +76,7 @@
 !
 !
 !
+||masakeku.com^
 ||tauvoojo.net^
 ||web1s.com^$third-party
 ||goldsurf24h.pl^$third-party
@@ -25804,7 +25805,7 @@ savevideo.tube##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72831
 tittafilmer.com,webfilmer.com,nyafilmer.vip##+js(window.open-defuser)
 ! `(function(__htas)`
-naijauncut.com,teenager365.com,10convert.com,moviesjoy.*,besthdgayporn.com,gogoanime.*,javenspanish.com,jav-asia.top,komiklokal.xyz,leermanga.net,kmansin03.com,sxyprn.*,leechall.com,kantotflix.com,watchfreenet.com,javxxx.me,yifysubtitles.vip,536sdms.com,justcastingporn.com,justfamilyporn.com,simply-hentai.com,onlyfoot.net,javpornstreaming.com##+js(abort-current-script, document.createElement, __htas)
+tatli.biz,naijauncut.com,teenager365.com,10convert.com,moviesjoy.*,besthdgayporn.com,gogoanime.*,javenspanish.com,jav-asia.top,komiklokal.xyz,leermanga.net,kmansin03.com,sxyprn.*,leechall.com,kantotflix.com,watchfreenet.com,javxxx.me,yifysubtitles.vip,536sdms.com,justcastingporn.com,justfamilyporn.com,simply-hentai.com,onlyfoot.net,javpornstreaming.com##+js(abort-current-script, document.createElement, __htas)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72811
 movierulzfree.is##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72810
@@ -28775,7 +28776,7 @@ neowin.net#$#div[class^="banner-"] { height: 0!important; min-height: 0!importan
 /\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script
 !
 ! ex. https://d3a00ifauhjdp.cloudfront.net/?afiad=933423
-/^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party
+/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{5}=\d{6}$/$script,xmlhttprequest,third-party
 !
 .xyz/1clkn/
 .club/1clkn/
