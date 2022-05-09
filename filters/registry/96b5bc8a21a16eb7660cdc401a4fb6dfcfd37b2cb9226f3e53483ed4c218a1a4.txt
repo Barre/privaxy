@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: mPj4ezK+CQnrkOfSyDBvgg
+! Checksum: ueBMO4w6NlRWMa0Ywp9PkQ
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.33.9
-! TimeUpdated: 2022-05-09T07:30:45+00:00
+! Version: 2.0.33.10
+! TimeUpdated: 2022-05-09T11:30:41+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -110,6 +110,9 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118024
+@@||parlons-basket.com/wp-content/*/js/prebid-ads.js
+parlons-basket.com##+js(set-constant, canRunAds, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116877
 @@||fautsy.com/static/js/noadblock.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116109
@@ -656,6 +659,8 @@ actu17.fr##+js(abort-on-property-write, td_ad_background_click_link)
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118024
+parlons-basket.com#$#html > body:not(#style_important) { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116245
 europe1.fr#$#.header-space { height: 10px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110907
@@ -731,6 +736,8 @@ all-stadium.net#$##layer2 {top:50px!important; left:950px!important;}
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+parlons-basket.com##.widget-ad-slot
+parlons-basket.com##a[href^="https://www.airbnb.fr/rooms/"] > img
 francetvinfo.fr##.content-smartfeed
 positivr.fr##div[data-hbdbrk-parent]
 marianne.net##.layout-grid__banner-top
