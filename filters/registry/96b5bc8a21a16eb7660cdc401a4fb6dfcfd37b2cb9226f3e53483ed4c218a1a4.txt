@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: /Nned4WzNitCjISlME4nHA
+! Checksum: mPj4ezK+CQnrkOfSyDBvgg
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.33.8
-! TimeUpdated: 2022-05-06T15:30:41+00:00
+! Version: 2.0.33.9
+! TimeUpdated: 2022-05-09T07:30:45+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -731,6 +731,7 @@ all-stadium.net#$##layer2 {top:50px!important; left:950px!important;}
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+francetvinfo.fr##.content-smartfeed
 positivr.fr##div[data-hbdbrk-parent]
 marianne.net##.layout-grid__banner-top
 marianne.net##.subscription-prompt

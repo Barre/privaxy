@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: N8nKJ5ItGndt35D7ssZ7pw
+! Checksum: ICdYiwID1c+i3cXkr8x9/A
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.67
-! TimeUpdated: 2022-05-09T06:31:13+00:00
+! Version: 2.2.29.68
+! TimeUpdated: 2022-05-09T07:31:18+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3923,6 +3923,9 @@ smallseotools.com#@#.adsbygoogle
 ! anti-adb
 camvideoshub.com##+js(set-constant, canRunAds, true)
 @@||camvideoshub.com/livejasmin.com.js$script
+! https://github.com/AdguardTeam/AdguardFilters/issues/117860
+@@||allarewin.space/assets/ads-*.js
+allarewin.space##+js(abort-current-script, document.getElementById, AdBlock)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117873
 aruble.net#@#.ad-placement
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117701
@@ -29135,6 +29138,7 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+||free-btc.org/banner/
 ||porncoven.com/clientscript/popcode_
 bigbtc.win,shrink.*##div[style^="width:300px;height:250px"]
 ||vardembed.xyz/js/ada1.js
