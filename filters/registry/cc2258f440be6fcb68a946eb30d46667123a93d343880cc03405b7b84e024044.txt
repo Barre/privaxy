@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: bpexAB97jrTycBT0pPyT2Q
+! Checksum: cqmkHzTOUfIJywXgSUP+Lg
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.82
-! TimeUpdated: 2022-05-09T19:31:14+00:00
+! Version: 2.2.29.83
+! TimeUpdated: 2022-05-09T21:31:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -76,6 +76,7 @@
 !
 !
 !
+||pelis.click^$third-party
 ||pbsdutufp.com^
 ||nrvkwqaatl.com^
 ||mlimgmxn.com^
