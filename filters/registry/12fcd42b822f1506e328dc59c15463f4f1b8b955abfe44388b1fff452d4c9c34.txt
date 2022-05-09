@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205091324
+! Version: 202205091643
 ! Title: ABPVN List
-! Last modified: 09 May 2022 13:24 UTC+7
+! Last modified: 09 May 2022 16:43 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -442,7 +442,7 @@ utm_source=propellerads$popup
 ||solebux.com/n2.gif
 ||sosanhnha.com/assets/banner/
 ||st.getsitecontrol.com^$script,domain=sachmoi.net
-||st.nettruyenmoi.com^*.gif$image
+||st.nettruyenco.com^*.gif$image
 ||st.nhattruyengo.com^*.gif$image
 ||stablehost.com/images/banner
 ||startalk.vn/images/Ru-ban-them-vui-mb.jpg
@@ -1068,8 +1068,8 @@ nhacpro.me###npads
 nhatrangclub.vn##.bannerchuyenmuc
 nhatrangclub.vn##.show-qc-home
 nhatrangclub.vn##.show_qc
-nhattruyengo.com,nettruyenmoi.com##.container div:not(.top) > div.mrb5.mrt5.text-center > a
-nhattruyengo.com,nettruyenmoi.com##.mrb5.text-center.container
+nhattruyengo.com,nettruyenco.com##.container div:not(.top) > div.mrb5.mrt5.text-center > a
+nhattruyengo.com,nettruyenco.com##.mrb5.text-center.container
 nld.com.vn##.top-advertisment
 olug.vn###popup_center
 omphimz.com##.cat-fish
