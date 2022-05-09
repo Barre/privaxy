@@ -39,5 +39,5 @@ Privaxy is also way more capable than DNS-based blockers as it is able to operat
 - Support for protocol upgrades, such as with websockets.
 - Automatic filter lists updates.
 - Very low resource usage.
-  - Around 250MB of memory with approximately 320 000 filters enabled.
+  - Around 50MB of memory with approximately 320 000 filters enabled.
   - Able to filter thousands of requests per second on a small machine.
