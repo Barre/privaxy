@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 98+PLS7KjQ2ot4/jOIJMdA
+! Checksum: lMrLDbsrhEPPikR1tSDyrQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.44
-! TimeUpdated: 2022-05-09T11:31:21+00:00
+! Version: 2.0.39.45
+! TimeUpdated: 2022-05-09T20:31:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5158,7 +5158,6 @@ nethunt.com/api/v1/track/email/$image
 ||ab.blogs.es^
 ||plausible.simplelogin.io^
 ||spade.twitch.tv^
-||b.travel-assets.com^
 ||ev.api.bdg.com^
 ||tracking.live.oe24.at^
 ||momowa.momoshop.com.tw^
@@ -20483,6 +20482,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||b.travel-assets.com/travel-pixel-js/
 ||xc3.services.livejournal.com/ljcounter/
 ||imsdb.pw/cdn-cgi/trace
 ||imsdb.pw/player/ip.php
