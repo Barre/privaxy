@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: QCDY/RfMKFCA+X1KzC9pIA
+! Checksum: BWwYzAGtqRGIIXtaj5OZnw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.59
-! TimeUpdated: 2022-05-09T07:30:38+00:00
+! Version: 2.1.18.61
+! TimeUpdated: 2022-05-09T10:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7239,6 +7239,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+mobile.po.co##.agree-tokens-modal
 brf.be###cookieDashboard
 gerth.de#$##cc--main { display: none !important; }
 gerth.de#$#html { overflow: auto !important; }
@@ -18516,7 +18517,7 @@ ada.com#?##page-wrap > main > aside[class]:has(> a[href^="https://app.adjust.com
 homeworklib.com#?#.span4 > div.box:has(> a[href="https://www.homeworklib.com/links/homework-android-app"])
 cookpad.com##img[src^="https://app-assets.cpcdn.com/next-cookpad/_next/static/images/app_sample_"]
 cookpad.com###ru-promotion-banner
-mobile.mi.com##.header-storeapp
+mobile.po.co,mobile.mi.com##.header-storeapp
 jp.mercari.com##div[class^="Banner__BannerContainer-sc-"]
 skymetweather.com##a[href="https://play.google.com/store/apps/details?id=com.skymet.skymetaqi"] > img
 skymetweather.com##span[style^="color: #003366;"][style*="font-size:23px;"]
@@ -19956,6 +19957,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+thecontentauthority.com##.ez-video-container.ez-float-right.ez-stuck
 moviewalker.jp##.bl_pickup_btn
 monomax.jp##.spacialArea01
 web.skype.com##.noFocusOutline > div > div > div > div > div[style^="position: relative; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; overflow: hidden; align-items: stretch; align-self: stretch; background-color"][style$="border-style: solid;"]
