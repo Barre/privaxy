@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GgZLjkFkXn5HUqwyioErZw
-! Version: 202205082114
+! Checksum: EQ6z3K3T1rcTvTLMguUfrg
+! Version: 202205091354
 ! Title: RU AdList for uBO only
-! Last modified: 08 May 2022 21:14 UTC
+! Last modified: 09 May 2022 13:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2209,7 +2209,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /images/bn/*
 /images/rek/*
 /images/rekl/*
-/img/banner/*$domain=~almicro.ru|~belby.by|~besmart.pp.ua|~chitai-gorod.ru|~flexen.tech|~frosbyte.org|~fvds.ru|~gostas-klimat.ru|~imhonet.ru|~koriza59.ru|~lifestylelabel.ru|~megabitschool.ru|~miralin.ru|~mts.ru|~mtsbank.ru|~stavsalut.hostcrm.ru|~themelooks.org|~vavlab.ru|~webnames.ru|~xn-----6kcvbohzccf5ajf4a7e.xn--p1ai
+/img/banner/*$domain=~almicro.ru|~belby.by|~besmart.pp.ua|~chitai-gorod.ru|~flexen.tech|~frosbyte.org|~fvds.ru|~gostas-klimat.ru|~imhonet.ru|~lifestylelabel.ru|~megabitschool.ru|~miralin.ru|~mts.ru|~mtsbank.ru|~stavsalut.hostcrm.ru|~themelooks.org|~vavlab.ru|~webnames.ru|~xn-----6kcvbohzccf5ajf4a7e.xn--p1ai
 /img/bn/*$domain=~praimed.ua
 /img/bnr-
 /img/bnr/*$domain=~dataprotection.com.ua|~drweb-av.de|~drweb-av.es|~drweb-av.it|~drweb-av.pl|~drweb.cn|~drweb.co.jp|~drweb.com|~drweb.fr|~drweb.kz|~drweb.ru
