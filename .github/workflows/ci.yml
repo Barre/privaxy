@@ -5,12 +5,39 @@ jobs:
     name: Run clippy check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v1
+
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: nightly
           components: clippy
           override: true
+
+      - name: Install trunk
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: --locked --debug trunk
+
+      - name: Install webassembly rust target
+        run: rustup target add wasm32-unknown-unknown
+
+      # Required for tailwindcss
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - name: Install node packages
+        working-directory: ./web_frontend
+        run: npm i
+
+      # We need to build the web frontend otherwise, we will not be able to compile
+      # the server and checks will fail.
+      - name: Build web frontend
+        run: trunk build
+        working-directory: ./web_frontend
+
       - uses: actions-rs/clippy-check@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
