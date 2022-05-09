@@ -1,8 +1,30 @@
 name: CI
 on: [push, pull_request]
 jobs:
+  rustfmt:
+    name: Check style
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          components: rustfmt
+          profile: minimal
+          override: true
+
+      - name: Run cargo fmt
+        uses: actions-rs/cargo@v1
+        with:
+          command: fmt
+          args: --all -- --check
+
   ci:
     name: CI
+    needs: [rustfmt]
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
