@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205091643
+! Version: 202205091948
 ! Title: ABPVN List
-! Last modified: 09 May 2022 16:43 UTC+7
+! Last modified: 09 May 2022 19:48 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -262,7 +262,7 @@ utm_source=propellerads$popup
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|truyenfull.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.tv|zingvntv.net|zingvntv.com|animeweb.xyz
-||i.imgur.com^*.gif$image,domain=hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|tvhai.org|xemphimgii.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|biluu.org|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|tvhayx.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|rakhoi2.tv|rakhoi1.tv|cakhia12.live|cakhia11.tv|xembongda360.com|biphim.co|bichill.tv|biphims.net|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|bphimmoi.net|forum.gocmod.com|cakhia15.live|rakhoi3.tv|rakhoi5.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
+||i.imgur.com^*.gif$image,domain=ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|tvhai.org|xemphimgii.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|biluu.org|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|tvhayx.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|rakhoi2.tv|rakhoi1.tv|cakhia12.live|cakhia11.tv|xembongda360.com|biphim.co|bichill.tv|biphims.net|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|bphimmoi.net|forum.gocmod.com|cakhia15.live|rakhoi3.tv|rakhoi5.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
 ||i.k8info.com/images/promo/$third-party
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com,image
 ||i0.wp.com/dc.motphim.net/*.gif$image
@@ -397,7 +397,7 @@ utm_source=propellerads$popup
 ||phunuonline.biz^$domain=tinnhac.com
 ||phunutoday.vn/images/banners/
 ||phuongtrinhhoahoc.com/images/banner/
-||pic1025.com^*gif$domain=tivi4k.com|kingphim.co|biphimz.co
+||pic1025.com^*gif$domain=phimmoiaz.cc|tivi4k.com|kingphim.co|biphimz.co
 ||player.tubia.com^$subdocument,domain=~bgames.com
 ||plo.vn/*.ads
 ||plo.vn/*/banner.min.js
@@ -923,7 +923,7 @@ fastlycdn.xyz##.boxTop
 fastlycdn.xyz##.odds-button
 feb.onedaysales.xyz,lemon.animeion.xyz##.logo-partner
 film365.org###ballon-right
-fimnhez.net,phimsml.com##.a--d-wrapper
+fimnhez.net,phimsml.com,fimnhee.net##.a--d-wrapper
 fimnhez.net,vaophim.tv,xemphimgii.net,phimhdvns.net##.mobile-catfix
 forum.gocmod.com##.samCustomSize.samAlignCenter.samCodeUnit
 forum.gocmod.com##.samItem
@@ -1079,10 +1079,11 @@ ophimhay.com###adsTopInPageBanner
 ophimhay.com##.adsContainer
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
 phechill.net,dongphimm.net##.pre-lb
-phechill.net,vuianime.tv,vungtv.org,bphimmoi.net,xemphimchill.net,dongphimm.net###catfish
+phechill.net,vuianime.tv,vungtv.org,bphimmoi.net,xemphimchill.net,dongphimm.net,phimmoiaz.cc###catfish
 phim1080z.com,fim1080.com,mephimnhat.com,mephimmy.com,mephimtrung.net,mephimhanz.com,mephimthai.com##.ff-banner
 phim18zz.com,mphimmoivn.net##.pcCatfish
 phim202.com###itro_opaco
+phimbathu.info###catfish_content
 phimdacap.com###mp-preload-popup-overlay
 phimdacap.com,phimanimehd.net##.fixed_bottom
 phimdinhcao.net###mobile_content_bottom
@@ -1094,9 +1095,10 @@ phimhayplus.xyz###container-ads
 phimmoi18.com###closePC
 phimmoi18.com###fixed_bottom
 phimmoichill.net###goadv
+phimmoichill.net##.catfish-ck.gnarty-offads
 phimnhua.com##.topless
 phimno1.xyz##.block.ad
-phimno1.xyz,dailyphimz.com###ads-preload
+phimno1.xyz,dailyphimz.com,phimbathu.info###ads-preload
 phimtn.com###float_content_right
 phimtopz.com##.sticky_bottom
 phimvip.fun###banner_macau-desktop

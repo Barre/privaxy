@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 7May2022v1
+! Version: 9May2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -198,6 +198,8 @@ bbs.io-tech.fi##[class~=structItem--thread][data-author=Mainos]
 bbs.io-tech.fi#?#div.node-extra:-abp-contains(Mainos)
 bbs.io-tech.fi#?#li.block-row:-abp-contains(Mainos)
 bittiraha.fi###cm-banner
+blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb
+blogit.fi,ilmainensanakirja.fi,telsu.fi##.pb0
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
 caravan-lehti.fi##.ad-wrapper
@@ -233,6 +235,7 @@ elmotv.com##a[href^="https://www.expekt.com/"]
 elmotv.com##div[class="artikkeli_body"] > p:first-of-type > a[href$=".gif"]
 elmotv.com##div[class="artikkeli_body"] a[href*="-Expekt-"]
 elmotv.com##p img.alignnone[src$=".png"][alt=""][width="2560"][height^="20"]
+enontekionsanomat.fi,inarilainen.fi,kainuunsanomat.fi,kittilalehti.fi,kotilappi.fi,kuhmolainen.fi,luoteis-lappi.fi,saariselansanomat.fi,sompio.fi,sotkamolehti.fi,ylakainuu.fi##.dls-loaded
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi#?#.voice-no-read:-abp-contains(Mainos päättyy)
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.ads__wrapper
 epari.fi,ilkkapohjalainen.fi,jarviseutu-lehti.fi,jurvansanomat.fi,komiat.fi,suupohjansanomat.fi,vaasanikkuna.fi,viiskunta.fi##.pointti_container
@@ -376,6 +379,7 @@ ilkkapohjalainen.fi##.ads__wrapper--jattiboksi
 ilmastointilaitteet.com##.boxi
 iltapulu.fi##div[class=footer-ylempi]
 iltapulu.fi#?#.newsbox:-abp-has(> [id^=div-gpt-ad])
+inarilainen.fi,sompio.fi##.paraati1
 inferno.fi#?#p:-abp-has([href^="https://track.adform.net/"])
 inferno.fi#?#.row.border-bottom:-abp-has(.poppartners)
 inssinosingot.fi##.block-mainos
@@ -396,6 +400,7 @@ jaatama.fi#?#.box--transparent:-abp-has(.advert)
 jatkoaika.com###cmorelink
 jatkoaika.com##div[class="block block-block"]
 juoksufoorumi.fi##.noAdsCell
+jvg.fi##[href="https://www.nettikasinovertailu.info/"]
 kaaoszine.fi##.emp-ad
 kaaoszine.fi##.g-32.g
 kaaoszine.fi##.improve-media
@@ -774,9 +779,7 @@ tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:-abp-contains(KA
 tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
-telsu.fi###pb_bottom2
-telsu.fi###pb_bottom3
-telsu.fi##.cmore.ch
+telsu.fi#?#.ch:-abp-contains(SPONSOROITU)
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi#?#.article-container.shadow-sm.col:-abp-has(img[alt^="Oma tilausmainos"])
@@ -938,6 +941,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 ||cjar.a-lehdet.fi^$third-party
 ||cloudfront.net/images/backgroundimages/backgroundimage^$third-party
 ||cloudfront.net/poppartners/$script
+||deals.innocode.no/api/public/v1/widgets$domain=enontekionsanomat.fi|inarilainen.fi|kainuunsanomat.fi|kittilalehti.fi|kotilappi.fi|kuhmolainen.fi|luoteis-lappi.fi|saariselansanomat.fi|sompio.fi|sotkamolehti.fi|ylakainuu.fi
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media,domain=discoveryplus.fi
 ||etn.fi/images/banners/$image
 ||expekt.com^$third-party

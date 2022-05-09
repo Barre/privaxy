@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 8Jh6xKOFWTBkJYJ66lRHNA
+! Checksum: zDwFvAZhq0z+OxY5+CBJaw
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.45
-! TimeUpdated: 2022-05-08T17:03:15+00:00
+! Version: 2.0.19.46
+! TimeUpdated: 2022-05-09T12:31:40+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1792,6 +1792,7 @@ career-find.jp,mainichi.jp,hominis.media,myoji-yurai.net,hpplus.jp,tv-tokyo.co.j
 !
 !
 !
+frc-watashi.info###relatedAd
 ||any-video-converter.jp/new-images/netflix-video-downloader-banner900.jpg
 androplus.org##.my_adslotd
 city.koshigaya.saitama.jp###koukoku

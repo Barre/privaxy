@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: tg72ageGPWZFYXviY4KY6Q
+! Checksum: v4PsM6GQ9ZXRXFYBSw/jjA
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.14
-! TimeUpdated: 2022-05-06T19:30:23+00:00
+! Version: 2.0.34.15
+! TimeUpdated: 2022-05-09T12:30:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1440,7 +1440,7 @@ izleorg3.org##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94080
 ensonhaber.com##+js(no-setInterval-if, flipHover)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94050
-onlinedizi.tv##+js(nano-setTimeout-booster, ifsrc, 2000, 0.02)
+onlinedizi.biz##+js(nano-setTimeout-booster, ifsrc, 2000, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90227
 pchocasi.com.tr##+js(window.open-defuser, 1, bit.ly)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88799
@@ -1630,8 +1630,8 @@ anlikaltinfiyatlari.com#$#div[style^="width:60%;float:left;"] + div[style] { wid
 ! https://github.com/AdguardTeam/AdguardFilters/pull/94562/
 filmizletv.*#$##mysite { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94050
-onlinedizi.tv#$#iframe#ifr { display: block !important; }
-onlinedizi.tv#$##vast .jwplayer[id] { display: none !important; }
+onlinedizi.biz#$#iframe#ifr { display: block !important; }
+onlinedizi.biz#$##vast .jwplayer[id] { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93927
 filmzal.*#$##header { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93901
@@ -1645,7 +1645,7 @@ besiktas.com.tr#$#body { overflow: auto !important; padding-right: 0 !important;
 besiktas.com.tr#$##popupreklam { display: none !important; }
 besiktas.com.tr#$##popupreklam ~ div.modal-backdrop { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79792
-onlinedizi.tv#$#.sitewrapper { margin-top: 0 !important; }
+onlinedizi.biz#$#.sitewrapper { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79121
 61saat.com#$##modal-ads { display: none !important; }
 61saat.com#$#.modal-backdrop { display: none !important; }
@@ -2671,9 +2671,9 @@ frmtr.com##a[title="bynogame"]
 haberkibris.com###reklamdetay
 haberkibris.com##body > div[class$="banners"]
 spyhackerz.org##.p-body-inner > center > a > img
-||onlinedizi.tv/img/a.php
-||onlinedizi.tv/img/hd.js
-||onlinedizi.tv/images/vst.js
+||onlinedizi.biz/img/a.php
+||onlinedizi.biz/img/hd.js
+||onlinedizi.biz/images/vst.js
 saglikpersoneli.com.tr##.p_ad
 fullfilmcidayim.com##a[href="https://onwinn.com/"]
 fullfilmcidayim.com##footer ~ a[href*="bet"][title*="bet"]
@@ -3055,7 +3055,7 @@ transfermarkt.com.tr##.werbung
 keyfimuzik.net###ads
 kelimeler.net###FormBottomAdContainer
 kelimeler.net##.AdSection
-||onlinedizi.tv/img/*.mp4
+||onlinedizi.biz/img/*.mp4
 bandirmasehir.com###solBlok > div[style^="text-align: center; width: 100%;"]
 bandirmasehir.com###siteGenel > div[style^="text-align: center; width: 980px;"]
 ||bandirmasehir.com/wp-content/uploads/*reklam*.jpg
@@ -3854,8 +3854,8 @@ bumudur.com##.bu-ad
 poki.com##div[class*="advertisement-"]
 pendiklitv.com###sidebar-right > #custom_html-20
 filmmakinesi.*##.adbetnetwork
-onlinedizi.tv##.headerbnr
-||onlinedizi.tv/images/*-banner.gif
+onlinedizi.biz##.headerbnr
+||onlinedizi.biz/images/*-banner.gif
 3dkonut.com##.row .bannerRow
 3dkonut.com##.kopa-header-top .bannerRow
 3dkonut.com##.bannerRow .banner-link:not([href^="https://3dkonut.com/"])
@@ -4818,7 +4818,7 @@ babakus.com##.header > .adv
 /wp-content/uploads/*/*/*reklam*.*$image,domain=buyuksivas.com
 aktuelpsikoloji.com##.banner > a[target^="_blan"] > img
 turizmajansi.com##a[href^="/rdads.aspx?r="]
-izlemag.com,diziboxx.com,onlinedizi.tv###pre_video
+izlemag.com,diziboxx.com,onlinedizi.biz###pre_video
 eskisehirgundem.com##.galleryWidget.petrol
 eskisehirgundem.com##div[class="galleryWidget homeWidget colorbox gray photo"]
 eskisehirgundem.com##.hreklam
