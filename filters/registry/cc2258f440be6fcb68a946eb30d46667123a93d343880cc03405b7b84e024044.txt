@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 0anHCJrGab6t4cz5vwwGQw
+! Checksum: h00P7Ao47RU3HimGuCsgpA
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.79
-! TimeUpdated: 2022-05-09T17:02:49+00:00
+! Version: 2.2.29.80
+! TimeUpdated: 2022-05-09T17:31:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -29200,6 +29200,7 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+||siberkalem.com/wp-content/themes/geoit/assets/js/popup.min.js
 ||xgirls.agency/pg/c/*.gif
 1link.vip##h2 > strong > a[target="_blank"]
 ||bitfly.io/images/refb
@@ -35707,7 +35708,7 @@ forex-articles.com,forums.flyer.co.uk,3xplanet.com,getintocourse.com,schooldrill
 streamempire.cc,pennbookcenter.com,floxblog.com,aceofhacking.com,watchtheoffice.cc,newtechworld.net,gfxdrug.com,collegelearners.com,tecmint.com,romadd.com,firesticktricks.com###custom_html-4
 claimfey.com,forexlap.com,courseforfree.net,dailyresearchplot.com,getintocourse.com,techspite.com,aceofhacking.com,sportnews.to,freesoft.id###custom_html-5
 fuxdeluxe.com,getintocourse.com,nationalchronicle.in,desiflix.club,techspite.com,aceofhacking.com,writeforreaders.com,softcobra.com,naijatechguide.com,sportnews.to,freehtml5.co,leakzone.xyz,copyblogger.com###custom_html-6
-readersfusion.com,artificialintelligencestechnology.com,techspite.com,aceofhacking.com,electronics-club.com,network-tools.com,tecmint.com,cyberciti.biz###custom_html-7
+siberkalem.com,readersfusion.com,artificialintelligencestechnology.com,techspite.com,aceofhacking.com,electronics-club.com,network-tools.com,tecmint.com,cyberciti.biz###custom_html-7
 artificialintelligencestechnology.com,paradacreativa.es,desiflix.club,cdromance.com,techspite.com,aceofhacking.com,nationalchronicle.in,valuewalk.com###custom_html-8
 artificialintelligencestechnology.com,tecmint.com,embetronicx.com,arabtimesonline.com,javsister.com,desiflix.club,vladan.fr###custom_html-9
 artificialintelligencestechnology.com,freecoursesonline.me,arabtimesonline.com,freedownloadae.com,healthy4pepole.com,upscpdf.com###custom_html-10
