@@ -54,7 +54,7 @@ enum ResourceAliasField {
 }
 
 impl ResourceAliasField {
-    fn to_vec(self) -> Vec<String> {
+    fn into_vec(self) -> Vec<String> {
         match self {
             Self::SingleString(s) => vec![s],
             Self::ListOfStrings(l) => l,
@@ -65,7 +65,7 @@ impl ResourceAliasField {
 pub fn read_template_resources(scriptlets_data: &str) -> Vec<Resource> {
     let mut resources = Vec::new();
 
-    let uncommented = TOP_COMMENT_RE.replace_all(&scriptlets_data, "");
+    let uncommented = TOP_COMMENT_RE.replace_all(scriptlets_data, "");
     let mut name: Option<&str> = None;
     let mut details = std::collections::HashMap::<_, Vec<_>>::new();
     let mut script = String::new();
@@ -185,7 +185,7 @@ pub fn read_redirectable_resource_mapping(mapfile_data: &str) -> Vec<ResourcePro
             } else {
                 Some(ResourceProperties {
                     name,
-                    alias: props.alias.map(|a| a.to_vec()).unwrap_or_default(),
+                    alias: props.alias.map(|a| a.into_vec()).unwrap_or_default(),
                     data: props.data,
                 })
             }
