@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: jnvhm9iEkizcCELsbQDqnQ
+! Checksum: po5xeL5ihLbS94R5vthgmA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.57
-! TimeUpdated: 2022-05-08T06:30:34+00:00
+! Version: 2.1.18.58
+! TimeUpdated: 2022-05-09T06:30:33+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3696,7 +3696,7 @@ seo-visit.com##+js(abort-on-property-read, adsbygoogle)
 randomlists.com##.layout-top > .adsbygoogle--top ~ aside.whine
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,important,domain=randomlists.com
 @@||rte.ie/radio/radioplayer/html5/assets/ads-*.js$domain=rte.ie
-gputracker.eu##+js(set-constant, can_show_ads, true)
+gputracker.eu##+js(abort-current-script, $, can_show_ads)
 @@||pradjadj.com/assets/plugins/*/assets/js/advertisement.min.js
 pradjadj.com##.ABD_display
 remont-aud.net##+js(set-constant, ab, false)

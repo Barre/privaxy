@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: E3A4CO+UxftaObpnR2NJnQ
+! Checksum: 7jBpNN4bOQCwiGUt3hQpgA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.42
-! TimeUpdated: 2022-05-08T03:31:20+00:00
+! Version: 2.0.39.43
+! TimeUpdated: 2022-05-09T06:31:18+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -79,8 +79,9 @@ gmarket.co.kr##+js(set-constant, pvprofiler.sendEvt, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114901
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114227
 valleybreeze.com##+js(remove-attr, hidden, #asset-content[hidden])
+! https://github.com/AdguardTeam/AdguardFilters/issues/118108
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112998
-ttv.pl##+js(set-constant, gemiusStream, noopFunc)
+ttv.pl,tvn24.pl##+js(set-constant, gemiusStream, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109426
 nytimes.com##+js(set-constant, Navigator.prototype.joinParakeetInterestGroup, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110697
@@ -24276,6 +24277,7 @@ extrahop.com##+js(no-setTimeout-if, ad blocker)
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113174
 @@||custojusto.pt/smarttag.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/118108
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112998
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||pix2.services.tvn.pl/pix2.js$domain=tvn24.pl|ttv.pl
