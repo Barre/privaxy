@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: i9tsV5s8SbRDLas4Xmo+WQ
+! Checksum: dbH+0WU2KNm8Hru9A9kX9Q
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.47
-! TimeUpdated: 2022-05-09T14:31:39+00:00
+! Version: 2.0.19.48
+! TimeUpdated: 2022-05-09T15:31:42+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -281,7 +281,6 @@
 ||partner.become.co.jp^
 ||ladsp.jp^
 ||af.fukuishimbun.co.jp^
-||ad.pr.ameba.jp^
 ||d2-apps.net^$third-party
 ||a-affiliate.net^$third-party
 ||ad999.biz^
@@ -1889,7 +1888,9 @@ gakumado.mynavi.jp##.pr_area
 healthpress.jp###adFooter
 healthpress.jp###entryBottomAd
 k-daidokoro.com,n-switch.com###text-10
-eleking.net##p > span.lbg
+eleking.net###text1 p[style="text-align:center;"]
+eleking.net###tuibi
+eleking.net##.text_inner div[style]
 jorudan.co.jp##.amazon_associate_banner
 ||ichigonokashiidol.com/img/bnr_$third-party
 ||pampi.jp/images/common/banner.jpg$third-party
@@ -3311,6 +3312,7 @@ jitenon.jp##.ads_wraptop2
 av-sharing.com,okazurand.net##.affiliate-api-widget
 dougle.one##.ad_3rec
 macsoft.jp##.side-topad > .widget_text
+||utaten.com/js/user/SidebarFollowAd.js
 utaten.com###sidebar_follow_ad_area
 utaten.com##.MediumRectangleBanner
 utaten.com##.billboardBanner
