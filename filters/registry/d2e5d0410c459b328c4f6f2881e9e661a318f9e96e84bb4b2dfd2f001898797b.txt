@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Sun, 08 May 2022 12:02:29 +0000
+! Updated: Mon, 09 May 2022 00:03:07 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -17,7 +17,6 @@ adverify.me
 amobil.online
 android-web.live
 aphicus.xyz
-appcine.net
 baddog.xyz
 bbcvideo.ru
 be-uk-cash-for-phones-ok.live
@@ -26,6 +25,7 @@ benefiio.org
 best-life-insurers-deals.live
 best-used-cars.live
 bestbuylaptops.xyz
+bestmoneysurvey.top
 bhgshop.net
 bitbidder.co
 blogphoneapplication.online
@@ -43,7 +43,6 @@ clickon.buzz
 clickverifier.online
 clldirectnew.club
 cnnvideo.ru
-contentstar.info
 curfiositystream.com
 curiositydstream.com
 dailyboard.org
@@ -53,7 +52,6 @@ dealforrealz.club
 deepapp.link
 demlishop.co
 dhlvideo.ru
-downansurface.top
 dpakweoz.info
 eastvideo.ru
 easycucina.net
@@ -70,6 +68,7 @@ expoview.ru
 fansvideo.ru
 findanswersnow.net
 finreporter.net
+flowvideo.ru
 foundnow.net
 fromthebeach.co
 gadget.land
@@ -78,10 +77,8 @@ galaxywin.xyz
 gamblehere.org
 gameoverhere.net
 gehenna.xyz
-getbitly.today
 giving-bigwin-chance-reward.rest
 gombos.xyz
-goodlov.online
 google-apps.name
 great-dates-place.life
 greenvalleysystemphone.online
@@ -106,7 +103,6 @@ kexvideo.ru
 koalaspringb.xyz
 latvideo.ru
 leovideo.ru
-linkwinners.net
 llcvideo.ru
 lollyvideo.ru
 marionettespuppets.co
@@ -122,7 +118,6 @@ mobiaplains.xyz
 mobiastar.xyz
 monetunion.club
 mountcrossbed.top
-moviepin.tv
 nashvillewelcome.co
 nordvpnhosting.com
 nordvpnserver.com
@@ -239,6 +234,7 @@ videoneo.ru
 videonex.ru
 videonos.ru
 videoox.ru
+videopool.ru
 videospots.ru
 videounic.ru
 videova.ru
@@ -246,7 +242,6 @@ videoze.ru
 viewsunny.ru
 viewunic.ru
 viget.top
-vpncity.com
 walmartcard.top
 wangmo.life
 wantjoinsince.xyz
