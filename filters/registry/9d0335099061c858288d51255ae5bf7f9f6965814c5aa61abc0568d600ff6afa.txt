@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 48W0/oz8YzVRqO1lmREdXQ
+! Checksum: 7qvANs5QrMU+dwGUR018AQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.64
-! TimeUpdated: 2022-05-09T18:30:39+00:00
+! Version: 2.1.18.65
+! TimeUpdated: 2022-05-09T19:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -33944,7 +33944,7 @@ full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND
 .ru/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 .net/proxy_*.php?p___=*&part_url=*.php?callback=*&token=*&iso=
 !
-||boldchat.com^$third-party
+||boldchat.com^$domain=byjus.com
 rakuten.co.jp###rexSurveyRoot
 ||partner-widget.vse-sdal.com^
 ||easyliao.com^$third-party
