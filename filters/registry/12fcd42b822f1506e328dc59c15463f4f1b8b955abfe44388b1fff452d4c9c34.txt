@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205101710
+! Version: 202205110321
 ! Title: ABPVN List
-! Last modified: 10 May 2022 17:10 UTC+7
+! Last modified: 11 May 2022 03:21 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -147,6 +147,7 @@ utm_source=propellerads$popup
 ||bongdaso.vn/adv/$image
 ||bp.blogspot.com$image,domain=timdaily.vn|tivi4k.com|phimhayplus.xyz
 ||bp.blogspot.com/*banner$image,domain=~aowvn.org|~umu.pink
+||bp.blogspot.com^*.gif$image,domain=vaophim.info
 ||bt.tructiepbongda.me^*.gif
 ||cand.com.vn/*adv/
 ||cdn-img.thethao247.vn/storage/files/*quang-cao$image
@@ -271,6 +272,7 @@ utm_source=propellerads$popup
 ||i0.wp.com^*.gif$domain=vietrao.com
 ||i5.truyen-hay.com^*.gif$domain=blogtruyen.vn
 ||i7.xem-truyen.com^*.gif^$image
+||i9bet5.com^$popup
 ||iamcdn.net/players/playera.dmins.js
 ||igg-games.com^*.gif
 ||igo.5giay.vn/mobile/
@@ -901,6 +903,7 @@ dantri.com.vn###desktop-home-top-page
 dantri.com.vn###dtads_inpage_wrapper
 dantri.com.vn###mobile-home-top-page
 danviet.vn##.sidebar > div[style]
+daominhha.com##.quangcao-down > p
 dexuat.com###custom_html-7
 diadiem.com##.div_box_adv
 docbao.vn###div-ub-docbao
@@ -937,6 +940,7 @@ fshare.vn###myElementz
 fshare.vn##.bannerinfooter
 fsharetv.com###home_header
 fullcrackpc.com##.custom-html-widget.textwidget > .external
+fullphimzz.com##.pc-catfish
 game24h.vn##.LRBanner
 game4v.com###fixedban
 game4v.com##div[class^="banner-mobile"]
@@ -1257,7 +1261,7 @@ tvhai.org##.t_logoc
 tvhay.top##iframe:nth-of-type(4)
 tvhay.top,goldphimz.info,kingphim.co,phimplus.net,khophim18.net,phimplus.xyz,vietphim.vn##.float-ck-center-lt
 tvhayx.com##.mobile-catfish
-tvhayx.com,phimsml.com###overlay-pop
+tvhayx.com,phimsml.com,fullphimzz.com###overlay-pop
 tvphapluat.vn##.bannerqc
 tvphapluat.vn##[class^="sticky-top"]
 tvphapluat.vn##[href*="/default/template/"]

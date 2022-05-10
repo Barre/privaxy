@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10May2022v2
+! Version: 11May2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -70,6 +70,8 @@ _mainosnappi.
 ##.card--native
 ##.dfpBoxBottom
 ##.dfpListNativeBanner
+##.diks-display-ad
+##.diks-native-ad
 ##.keskimainos
 ##.mainokset
 ##.mainokset_oikea
@@ -564,6 +566,7 @@ mikrobitti.fi#?#div[class]:-abp-has(> [width] > [id|="almad"]:not([id|="almad-mo
 mikrobitti.fi#?#div[class][width]:-abp-has([id|="almad-mobileParade"])
 mikrobitti.fi#?#div[style="margin-bottom:0"]:-abp-has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
 mikrobitti.fi#?#section > div:-abp-has(a[href^="https://www.mikrobitti.fi/kumppanisisallot/"])
+mma.fi#?#.commercial__content:-abp-contains(Kumppanilta)
 mobiili.fi###header_ad33
 mobiili.fi###ostoHint
 mobiili.fi##.banner-ad
@@ -630,6 +633,7 @@ nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoill
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
 napsu.fi##.mobilead
+navigatormagazine.fi##.panorama
 nettiauto.com#?##art_right_banner:-abp-has(> [id|="almad"])
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has([src$="adsbygoogle.js"])
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has(a[onclick*='banner'])
