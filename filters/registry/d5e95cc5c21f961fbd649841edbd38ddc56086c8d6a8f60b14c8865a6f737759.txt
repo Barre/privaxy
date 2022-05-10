@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: /M0LFEmKY30lqI+xVN3S6Q
+! Checksum: +7/zSC3W2Pkm6udZhG4IGw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.39
-! TimeUpdated: 2022-05-10T11:30:24+00:00
+! Version: 2.0.29.40
+! TimeUpdated: 2022-05-10T12:30:27+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2346,6 +2346,9 @@ cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m
 xhamster.com##main a[href^="https://xhamsterlive.com/api/external"]
 yorozoonews.jp##div[id^="yzsp"]
 utaten.com##.threeToOneRectangleBanner
+getnavi.jp###dopa_sp_article_underarticle
+getnavi.jp##div[class="for-sp"][style="text-align: center;"]
+getnavi.jp##div[class="for-sp"][style^="text-align:center;"]
 shanxivideo.com,video.fc2.com##.ad_area_bottom
 internetcom.jp##.related-li[style="height:96px;vertical-align:middle;"]
 internetcom.jp##.span8 > div[style$="border-bottom: 1px solid #ddd; margin-top:-7px; padding-bottom:5px;"]

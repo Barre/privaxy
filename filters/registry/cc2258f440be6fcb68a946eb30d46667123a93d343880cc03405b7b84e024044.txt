@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: uIxQK3nI4uHD0AVitlqhrw
+! Checksum: WD2HOLT5ggtZzt0cpNmX/w
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.89
-! TimeUpdated: 2022-05-10T10:31:16+00:00
+! Version: 2.2.29.92
+! TimeUpdated: 2022-05-10T13:03:42+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -28798,6 +28798,7 @@ neowin.net#$#div[class^="banner-"] { height: 0!important; min-height: 0!importan
 .com/*?*&refer=*fmovies.*&adb=$all
 ! PopAds redirects
 ! ads on the porn sites
+/pp34.js?sv=
 /s/s/js/m/custom.js?
 /s/s/js/m/custom_advanced.js?
 /s/s/js/ssu.v2.
@@ -29211,6 +29212,8 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+insiderintelligence.com##main > .h-top-banner.container
+insiderintelligence.com##main > .container > .h-bottom-banner.container
 ||siberkalem.com/wp-content/themes/geoit/assets/js/popup.min.js
 ||xgirls.agency/pg/c/*.gif
 1link.vip##h2 > strong > a[target="_blank"]

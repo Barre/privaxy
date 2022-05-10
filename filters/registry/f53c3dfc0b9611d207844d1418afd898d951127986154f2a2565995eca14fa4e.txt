@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Pv0+i1Cq9tIODuIi/y4tXw
-! Version: 202205101154
+! Checksum: 0o5kGHpP1GPjVW6T5nXZ6Q
+! Version: 202205101304
 ! Title: RU AdList for uBO only
-! Last modified: 10 May 2022 11:54 UTC
+! Last modified: 10 May 2022 13:04 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15760,7 +15760,6 @@ newsomsk.ru##.news-banners-source
 glavpost.com##.news-block-magick
 penzavzglyad.ru##.news-content__b
 belaruspartisan.by##.news-detail > .animate.content ~ div[id]
-kg-portal.ru#?#.news-extras-wrap > .news-extras:-abp-has(> .array > [href="/////"])
 go64.ru#?#.news-grid > .news-grid__col:-abp-has([id^="banner"])
 gorodche.ru#?#.news-grid > .news-grid__elem:-abp-has([href*="https://relap.io/r?"])
 gorodche.ru#?#.news-grid > .news-grid__elem:-abp-has([href^="https://vo.rbc.ru/"])
@@ -16420,6 +16419,7 @@ mastergrad.com##.section-body > [itemprop="comment"] ~ div[style="margin-bottom:
 gorvesti.ru#?#.section-feed-sm > div:-abp-has(> .blnk)
 tele.ru#?#.section-heading:-abp-has(> .h-text:-abp-contains(Новости партнеров))
 gorvesti.ru,xn--b1ats.xn--80asehdb##.section-r-top
+kg-portal.ru#?#.section-related:-abp-has(> a[href="/////"])
 game.segodnya.ua##.section-spr
 sobesednik.ru#?#.section:-abp-has(> .navbar > .flex-center > p:-abp-contains(Новости партнеров))
 aramil.city#?#.sectionColumn:-abp-has(> .subTitle:-abp-contains(/реклама/i))
@@ -26661,6 +26661,7 @@ wowhead.com##.is-btf.horizontal-bg
 forum.niiot.net##.modal
 2x2tv.ru##.owl-wrapper-outer .slideAlt
 clan-soprano.ru##.popupBlock
+kg-portal.ru##.social_login > .ulogin ~ .caution
 gibdd-gai.ru##.warning
 hitfm.ru,maximum.ru,montecarlo.ru##.wrap-ad-blocked-message
 /*.js|$script,~third-party,domain=cyberpedia.su|infopedia.su|lektsii.org|megaobuchalka.ru|poisk-ru.ru|studopedia.info|studopedia.net|studopedia.org|studopedia.su

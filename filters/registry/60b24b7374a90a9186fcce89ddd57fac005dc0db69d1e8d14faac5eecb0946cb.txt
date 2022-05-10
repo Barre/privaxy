@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: XDBW7zTRHXZRslYbQlXavA
+! Checksum: D12PkE6wFTu965lYJh6J5g
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.18
-! TimeUpdated: 2022-05-10T11:30:29+00:00
+! Version: 2.0.34.19
+! TimeUpdated: 2022-05-10T12:30:33+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2309,6 +2309,9 @@ fullfilmcidayim.com,dizispeed.com,babafullfilmizle.com###adStarter
 /service/advertchannels?$domain=urfanatik.com|dirilispostasi.com|turkuazgazetesi.net|yenialanya.com|bugunkocaeli.com.tr|cagdaskocaeli.com.tr|mansetaydin.com|enkocaeli.com|kocaelikoz.com|kocaelibarisgazetesi.com|seskocaeli.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+||sezonlukdizi*.com/js/minipop.js
+||sezonlukdizi*.com/i/*.mp4
+||play-dizigom1.cdn.ampproject.org/i/play.dizigom1.com/oreklam.png
 ||realfilmizleme.com/maintabs14.js
 kredibankalar.com##div[style^="background:#eeeeee; border:2px"]
 kredibankalar.com###yeni_alt_reklam
@@ -2478,11 +2481,10 @@ buyurindir.org##center a[onclick^="window.open("]
 ||fullhdabifilm.com/maintabs13.js
 ||filmkuzusu1.com/pops5.js
 ||bayfilmizle1.com/popup.js
-||sezonlukdizi1.com/i/*.mp4
 ensonhaber.com##a[href^="https://ensonhaber.me/r"][target="_blank"][rel="sponsored"]
 mynet.com##.ad-home-masthead-wrapper
 paratic.com##.p-bnr
-webteizle1.com,sezonlukdizi1.com##a[alt="reklam"]
+webteizle1.com,sezonlukdizi2.com,sezonlukdizi3.com,sezonlukdizi4.com,sezonlukdizi5.com,sezonlukdizi6.com,sezonlukdizi7.com,sezonlukdizi8.com,sezonlukdizi9.com,sezonlukdizi10.com##a[alt="reklam"]
 aspor.com.tr##.adbImg
 beyaztv.com.tr##div[id^="tv-ads-"]
 dizimodu.com###adContentWrapper
@@ -2523,8 +2525,7 @@ zamaninvarken.com,korsanedebiyat.com###custom_html-12
 ufukgazetesi.net###newsRead > div.lholder
 esgazete.com##.text-center > a[title^="plugins.advert"]
 cemre.com##a[href*=".adj.st/"] > img
-sezonlukdizi1.com###video-onu2
-||sezonlukdizi1.com/js/minipop.js
+sezonlukdizi2.com,sezonlukdizi3.com,sezonlukdizi4.com,sezonlukdizi5.com,sezonlukdizi6.com,sezonlukdizi7.com,sezonlukdizi8.com,sezonlukdizi9.com,sezonlukdizi10.com###video-onu2
 ||sporx.com/_iframe/bitexen/ticker.php
 dizipal.pro##.footerreklam
 bloomberght.com##a[href*="/advertpro/"]

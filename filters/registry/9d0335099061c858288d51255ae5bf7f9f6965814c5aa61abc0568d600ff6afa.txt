@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: TNETc8fIQuo2+NYJU2jpaw
+! Checksum: uEpZZjWAm0IL/UbLHjuqGw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.71
-! TimeUpdated: 2022-05-10T11:30:39+00:00
+! Version: 2.1.18.72
+! TimeUpdated: 2022-05-10T12:30:42+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19375,7 +19375,7 @@ gran-turismo.com,m.tv.naver.com,m.comic.naver.com,m.bombaytimes.com##.app_banner
 ||gamer-mods.ru/.s/src/jquery.smartbanner.js
 intellicast.com###promoAd
 intellicast.com###stormLink
-ticketjam.jp,kompas.com,sevenbank.co.jp,booth.pm,reverso.net,bangumi.org,msn.com,m.investing.com,m.spiegel.de,mavcsoport.hu,m.trendyol.com,autobild.de,infranken.de,m.douglas.de,focus.de###smartbanner
+fashion-headline.com,ticketjam.jp,kompas.com,sevenbank.co.jp,booth.pm,reverso.net,bangumi.org,msn.com,m.investing.com,m.spiegel.de,mavcsoport.hu,m.trendyol.com,autobild.de,infranken.de,m.douglas.de,focus.de###smartbanner
 ipaddressguide.com##img[alt="iptools apple app"]
 ipaddressguide.com##img[alt="iptools android app"]
 extramovies.org##.poster > center > .app
@@ -19764,6 +19764,8 @@ kinopovtor1.online##+js(abort-on-property-read, stickyConfig)
 !
 !--- Whitelist
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118200 RECOMMEND not shown
+@@||fashion-headline.com/js/jquery.smartbanner.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113325
 @@||bfn.today/min/*/js/jquery.smartbanner.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92920
@@ -20258,6 +20260,8 @@ timeshighereducation.com#$##block-the-rankings-registration-wall-the-rankings-re
 timeshighereducation.com#$#body { overflow: auto !important; }
 nhac.vn##.ft-scroll-content
 fantia.jp##.fanclub-btns > div.popup-bar.is-clone
+s.kakaku.com##.idBenefitBnrArea
+s.kakaku.com###bmMessageBlnLink
 kakaku.com###global_bnr_wrap
 pinkoi.com##.n-promo-login-modal
 zurich.co.jp##.panel-floatnav
