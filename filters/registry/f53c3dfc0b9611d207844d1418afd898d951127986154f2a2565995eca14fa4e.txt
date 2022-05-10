@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pu3fahKBdNkbpncZ479fmw
-! Version: 202205091554
+! Checksum: /iUOzINiZ0rc1y10denx1Q
+! Version: 202205100954
 ! Title: RU AdList for uBO only
-! Last modified: 09 May 2022 15:54 UTC
+! Last modified: 10 May 2022 09:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7419,6 +7419,7 @@ _tizers.
 ||jad-news1.club^$third-party
 ||jadedi.com^
 ||jafcpd.com^$third-party
+||jagevirom.com^$third-party
 ||jajnhd.com^$third-party
 ||jaklikora.com^$third-party
 ||jaqmk.top^$third-party
@@ -20524,7 +20525,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /^https?://rsload\.net\/(?!engine\/|templates\/)/$script,domain=rsload.net
 /^https?://rsload\.net\/engine\/(?!classes\/min\/index\.php)/$script,domain=rsload.net
 /^https?://soft-windows\.info\/(?!engine\/|templates\/)/$script,domain=soft-windows.info
-/^https?://sverhestestvennoe\.info\/(?!wp-content\/|wp-includes\/)/$script,domain=sverhestestvennoe.info
 /^https?://toreents\.club\/(?!templates\/|engine\/)/$script,domain=toreents.club
 /^https?://torrent-soft\.net\/(?!templates|engine)/$script,domain=torrent-soft.net
 /^https?://torrents-club.net\/(?!library|styles)/$script,domain=torrents-club.net
@@ -23693,7 +23693,6 @@ inferno.games,mediaget.guru,torrent-soft.net,torrent-word.ru,torrentigruha.org,w
 !
 ! Плеер venom, в основном для ua-юзеров, примеры >
 ! http://kindkino.ru/load/serials/bruklin_9_9_smotret_onlajn_hd_720p/2-1-0-30
-! https://sverhestestvennoe.info/episodes/2-sezon-19-seriya/
 ! https://zfilm-hd.net/2822-v-poiskah-nemo-2100730132.html
 !
 !||kinogram.best^$third-party,domain=~cubikhd.net|~gidonline.fun|~kindkino.ru|~kinogo.cc|~kinogoo.by|~kinovego.ru|~magnatov.net|~the-office.su|~zetflix.pro|~zetflix.top
@@ -23714,7 +23713,6 @@ inferno.games,mediaget.guru,torrent-soft.net,torrent-word.ru,torrentigruha.org,w
 ||kafar4.club^$third-party
 ||kajf8.club^$third-party
 ||sg6sada.club^$third-party
-||stiven-king.com^$third-party
 ||trampam.club^$third-party
 ||trysnd.fun^$third-party
 ||watchmen-the-movie.com^$third-party

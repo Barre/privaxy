@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: edkPdZepX4Ncs9qw8WYDzg
+! Checksum: UF/0/QFmAp6/P4Uejj+Z1Q
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.36
-! TimeUpdated: 2022-05-10T08:30:18+00:00
+! Version: 2.0.29.38
+! TimeUpdated: 2022-05-10T09:30:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2343,6 +2343,7 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+yorozoonews.jp##div[id^="yzsp"]
 utaten.com##.threeToOneRectangleBanner
 shanxivideo.com,video.fc2.com##.ad_area_bottom
 internetcom.jp##.related-li[style="height:96px;vertical-align:middle;"]
@@ -3427,7 +3428,7 @@ news18.com##div[class^="jsx-"][style^="min-height: 1170px"]
 ndtv.com##body .add_top-wrp-fl
 4pda.ru,4pda.to##body > [style*=";padding:0px;width:"][style*="zoom:"] > a[target="_blank"] > img
 4pda.ru,4pda.to##amp-list[height="90"][width="728"]
-realsound.jp##.entry-summary[style$="text-align:center;min-height:95px;"]
+realsound.jp##.entry-summary[style*="text-align:center;min-height:95px"]
 realsound.jp##.entryBottomAd
 hrej.cz##.sda-mobile
 b.hatena.ne.jp###touch-footer-ad-placeholder
