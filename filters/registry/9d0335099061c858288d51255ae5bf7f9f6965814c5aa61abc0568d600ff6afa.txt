@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: IUhaC0Ro+KzlPCJ9ce++UA
+! Checksum: m1teST2F2smuTF8lcI/TcQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.66
-! TimeUpdated: 2022-05-09T20:30:34+00:00
+! Version: 2.1.18.67
+! TimeUpdated: 2022-05-10T05:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9323,7 +9323,7 @@ fpv24.com#$##cookieModal ~ div.modal-backdrop { display: none !important; }
 news247.gr##.newsletter-form
 pistenbully.com###cookiemanager-banner
 campingshop-24.de##.eightworks-cookie-consent-plus-toggler
-campingshop-24.de,bw-discount.de,teddytoys.de,topdoors.de,main-moebel.de,shop.pistenbully.com##.eightworks-cookie-consent-plus
+tipronet.net,campingshop-24.de,bw-discount.de,teddytoys.de,topdoors.de,main-moebel.de,shop.pistenbully.com##.eightworks-cookie-consent-plus
 etxt.ru##.mod-cookie
 godbolt.org###simplecook
 gettyimages.*##.euCookieDialog
