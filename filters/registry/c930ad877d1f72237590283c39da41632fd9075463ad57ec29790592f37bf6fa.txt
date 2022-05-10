@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 9May2022v3
+! Version: 10May2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -591,7 +591,10 @@ motouutiset.fi##.ad-panorama
 motouutiset.fi##a[href*=revads]
 motouutiset.fi##div[class$=ad-giant]
 mtvuutiset.fi##.component-adincontent.component
+mtvuutiset.fi##.component-soniaincontent
+mtvuutiset.fi#?#.latest-listing > .listing-items > li:-abp-contains(Mainos)
 mtvuutiset.fi##.leaderboard
+mtvuutiset.fi##.sonia-container
 murobbs.muropaketti.com###hintaopas_top_product_block
 murobbs.muropaketti.com##IFRAME[id=hintaopas_box]
 murobbs.muropaketti.com##IFRAME[src="https://murobbs.muropaketti.com/aulis/muro-monster-feed.html"]

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 6qAux6iuKa/ofs41/+nPnQ
+! Checksum: TNETc8fIQuo2+NYJU2jpaw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.70
-! TimeUpdated: 2022-05-10T10:30:37+00:00
+! Version: 2.1.18.71
+! TimeUpdated: 2022-05-10T11:30:39+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1973,7 +1973,7 @@ mbasic.facebook.com,m.facebook.com##[data-ft*="quick_promotion_instance_log_data
 facebook.com##div[role="main"] div[style="height: 0px;"] + div[class] > div[class] > div[class] div[class] div[class][style*="border-radius"]
 ! Suggested pages
 facebook.com##div[role="feed"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"] div[style="border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;"]
-m.facebook.com##div[data-type="vscroller"] > div[style="margin-top:6px; height:35px; z-index:0; width:360px;"]
+m.facebook.com##div[data-type="vscroller"] > div[style^="margin-top:6px; height:35px; z-index:0; width:"]
 ! Climate info below articles
 iphone.facebook.com,m.facebook.com##article > .story_body_container + div[class]
 ! Covid survey
@@ -7238,6 +7238,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+pacsun.com##.privacy-policy-content
 frischeparadies.de#$#body { overflow: auto !important; }
 frischeparadies.de#$#.cookie-notice { display: none !important; }
 stoffe.de#$#body { overflow-y: auto !important; }
@@ -18104,6 +18105,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+newchic.com##.app-download
 ||scdn.line-apps.com/stf/line-news/js/thirdparty/
 apnews.com##div[class*="appDownload-"]
 aol.com##.m-promo-standard
@@ -19211,6 +19213,9 @@ weathernews.jp##.wni-appMenu
 tvbs.com.tw##.header .smart_banner
 zalando.de,zalando.pl##.z-mask-smartbanner
 qarabazar.az##div[style="text-align: center;margin: 5px 0 0"]
+gearbest.com##.open-app-dialog
+gearbest.com##.js-openAppBox
+gearbest.com##.layui-m-layershade
 gearbest.com##.siteFooter_appContain
 gearbest.com##.siteAside_appLink
 hk.on.cc##img[src*="/img/app_banner.gif"]

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /iUOzINiZ0rc1y10denx1Q
-! Version: 202205100954
+! Checksum: Pv0+i1Cq9tIODuIi/y4tXw
+! Version: 202205101154
 ! Title: RU AdList for uBO only
-! Last modified: 10 May 2022 09:54 UTC
+! Last modified: 10 May 2022 11:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -21885,7 +21885,7 @@ lada.kz/uploads/banners/
 ||kerch.com.ru/Pictures/Banners/
 ||kerchinfo.com/uploads/img_ban/
 ||kg-portal.ru/banned/
-||kg-portal.ru/majorbrand/
+||kg-portal.ru/brandbook/
 ||kg-portal.ru^*/bg.jpg|
 ||kgd.ru/images/commerc/
 ||kharkov.info/files/image*/banner
