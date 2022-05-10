@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: kReYjXy4U6tcrnJVfR5e1A
+! Checksum: xx4aFLXADW5CnCmXgxSFGA
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.33.11
-! TimeUpdated: 2022-05-09T12:30:41+00:00
+! Version: 2.0.33.12
+! TimeUpdated: 2022-05-10T13:30:41+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1131,6 +1131,8 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118013
+@@||raincaptcha.com/*/frame/ad?$domain=raincaptcha.com
 ! yts.mx - fixing video player
 $script,third-party,domain=yts.mx,badfilter
 ||yts.mx/*.gif$badfilter

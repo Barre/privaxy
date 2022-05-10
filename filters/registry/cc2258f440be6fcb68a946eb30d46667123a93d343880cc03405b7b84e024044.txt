@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: WD2HOLT5ggtZzt0cpNmX/w
+! Checksum: mmBrNxztOTaaroK3j6ivkA
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.92
-! TimeUpdated: 2022-05-10T13:03:42+00:00
+! Version: 2.2.29.93
+! TimeUpdated: 2022-05-10T13:31:14+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -24805,6 +24805,10 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118013
+! for some reason scriptlets (adjust-setTimeout/adjust-setInterval) causes that captcha cannot be resolved
+cryptodirectories.com##+js(window.open-defuser)
+raincaptcha.com##+js(set-constant, __wait, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117922
 mozlink.net##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118188

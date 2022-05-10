@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: uEpZZjWAm0IL/UbLHjuqGw
+! Checksum: NzZqG/IfryOHWCbfTNcPmg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.72
-! TimeUpdated: 2022-05-10T12:30:42+00:00
+! Version: 2.1.18.73
+! TimeUpdated: 2022-05-10T13:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18624,7 +18624,7 @@ economictimes.indiatimes.com##.artData > div[data-url="/primebenefits_slider.cms
 m.bithumb.com###appInstallInducePopup
 collabo-cafe.com##.app__smart__dl
 webtoons.com##.foot_app
-hackread.com##.get-app
+boredpanda.com,hackread.com##.get-app
 tryzapp.com##.jss6
 tryzapp.com##.jss69
 chorki.com##.appstore-suggestion
@@ -25515,6 +25515,7 @@ abendzeitung-muenchen.de###webpush-app
 /firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org|auslogics.com|kartalyuvasi.com.tr|cnnindonesia.com|fbc.ua|astv.ru|pln-pskov.ru|aylink.co
 /firebase-messaging.js$domain=bfm.ru|theswagsports.com|focus.ua|ukranews.com|comments.ua|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|mgronline.com|semnasem.org|bluradio.com|carwale.com|finanznachrichten.de
 !
+||boredpanda.com/blog/wp-content/themes/boredpanda/push/sw.js
 ||trashbox.ru/push-worker.js
 24tv.ua##app-notification-popup
 insider.com##.notification-prompt-wrapper
@@ -28238,6 +28239,9 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+boredpanda.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+boredpanda.com#$##subscribe-before-leaving { display: none !important; }
+boredpanda.com#$##subscribe-before-leaving ~ div.modal-backdrop { display: none !important; }
 francetvinfo.fr##.page-content > section.nl-block
 ||media.fidoalliance.org/wp-content/plugins/wordpress-popup/$script
 ookla.com##.article-sidebar-panel-subscribe
