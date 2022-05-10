@@ -22,6 +22,7 @@ rustls = { version = "0.20.4" }
 futures-util = "0.3.21"
 globset = "0.4.8"
 http = "0.2.7"
+mime_guess = "2.0.4"
 tokio-rustls = "0.23.4"
 hyper-rustls = { version = "0.23.0", features = ["http1", "http2"] }
 log = "0.4.17"
