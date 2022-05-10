@@ -1,3 +1,4 @@
+use crate::get_api_host;
 use futures::future::{AbortHandle, Abortable};
 use futures::StreamExt;
 use reqwasm::websocket::futures::WebSocket;
@@ -5,7 +6,7 @@ use serde::Deserialize;
 use wasm_bindgen_futures::spawn_local;
 use yew::{html, Component, Context, Html};
 
-use crate::get_api_host;
+const MAX_REQUESTS_SHOWN: usize = 500;
 
 #[derive(Deserialize)]
 pub struct Message {
@@ -59,6 +60,8 @@ impl Component for Requests {
 
     fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool {
         self.messages.insert(0, msg);
+
+        self.messages.truncate(MAX_REQUESTS_SHOWN);
 
         // The server only sends new messages when there is actually
         // new data.
