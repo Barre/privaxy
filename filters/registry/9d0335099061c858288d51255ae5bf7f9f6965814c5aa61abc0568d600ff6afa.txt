@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7n7JxI1fw1n/2K4/FTr0CQ
+! Checksum: HHygyzxgznLD7ZciaEPPFg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.75
-! TimeUpdated: 2022-05-10T15:30:38+00:00
+! Version: 2.1.18.77
+! TimeUpdated: 2022-05-10T17:02:10+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2267,6 +2267,8 @@ yandex.*##._view_advertisement
 ! Yandex.Market
 ! Online consultant
 pokupki.market.yandex.by,pokupki.market.yandex.kz,pokupki.market.yandex.ru,pokupki.market.yandex.ua##div[data-apiary-widget-id="/webimChat"]
+! Feedback popup
+market.yandex.*##div[data-apiary-widget-name="@MarketNode/ReviewPollPopup"]
 ! Subscription
 market.yandex.by,market.yandex.kz,market.yandex.ru,market.yandex.ua##.footer-subscription-wrap
 ! Promotions (at the top)
@@ -7239,9 +7241,6 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 ashaindia.ru##body div#cookie_notification.show
-webshop.burgerme.de#$#body { overflow: auto !important; }
-webshop.burgerme.de#$#.cookies-information-modal { display: none !important; }
-webshop.burgerme.de#$#.cookies-information-modal ~ div.modal-backdrop { display: none !important; }
 pacsun.com##.privacy-policy-content
 frischeparadies.de#$#body { overflow: auto !important; }
 frischeparadies.de#$#.cookie-notice { display: none !important; }
@@ -26068,6 +26067,8 @@ disk.yandex.*##.mail360-banner
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! extension promo on search results
+startpage.com##.widget-install-privacy-protect
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117762
 m.jbzd.com.pl##.footer-mobile
 ! promo banners
@@ -28245,6 +28246,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+kushat.net##a[href="https://www.facebook.com/groups/2429123930441615"]
 boredpanda.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 boredpanda.com#$##subscribe-before-leaving { display: none !important; }
 boredpanda.com#$##subscribe-before-leaving ~ div.modal-backdrop { display: none !important; }

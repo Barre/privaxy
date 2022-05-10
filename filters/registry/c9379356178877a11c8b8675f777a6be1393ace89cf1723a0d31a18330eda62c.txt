@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: brYfpJUqanU65JnnMeRL5g
+! Checksum: QY2DBn1X2S0jPojnmkTqEg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.48
-! TimeUpdated: 2022-05-10T11:31:25+00:00
+! Version: 2.0.39.49
+! TimeUpdated: 2022-05-10T16:31:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20486,6 +20486,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||startpage.com/sp/cl|
+||startpage.com/sp/jst
+||startpage.com/sp/elp
 ||b.travel-assets.com/travel-pixel-js/
 ||xc3.services.livejournal.com/ljcounter/
 ||imsdb.pw/cdn-cgi/trace
@@ -25708,8 +25711,6 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41821
 @@||googletagmanager.com/gtm.js$domain=domains.google
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41517
-! https://github.com/AdguardTeam/AdguardFilters/issues/41099
-@@||google-analytics.com/analytics.js$domain=1000.menu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41039
 @@||diginetica.net^$domain=reg.megabitcomp.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/40971
