@@ -1843,9 +1843,6 @@ twitter.com#@#article[role="article"]:has-text(Promoted)
 ! https://forums.lanik.us/viewtopic.php?f=64&t=43671&p=150291#p150286
 ||farnell.com/*tracking.js$script,1p,redirect=noopjs
 
-! https://www.reddit.com/r/uBlockOrigin/comments/dfjjbz/kimcartoon_bookmarks_dont_work_with_ublock_origin/
-@@||kimcartoon.to/Bookmark/$xhr,1p
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/dg0679/load_more_comments_not_working/
 @@||x.kinja-static.com/assets/packaged-js/trackers$script
 
@@ -1864,9 +1861,6 @@ twitter.com#@#article[role="article"]:has-text(Promoted)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/diaoj6/comments_no_longer_loading_on_masslivecom/f3umxm9/?context=8&depth=9
 @@||viafoura.co^$domain=masslive.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/6443
-@@||xtool.ru/js/analyze.js$script,1p
 
 ! https://github.com/gorhill/uBO-Extra/issues/119#issuecomment-543469244
 */videoplayback?expire$media,redirect=noopmp3-0.1s,domain=webmd.com
@@ -1938,9 +1932,6 @@ los40.com###adunit
 
 ! https://forums.lanik.us/viewtopic.php?f=64&p=150848#p150848
 @@||safecurr.g2afse.com/click?pid=*&offer_id$popup
-
-! https://github.com/NanoMeow/QuickReports/issues/2191
-@@||brid.tv/player/build/plugins/prebid/$script,domain=realhousemoms.com
 
 ! https://github.com/NanoMeow/QuickReports/issues/2199
 @@||tvtime.com/ga-assets/*$1p
@@ -2636,7 +2627,6 @@ order-order.com#@#.tag-sponsored
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/fini9h/subtitles_not_showing_up_on_solarmovieto/
 @@||fmovies.to/subtitles/*$xhr
-@@||ffmovies.ru/subtitles/*$xhr
 
 ! https://github.com/NanoMeow/QuickReports/issues/3925
 @@||googletagmanager.com/gtm.js$script,domain=movistar.es

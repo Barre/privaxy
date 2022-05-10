@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0o5kGHpP1GPjVW6T5nXZ6Q
-! Version: 202205101304
+! Checksum: F+gEf8+aPmVyyFl2DMwp8Q
+! Version: 202205101954
 ! Title: RU AdList for uBO only
-! Last modified: 10 May 2022 13:04 UTC
+! Last modified: 10 May 2022 19:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20609,7 +20609,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /js/*.js?$script,domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbook.news|textbooks.studio|texts.news|uchebnikfree.com|xn--80aaivjfyj3e.com
 /js/buy_book.js$script,domain=klex.ru|koob.pro|koob.ru
 /js/game_$domain=otxataba.net|xatab-repack.com|xatab-repack.org
-/js/init.js$script,~third-party,domain=dogovor-urist.ru|gibdd-gai.ru|prozhivem.com|zakon-o-tishine.ru
+/js/init.js$script,~third-party,domain=dogovor-urist.ru|gibdd-gai.ru|pasportnyjstol.ru|prozhivem.com|zakon-o-tishine.ru
 /js/pop*.js$script,domain=superhumor.ru|voffka.com
 /js/script-*.*.js$script,domain=domonosok.tk|haes.tech|hqq.to|hqq.tv|kinokrad.in.net|porn-watch.ru|vidxhot.net
 /js/v.js$script,domain=superhumor.ru|voffka.com

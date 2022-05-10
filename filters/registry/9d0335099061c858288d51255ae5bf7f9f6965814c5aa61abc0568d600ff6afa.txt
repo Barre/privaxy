@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: hHBji84NkXRO74MnhEWdzQ
+! Checksum: ICHQcQ8kIbbbGrciMACSSA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.79
-! TimeUpdated: 2022-05-10T18:30:34+00:00
+! Version: 2.1.18.80
+! TimeUpdated: 2022-05-10T19:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7947,7 +7947,7 @@ antiplagiat.ru##.ap-cookie-consent
 audi-technology-portal.de###PrivacyManager
 ugc.fr##.gdpr-overlay
 omg.de###CookiePlus
-omg.de##.modal-backdrop
+aok.de,omg.de##.modal-backdrop
 batterie24.de##body .page-wrap--cookie-permission
 amuse.io##.cookie-notice-banner
 photo-collage.net#$#body.fancybox-active { overflow: auto !important; }
@@ -18156,7 +18156,6 @@ tw.yahoo.com#$#body { overflow: auto !important; }
 tw.yahoo.com#$#.lastAppPromotionTime { display: none !important; }
 tw.yahoo.com###module-appPromoBanner
 tw.yahoo.com##.app-promo
-104.com.tw###app
 news.cnyes.com#?#.fixed > section > a[href^="https://play.google.com/store/apps/details?id=com.cnyes.android"]:upward(1)
 cnyes.com##.download-wrapper
 news.cgtn.com##.openBtn
