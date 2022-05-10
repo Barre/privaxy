@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wMsme3U/jIihdHH9K3uuTg
-! Version: 202205100800
+! Checksum: b9Iumf5OLZuiHWGGto2b7w
+! Version: 202205100900
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-10 08:00 UTC
+! Last modified: 2022-05-10 09:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32876,6 +32876,7 @@ _subscribers_newsletters/
 ##.module-cookies
 ##.module-cookies-notification
 ##.module-cookies-wrapper
+##.module-gdpr-acceptance
 ##.module-notification--cookies
 ##.module-special-cookie-banner
 ##.moduleCookiesBox
@@ -42060,6 +42061,8 @@ wikihow.com###article_courses_banner
 commondreams.org###block-spring2022dropdown1
 commondreams.org###block-spring2022sh1
 theguardian.com###bottom-banner
+coindesk.com###consensus-circle-popup
+coindesk.com###consensus-circle-popup-close-icon
 theguardian.com###contact-the-guardian
 euractiv.com###contribs_banner
 designtaxi.com###fancybar_link
@@ -42102,6 +42105,7 @@ insideedition.com##.block-tip-block
 lambdatest.com##.blog__cta__signup
 bing.com##.bnp_fly_hp
 restofworld.org##.bottom-bar
+coindesk.com##.brVneQ
 ny1.com##.caption-container
 aarp.org##.caregivingPromotion
 nationalpost.com##.carousel-widget
@@ -42146,6 +42150,7 @@ newengland.com##.inline-text-ad
 wired.com##.journey-unit
 themarkup.org##.js-promotion
 virgool.io##.js-userLogin-popup.popup-register
+coindesk.com##.lmkFLL
 time.com##.magazine-outer
 bitchute.com##.membership-container > .spa
 bitchute.com##.membership-container > span
