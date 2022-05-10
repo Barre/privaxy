@@ -35,8 +35,7 @@ const RUST_LOG_ENV_KEY: &str = "RUST_LOG";
 
 #[tokio::main]
 async fn main() {
-    let lib_rs = WEBAPP_FRONTEND_DIR.get_file("index.html").unwrap();
-    println!("{:?}", String::from_utf8(lib_rs.contents().to_vec()));
+    let ip = [127, 0, 0, 1];
 
     // We way need more logs to perform debugging or troubleshooting.
     // Let's only set default logging when "RUST_LOG" is not already set.
@@ -121,6 +120,8 @@ async fn main() {
 
     let configuration_save_lock = Arc::new(tokio::sync::Mutex::new(()));
 
+    let web_gui_server_addr = SocketAddr::from((ip, 8200));
+
     web_gui::start_web_gui_server(
         broadcast_tx.clone(),
         statistics.clone(),
@@ -129,6 +130,7 @@ async fn main() {
         ca_certificate_pem,
         configuration_save_lock.clone(),
         local_exclusion_store.clone(),
+        web_gui_server_addr,
     );
 
     thread::spawn(move || {
@@ -140,8 +142,6 @@ async fn main() {
 
         blocker.handle_requests()
     });
-
-    let addr = SocketAddr::from(([127, 0, 0, 1], 8100));
 
     let https_connector = hyper_rustls::HttpsConnectorBuilder::new()
         .with_native_roots()
@@ -183,13 +183,30 @@ async fn main() {
         }
     });
 
-    let server = Server::bind(&addr)
+    let proxy_server_addr = SocketAddr::from((ip, 8100));
+
+    let server = Server::bind(&proxy_server_addr)
         .http1_preserve_header_case(true)
         .http1_title_case_headers(true)
         .tcp_keepalive(Some(Duration::from_secs(600)))
         .serve(make_service);
 
-    log::info!("Listening on http://{}", addr);
+    let web_gui_static_files_server_addr = SocketAddr::from((ip, 8000));
+
+    web_gui::start_web_gui_static_files_server(
+        web_gui_static_files_server_addr,
+        web_gui_server_addr,
+    );
+
+    log::info!("Proxy available at http://{}", proxy_server_addr);
+    log::info!(
+        "Web gui api server available at http://{}",
+        web_gui_server_addr
+    );
+    log::info!(
+        "Web gui available at http://{}",
+        web_gui_static_files_server_addr
+    );
 
     if let Err(e) = server.await {
         log::error!("server error: {}", e);

@@ -1554,6 +1554,7 @@ dependencies = [
  "lazy_static",
  "log",
  "lol_html",
+ "mime_guess",
  "once_cell",
  "openssl",
  "regex",

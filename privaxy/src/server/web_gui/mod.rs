@@ -1,10 +1,13 @@
 use crate::proxy::exclusions::LocalExclusionStore;
 use crate::statistics::Statistics;
+use crate::WEBAPP_FRONTEND_DIR;
 use crate::{blocker::BlockingDisabledStore, configuration::Configuration};
 use serde::Serialize;
+use std::net::SocketAddr;
 use std::sync::{Arc, RwLock};
 use tokio::sync::{broadcast, mpsc::Sender};
 use warp::http::Response;
+use warp::path::Tail;
 use warp::Filter;
 
 pub(crate) mod blocking_enabled;
@@ -19,6 +22,47 @@ pub(crate) struct ApiError {
     error: String,
 }
 
+pub(crate) fn start_web_gui_static_files_server(bind: SocketAddr, api_addr: SocketAddr) {
+    let filter = warp::get().and(warp::path::tail()).map(move |tail: Tail| {
+        let tail_str = tail.as_str();
+
+        let mut is_index = tail_str == "index.html";
+
+        let file_contents = match WEBAPP_FRONTEND_DIR.get_file(tail_str) {
+            Some(file) => file.contents().to_vec(),
+            None => {
+                is_index = true;
+
+                let index_html = WEBAPP_FRONTEND_DIR.get_file("index.html").unwrap();
+                WEBAPP_FRONTEND_DIR.get_file("index.html").unwrap();
+
+                index_html.contents().to_vec()
+            }
+        };
+
+        let file_contents = if is_index {
+            let index_utf8 = String::from_utf8(file_contents).unwrap();
+
+            Vec::from(index_utf8.replace("{#api_host#}", &api_addr.to_string()))
+        } else {
+            file_contents
+        };
+
+        let mime = match mime_guess::from_path(tail_str).first_raw() {
+            Some(mime) => mime,
+            None => "",
+        };
+
+        Response::builder()
+            .header(http::header::CONTENT_TYPE, mime)
+            .body(file_contents)
+    });
+
+    tokio::spawn(async move {
+        warp::serve(filter).run(bind).await;
+    });
+}
+
 pub(crate) fn start_web_gui_server(
     events_sender: broadcast::Sender<events::Event>,
     statistics: Statistics,
@@ -27,6 +71,7 @@ pub(crate) fn start_web_gui_server(
     ca_certificate_pem: String,
     configuration_save_lock: Arc<tokio::sync::Mutex<()>>,
     local_exclusions_store: LocalExclusionStore,
+    bind: SocketAddr,
 ) {
     let http_client = reqwest::Client::new();
 
@@ -137,7 +182,7 @@ pub(crate) fn start_web_gui_server(
             .or(warp::options().map(|| ""))
             .with(cors);
 
-        warp::serve(routes).run(([127, 0, 0, 1], 3030)).await
+        warp::serve(routes).run(bind).await
     });
 }
 
