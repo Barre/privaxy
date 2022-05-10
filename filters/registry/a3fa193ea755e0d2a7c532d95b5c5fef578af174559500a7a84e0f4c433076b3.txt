@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b9Iumf5OLZuiHWGGto2b7w
-! Version: 202205100900
+! Checksum: c2FUPhOVI10r/EnwxcmC3g
+! Version: 202205101100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-10 09:00 UTC
+! Last modified: 2022-05-10 11:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -44575,6 +44575,7 @@ cnn.com##.TermsOfService__component
 mtn.co.za##.Toast
 lareviewofbooks.org##.Toastify
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.Tooltip
+fotor.com##.UseCookie_useCookieModle__6d4kz
 hotcleaner.com##.V9
 hotcleaner.com##.XNKr
 depop.com##.XnNdW
@@ -51908,7 +51909,7 @@ morningstar.ca,mysoapbox.com,tangerine.ca#@#.cc_container
 hellomtg.com,mbanc.com,primejumbo.com#@#.ccpa-banner
 cooleffect.org#@#.ce-banner
 onet.pl#@#.cmp-app_gdpr
-consent.yahoo.com,lawrievetgroup.co.uk,oath.com#@#.consent-container
+consent.yahoo.com,lawrievetgroup.co.uk,nvidia.com,oath.com#@#.consent-container
 t-online.de#@#.consent-content
 verivox.de#@#.consent-holder
 bol.com#@#.consent-modal

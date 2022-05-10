@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: EXduUyc4+EBtiB3vgO5D2w
+! Checksum: uIxQK3nI4uHD0AVitlqhrw
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.87
-! TimeUpdated: 2022-05-10T08:31:14+00:00
+! Version: 2.2.29.89
+! TimeUpdated: 2022-05-10T10:31:16+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -24805,6 +24805,8 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117922
+mozlink.net##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118188
 nba.com##+js(set-constant, nbaTop.setupAds, noopFunc)
 ! https://vostanimez.com/Episode/shokei-shoujo-no-ikiru-michi-the-executioner-and-her-way-of-life-vostfr-saison-1-episode-6-streaming-hd/
@@ -30146,7 +30148,7 @@ real.discount##div[class="card"][style="height:300px"]
 real.discount##div[class*="card"][style*="height: 200px"]
 real.discount##a[href="/out-ud/"]
 coinsearns.com,luckydice.net##.text-center > [class][style*="display:"]
-coinsearns.com##div[id^="promo"]
+eldibux.com,coinsearns.com##div[id^="promo"]
 ||xxxbule.com/xb/xb.js
 ||bigmp3db.com/media/images/teaser/$third-party
 omatomeloanhikaku.com###search-2

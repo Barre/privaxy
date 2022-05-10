@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205101609
+! Version: 202205101710
 ! Title: ABPVN List
-! Last modified: 10 May 2022 16:09 UTC+7
+! Last modified: 10 May 2022 17:10 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -202,7 +202,6 @@ utm_source=propellerads$popup
 ||db.tructiepbongda.me^*.gif
 ||depmoingay.net.vn/banner
 ||dexuat.com^*banner$image
-||dhhqshuw.com^$popup
 ||diendanlequydon.com/banner/
 ||dinhnghia.vn^*.gif
 ||doctruyen3qi.com^*.gif
@@ -1255,12 +1254,10 @@ tuyengiao.vn##.clearfix.adregion
 tuyengiao.vn##.visible-md.header-banners
 tvhai.org##.ad_location
 tvhai.org##.t_logoc
-tvhaiz.net###pc-catfish
-tvhaiz.net###wrapper>.col-lg-12:nth-child(2)
-tvhaiz.net,tvhayx.com,phimsml.com###overlay-pop
 tvhay.top##iframe:nth-of-type(4)
 tvhay.top,goldphimz.info,kingphim.co,phimplus.net,khophim18.net,phimplus.xyz,vietphim.vn##.float-ck-center-lt
 tvhayx.com##.mobile-catfish
+tvhayx.com,phimsml.com###overlay-pop
 tvphapluat.vn##.bannerqc
 tvphapluat.vn##[class^="sticky-top"]
 tvphapluat.vn##[href*="/default/template/"]

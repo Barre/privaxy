@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XNM7dkOYQL73UtmA7rp/lQ
-! Version: 202205082115
+! Checksum: RLofyAgX2RHo6bISYtN0yA
+! Version: 202205101055
 ! Title: EasyList Spanish
-! Last modified: 08 May 2022 21:15 UTC
+! Last modified: 10 May 2022 10:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3110,7 +3110,7 @@ vercomicsporno.com##a[href="http://vermangasporno.com/"]
 pajarracos.es##a[href^="http://www.fresalia.com/"]
 pajarracos.es##a[href^="http://www.fuegodevida.com/"]
 esaschicas.com##a[href^="https://esaschicas.com/rbs_banner.php?"]
-selafollan.com##a[href^="https://telelatinotv.page.link/"]
+hispasexy.org,selafollan.com##a[href^="https://telelatinotv.page.link/"]
 famosateca.es##div[align^="center"]
 pornoplay.online##div[class^="happy-"]
 datoporn.co##div[style="position:absolute;top:0;right:0;bottom:0;left:0;z-index:99999;cursor:pointer"]
