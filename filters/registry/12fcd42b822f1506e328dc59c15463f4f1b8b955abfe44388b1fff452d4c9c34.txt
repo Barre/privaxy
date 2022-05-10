@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205091948
+! Version: 202205101123
 ! Title: ABPVN List
-! Last modified: 09 May 2022 19:48 UTC+7
+! Last modified: 10 May 2022 11:23 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -750,9 +750,12 @@ utm_source=propellerads$popup
 247phim.org,bphimmoi.net,phimgi.org,xemphimchill.net##.popUpBannerBox
 24h.com.vn###background_bg_link
 24h.com.vn###maiContent > div > div.colLt > aside
+24h.com.vn##.atclRdSb
+24h.com.vn##.bnr
 24h.com.vn##.cate-24h-foot-box-adv-view-news>.row>.col-6:first-child
 24h.com.vn##DIV[class="banner-LR"]
 24h.com.vn#?#.col:-abp-has(span:-abp-contains(Tin tài trợ))
+24h.com.vn#?#div.pos-rel:-abp-has(a[rel="nofollow sponsored"])
 24hmoney.vn##.banner-top-box
 2banh.vn###position_full_top_banner_pc
 2banh.vn##.lb_overlay
