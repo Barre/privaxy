@@ -1,5 +1,5 @@
 ! Title: Phishing URL Blocklist
-! Updated: Mon, 09 May 2022 12:05:55 +0000
+! Updated: Mon, 09 May 2022 12:35:50 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/phishing-filter
 ! License: https://gitlab.com/curben/phishing-filter#license
@@ -20,7 +20,6 @@
 0bebe76d.sibforms.com
 0web.pages.dev
 1-onet.azureedge.net
-100000000003215641153410888-gq.tk
 1000000000074558557412569836454.tk
 1000000000074558557412569836457.tk
 1000000000074558557412569836458.tk
@@ -29,7 +28,6 @@
 100000000075641210654897415-gq.tk
 1000000000985416511041547622-gq.tk
 1000000000985416511041547623-gq.tk
-1000000000985416511041547624-gq.tk
 1000000000985416511041547625-gq.tk
 1000000000985416511041547627-gq.tk
 103.114.16.4
@@ -431,7 +429,6 @@ acsuo-acseonsmesnm.z5hilx.top
 acsuo-acseonsmesnm.z6fvi1.top
 acsuo-acseonsmesnm.zunyihil.top
 act-premco.hostfree.pw
-activacion-clientes-online.web.app
 activate-hulu-com-activate.sitey.me
 activatecard-help.cc
 active.walletsauths.com
@@ -534,7 +531,6 @@ agrimetiersmartinique.fr
 aheaddrive.pages.dev
 ahhhh.pe.kr
 aibaccessportal.com
-aictz.000webhostapp.com
 aiou.myakkdl.kiolou.club
 air-nfts.tokens-aword.com
 airbnb.s.h876392221.live
@@ -602,7 +598,6 @@ amazon.account-update.azmozonm.co.jp.dacongonnaoemanhkhongne.com
 amazon.account-update.azmozonm.co.jp.zs545s4dg5d4fg5df4g54df.xyz
 amazon.co.jp.dzwrms.top
 amazon.works.ga
-amazoon.co.jp.iecvsa.shop
 amazou.w67uyi15.cn
 amazzon.usmfwngd54.shop
 ambrrygen.com
@@ -834,7 +829,6 @@ arnazon.co.jp.oxcwhk.shop
 arnazon.co.jp.sassic.shop
 arnazon.co.jp.uwwj.shop
 arnazon.expoqr.com
-arnazoon.co.jp.srfrsh.shop
 artcosmetic.com.br.geniecommerce.com.br
 arthamahotels.com
 arthur41ksh.com
@@ -942,13 +936,10 @@ au-asaene.icu
 au-ascene.icu
 au-asceon.cfmownh.cn
 au-asceon.ftskkpk.cn
-au-asceon.uxtiorl.cn
 au-ascoon.com
 au-aseosn.com
 au-asoene.icu
-au-caeon.ouhfgph.cn
 au-caeon.y0v2e200.cn
-au-caeon.zxvtn64i.cn
 au-cseon.yckjfiy.cn
 au-myanz.top
 au-net.co.jp.nhpsyra.cn
@@ -1275,6 +1266,7 @@ beefy.cloud
 beiswaps.org
 bellsouth-verification67.yolasite.com
 bellsouth-verification70.yolasite.com
+bellsouth-verification71.yolasite.com
 bendigo-secure.com
 bendigobank.live
 bendigobankalert.com
@@ -1665,7 +1657,6 @@ chrisvow.be
 chutlincrapo.web.app
 chylaceous-turbine.000webhostapp.com
 cicagri.com
-cih7dc8a9cpxte3m1imb-gc5a4t7inpvz9m3hbog3-qr6gkzqbpyqmo2im4h1e.glitch.me
 cihatsaygin.com
 cintasejatidrink.com
 cirrilla-stripe-form.firebaseapp.com
@@ -2240,7 +2231,6 @@ ertge.6ezohbrww.cn
 esfdesentakip.com
 esftx.com
 esinnovativeinteriors.com
-eski-jp.top
 espace-client-facture.com
 espaceclientorange1.americommerce.com
 estetikway.com
@@ -2557,7 +2547,6 @@ ghjtd.dzh3up9tv.cn
 ghnghf.wwejvzrk2.cn
 ghorana.com
 ghrfes.pdgj36ub.cn
-ghthr.838960.cn
 ghyjft.4sping.cn
 gicsingaporetrade.com
 gifted-tiny-request.glitch.me
@@ -2940,7 +2929,6 @@ inof-auoneo-jp.qpqlykcu.cn
 inof-auoneo-jp.riebhnbg.cn
 inof-auoneo-jp.rtmdjzp.cn
 inof-auoneo-jp.sivjhml.cn
-inof-auoneo-jp.sogiwgr.cn
 inof-auoneo-jp.stvrohz.cn
 inof-auoneo-jp.sxwdmyx.cn
 inof-auoneo-jp.tjzkncii.cn
@@ -2950,7 +2938,6 @@ inof-auoneo-jp.ylalfvlr.cn
 inof-auoneo-jp.ynishot.cn
 inof-auoneo-jp.yzoaghf.cn
 inof-auoneo-jp.zclmorn.cn
-inof-auoneo-jp.zxcgkbu.cn
 inpost-pl-zai.accept8145.me
 inpost-pl.up4pay.site
 inpost-polska-wpk.order12561361.info
@@ -3056,7 +3043,6 @@ jhmhfr.r1hp6vt6.cn
 jhrfy.83d0b5.cn
 jhrtr.i44qtcr0.cn
 jhtdh.8gsvmrxc.cn
-jhty.jqysk3fm.cn
 jhythy.h20hxkyh.cn
 jhytth.zjq0hbyt.cn
 jinzai-biz.co.jp
@@ -3163,6 +3149,7 @@ kmhjf.ojr2iwqy.cn
 kmtgh.qdoek8ee.cn
 knitonmywatch.com
 know-paths.com
+ko.gl
 kobakremodeling.com
 kobe-tokiwa.ac.jp
 kodwf142.top
@@ -3304,6 +3291,7 @@ login-micro-drive-pdf-point.firebaseapp.com
 login-micro-drive-pdf-point.web.app
 login-micro-folder-agl-coa.firebaseapp.com
 login-micro-folder-agl-coa.web.app
+login-microsoftonline.sproquela.com
 login-n26-com.preview-domain.com
 login-share-file-folder-view.firebaseapp.com
 login-share-file-folder-view.web.app
@@ -3318,7 +3306,6 @@ loginmicrosoftonlinens.myportfolio.com
 loginmicrosoftonlineproposal.myportfolio.com
 loginprim2.sslblindado.com
 logmedo.com
-logpannel-nvs6.com
 lomadesarrollos.mx
 looksrare-org.online
 looksrarefi.com
@@ -3412,7 +3399,6 @@ magazine-fatura-aqui.com
 magazine-faturamento.com
 magiamgiashopee.com
 magicseden.io-launch.page
-magline-promocional.com
 magnudumli.weebly.com
 magnumforces.com
 magyar-posta.com
@@ -3467,7 +3453,6 @@ marketplacelnfinytlaxi.com
 masaacocciseri.icu
 masaaoacaseri.icu
 masaaoccieri.icu
-masaaoeccsseri.icu
 masasceenecri.icu
 masceaceori.icu
 masceccceori.icu
@@ -3510,7 +3495,6 @@ maystugprade29.firebaseapp.com
 maystugprade3.firebaseapp.com
 maystugprade30.firebaseapp.com
 maystugprade5.web.app
-maystugprade8.web.app
 mbank-invest.web.app
 mbqs-bn-p.000webhostapp.com
 mc-488f839d-5c25-46b8-a4ee-140400-headless-fd1.azurefd.net
@@ -3525,13 +3509,11 @@ mcaaeeacsseri.icu
 mcaaeoaaseri.icu
 mcaaeoacaseri.icu
 mcaaeoeccsseri.icu
-mcaaoacaseri.icu
 mcaaoeccsseri.icu
 mcacaciari.icu
 mcacaoasoosaceri.icu
 mcaccaioeri.icu
 mcaccecioeri.icu
-mcaccoaioari.icu
 mcaccoaiosri.icu
 mcaccoccioari.icu
 mcaccocciosri.icu
@@ -3621,7 +3603,6 @@ mescori-com.03bf.top
 mescori-com.03dn.top
 mescori-com.03ij.top
 mescori-com.xnoqet.top
-mescosecri.icu
 mesosicori.icu
 mesossoecacori.icu
 message-webapp2242022-1311426938.cos.ap-nanjing.myqcloud.com
@@ -3844,7 +3825,6 @@ my-dashboard03.dns05.com
 my-gmail.ir
 my-life-adventures.com
 my-site-silahkan-konfirmas-akun-anda088.weeblysite.com
-my-site219.yolasite.com
 my.heyform.net
 myamazon.life
 myauthsaccess.com
@@ -4015,7 +3995,6 @@ old-file-surf-978b.theattdrops6111.workers.dev
 old.martobang.workers.dev
 olx-pl-xhp.accept8145.me
 olx-pl.safepayment.cf
-oncopharma-ae.com
 ondirectvoiceplay.weebly.com
 onee-a0488.web.app
 onelogonmimcrftonilnne.xyz
@@ -4133,6 +4112,7 @@ pancakeswap.salsasourcing.com
 pancakeswap.trading
 pancakeswapclone.com
 pancakeswapjs.com
+pancakeswapp.click
 pancakeswappshop.blogspot.com
 pancakeswapsupport.co
 pancakeswapworld.com
@@ -4257,6 +4237,7 @@ plg-polygon-tecnology.blogspot.com
 plugmailextraexpiredoldpolicynotificationscenter.pages.dev
 pnjone.com
 poc-rewards-program-c2dfc.web.app
+pocztapolska-pl.e-upay.site
 pocztapolska-pl.up4pay.site
 pocztapolska.safedeals.icu
 poilgon-wailet.in
@@ -4323,7 +4304,6 @@ profiimobiliare.ro
 profmanoeldias.com.br
 projectfiles.trainercentral.com
 projectlovewell.com
-projects.bezpieczna-logowanie-online.com
 promehedinti.ro
 prometheus.asia-pancakeswap.dysnix.org
 promo.mycorporate-rewards.net
@@ -4969,6 +4949,7 @@ smbc-carb.co.jp.0n5694.cn
 smbc-carb.co.jp.6qjyog.cn
 smbc-carb.co.jp.6xct97.cn
 smbc-carb.co.jp.6zre00.cn
+smbc-carb.co.jp.9d154m.cn
 smbc-carb.co.jp.bagjfn.cn
 smbc-carb.co.jp.frxqcq.cn
 smbc-carb.co.jp.myhfhn.cn
@@ -5019,7 +5000,6 @@ softbank.noi-jp.com
 softibank.jp.fdedfd.xyz
 softstn.com
 solana868.com
-solanadowell.com
 solanaflashloan.com
 solanagift.info
 solanagift.xyz
@@ -5641,7 +5621,6 @@ webbl.yolasite.com
 webconnectappsync.com
 webdatamltrainingdiag842.blob.core.windows.net
 webdesecure.clickfunnels.com
-webfederaltaxs.com
 webhostingserviceo1.firebaseapp.com
 webhostingserviceo1.web.app
 webhostingserviceo10.firebaseapp.com
@@ -5927,7 +5906,6 @@ www2.aenoswa.icu
 www2.aenoswn.icu
 www2.aenouezn.icu
 www2.aeon.co.jp.fghexd.xyz
-www2.aeon.co.jp.ftyrtfgr.xyz
 www2.aeon.co.jp.ressez.xyz
 www2.aeon.co.jp.zsdaxva.xyz
 www2.eposcardi.co.jp.gfdssx.xyz
@@ -6061,7 +6039,7 @@ yudvxue.cn
 yudvxue.cn?bank
 yuifrh.421wijw3.cn
 yuiui.qg54lyg2.cn
-yujgr.x10sa2n6.cn
+yupbtinternetbroadbandservices.weebly.com
 yuvanurology.com
 ywxo.mjt.lu
 yxoujrfakc.firebaseapp.com
@@ -7610,6 +7588,7 @@ zzzywx.weebly.com
 ||theinvestorsclub.in/lm/$all
 ||tiny.cc/5cgfd$all
 ||tiny.one/54rp97pk$all
+||tinyurl.com/2awsbvp7$all
 ||tinyurl.com/4hbvuu8c$all
 ||tinyurl.com/allertinfoapp$all
 ||tinyurl.com/bankinghome$all

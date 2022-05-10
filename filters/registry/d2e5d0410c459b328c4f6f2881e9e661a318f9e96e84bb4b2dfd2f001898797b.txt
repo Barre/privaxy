@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Mon, 09 May 2022 12:04:36 +0000
+! Updated: Tue, 10 May 2022 00:04:31 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -17,6 +17,8 @@ adverify.me
 amobil.online
 android-web.live
 aphicus.xyz
+appcine.net
+autoinsurancedepot.org
 baddog.xyz
 bbcvideo.ru
 be-uk-cash-for-phones-ok.live
@@ -32,6 +34,8 @@ blogphoneapplication.online
 bottomjoyday.top
 bravovideo.ru
 bunnyvideo.ru
+cajasdigitalreporting.net
+carfuelsaver.org
 cedran.co
 center-planet.xyz
 center7mountain.xyz
@@ -43,6 +47,7 @@ clickon.buzz
 clickverifier.online
 clldirectnew.club
 cnnvideo.ru
+contentstar.info
 curfiositystream.com
 curiositydstream.com
 dailyboard.org
@@ -76,9 +81,11 @@ galacontent.ru
 galaxywin.xyz
 gamblehere.org
 gameoverhere.net
+gamerdigest.org
 gehenna.xyz
 giving-bigwin-chance-reward.rest
 gombos.xyz
+goodlov.online
 google-apps.name
 great-dates-place.life
 greenvalleysystemphone.online
@@ -118,6 +125,7 @@ mobiaplains.xyz
 mobiastar.xyz
 monetunion.club
 mountcrossbed.top
+moviepin.tv
 nashvillewelcome.co
 nordvpnhosting.com
 nordvpnserver.com
@@ -239,6 +247,7 @@ videoze.ru
 viewsunny.ru
 viewunic.ru
 viget.top
+vpncity.com
 walmartcard.top
 wangmo.life
 wantjoinsince.xyz

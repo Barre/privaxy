@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JNQiWWDyt4KJGVAVlTyfjA
-! Version: 202205092300
+! Checksum: fFNIuEQintDg86UXoFlUCw
+! Version: 202205100100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-09 23:00 UTC
+! Last modified: 2022-05-10 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -52940,6 +52940,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||theinterview-movie.com/images/btn_youtube.png
 @@||themobileplaybook.com/assets-v2/images/google-mobile-playbook*.png
 @@||themobileplaybook.com/assets-v2/images/share.png
+@@||theworld.org/_next/static/chunks/lib-pages/_app-facebook.js
 @@||thimble.mozilla.org^$generichide,~third-party
 @@||thrusto.com/images/fb-icon.png
 @@||thrusto.com/images/google+.png
