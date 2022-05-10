@@ -271,6 +271,12 @@
     },
     {
         "enabled_by_default": false,
+        "file_name": "d22291522966db340bb3455d93019edc1557810979810bb0a668f6fcaf883c08.txt",
+        "group": "regional",
+        "title": "ROU: Romanian Ad (ROad) Block List Light"
+    },
+    {
+        "enabled_by_default": false,
         "file_name": "f53c3dfc0b9611d207844d1418afd898d951127986154f2a2565995eca14fa4e.txt",
         "group": "regional",
         "title": "RUS: RU AdList"

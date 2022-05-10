@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: m1teST2F2smuTF8lcI/TcQ
+! Checksum: Q8BOk03QjurpsxNTPdh0rA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.67
-! TimeUpdated: 2022-05-10T05:30:34+00:00
+! Version: 2.1.18.68
+! TimeUpdated: 2022-05-10T06:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7238,6 +7238,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+proaurum.de###cookiefirst-root
 ||coal.gamemaker.io/sites/*/theme/javascripts/cookie.umd.min.js
 waterfaucet.online###gath3r-optin-dialog
 narecza.com##.CerezPp
@@ -15424,6 +15425,8 @@ stockmann.com#$#.cookie-dialog-screen { display: none!important; }
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 ! TODO: use redirect rule when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/195
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117868
+@@||consent.cookiefirst.com^$domain=proaurum.de
 ! https://www.digitalfoundry.net/2022-05-05-pocky-rocky-reshrined-review-way-beyond-a-typical-remake
 digitalfoundry.net#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117658
