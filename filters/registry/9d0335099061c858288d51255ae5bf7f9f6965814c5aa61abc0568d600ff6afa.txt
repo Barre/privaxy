@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: NzZqG/IfryOHWCbfTNcPmg
+! Checksum: zQWpyhKMm54Pfh+DVX5l+w
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.73
-! TimeUpdated: 2022-05-10T13:30:34+00:00
+! Version: 2.1.18.74
+! TimeUpdated: 2022-05-10T14:30:48+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7238,6 +7238,10 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+ashaindia.ru##body div#cookie_notification.show
+webshop.burgerme.de#$#body { overflow: auto !important; }
+webshop.burgerme.de#$#.cookies-information-modal { display: none !important; }
+webshop.burgerme.de#$#.cookies-information-modal ~ div.modal-backdrop { display: none !important; }
 pacsun.com##.privacy-policy-content
 frischeparadies.de#$#body { overflow: auto !important; }
 frischeparadies.de#$#.cookie-notice { display: none !important; }

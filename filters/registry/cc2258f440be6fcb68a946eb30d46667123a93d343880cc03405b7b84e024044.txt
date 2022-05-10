@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: mmBrNxztOTaaroK3j6ivkA
+! Checksum: TpUSU3llGcEyRLqPjRnN7A
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.93
-! TimeUpdated: 2022-05-10T13:31:14+00:00
+! Version: 2.2.29.94
+! TimeUpdated: 2022-05-10T14:31:29+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3954,6 +3954,8 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118149
+blogupdated.com##+js(abort-current-script, EventTarget.prototype.addEventListener, adblock)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118043
 googledrivelinks.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118133

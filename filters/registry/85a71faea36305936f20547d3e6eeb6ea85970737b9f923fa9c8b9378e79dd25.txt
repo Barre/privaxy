@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205101408
+! Version: 202205101458
 ! Title: EasyList Germany
-! Last modified: 10 May 2022 14:08 UTC
+! Last modified: 10 May 2022 14:58 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2183,6 +2183,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||tieronline.ch/images/partner/
 ||tipzeitung.de/img/banner/
 ||tobitech.de/images/banners/
+||trvlcounter.de/media/advert/
 ||tschechien-online.org/sites/default/files/hotel-kleine-brauerei.jpg
 ||tschechien-online.org/sites/default/files/to_0.jpg
 ||tsg-friesenheim.de/dateien/images/handball/Sponsoren-
@@ -3362,6 +3363,7 @@ spot-on-news.de##.elementor-element-127b96a
 schweizerbauer.ch##.elementor-element-31a7df7
 schweizerbauer.ch##.elementor-element-a2b2b40
 femotion.de##.elementor-element-f2d5c64
+radioholiday.de##.elementor-element-f3e9036
 etcg.de##.eral_wrapper
 marina.ch##.et_pb_row_0_tb_header
 news.de##.extraContentContainer
@@ -3371,6 +3373,7 @@ bunte.de##.fe-channel-item--promo
 ff-bz.com##.ff-ba
 fussballinfo.net##.field--name-dynamic-token-fieldnode-wett-tipps-4-wettanbieter-h2 + .field--name-dynamic-block-fieldnode-top-3-anbieter
 zeitpunkt.ch##.field--name-field-werbebild
+trvlcounter.de##.first_slot
 fight24.tv##.fixed.bottom-0.pb-8
 floatmagazin.de##.float-widget
 tvinfo.de##.floatLeft[style="padding:10px;"]
@@ -3482,7 +3485,7 @@ regioactive.de##.lb
 sexabc.ch##.lead-col
 intimesrevier.com##.lead_rennab
 boomerangtv.de,infosat.de,meteovista.de,rhein-zeitung.de,spielen.de##.leaderboard
-antenne.de,rockantenne.de,schwaebische.de##.leaderboard-wrapper
+antenne.de,antenne.nrw,rockantenne.de,schwaebische.de##.leaderboard-wrapper
 gmx.net,home.1und1.de,web.de##.left-col__bottom
 queer.de##.leistenbanner
 frischauf-gp.de##.ligaadd
@@ -3684,6 +3687,7 @@ sport.sky.de##.sdc-site-au__leaderboard
 sport.sky.de##.sdc-site-au__mpu-1
 sportdeutschland.tv##.sdtv-gothaer
 mytastedeu.com##.search-affiliate__part
+trvlcounter.de##.second_slot
 meedia.de##.section-banner-fullwidth
 selbstaendig-im-netz.de##.selbs-blog-startseite-und-kategorien
 selbstaendig-im-netz.de##.selbs-unter-artikeln
