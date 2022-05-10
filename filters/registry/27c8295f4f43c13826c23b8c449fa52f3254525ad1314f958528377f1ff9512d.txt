@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: fcTqi3TfzQsKm60il0TJ2w
+! Checksum: nfxcADKzGiYlSrSEG02WMQ
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.23
-! TimeUpdated: 2022-05-10T17:31:26+00:00
+! Version: 2.0.61.24
+! TimeUpdated: 2022-05-10T18:31:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3472,7 +3472,6 @@ adme.ru##div[data-test-id="join-us"] > div[data-test-id="title"] + div[class]:em
 gamevicio.com##.sharer_content_box
 ntvplus.tv##.stream-card--socials
 tvoytrener.com###socknop
-breeze.com.tr##.product_social_icon_wrapper
 breeze.com.tr##.UD_Share
 xiaomitoday.it###rh-share-sticky
 silicone-forum.com##div[data-widget-definition="share_page"]
@@ -3558,7 +3557,6 @@ fraza.com##.social-share-p-wrapper
 partifabrik.com##.product_social_icon_wrapper:not(#style_important)
 ej.by##span.article-footer
 ej.by##div.article-footer + div.article-footer
-7kat.com.tr##.product_social_icon_wrapper
 mtv.ru##.nb-footer__share
 mtv.ru##.like__share
 my.mail.ru##.b-video__code-block__share-panel
@@ -4468,7 +4466,7 @@ canalrural.com.br##.eapps-social-share-buttons
 tasteandtellblog.com##.basic-social-share-buttons
 vz.ru##.news__social
 news.mtv.it##.socicon-container
-ambarexpress.com,krisjoycosmetics.com##.product_social_icon_wrapper
+eceninbutigi.com,breeze.com.tr,7kat.com.tr,ambarexpress.com,krisjoycosmetics.com##.product_social_icon_wrapper
 lenta.com##.recipe-controls__share-block
 mediafire.com##.social-cont
 sobaka.ru##.navbar__share
@@ -10672,7 +10670,7 @@ python-3.ru##body > div[class="modal"]
 galka.if.ua#$##fb-modal { display: none!important; }
 galka.if.ua#$#.modal-backdrop { display: none!important; }
 galka.if.ua#$#body { overflow: visible!important; }
-newtoki128.com,newtoki129.com,newtoki130.com,newtoki131.com,newtoki132.com,newtoki133.com,newtoki134.com,newtoki135.com,newtoki136.com,newtoki137.com,newtoki138.com,newtoki139.com,newtoki140.com,newtoki141.com,newtoki142.com,newtoki143.com,newtoki144.com,newtoki145.com,newtoki146.com,newtoki147.com,newtoki148.com,newtoki149.com,newtoki150.com###hd_pop
+newtoki131.com,newtoki132.com,newtoki133.com,newtoki134.com,newtoki135.com,newtoki136.com,newtoki137.com,newtoki138.com,newtoki139.com,newtoki140.com,newtoki141.com,newtoki142.com,newtoki143.com,newtoki144.com,newtoki145.com,newtoki146.com,newtoki147.com,newtoki148.com,newtoki149.com,newtoki150.com###hd_pop
 nashvancouver.com###exit_content.modal
 nashvancouver.com###exit_content.modal ~ div.modal-backdrop
 nashgorod.ru##.zen-popup-component

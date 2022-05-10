@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: D12PkE6wFTu965lYJh6J5g
+! Checksum: iwo6h6Gf5bgpBkU/Mhw0rg
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.19
-! TimeUpdated: 2022-05-10T12:30:33+00:00
+! Version: 2.0.34.20
+! TimeUpdated: 2022-05-10T18:30:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2309,13 +2309,16 @@ fullfilmcidayim.com,dizispeed.com,babafullfilmizle.com###adStarter
 /service/advertchannels?$domain=urfanatik.com|dirilispostasi.com|turkuazgazetesi.net|yenialanya.com|bugunkocaeli.com.tr|cagdaskocaeli.com.tr|mansetaydin.com|enkocaeli.com|kocaelikoz.com|kocaelibarisgazetesi.com|seskocaeli.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+||selcuksportshd290.com/img/m-ad-
+||video.twimg.com/ext_tw_video/*/pu/$xmlhttprequest,domain=selcuksportshd290.com
+||bursahakimiyet.com.tr/assets/js/ad_getter.js
 ||sezonlukdizi*.com/js/minipop.js
 ||sezonlukdizi*.com/i/*.mp4
 ||play-dizigom1.cdn.ampproject.org/i/play.dizigom1.com/oreklam.png
 ||realfilmizleme.com/maintabs14.js
 kredibankalar.com##div[style^="background:#eeeeee; border:2px"]
 kredibankalar.com###yeni_alt_reklam
-kamudanhaber.net##.widget-advert
+haberlobi.com,haber46.com.tr,kamudanhaber.net##.widget-advert
 ||hdrealfilmizleme.com/maintabs14.js
 ||easymp3mix.com/js/re-ads-*.js
 flvconverter.org##div[v-if]
@@ -2549,7 +2552,7 @@ fotomac.com.tr##.head-banner
 kocaelidebugun.com###sagAds
 ||turkiyegazetesi.com.tr/images/pageskin/interstitial/libs/ads-mg*.js
 almanilan.com##div.ai-viewports[data-insertion]
-yenidonem.com.tr##div[id^="adContainer"]
+bursahakimiyet.com.tr,yenidonem.com.tr##div[id^="adContainer"]
 yemekev.com##.gallery_onu
 ||molystream.net/turnaa.png
 lorentlabs.com##.partner
