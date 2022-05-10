@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: sYU3cDfuh4v57V37PEfM6g
+! Checksum: fcTqi3TfzQsKm60il0TJ2w
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.22
-! TimeUpdated: 2022-05-10T16:31:25+00:00
+! Version: 2.0.61.23
+! TimeUpdated: 2022-05-10T17:31:26+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3092,7 +3092,7 @@ soundlibrary.pokemon.co.jp,futurelearn.com##.ShareIconWrapper
 soundlibrary.pokemon.co.jp##.fqGPxw
 futurelearn.com##.fl-share-this-wrap
 analyticsinsight.net##.share-article-body
-testbook.com##.share-icons-list
+koelner-philharmonie.de,testbook.com##.share-icons-list
 topresume.com##.article-share-icons .social-icons
 spidersweb.pl##div[class^="PostSocialShare_socialShare_"]
 ifilmthings.com###social-rocket-floating-buttons
