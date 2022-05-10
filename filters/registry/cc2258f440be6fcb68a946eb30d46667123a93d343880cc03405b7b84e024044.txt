@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: ET1z3xCtjhmE+V8zjq1Xeg
+! Checksum: N7dpCprKA+uUaiqnTnkdUg
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.84
-! TimeUpdated: 2022-05-09T22:31:14+00:00
+! Version: 2.2.29.86
+! TimeUpdated: 2022-05-10T07:31:12+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -14945,6 +14945,11 @@ gjirafa.com##div[id^="an-holder-"]
 !------------------------------ Arabian ------------------------------
 !---------------------------------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117857
+filgoal.com##.ads
+filgoal.com##iframe[src*="sarmady.net/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/117858
+laroza.net###id-custom_banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115948
 stardima.com##p[align="center"] > a > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115761
@@ -24800,6 +24805,8 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118188
+nba.com##+js(set-constant, nbaTop.setupAds, noopFunc)
 ! https://vostanimez.com/Episode/shokei-shoujo-no-ikiru-michi-the-executioner-and-her-way-of-life-vostfr-saison-1-episode-6-streaming-hd/
 imsdb.pw##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117631
@@ -44479,6 +44486,9 @@ msn.com#@#[src*="data:"]
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118188
+!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
+@@||i.cdn.turner.com/ads/adfuel/*/nba-teams-ais.min.js$domain=nba.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117915
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js
 ! https://github.com/easylist/easylist/commit/1789e141b5284d0eae5e59263802c2bdfbfac730#commitcomment-72922775

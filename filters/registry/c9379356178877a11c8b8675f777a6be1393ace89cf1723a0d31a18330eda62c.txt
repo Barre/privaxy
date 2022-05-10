@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: lMrLDbsrhEPPikR1tSDyrQ
+! Checksum: /16jg0e08cwwU6EwjoAxYg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.45
-! TimeUpdated: 2022-05-09T20:31:20+00:00
+! Version: 2.0.39.46
+! TimeUpdated: 2022-05-10T07:31:17+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -24318,6 +24318,9 @@ link.gmapp*.net$image
 ! For platforms which do not support $redirect rules
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118188
+!+ NOT_PLATFORM(windows, mac, android, ext_chromium)
+@@||ugdturner.com/xd.sjs$domain=nba.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117497
 neocities.org#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117335

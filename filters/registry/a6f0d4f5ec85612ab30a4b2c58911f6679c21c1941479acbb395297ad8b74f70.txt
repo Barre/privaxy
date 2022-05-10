@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Frellwit's Swedish Filter
 ! Expires: 4 days (update frequency)
-! Last modified: 2022-05-08 07:34:15 CEST
+! Last modified: 2022-05-10 10:01:09 CEST
 ! Homepage: https://github.com/lassekongo83/Frellwit-s-filter-lists
 ! Description: A filter for uBlock Origin that aims to remove regional Swedish ads, tracking, annoyances, scams + badware, and unnecessary bloat.
 ! License: GPLv3
@@ -65,8 +65,8 @@
 ###cookiejar
 ###cookielawwarning
 ###cookieMsgBlock
-###cookieNotice
 ###CookieNotice
+###cookieNotice
 ###cookies-acceptance .alert.bottom
 ###cookiesInfo
 ###dialog-eu-cookie-law
@@ -259,6 +259,7 @@
 ##div.medium-ad
 ##div.NativeAd
 ##div.navbar-ad-section
+##div.novashare-buttons
 ##div.o-indenter--ad
 ##div.outsideAdsWrapper
 ##div.panorama-ad-standard
@@ -553,7 +554,6 @@
 /google-universal-analytics$script
 /gpAnalytics$script
 /gplus.php$script,domain=fria.nu|friatidningen.se|goteborgsfria.se|sesam.nu|stockholmsfria.se
-/gravito.js$domain=realtid.se
 /gtagEventTracker.js
 /headerbidding.js
 /helios/multiad_jquery
@@ -825,7 +825,6 @@
 /questback.popup$script
 /QXA.$script,domain=qruiser.com|qx.se
 /rantekartan$subdocument,domain=expressen.se
-/realtid_ads$domain=realtid.se
 /recommendations$xmlhttprequest,domain=expressen.se
 /res_ads$domain=res.se
 /resource.ifragasatt.se/sd-ads
@@ -942,7 +941,7 @@
 /wp-content/uploads/*betting$image,domain=hockeybladet.nu|kulturbloggen.com|newsvoice.se|nyadagbladet.se|spelochfilm.se
 /wp-content/uploads/*bettingkollen$image
 /wp-content/uploads/*bettingstugan$image
-/wp-content/uploads/*casino$image,domain=battrestadsdel.se|djungeltrumman.se|hockeybladet.nu|kingsizemag.se|kulturbloggen.com|lokalsport.nu|macken.xyz|newsvoice.se|nyadagbladet.se|spelochfilm.se|spelrum.net|svenskhistoria.se|tekniknytt.se|totallyorebro.se|totallystockholm.se|vaken.se|zeromagazine.nu
+/wp-content/uploads/*casino$image,domain=battrestadsdel.se|djungeltrumman.se|hockeybladet.nu|improveme.se|kingsizemag.se|kulturbloggen.com|lokalsport.nu|macken.xyz|newsvoice.se|nyadagbladet.se|spelochfilm.se|spelrum.net|svenskhistoria.se|tekniknytt.se|totallyorebro.se|totallystockholm.se|vaken.se|zeromagazine.nu
 /wp-content/uploads/*Casinodealen$image
 /wp-content/uploads/*casinoutansvenskalicensen$image
 /wp-content/uploads/*LeoVegas$image
@@ -955,7 +954,7 @@
 /wp-content/uploads/*unibet$image
 /wp-content/uploads/addtoany$domain=chefstidningen.se
 /wp-content/uploads/html5ads/*
-/wp-content\/uploads\/[0-9]+/$script,domain=dackavisen.se|skanesport.se|villalivet.se
+/wp-content\/uploads\/[0-9]+/$script,domain=automation.se|dackavisen.se|skanesport.se|villalivet.se
 /wp-json/wp-statistics
 /wp-json/wpstatistics
 /wpbm-banners/*$image
@@ -1023,11 +1022,11 @@ aktuellhallbarhet.se,byggindustrin.se,dagensmedia.se,dagensmedicin.se,dagenssamh
 aktuellhallbarhet.se,byggindustrin.se,dagensmedia.se,dagensmedicin.se,dagenssamhalle.se,fastighetsnytt.se,market.se,resume.se##a[href^="/annons/"], a[href^="/native/"], .slot-module, .slot-articlemodule
 aktuellsakerhet.se##.front-slider-reklamsamarbete, .category-gastkronika-reklamsamarbete
 aktuellsakerhet.se,borattforum.se##.td-a-rec
-alandsradio.ax,automobil.se,bike.se,byggnyheter.se,caroftheyear.se,cgi.com,dagensfastigheter.se,dagensnaringsliv.se,endurobloggen.se,energinyheter.se,hsr.se,husbilhusvagn.se,industrinyheter.se,infrastrukturnyheter.se,inredningsnyheter.se,jarnvagsnyheter.se,kantarsifo.se,klassiker.nu,kommunal.se,kyrkanstidning.se,metallerochgruvor.se,mopedgaraget.se,papperochmassa.se,plastikoperationsforum.se,publikt.se,realtid.se,riksettan.net,sandaren.se,sjofart.ax,so-rummet.se,solenerginyheter.se,sportochfritidsnyheter.se,spraktidningen.se,stockholmsbyggnyheter.se,testfakta.se,transportochlogistik.se,ungforetagsamhet.se,vibilagare.se,vindkraftsnyheter.se###sliding-popup
+alandsradio.ax,automobil.se,bike.se,byggnyheter.se,caroftheyear.se,cgi.com,dagensfastigheter.se,dagensnaringsliv.se,endurobloggen.se,energinyheter.se,hsr.se,husbilhusvagn.se,industrinyheter.se,infrastrukturnyheter.se,inredningsnyheter.se,jarnvagsnyheter.se,kantarsifo.se,klassiker.nu,kommunal.se,kyrkanstidning.se,metallerochgruvor.se,mopedgaraget.se,papperochmassa.se,plastikoperationsforum.se,publikt.se,riksettan.net,sandaren.se,sjofart.ax,so-rummet.se,solenerginyheter.se,sportochfritidsnyheter.se,spraktidningen.se,stockholmsbyggnyheter.se,testfakta.se,transportochlogistik.se,ungforetagsamhet.se,vibilagare.se,vindkraftsnyheter.se###sliding-popup
 alba.nu,dagensopinion.se,fiskejournalen.se,fotbolldirekt.se,hockeysverige.se,hypeline.se,innebandymagazinet.se,motivation.se,padeldirekt.se,skidresultat.se,uppslaget.se##.annons
 aldrenytt.se##div[id*="aldrenytt-"], .aldrenytt-adlabel, .aldrenytt-adlabel ~ a
 alekuriren.se###widget_code-6
-alekuriren.se,arvikanyheter.se,byggahus.se,dalslanningen.se,destination.se,expressen.se,filipstadstidning.se,filmtopp.se,fryksdalsbygden.se,hjotidning.se,improveme.se,kt-kuriren.se,kt.se,mariestadstidningen.se,nkp.se,nlt.se,nwt.se,provinstidningen.se,realtid.se,saffletidningen.se,sla.se,spokbloggen.nu,varmlandsaffarer.se,vf.se##.ad-container
+alekuriren.se,arvikanyheter.se,byggahus.se,dalslanningen.se,destination.se,expressen.se,filipstadstidning.se,filmtopp.se,fryksdalsbygden.se,hjotidning.se,kt-kuriren.se,kt.se,mariestadstidningen.se,nkp.se,nlt.se,nwt.se,provinstidningen.se,saffletidningen.se,sla.se,spokbloggen.nu,varmlandsaffarer.se,vf.se##.ad-container
 aletorget.se,alingsastorget.se,almhulttorget.se,alvestatorget.se,amaltorget.se,angelholmtorget.se,arbogatorget.se,arvikatorget.se,askersundtorget.se,avestatorget.se,bastadtorget.se,bengtsforstorget.se,bjuvtorget.se,bodentorget.se,bollebygdtorget.se,bollnastorget.se,borastorget.se,borlangetorget.se,botkyrkatorget.se,bromollatorget.se,eksjotorget.se,enkopingtorget.se,eskilstunatorget.se,eslovtorget.se,fagerstatorget.se,falkenbergtorget.se,falkopingtorget.se,faluntorget.se,filipstadtorget.se,flentorget.se,forshagatorget.se,gallivaretorget.se,gavletorget.se,gislavedstorget.se,goteborgtorget.se,gotenetorget.se,gotlandtorget.se,hagforstorget.se,hallsbergtorget.se,hallstahammartorget.se,halmstadtorget.se,haningetorget.se,harnosandtorget.se,harrydatorget.se,hassleholmtorget.se,hebytorget.se,hedemoratorget.se,helsingborgtorget.se,herrljungatorget.se,hoforstorget.se,hoganastorget.se,hoortorget.se,horbytorget.se,huddingetorget.se,hudiksvalltorget.se,hultsfredtorget.se,hyltetorget.se,jonkopingtorget.se,kalixtorget.se,kalmartorget.se,karlshamntorget.se,karlskogatorget.se,karlskronatorget.se,karlstadtorget.se,katrineholmtorget.se,kavlingetorget.se,kiltorget.se,kirunatorget.se,klippantorget.se,kopingtorget.se,kramforstorget.se,kristianstadtorget.se,kristinehamntorget.se,krokomtorget.se,kumlatorget.se,kungalvtorget.se,kungsbackatorget.se,laholmtorget.se,landskronatorget.se,leksandtorget.se,lidkopingtorget.se,ljungbytorget.se,ljusdaltorget.se,ludvikatorget.se,luleatorget.se,lundtorget.se,lyckseletorget.se,lysekiltorget.se,malmotorget.se,mariestadstorget.se,markarydtorget.se,marktorget.se,moratorget.se,nackatorget.se,nassjotorget.se,norrtaljetorget.se,nybrotorget.se,nykopingtorget.se,nynashamntorget.se,olandtorget.se,olofstromtorget.se,orebrotorget.se,ornskoldsvikstorget.se,orusttorget.se,osbytorget.se,oskarshamntorget.se,ostersundtorget.se,osthammartorget.se,partilletorget.se,piteatorget.se,ronnebytorget.se,saffletorget.se,salatorget.se,sandvikentorget.se,sigtunatorget.se,simrishamntorget.se,sjobotorget.se,skaratorget.se,skellefteatorget.se,skovdetorget.se,skuruptorget.se,soderhamntorget.se,sodertaljetorget.se,sollefteatorget.se,sollentunatorget.se,solnatorget.se,solvesborgtorget.se,staffanstorptorget.se,stenungsundtorget.se,stockholmtorget.se,strangnastorget.se,stromstadtorget.se,sundsvalltorget.se,sunnetorget.se,svenljungatorget.se,tabytorget.se,tanumtorget.se,tidaholmtorget.se,tierptorget.se,timratorget.se,tingsrydtorget.se,tjorntorget.se,tomelillatorget.se,torsbytorget.se,tranastorget.se,tranemotorget.se,trelleborgtorget.se,trollhattantorget.se,trosatorget.se,uddevallatorget.se,ulricehamntorget.se,umeatorget.se,uppsalatorget.se,vallentunatorget.se,vanersborgtorget.se,varatorget.se,varbergtorget.se,varnamotorget.se,vasterastorget.se,vasterviktorget.se,vaxjotorget.se,vellingetorget.se,vetlandatorget.se,vimmerbytorget.se,ystadtorget.se##.collapse.row.jobb.annonslista,#sponsored,#banners-right,.mittenbanner,#banners-top
 alicestenlof.com,annicaenglund.se,ellinorlofgren.se,linnherbertsson.se##.overlay
 alicestenlof.com,annicaenglund.se,ellinorlofgren.se,linnherbertsson.se,mp.se,tjanstebilen.se,yrkesbilen.se###cookies
@@ -1066,7 +1065,7 @@ atvmag.se,snowmobile.se##.more-stories
 autolife.se###Banners
 automation.se,batliv.se,borattforum.se,brollopsmagasinet.se,bussmagasinet.se,elinor.se,em-fotboll.se,fotbollsresultat.com,globalpolitics.se,nyhetersto.se,svenskbyggtidning.se,vm-fotboll.se##a.gofollow[data-track]
 automation.se,metalcentral.net,transportnytt.se,verkstadstidningen.se##.bannergroup
-automobil.se,bettips.se,bilsport.se,campingsverige.se,caroftheyear.se,dh.se,djungeltrumman.se,endurobloggen.se,eniro.se,entreprenadaktuellt.se,fightermag.se,frillesasbandy.se,husbilhusvagn.se,ja.se,klassiker.nu,ljuskultur.se,maskinbladet.se,mopedgaraget.se,nyckelspel.se,omni.se,riksettan.net,skik.se,skogsaktuellt.se,spelo.se,svenskjakt.se,vibilagare.se##.banner
+automobil.se,bettips.se,bilsport.se,campingsverige.se,caroftheyear.se,dh.se,djungeltrumman.se,endurobloggen.se,eniro.se,entreprenadaktuellt.se,fightermag.se,frillesasbandy.se,husbilhusvagn.se,ja.se,klassiker.nu,ljuskultur.se,maskinbladet.se,mopedgaraget.se,nyckelspel.se,omni.se,realtid.se,riksettan.net,skik.se,skogsaktuellt.se,spelo.se,svenskjakt.se,vibilagare.se##.banner
 autonytt.se###main > .col-links
 autonytt.se,nyatider.nu,stoppapressarna.se##[href*="casino"][target]
 autonytt.se,sv.picmix.com,tekniknytt.se##.leaderboard
@@ -1340,6 +1339,7 @@ icagruppen.se##div[ng-controller="CookieConsentCtrl"]
 icagruppen.se##div[ng-show*="isUiDisabled"]
 idg.se##.sparticle, .nextArticleSp, .pryltorget, .prisjakt, .prisjaktCompare, .teasers-block.bfteasers, div[data-cmsad], .pricespy-container
 illvet.se##div[id^="cx_"]
+improveme.se##.banner-center, .banner-center ~ br, div[class^="ad-container"]
 inblick.se##div[class^="ads"]
 influens.se##[class*="ai-viewport"], .ai_widget
 innebandy.se##[class*="banner-container"]
@@ -1483,8 +1483,7 @@ radio.se##header + div:not([id])
 ratsit.se##.promo
 ravarumarknaden.se###header > div > div.last, #block-4
 realm667.com#@##redim-cookiehint
-realtid.se##.block.industry-news-1, .bottom-banner
-realtid.se##.modal, .modal-backdrop
+realtid.se##.realtid-add
 recepten.se###topBanner
 reseguiden.se##.adsbox-wrapper
 restaurangvarlden.se##.banner-col
@@ -2176,6 +2175,7 @@ ysektionen.se##.yweb-news-paper-banner
 ||stayfriends.de/metatag
 ||stegforhalsa.se^$csp=worker-src 'none'
 ||step.dk^$third-party
+||storage.googleapis.com/didna$third-party
 ||storymedia.se^$third-party
 ||streamio.com/api/*/stats$xmlhttprequest
 ||strossle.com^$third-party

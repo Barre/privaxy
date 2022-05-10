@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Q01tobk09j0iqealeFCKcA
+! Checksum: 7fLxw0Hhj35ID6xgWmqn2A
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.55.13
-! TimeUpdated: 2022-05-10T06:30:54+00:00
+! Version: 2.0.55.14
+! TimeUpdated: 2022-05-10T07:30:54+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3963,6 +3963,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 .8ox.cn
+||u-q.net.cn^
 ||tujzac.com^
 ||n0277.com^
 ||u0067.com^
@@ -9647,7 +9648,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||kingkongapp.com^*/web/adv/list?
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kiwi8.top/media/plugins/jquery_confirm/
-||kkeji.com/img/*/aliyun_
+||kkeji.com/img/*/aliyun
 ||kkeji.com/img/2005/m_info_720.png
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
@@ -19627,6 +19628,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bill777.xyz^
 ||lanmeiyu.work^
 ||wfpersonal.site^
+||hzs1202.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
