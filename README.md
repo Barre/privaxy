@@ -14,6 +14,35 @@
 <img width="1276" alt="Screenshot 2022-05-09 at 22 02 09" src="https://user-images.githubusercontent.com/45085843/167488399-f9dc5e31-07d7-4709-9e15-ff8112d3c584.png">
 <img width="1276" alt="Screenshot 2022-05-09 at 22 02 20" src="https://user-images.githubusercontent.com/45085843/167488522-b09fc22b-fff1-48ff-b471-4ace4f7ab995.png">
 
+## Installation
+
+### Disclaimer
+
+This is an early release without authentication on the management API. You should proceed with caution and not expose the service on the internet. To prevent accidental exposure of the service, it's only yet possible to bind on `127.0.0.1`.
+
+### Using a pre-built binary
+
+Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases](https://github.com/Barre/privaxy/releases).
+
+### Using the rust toolchain
+
+1. Begin by [installing rust](https://www.rust-lang.org/tools/install).
+2. [Install trunk](https://trunkrs.dev/#install).
+3. Clone this repository.
+4. Build the web gui by running `cd web_frontend && trunk build --release && cd ..`
+5. Build the server by running `cd privaxy && cargo build --release.`
+6. Run privaxy using `cargo run --release --bin privaxy`.
+
+### Local system configuration
+
+1. Navigate to the web gui at `http://127.0.0.1:8000`, click on "Download CA certificate".
+2. Install the downloaded certificate locally.
+    - Macos: <https://support.apple.com/guide/keychain-access/add-certificates-to-a-keychain-kyca2431/mac>
+    - Linux: `cp privaxy_ca_certificate.pem /usr/local/share/ca-certificates/`
+3. Configure your local system to pass http traffic through privaxy.
+   - Macos: <https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac>
+   - Ubuntu (gnome): <https://phoenixnap.com/kb/ubuntu-proxy-settings>
+
 ## About
 
 Privaxy is a MITM HTTP(s) proxy that sits in between HTTP(s) talking applications, such as a web browser and HTTP servers, such as those serving websites.
