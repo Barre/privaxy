@@ -48,10 +48,7 @@ pub(crate) fn start_web_gui_static_files_server(bind: SocketAddr, api_addr: Sock
             file_contents
         };
 
-        let mime = match mime_guess::from_path(tail_str).first_raw() {
-            Some(mime) => mime,
-            None => "",
-        };
+        let mime = mime_guess::from_path(tail_str).first_raw().unwrap_or("");
 
         Response::builder()
             .header(http::header::CONTENT_TYPE, mime)
@@ -63,6 +60,7 @@ pub(crate) fn start_web_gui_static_files_server(bind: SocketAddr, api_addr: Sock
     });
 }
 
+#[allow(clippy::too_many_arguments)]
 pub(crate) fn start_web_gui_server(
     events_sender: broadcast::Sender<events::Event>,
     statistics: Statistics,

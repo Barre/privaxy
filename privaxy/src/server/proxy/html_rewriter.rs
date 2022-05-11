@@ -4,6 +4,7 @@ use hyper::body::Bytes;
 use lol_html::{element, HtmlRewriter, Settings};
 use regex::Regex;
 use std::collections::HashSet;
+use std::fmt::Write;
 use tokio::sync;
 
 type InternalBodyChannel = (
@@ -186,14 +187,16 @@ impl Rewriter {
                 if let Some(injected_script) = blocker_result.injected_script {
                     response_has_been_modified = true;
 
-                    to_append_to_response.push_str(&format!(
+                    write!(
+                        to_append_to_response,
                         r#"
 <!-- Privaxy proxy -->
 <script type="application/javascript">{}</script>
 <!-- privaxy proxy -->
 "#,
                         injected_script
-                    ))
+                    )
+                    .unwrap();
                 }
 
                 if response_has_been_modified {
