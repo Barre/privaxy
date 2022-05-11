@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205111122
+! Version: 202205111342
 ! Title: ABPVN List
-! Last modified: 11 May 2022 11:22 UTC+7
+! Last modified: 11 May 2022 13:42 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -1128,7 +1128,7 @@ phimvip.fun##div.container:nth-child(6)
 phuongtrinhhoahoc.com##.ads-bottom-margin
 phuongtrinhhoahoc.com##.ads_blocks_advice
 phuongtrinhhoahoc.com##.bs-callout[style="min-height: 400px; margin-top:0px;"]
-phuongtrinhhoahoc.com,tructiepbongda7.com##.top-banner
+phuongtrinhhoahoc.com,tructiepbongda9.com##.top-banner
 playbdl.p2pcdn.xyz##.textBot
 playbdl.p2pcdn.xyz##.textTop
 plus.edu.vn###widget-11

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: iwo6h6Gf5bgpBkU/Mhw0rg
+! Checksum: TKRDMe4qiVX2Dwc6wh8INw
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.20
-! TimeUpdated: 2022-05-10T18:30:24+00:00
+! Version: 2.0.34.21
+! TimeUpdated: 2022-05-11T06:30:25+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2533,7 +2533,7 @@ sezonlukdizi2.com,sezonlukdizi3.com,sezonlukdizi4.com,sezonlukdizi5.com,sezonluk
 dizipal.pro##.footerreklam
 bloomberght.com##a[href*="/advertpro/"]
 yetkinreport.com###el-4ed034a2 p > a > img
-||cloudflare.com/*/videojs-contrib-ads/*/videojs.ads.js$domain=yenialanya.com
+||cloudflare.com/*/videojs-contrib-ads/*/videojs.ads.js$domain=seskocaeli.com|yenialanya.com
 fenerbahce.org##.qrcode-banner
 fenerbahce.org##.sticky-banner
 siyahfilmizle.*##.sticky-footer-banner

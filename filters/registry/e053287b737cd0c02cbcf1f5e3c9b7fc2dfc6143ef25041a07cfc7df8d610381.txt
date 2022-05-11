@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: naV2A9NRAbfmTsFs91J6aQ
+! Checksum: htlvjzOTLS8R2jX6i5WkEg
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.70
-! TimeUpdated: 2022-05-06T18:31:53+00:00
+! Version: 2.0.13.71
+! TimeUpdated: 2022-05-11T06:31:49+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2239,7 +2239,7 @@ otempo.com.br##div.cf.slot-item.count-2.slot-count-20
 otempo.com.br##div[id^="ATF_"]
 ||elsiglodetorreon.com.mx/desplegados/banners/
 reforma.com##div[id^="zonapublicidad"]
-midiamax.uol.com.br##div[id^="banner-"]
+tvpop.com.br,midiamax.uol.com.br##div[id^="banner-"]
 atresplayer.com##.adpause
 minha.exame.com##div[class^="AdContainer"]
 arquitecturaydiseno.es##.header-megabanner > *

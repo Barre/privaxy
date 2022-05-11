@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: YE9dhA99wVOzpoCyvjRVlw
+! Checksum: eHrQYoBPQPofMF2xY/4ZzA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.43
-! TimeUpdated: 2022-05-10T17:01:54+00:00
+! Version: 2.0.29.44
+! TimeUpdated: 2022-05-11T06:30:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1260,6 +1260,8 @@ westseattleblog.com#@#.header-ad
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 !
+m.ceneo.pl#?#.page-content .js_recommendations-container:has(> div > header > span:contains(/^Reklama$/))
+m.ceneo.pl#?#.page-content .js_recommendations-container:has(> div > header > span:contains(/^Reklama$/)) + .js_analytics-promotedItems[data-event-category="adbox"]
 news.ntv.co.jp#?#.contentsWrapper > div > div.OB-REACT-WRAPPER:upward(2)
 t-online.de#?#main[data-testid="PageMain"] > div[class]:has(> div[class] > div[data-commercial-breakpoint])
 t-online.de#?#div[data-testid="ArticleBody.StreamLayout"] > div[class] > div[data-testid="StageLayout.StreamItem"]:has(> div[data-commercial-breakpoint])

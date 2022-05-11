@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: yL4s6pHrWTcCkeXvY37VQQ
+! Checksum: U8ALMLLGYOnMN0FFor70ow
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.99
-! TimeUpdated: 2022-05-11T05:31:14+00:00
+! Version: 2.2.30.0
+! TimeUpdated: 2022-05-11T06:31:16+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20650,6 +20650,8 @@ roweroweporady.pl,tulodz.pl#@#.ad_container
 !+ NOT_PLATFORM(windows, mac, android)
 @@||cdn.dqst.pl/assets/ads.js?ad_ids=|$xmlhttprequest
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118220
+ceneo.pl##.js_promotedItems
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117645
 slazag.pl##.rotatorTop
 slazag.pl#?#.similar__articles__single:has(> div[id^="render-ad-"])
@@ -21392,6 +21394,12 @@ mojanorwegia.pl##.advertisment-info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71093
 poscigi.pl##.bsaPopupWrapper
 poscigi.pl##.bsaPopupWrapperBg
+! https://github.com/AdguardTeam/AdguardFilters/issues/118219
+bankier.pl##.adevert-box
+bankier.pl##.article-adv
+bankier.pl##.o-top-three-offers-box
+bankier.pl###bankier-store-short-close-box
+bankier.pl##a.o-ecom-box__link[href^="https://www.bankier.pl/e/lead/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71054
 bankier.pl##+js(remove-class, async-hide, html)
 bankier.pl###article-link-box > a[href^="https://s.bankier.pl/"].o-article-link-box__anchor
