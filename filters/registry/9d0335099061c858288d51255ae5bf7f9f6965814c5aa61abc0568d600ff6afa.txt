@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: ICHQcQ8kIbbbGrciMACSSA
+! Checksum: oKTrAsa0M3r9ZTUitnKHqQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.80
-! TimeUpdated: 2022-05-10T19:30:34+00:00
+! Version: 2.1.18.81
+! TimeUpdated: 2022-05-11T05:02:12+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3349,7 +3349,7 @@ atv.com.tr##.maskPop
 uderent.com##+js(set-constant, canRunAds, true)
 downflixs.com##.entry-content h3[style^="text-align:"]:not(:last-child)
 ||sportsnet.ca/wp-content/themes/sportsnet-nhl/js/lib/snet.passive_display_adblock.js
-lowcygier.pl##+js(abort-current-script, document.createElement, adsbygoogle.js)
+lowcygier.pl##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
 filezipa.com##div[style*="height: 100%;"][style*="opacity: .7"][style*="z-index:"]
 t-hsn.com###block-message
 t-hsn.com#$##kokoku-area { display: block !important; min-height: 30px !important; margin: 10px 0 10px !important; opacity: 0 !important; }
