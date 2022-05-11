@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205111548
+! Version: 202205111606
 ! Title: EasyList Germany
-! Last modified: 11 May 2022 15:48 UTC
+! Last modified: 11 May 2022 16:06 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1739,6 +1739,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||kulturmd.de/images/*_Banner_
 ||laborjournal.de/infos/m99/img/b_
 ||laden.to/img/7821908c4d368c195af41a8d778901d011.jpg
+||ladies.de/sol
 ||laengengrad-breitengrad.de/public/img/externbanner/
 ||land-der-traeume.de/bilder/banner/
 ||latina-press.com/media/*/online-casino-bonus-min.gif
@@ -2813,6 +2814,7 @@ smart-rechner.de###outer_SR_banner_ganz_unten
 smart-rechner.de###outer_SR_rechner_banner_unter_rechner
 smart-rechner.de###outer_SR_rechner_display_unter_rechner
 myself.de###outofpageWrapper
+ladies.de###page-closing-sol
 hstt.net###page-header + br + .forabg
 ladies.de###page-top-sol
 nordbayern.de###page_billboard
@@ -3057,6 +3059,7 @@ nachtkritik.de##.adcontent
 suedtiroltv.it##.add
 computersm.com##.add-inner
 abg-net.de##.add_top
+ladies.de##.additional-banner
 inselradio.com##.addslot
 laengengrad-breitengrad.de##.addtop
 gartenjournal.net##.adinj
@@ -3496,6 +3499,7 @@ mydict.com,mydict.net##.list-group
 queer.de##.listenbannerlinks
 liveticker.com##.live-betting-strip
 bibliomed-pflege.de##.lns-banners-zone
+ladies.de##.location-teaser
 mainz05.de##.logo-footer-module
 wohnidee.wunderweib.de##.logo-slider
 zfans.de##.logo_rechts_mitte
@@ -3691,6 +3695,7 @@ sport.sky.de##.sdc-site-au__mpu-1
 sportdeutschland.tv##.sdtv-gothaer
 mytastedeu.com##.search-affiliate__part
 trvlcounter.de##.second_slot
+ladies.de##.section-banner
 meedia.de##.section-banner-fullwidth
 selbstaendig-im-netz.de##.selbs-blog-startseite-und-kategorien
 selbstaendig-im-netz.de##.selbs-unter-artikeln
@@ -3734,6 +3739,7 @@ stereoguide.de##.smartmag-widget-codes
 5-sms.com##.smsbox1
 5-sms.com##.smsbox2
 finanzen100.de##.snippet--cta
+ladies.de##.sol-content
 golem.de##.sp-breakout-affy
 4fansites.de##.spalten_33_werbung
 meetingpoint-brandenburg.de##.span > .white_bg[style="width: 100%; padding-right: 5px;"]

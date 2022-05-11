@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: T98VG+f/IJuUpHUNRhz5vA
+! Checksum: K+4woJQHl+mLiK7Urlfg/w
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.25
-! TimeUpdated: 2022-05-11T15:30:25+00:00
+! Version: 2.0.34.27
+! TimeUpdated: 2022-05-11T17:02:11+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2290,7 +2290,7 @@ larende.com,sonses.tv,anamurekspres.com,avrupabulten.com,sakinca.com,gazetebanka
 ! ##.ads
 diyarbakirgazete.com,konupara.com,cumrapostasi.com,yeniakit.com.tr,sinemafilmizle.net,degisimgazetesi.com.tr,esporlab.com,havadurumu15gunluk.org,voleybolmagazin.com,londragazete.com,bursahayat.com.tr,trt1.com.tr,noktabursa.com.tr,anlikaltinfiyatlari.com,imzagazetesi.com.tr,pasada.com.tr,guzelankaram.com,theanatoliapost.com,biricerik.com,memoryhackers.org,haberank.net,yenidonem.com.tr,kediportal.com,slideplayer.biz.tr,sakarya360.com,yeniakit.com.tr,bigunhaber.com,trendoa.com,son32.com,emlaknews.com.tr,cagingazetesi.com.tr,sabahhaberi.com,sonsaat.com.tr,medyaankara.com,erotikfilmtube.com,anadolugunluk.com,kentgazetesi.com,kesinkarar.com,davetmedya.com,fatsaduruhaber.com,bursverenkurumlar.com,mengen.gen.tr,bodrummuhabiri.com,belekomahaber.com,capital.com.tr,canlimobeseizle.com,kadinhalleri.com,nallihanhaber.com,muhabir26.com,gundembursa.com,pgnhaber.com,genmedya.com,uyan32.com,selcukhaber.com,webhakim.com,ibrala.com,hatayzafer.com.tr,ulakci.com,haberyum.com,yozgatses.com,turkulus.com,forumotomobil.com,bodrumolay.com,akvaryum.com,zobakit.com,uyumhaber.com,kmarashaber.com,yenimeram.com.tr,vivaldimagazin.com,tafdi.net,gzt.com,topraklagelen.com.tr,thebrandage.com,gamer.com.tr,direkizleyin.com,medyafaresi.com,indir.com,bjk.com.tr,bursadabugun.com,emlakeki.com,gercekgundem.com,haber7.com,internethaber.com,memurhaber.com,webtekno.com##.ads
 ! ##.footer-sticky
-filmgezegeni.org,fullhdizle.*,vipfilmlerizleme.*,sportsregg.com,altyazilifilm.*,altyazilifilmizle.tv,filmihdizlet.com,rexfilmizle.com,sineturk1.com,fullizlefilmizle.com,fanfilmizle.com,fullhizlifilmizlesen.com,hdcehennem.com,sendeizlesene.net,cilekfilm.com##.footer-sticky
+1080pfilmizle.me,xxfilmizle.com,filmgezegeni.org,fullhdizle.*,vipfilmlerizleme.*,sportsregg.com,altyazilifilm.*,altyazilifilmizle.tv,filmihdizlet.com,rexfilmizle.com,sineturk1.com,fullizlefilmizle.com,fanfilmizle.com,fullhizlifilmizlesen.com,hdcehennem.com,sendeizlesene.net,cilekfilm.com##.footer-sticky
 ! ##.rek
 kadikoygazetesi.com,oyunrota.com,imzagazetesi.com.tr,davahaber.com,sabahhaberi.com,canlihaber.com,milligazete.com.tr,hotstream.club,bidunyahaber.net,kocaeliseffaf.com,kadikoygazetesi.com,kartalgazetesi.com,kirkbir.com,wfilmizle.net,cagdaskocaeli.com.tr,kocaelihaberdunyasi.com##.rek
 ! ##.rkm
@@ -4671,7 +4671,7 @@ duzceninsesi.com.tr##.haberDetay_reklam
 turkiyesanayigazetesi.com,turkiyesehirgazetesi.com,karadenizkulturturizmgazetesi.com,perakendeisdunyasi.com##div[id^="advertising-"]
 turkiyesanayigazetesi.com,turkiyesehirgazetesi.com,karadenizkulturturizmgazetesi.com,perakendeisdunyasi.com##.HeaderAdvertising
 turkiyesanayigazetesi.com,turkiyesehirgazetesi.com,karadenizkulturturizmgazetesi.com,perakendeisdunyasi.com##.advertising728x90_MansetAlti
-hdfilmhit.com,yabancidizitv.net,filmlane.com,enyenifilmizle.*,erosfilmizle.net,hdfilmizletv.com,abcfilmizle.com,morfilmizle.com##.body-clickable
+erosfilmizle.org,hdfilmhit.com,yabancidizitv.net,filmlane.com,enyenifilmizle.*,erosfilmizle.net,hdfilmizletv.com,abcfilmizle.com,morfilmizle.com##.body-clickable
 ||momplayer.com/vvv.mp4
 ||gndrglsn.com/popmom.js
 sigortacigazetesi.com.tr##.Ads-L

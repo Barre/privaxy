@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: HS7g+ee4eGKSRy1fzX1Skw
+! Checksum: tFrnsu53dpLHcstzTC5mUA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.93
-! TimeUpdated: 2022-05-11T15:30:34+00:00
+! Version: 2.1.18.94
+! TimeUpdated: 2022-05-11T17:02:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7265,7 +7265,7 @@ stoffe.de#$#body { overflow-y: auto !important; }
 stoffe.de#$#body #cookieOverlay { display: none !important; }
 proaurum.de###cookiefirst-root
 ||coal.gamemaker.io/sites/*/theme/javascripts/cookie.umd.min.js
-waterfaucet.online###gath3r-optin-dialog
+faucetzoid.online,waterfaucet.online###gath3r-optin-dialog
 narecza.com##.CerezPp
 mobile.po.co##.agree-tokens-modal
 brf.be###cookieDashboard
