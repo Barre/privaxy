@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205101525
+! Version: 202205111430
 ! Title: EasyList Germany
-! Last modified: 10 May 2022 15:25 UTC
+! Last modified: 11 May 2022 14:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3535,6 +3535,7 @@ fc-union-berlin.de##.module-footer-sponsors
 mopo.de##.mopo-ads-editor
 jetztspielen.de##.mpu
 finanzen.net##.mrec-height-prefix
+clever-tanken.de##.mrec-news
 quiz-lounge.com##.mt-3
 mtb-news.de##.mtbn-fotos-incontent__container--mobile
 mtb-news.de##.mtbnews-forum__in-thread

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: qTFyW91tDSVbFowXPVwKgg
+! Checksum: 9HN5BFABH0Xcw8D7IxeNlQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.91
-! TimeUpdated: 2022-05-11T13:30:35+00:00
+! Version: 2.1.18.92
+! TimeUpdated: 2022-05-11T14:30:40+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -79,6 +79,9 @@
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118308
+! embed tv, used on many sites in floating player
+||embed.dugout.com^$script,third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117432
 cureco.jp##object[width="640"][height="480"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116423
@@ -10400,7 +10403,7 @@ alumatex.pl#$#html.pum-open-overlay { overflow: auto !important; }
 alumatex.pl#$#.pum-overlay[data-popmake*="rodo"] { display: none !important; }
 kingston.com##.nofication-widget
 heimkino.org,pfannen.org##.orakelAdvice
-mismarsanalmarket.com,temin.com.tr,kocakbaklava.com.tr,kocak.com.tr,aksesuarix.com##.cerez-mesaji
+marjin.com.tr,mismarsanalmarket.com,temin.com.tr,kocakbaklava.com.tr,kocak.com.tr,aksesuarix.com##.cerez-mesaji
 cekkazan.com.tr##.pum-overlay[data-popmake*="cerez-politikasi"]
 today.ua##.politic_confidel
 artigercek.com###myUserConsent
@@ -20000,9 +20003,13 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+lidea.today##.linksFix__balloon
 cnews.fr##.sticky-player
 mrs.living.jp###ad-floating
 mrs.living.jp###floating-max
+activity.lenovo.com.cn##.sign-in-box
+activity.lenovo.com.cn##.mask-laye-box
+activity.lenovo.com.cn##.cms_fixed_nav
 shop.lenovo.ru###usedesk-messenger
 gazeta.ru###_id_yaflow
 zhihu.com#$#html { overflow: auto !important; padding-right: 0 !important; }
@@ -28272,6 +28279,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+lidea.today##.aa-mailMagazine
 mydeliciousmeals.com##.subscription-module
 crea.bunshun.jp##.mail-magazine
 cepa.org##.tf-sh-a48575d152037e04ccab10c97fedfa66

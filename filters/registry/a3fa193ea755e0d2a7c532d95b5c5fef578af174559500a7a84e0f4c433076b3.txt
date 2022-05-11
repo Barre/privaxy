@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wXUMybXdamb7H0uDEq1FYw
-! Version: 202205111100
+! Checksum: 1Yqbc5LO9are+a0UuysVfQ
+! Version: 202205111500
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-11 11:00 UTC
+! Last modified: 2022-05-11 15:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -46069,6 +46069,7 @@ opendemocracy.net##.donation-cta-contenttop
 techbomb.ca##.elementor-popup-modal
 nzherald.co.nz##.email-boost
 redvoicemedia.com,trueachievements.com##.email-signup
+fortune.com##.favorites_widget
 blog.feedspot.com##.fixedBar
 breakingnews.ie##.flex.bg-gray-900.pt-12
 howtogeek.com,sallysbakingaddiction.com##.footer-email
@@ -53075,6 +53076,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||buy.tinypass.com/checkout/template/cacheableShow$subdocument,domain=thenation.com
 @@||chobani.com/js/views/newsletter-signup.js
 @@||e24.no/cnp-assets/src-sites-e24-components-newsletterwidget.$~third-party
+@@||el-vidas.nl^*/phpcuong_newsletter/$script
 @@||lightboxcdn.com/vendor/$script,domain=adweek.com
 @@||techopedia.com/support/newsletterpopup.html$~third-party
 ! fanboy_newsletter_allowlist_general_hide.txt

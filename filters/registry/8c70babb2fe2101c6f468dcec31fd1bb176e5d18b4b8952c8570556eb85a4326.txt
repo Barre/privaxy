@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: tB7a9D27NUbnf3ZmeBovVg
+! Checksum: lzv88RYPumUQa03dtJRK9A
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.56
-! TimeUpdated: 2022-05-11T13:03:29+00:00
+! Version: 2.0.19.57
+! TimeUpdated: 2022-05-11T14:31:46+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5040,6 +5040,7 @@ punyu.com###content > .rank_table
 punyu.com###right > .rank_table
 punyu.com##.box_title_pr
 daibouken.jp##div[id^="dugaflvplayer"]
+iphone-mania.jp###banner_pr
 iphone-mania.jp##.pr_single_txt
 iphone-mania.jp###jack_wrapper > div[id^="jack"]
 iphone-mania.jp##.single_pr_ad_all
