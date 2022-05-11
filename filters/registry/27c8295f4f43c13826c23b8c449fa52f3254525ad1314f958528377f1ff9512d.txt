@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: NCo3/PHwZ3psibs8vUybbA
+! Checksum: STQeN9M9N79xxt0spfnJdg
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.33
-! TimeUpdated: 2022-05-11T17:31:27+00:00
+! Version: 2.0.61.34
+! TimeUpdated: 2022-05-11T18:31:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -346,6 +346,7 @@ lj_bookmarklet
 ! Good: example.org#?#main > div.row:has(> div.ad)
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
+filmmom.pro#?#.navbar-collapse > div.bloklar:has(> div.icerik > div.d-flex > a[onclick^="share_button("])
 livejournal.com#?#div[aria-label="Кнопки социальных активностей"] span[title="Twitter"]:upward(2)
 news.ameba.jp#?#ul > li[class^="LowerSocialButtons"]:has(div[class^="TwitterButton"])
 news.ameba.jp#?#ul > li[class^="LowerSocialButtons"]:has(div[class^="FacebookButton"])
@@ -7415,7 +7416,7 @@ tabletsesmartphones.org##.compartilhe-post > a[onclick^="return abrirPopup"]
 kiyimuzik.com##i[data-tooltip="Paylaş"]
 nasilkiloverilir.net##.site-sidebar > #text-12
 nasilkiloverilir.net##.site-sidebar > #text-14
-erosfilmizle.org,hazirfilm.com,askbe.net,erosfilmizle.net,filmdiziplus.com,vipfilmsitesi.com,hdfilmcehenemi.net,teppenthegame.com,bnews.com.br,wisn.com,postnauka.ru,steptohealth.com,amelioretasante.com,sagligabiradim.com##.share-content
+filmyani.live,erosfilmizle.org,hazirfilm.com,askbe.net,erosfilmizle.net,filmdiziplus.com,vipfilmsitesi.com,hdfilmcehenemi.net,teppenthegame.com,bnews.com.br,wisn.com,postnauka.ru,steptohealth.com,amelioretasante.com,sagligabiradim.com##.share-content
 sagligabiradim.com##.widget-social
 watchfaces.be###secondary > aside#text-5
 latimes.com##.trb_em_pq_sh_item[data-role="sc_share"]

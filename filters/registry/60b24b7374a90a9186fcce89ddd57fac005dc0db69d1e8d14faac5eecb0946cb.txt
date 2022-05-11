@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: K+4woJQHl+mLiK7Urlfg/w
+! Checksum: yYu6cSG1m4z6YwhHF91WYg
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.27
-! TimeUpdated: 2022-05-11T17:02:11+00:00
+! Version: 2.0.34.28
+! TimeUpdated: 2022-05-11T18:30:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2140,11 +2140,11 @@ baslattusu.com#$#body {background-image: none!important; }
 iddaanet.com#$##wmpci-popup-wrp { display: none!important; }
 zargan.com#$#section#results #header {background-image: none!important; }
 !
-! mackeyfi*.live - frequently changed domains
+! mackeyfi*.xyz - frequently changed domains
 ! + element hiding rules
-mackeyfi9.live,mackeyfi10.live,mackeyfi11.live,mackeyfi12.live,mackeyfi13.live,mackeyfi14.live,mackeyfi15.live#$#body > div[data-fsx] { display: none !important; }
-mackeyfi9.live,mackeyfi10.live,mackeyfi11.live,mackeyfi12.live,mackeyfi13.live,mackeyfi14.live,mackeyfi15.live#$#html { overflow: auto !important; }
-mackeyfi9.live,mackeyfi10.live,mackeyfi11.live,mackeyfi12.live,mackeyfi13.live,mackeyfi14.live,mackeyfi15.live#$#body { overflow: auto !important; }
+mackeyfi11.xyz,mackeyfi12.xyz,mackeyfi13.xyz,mackeyfi14.xyz,mackeyfi15.xyz,mackeyfi16.xyz,mackeyfi17.xyz,mackeyfi18.xyz,mackeyfi19.xyz,mackeyfi20.xyz#$#body > div[data-fsx] { display: none !important; }
+mackeyfi11.xyz,mackeyfi12.xyz,mackeyfi13.xyz,mackeyfi14.xyz,mackeyfi15.xyz,mackeyfi16.xyz,mackeyfi17.xyz,mackeyfi18.xyz,mackeyfi19.xyz,mackeyfi20.xyz#$#html { overflow: auto !important; }
+mackeyfi11.xyz,mackeyfi12.xyz,mackeyfi13.xyz,mackeyfi14.xyz,mackeyfi15.xyz,mackeyfi16.xyz,mackeyfi17.xyz,mackeyfi18.xyz,mackeyfi19.xyz,mackeyfi20.xyz#$#body { overflow: auto !important; }
 !
 !--------------------------------------!
 !------- Content filtering rules ------!
@@ -3327,8 +3327,8 @@ hvac360tr.com##.banner-promotions-wrapper
 hvac360tr.com##.af-main-banner-featured-posts
 cosmoturk.com###bannerTop
 cosmoturk.com##.midiBanners
-filmdiziplus.com,yabancidizitv.net##.videoalt
-yabancidizitv.net,filmdiziplus.com##.videoust
+filmyani.live,filmdiziplus.com,yabancidizitv.net##.videoalt
+filmyani.live,yabancidizitv.net,filmdiziplus.com##.videoust
 ||flmplayer.online/sultanbabamobil.gif
 mengen.gen.tr##.slider3Widget
 memleketimbolu.com##.mansetyani
@@ -3951,7 +3951,7 @@ antalyam.com##.adv-wrapper
 antalyam.com##.zozo_ads_widget
 cerezzine.com##.widget_epcl_ads_fluid
 antalyam.com##.newser-artical-bottom-ads
-asilmedia.org,sende.biz,forum.gamer.com.tr,istanbul.com,oyungezer.com.tr,dizidepom.com###banner
+filmzal.co,asilmedia.org,sende.biz,forum.gamer.com.tr,istanbul.com,oyungezer.com.tr,dizidepom.com###banner
 dizidepom.com###sidebartop > #HTML1
 filmloverss.com##div[id^="masthead-"] a[href][target="_blank"] > img
 ||filmloverss.com/rklm
@@ -4671,7 +4671,7 @@ duzceninsesi.com.tr##.haberDetay_reklam
 turkiyesanayigazetesi.com,turkiyesehirgazetesi.com,karadenizkulturturizmgazetesi.com,perakendeisdunyasi.com##div[id^="advertising-"]
 turkiyesanayigazetesi.com,turkiyesehirgazetesi.com,karadenizkulturturizmgazetesi.com,perakendeisdunyasi.com##.HeaderAdvertising
 turkiyesanayigazetesi.com,turkiyesehirgazetesi.com,karadenizkulturturizmgazetesi.com,perakendeisdunyasi.com##.advertising728x90_MansetAlti
-erosfilmizle.org,hdfilmhit.com,yabancidizitv.net,filmlane.com,enyenifilmizle.*,erosfilmizle.net,hdfilmizletv.com,abcfilmizle.com,morfilmizle.com##.body-clickable
+filmyani.live,erosfilmizle.org,hdfilmhit.com,yabancidizitv.net,filmlane.com,enyenifilmizle.*,erosfilmizle.net,hdfilmizletv.com,abcfilmizle.com,morfilmizle.com##.body-clickable
 ||momplayer.com/vvv.mp4
 ||gndrglsn.com/popmom.js
 sigortacigazetesi.com.tr##.Ads-L
@@ -6662,12 +6662,12 @@ jadr2.xyz,dizipal200.com,vh4nx.xyz,cxk23.xyz,rxk1k.xyz,fx423m.xyz,hdnx0s.xyz,zx3
 ||jhn.testfilex.cloud/cdn/*_skin_
 ||jhn.testfilex.cloud/cdn/*_bg.
 !
-! mackeyfi*.live - frequently changed domains
+! mackeyfi*.xyz - frequently changed domains
 ! do not forger CSS rules
-mackeyfi26.live,mackeyfi27.live,mackeyfi28.live,mackeyfi29.live,mackeyfi30.live,mackeyfi31.live,mackeyfi32.live##a[onclick*="window.setTimeout"]
-mackeyfi26.live,mackeyfi27.live,mackeyfi28.live,mackeyfi29.live,mackeyfi30.live,mackeyfi31.live,mackeyfi32.live##body > div.hidden-xs > img
-mackeyfi26.live,mackeyfi27.live,mackeyfi28.live,mackeyfi29.live,mackeyfi30.live,mackeyfi31.live,mackeyfi32.live##.x-embed-link
-mackeyfi26.live,mackeyfi27.live,mackeyfi28.live,mackeyfi29.live,mackeyfi30.live,mackeyfi31.live,mackeyfi32.live##div[data-footer-4ds]
+mackeyfi11.xyz,mackeyfi12.xyz,mackeyfi13.xyz,mackeyfi14.xyz,mackeyfi15.xyz,mackeyfi16.xyz,mackeyfi17.xyz,mackeyfi18.xyz,mackeyfi19.xyz,mackeyfi20.xyz##a[onclick*="window.setTimeout"]
+mackeyfi11.xyz,mackeyfi12.xyz,mackeyfi13.xyz,mackeyfi14.xyz,mackeyfi15.xyz,mackeyfi16.xyz,mackeyfi17.xyz,mackeyfi18.xyz,mackeyfi19.xyz,mackeyfi20.xyz##body > div.hidden-xs > img
+mackeyfi11.xyz,mackeyfi12.xyz,mackeyfi13.xyz,mackeyfi14.xyz,mackeyfi15.xyz,mackeyfi16.xyz,mackeyfi17.xyz,mackeyfi18.xyz,mackeyfi19.xyz,mackeyfi20.xyz##.x-embed-link
+mackeyfi11.xyz,mackeyfi12.xyz,mackeyfi13.xyz,mackeyfi14.xyz,mackeyfi15.xyz,mackeyfi16.xyz,mackeyfi17.xyz,mackeyfi18.xyz,mackeyfi19.xyz,mackeyfi20.xyz##div[data-footer-4ds]
 !
 ! selcuksportshd - frequently changed domains
 ! don't add foreign domains
