@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 00zfor1/2GZvuK0CY5fRfg
+! Checksum: yJZy6FOaC9lmOvVDcf5IBg
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.23
-! TimeUpdated: 2022-05-11T12:30:26+00:00
+! Version: 2.0.34.24
+! TimeUpdated: 2022-05-11T13:30:25+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2309,6 +2309,9 @@ fullfilmcidayim.com,dizispeed.com,babafullfilmizle.com###adStarter
 /service/advertchannels?$domain=ozgunkocaeli.com.tr|urfanatik.com|dirilispostasi.com|turkuazgazetesi.net|yenialanya.com|bugunkocaeli.com.tr|cagdaskocaeli.com.tr|mansetaydin.com|enkocaeli.com|kocaelikoz.com|kocaelibarisgazetesi.com|seskocaeli.com
 dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdaskocaeli.com.tr,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.us
 !
+||webteizle1.com/js/minipop.js
+||webteizle1.com/i/*.mp4
+webteizle1.com##.embed >a[target="blank"]
 ||selcuksportshd290.com/img/m-ad-
 ||video.twimg.com/ext_tw_video/*/pu/$xmlhttprequest,domain=selcuksportshd290.com
 ||bursahakimiyet.com.tr/get-ad
