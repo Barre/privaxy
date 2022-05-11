@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205110932
+! Version: 202205110951
 ! Title: ABPVN List
-! Last modified: 11 May 2022 09:32 UTC+7
+! Last modified: 11 May 2022 09:51 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -88,7 +88,6 @@ utm_source=propellerads$popup
 ||7mad.7m.$domain=vn2.7msport.com|vn.7msport.com
 ||7mad1.7m.$domain=vn2.7msport.com|vn.7msport.com
 ||7mimg.7m.$domain=vn2.7msport.com|vn.7msport.com
-||90phut.net^*.gif
 ||a3mnga.com^*.gif
 ||acdn.thitruongsi.com/storage/banner/
 ||ad-*.24hstatic.com^*/upload/
@@ -768,11 +767,6 @@ utm_source=propellerads$popup
 5giay.vn##.great-a-banner
 5giay.vn##.great-b-banner
 5giay.vn##.heart-banner
-90phut.net##.btn-od
-90phut.net##a[target="_blank"][rel="nofollow noopener"]
-90phut.net,livebongda1.tv###dnn_float_left
-90phut.net,livebongda1.tv###dnn_float_right
-90phut.net,tracnghiem.net##.modal-backdrop
 a3mnga.com##.single-video
 ahaphimz.com,vkoolzz.net,vphimzz.net##.catfish-ck
 alophim.org##div.container:nth-of-type(5)
@@ -1031,6 +1025,8 @@ link1s.com###baolink1s
 link1s.com,linkcc.pro##.banner-inner
 linkerpt.com#?#[id^="bdaia-widget-html"]:-abp-has(.widget-inner > [href*="premiumvns.com"])
 linkneverdie.net##.info-footer:nth-child(4)
+livebongda1.tv###dnn_float_left
+livebongda1.tv###dnn_float_right
 livebongda1.tv##.btn-odds-primary
 livebongda1.tv##.d-lg-block
 ln.hako.re###mainpart > div[style="text-align: center; margin: 0 auto 10px auto;"]
@@ -1232,6 +1228,7 @@ tivi4k.com##.col-lg-4.hidden-xs.d-flex.flex-column.address-wrap
 topcode.vn###floating_banner_left
 topcode.vn###floating_banner_right
 topthuthuat.com,canhrau.com##.widget.widget_text
+tracnghiem.net##.modal-backdrop
 tracnghiem.net##.show.fade.modal
 traderviet.com##.homePageAds
 tramphim.online##div.itemop
@@ -1317,7 +1314,7 @@ vir.com.vn###rotate_second
 vir.com.vn###rotate_third
 vir.com.vn##.menu_banner
 vkoolzz.net##.box-rating
-vkoolzz.net,360thethao.net,subnhanh.net,dongphymtv.com,90phut.net###overlay
+vkoolzz.net,360thethao.net,subnhanh.net,dongphymtv.com###overlay
 vkoolzz.net,phimdinhcao.net,tvhai.org,truyentranh8.net,animevietsub.tv,xem-phim.tv,khophimhd.net,animet.net,khogamepc.com,vuonhoalan.net,minefc.com,gunnylau360.net,animetvn.tv,mythethao.net,phimgif.net,phimhdvns.net,phimplay.com,animevnn.com,kenhgamez.com,4rkinggame.com,phimno1.xyz,giavang.net,phimviethan.com,gunnymienphi.net,iphimchill.tv,vphimzz.net,7chill.tv,infothethao.com,dailyphimz.com,biphim18.com,alophim.org##.float-ck
 vn.7msport.com###bottomFixedDiv
 vndoc.com##div[id^="adundercontent"]
