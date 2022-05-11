@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205111430
+! Version: 202205111548
 ! Title: EasyList Germany
-! Last modified: 11 May 2022 14:30 UTC
+! Last modified: 11 May 2022 15:48 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2633,6 +2633,7 @@ lowbeats.de###container-sidebar-banners
 brv-zeitung.de,dtoday.de,goslarsche.de,pz-news.de,tageblatt.de,teckbote.de,weser-kurier.de###container_banner
 mediabiz.de###container_fs
 mediabiz.de###container_left
+boerse.de###container_rectangle_1
 mediabiz.de###container_right
 biothemen.de###content + #right
 marketing-boerse.de###content-banner

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: lzv88RYPumUQa03dtJRK9A
+! Checksum: JugPEOV72/q+GfI/3axDBw
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.57
-! TimeUpdated: 2022-05-11T14:31:46+00:00
+! Version: 2.0.19.58
+! TimeUpdated: 2022-05-11T15:31:41+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -465,6 +465,15 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81308
+||pagead2.googlesyndication.com/pagead/$script,redirect=noop.js,important,domain=youpouch.com
+@@||pagead2.googlesyndication.com/pagead/$script,domain=youpouch.com
+@@||fundingchoicesmessages.google.com^$script,domain=youpouch.com
+@@||youpouch.com^$generichide
+youpouch.com##.ad
+youpouch.com##.ad300x250
+youpouch.com##.ad728x90
+youpouch.com##.native-ad
 ! https://kakomonn.com/shakaifukushi/questions
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=kakomonn.com
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/690
@@ -1797,6 +1806,7 @@ aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career-find.jp,mainich
 !
 !
 !
+bridge-salon.jp##div[id^="jp_ir_"][style]
 blkt.net##.ad001
 blkt.net##.mkjAd
 mrs.living.jp##.fbnr-area

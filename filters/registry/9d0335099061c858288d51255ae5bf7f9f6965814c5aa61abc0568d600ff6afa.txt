@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 9HN5BFABH0Xcw8D7IxeNlQ
+! Checksum: HS7g+ee4eGKSRy1fzX1Skw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.92
-! TimeUpdated: 2022-05-11T14:30:40+00:00
+! Version: 2.1.18.93
+! TimeUpdated: 2022-05-11T15:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7244,6 +7244,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+||consent.scm-verlagsgruppe.de^
 poliglot16.ru##.cookie-agree
 ||niceshops.com/disco/build/shop/tracking_consent.*.js
 megatool.pl#$##pum-3970 { display: none !important; }
@@ -10565,11 +10566,10 @@ vaticannews.va###cookiePolicyPopupHTML
 coolblue.be#$#.cookie { display: none !important; }
 coolblue.be#$#body[cookienotificationmodalopened] { overflow: visible !important; padding-right: 0 !important; }
 awm-korntal.eu,yourcountdown.to,giant-bicycles.com,neoserver.ro,gazduirejocuri.ro,wearegarcia.com,zamunda.ch,zamunda.net,upjs.sk##.gdprcookie
-ad-doge.com###cookieok_bar
 livejasmin.com##div[data-testid="PersonalizedContentPopup"]
 livejasmin.com#?#div[data-testid="Over18NotificationContainer"] p > a[href$="/cookies-policy"]:upward(1)
 ipevo.com###cookie-law-note
-radionatale.com,radionorthpole.com,radiosantaclaus.com,radioamericalatina.com,radioitalianmusic.com,radioitaliacanada.com,miamibeachradio.com,radiosymphony.com,radiocountrylive.com,radioitalylive.com,radiolovelive.com,radionylive.com,radiorockon.com###cookieLawPro
+koiniom.com,radionatale.com,radionorthpole.com,radiosantaclaus.com,radioamericalatina.com,radioitalianmusic.com,radioitaliacanada.com,miamibeachradio.com,radiosymphony.com,radiocountrylive.com,radioitalylive.com,radiolovelive.com,radionylive.com,radiorockon.com###cookieLawPro
 exagon.de#$#.cc-window[aria-label="cookieconsent"] { display: none!important; }
 exagon.de#$#body { filter: none!important; }
 xalingo.com.br###wrng-agrmnt
@@ -10620,7 +10620,7 @@ chipkartenleser-shop.de,reiner-sct.com###cookie-consent-outer
 readly.com#$##cookie-consent-window { display: none !important; }
 readly.com#$#html > body.cookie-consent { overflow: visible !important; }
 emsa.com##.cookie_wrapper_tool
-litegpt.com###cookieok_bar
+bitclix.io,ad-doge.com,litegpt.com###cookieok_bar
 weightwatchers.com##div[class*="DPRBanner_gdpr__banner"]
 ||vdai.lrv.lt/Project/Modules/Gpdr/assets/ccc-script.js
 edpb.europa.eu,edps.europa.eu###edp-cookies-banner
