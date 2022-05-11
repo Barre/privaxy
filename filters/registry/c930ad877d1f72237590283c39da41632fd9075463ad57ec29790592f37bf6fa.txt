@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11May2022v1
+! Version: 11May2022v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -174,7 +174,7 @@ apteekkari.fi##.native-comms
 apteekkari.fi#?#.container:-abp-contains(MAINOS (TEKSTI JATKUU ALLA))
 apu.fi,lily.fi,meillakotona.fi,terve.fi##[class*=ad__component]
 arcticinsider.com##a[href*=bannerTrack]
-arvokisat.com,herkkusuut.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,sketsi.net,suomif1.com,susijengi.com,tinderinparhaat.com,viikonloppu.com##.pnad-container
+arvokisat.com,herkkusuut.com,laliiga.com,leijonat.com,metropoli.net,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,susijengi.com,tinderinparhaat.com,viikonloppu.com##.pnad-container
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com##.td-post-content > .social-share  ~ *
 arvokisat.com,eurheilu.org,herkkusuut.com,laliiga.com,leijonat.com,nainen.com,nhlsuomi.com,sketsi.net,suomif1.com,suomifutis.com,suomikiekko.com,suomikoris.com,suomiurheilu.com,susijengi.com,valioliiga.com,viikonloppu.com#?#body.post-template-default * .td-main-content-wrap:-abp-has(.tdt-ad-wrap)
 arvopaperi.fi##.ads-parade-wrapper
@@ -633,6 +633,7 @@ nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoill
 nainen.com##[href="https://www.nainen.com/lainoja-kilpailuttamalla-saastat-aikaa-ja-rahaa/"]
 napsu.fi###banneriwrapper
 napsu.fi##.mobilead
+navigatormagazine.fi##.mob_panorama
 navigatormagazine.fi##.panorama
 nettiauto.com#?##art_right_banner:-abp-has(> [id|="almad"])
 nyan.ax#?#.wpb_column.vc_column_container.td-pb-span8:-abp-has([src$="adsbygoogle.js"])
@@ -787,7 +788,9 @@ tekniikkatalous.fi#?#.article-body > div[class]:-abp-has(> span:-abp-contains(KA
 tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
-telsu.fi#?#.ch:-abp-contains(SPONSOROITU)
+telsu.fi##a[href^="/cllk"]
+telsu.fi###peb_top
+telsu.fi#?#.ch:-abp-contains(SPONSO)
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
 tervareitti.fi#?#.article-container.shadow-sm.col:-abp-has(img[alt^="Oma tilausmainos"])
