@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: htlvjzOTLS8R2jX6i5WkEg
+! Checksum: vNOM5wvEn69qOW5tdg7+4w
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.71
-! TimeUpdated: 2022-05-11T06:31:49+00:00
+! Version: 2.0.13.72
+! TimeUpdated: 2022-05-11T08:31:53+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2864,7 +2864,7 @@ playpaste.com##.row > div.justify-content-center > a[target="_blank"] > img
 andro4all.com##.ad_featured
 ||ivpaste.com/*/ads_down_captcha.png
 ||ivpaste.com/*/pub-install_captcha.php
-file4go.net##.banner300b
+file4go.com,file4go.net##.banner300b
 file4go.net###conteudo_download > .lateral
 jav-asia.top,universoformulas.com,daemon-hentai.com###custom_html-4
 ||tuhentaionline.com/qysfqwtqvcdg.php
