@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: al2Dks2SCKDgkTu8kFXDzA
+! Checksum: N0qzSevjJ5A2RdJG5pA3Dw
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.12
-! TimeUpdated: 2022-05-11T17:31:17+00:00
+! Version: 2.2.30.13
+! TimeUpdated: 2022-05-11T19:31:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -25234,7 +25234,7 @@ sharpporn.com##+js(no-setTimeout-if, /o.php)
 sharpporn.com##+js(set-constant, popundrInit, noopFunc)
 ! popup
 dizirun.co##+js(abort-on-property-write, ilkPopup)
-720p-fullizleme.com,fullfilmcibaba.com,hdmixfilim.com##+js(abort-on-property-write, yeniSekmeAdresi)
+fullhdabifilm.com,720p-fullizleme.com,fullfilmcibaba.com,hdmixfilim.com##+js(abort-on-property-write, yeniSekmeAdresi)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92911
 link.rota.cc##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93290

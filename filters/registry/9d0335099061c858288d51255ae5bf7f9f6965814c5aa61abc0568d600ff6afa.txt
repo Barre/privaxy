@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7hxhv9mRIyBC1f25qs7zPA
+! Checksum: eYbPWbKeWU7wg71e/CiV5Q
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.96
-! TimeUpdated: 2022-05-11T18:30:34+00:00
+! Version: 2.1.18.97
+! TimeUpdated: 2022-05-11T19:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7272,6 +7272,8 @@ frischeparadies.de#$#.cookie-notice { display: none !important; }
 stoffe.de#$#body { overflow-y: auto !important; }
 stoffe.de#$#body #cookieOverlay { display: none !important; }
 proaurum.de###cookiefirst-root
+inbank.ee#$#div[id^="cookie-consent-modal"] { display: none !important; }
+inbank.ee#$#body.modal-open { overflow: visible !important; padding-right: 0 !important; }
 ||coal.gamemaker.io/sites/*/theme/javascripts/cookie.umd.min.js
 claimercorner.xyz,faucetzoid.online,waterfaucet.online###gath3r-optin-dialog
 narecza.com##.CerezPp
@@ -18136,7 +18138,10 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
 travel.navitime.com##.l-footer-app
+natalie.mu##.NA_mynatalie
 deepl.com##.lmt_targetToolbar__appPromotion_container
+m.shein.com#$#.journey-contain { display: none !important; }
+m.shein.com#$#body { margin-top: 0px !important; }
 m.youm7.com##.mobileAdvFooter
 newchic.com##.app-download
 ||scdn.line-apps.com/stf/line-news/js/thirdparty/
@@ -20012,6 +20017,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+baike.baidu.com##.sl-player__main.window-player
 lidea.today##.linksFix__balloon
 cnews.fr##.sticky-player
 mrs.living.jp###ad-floating
@@ -27380,7 +27386,9 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+baike.baidu.com##a[onclick="page.Mixedor.mixedOpen(this,4)"]
 g2.com##.product-listing--banner
+analyticsindiamag.com##.elementor-widget-container > a[href="https://machinecon.analyticsindiamag.com/"]
 sexcams-24.com##.join-spot-01
 ufret.jp##.btn-lg[href="/signup.php"]
 goo.ne.jp##.header-blow

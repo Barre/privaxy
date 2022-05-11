@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nG/7zQNc7T+VRwJ0Wom1Sg
-! Version: 202205111304
+! Checksum: I5j0sHSS+s2M2xIBfjrHTw
+! Version: 202205111954
 ! Title: RU AdList for uBO only
-! Last modified: 11 May 2022 13:04 UTC
+! Last modified: 11 May 2022 19:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11464,6 +11464,7 @@ _tizers.
 ||zclpro-clk.com^$third-party
 ||zclpro.com^$third-party
 ||zcmxa.com^$third-party
+||zcode11.me^$third-party
 ||zcode5.me^$third-party
 ||zcode6.me^$third-party
 ||zcrqsfq.biz^$third-party
@@ -11559,6 +11560,7 @@ _tizers.
 ||zvkzl.com^$third-party
 ||zvonok.mapakids.net^
 ||zwmms11941.ru^$third-party
+||zworker11.me^$third-party
 ||zworld-news.com^$third-party
 ||zwvwh.us^$third-party
 ||zwyymwy.com^$third-party
@@ -26498,7 +26500,6 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,lordfilm6
 @@||howdyho.net/media/js/adsbygoogle.js|$script,domain=howdyho.net
 @@||ictv.ua/wp-content/themes/ictv/includes/js/cnads.js|$script,domain=ictv.ua
 @@||igra-prestoloff10.xyz/*.js$script,domain=igra-prestoloff.cx
-@@||imageban.ru/ads.txt|$script,domain=imageban.ru
 @@||it-like.ru/ads_load/*.js|$domain=it-like.ru
 @@||ivbt.ru^$elemhide
 @@||jsc.adskeeper.com/*/*.*.js|$xmlhttprequest,domain=filmisub.com|kinofen.net
@@ -27150,7 +27151,6 @@ exler.ru##.adblock-pls
 ##.adblock-stop
 zakon.kz##.adblock_alert
 tassbiz.ru##.adblock_notif
-ogorod.ru##.adblock_popup_warning
 hentaiz.org##.adblocker
 telesputnik.ru##.adbPopup
 kubik3.ru##.adbs
@@ -27316,7 +27316,6 @@ bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 ||gamemag.ru/assets/*/js.cookie.js
 ||helpsetup.ru/home/solnisko.php
 ||i140.ru/js/etxm*.js|$script
-||imageban.ru/template/js/nt.js
 ||ipprof.ru/wp-content/plugins/ad-blocking-advisor/
 ||kontrolnaya-rabota.ru^*/fuckadblock.$script
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
