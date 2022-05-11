@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RLofyAgX2RHo6bISYtN0yA
-! Version: 202205101055
+! Checksum: c85n2K9/QeFjN5Di4PyB7g
+! Version: 202205110955
 ! Title: EasyList Spanish
-! Last modified: 10 May 2022 10:55 UTC
+! Last modified: 11 May 2022 09:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1744,6 +1744,8 @@ $popup,third-party,domain=cinecalidad.lol|divxtotal.co|embedsito.com|fembad.net|
 /about:blank.*/$popup,domain=cuevana3-v1.wtf|peliculasmega1k.com|streamadblockplus.com
 ! html/image popups
 /^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt)/$popup,domain=animeflv.la|atomixhq.art|atomixhq.club|atomixhq.link|atomixhq.top|cliver.to|cuevanahd.net|divicast.com|doramasflixs.com|gnula.nu|gnula.se|ibb.co|jkanime.net|myflixertv.to|pctreload1.com|pelishouse.me|pelismart.com|pelismarthd.com|pelisplus.io|pelisplus.top|pelisplus2.io|pelisplushd.nu|pelispop.me|pelispophd.com|seriesflix.live|seriesturcas.tv|solopeliculasespañol.com|tomatomatela.com
+! html/image popups (without php)
+/^https?:\/\/.*\.(jpg|gif|png|svg|ico|js|txt)/$popup,domain=pirlotvonlinehd.net
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block.txt ***
 .me^$script,domain=topmanhwa.net
 /^https?:\/\/spalumi\.com\/\w+\.[a-z]{3}/$image,domain=spalumi.com

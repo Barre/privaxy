@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: rZIdv3YLH9kcL4WhDYLG9A
+! Checksum: 6NlB7CwBilYw9k46aL5Epw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.84
-! TimeUpdated: 2022-05-11T08:30:38+00:00
+! Version: 2.1.18.86
+! TimeUpdated: 2022-05-11T09:30:37+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18121,7 +18121,6 @@ aol.com##.m-promo-standard
 theriver.jp##div[class^="app-banner"]
 realt.by#?#.row > div[class^="col-"]:has(> div.media > img[src$="/images/apps/app.png"])
 m.compuzone.co.kr##.visibleAppLyr
-m.dcinside.com##+js(set-constant, setViewCount, noopFunc)
 m.dcinside.com###app_down_pop
 1090ys8.com##a[href="http://1090app.com/"]
 2chmatome2.jp##.appli-box-description
@@ -19989,6 +19988,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+gazeta.ru###_id_yaflow
 zhihu.com#$#html { overflow: auto !important; padding-right: 0 !important; }
 zhihu.com#$#body { overflow: auto !important; }
 zhihu.com#$#.Modal-enter-done { display: none !important; }
