@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205110321
+! Version: 202205110932
 ! Title: ABPVN List
-! Last modified: 11 May 2022 03:21 UTC+7
+! Last modified: 11 May 2022 09:32 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -262,7 +262,7 @@ utm_source=propellerads$popup
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|truyenfull.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.tv|zingvntv.net|zingvntv.com|animeweb.xyz
-||i.imgur.com^*.gif$image,domain=ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|tvhai.org|phimgif.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|biluu.org|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|tvhayx.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|rakhoi2.tv|rakhoi1.tv|cakhia12.live|cakhia11.tv|xembongda360.com|biphim.co|bichill.tv|biphims.net|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|bphimmoi.net|forum.gocmod.com|cakhia15.live|rakhoi3.tv|rakhoi5.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
+||i.imgur.com^*.gif$image,domain=ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|tvhai.org|phimgif.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|biluu.org|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|tvhayx.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|rakhoi2.tv|rakhoi1.tv|cakhia12.live|cakhia11.tv|xembongda360.com|biphim.co|bichill.tv|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|bphimmoi.net|forum.gocmod.com|cakhia15.live|rakhoi3.tv|rakhoi5.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
 ||i.k8info.com/images/promo/$third-party
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com,image
 ||i0.wp.com/dc.motphim.net/*.gif$image
