@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: x1iISL1hgxkQQ3oZMILkDw
+! Checksum: yL4s6pHrWTcCkeXvY37VQQ
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.29.98
-! TimeUpdated: 2022-05-10T18:31:14+00:00
+! Version: 2.2.29.99
+! TimeUpdated: 2022-05-11T05:31:14+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3954,6 +3954,8 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118215
+@@||j2apps.s.llnwi.net/assets-origin/static/js/mx-prebid-ads.js$domain=mxplayer.in
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118061
 ||bagi.co.in/*/js/check.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118066
