@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: hvUSD5XbGp2/lNxCnjg/Ww
+! Checksum: Px9J/SP27YDDe4zFbVTKdQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.87
-! TimeUpdated: 2022-05-11T10:30:45+00:00
+! Version: 2.1.18.88
+! TimeUpdated: 2022-05-11T11:30:41+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7241,6 +7241,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+remnantgame.com##.gdpr-topbar
+zlavomat.sk#$#body { overflow: auto !important; padding-right: 0 !important; }
+zlavomat.sk#$#.message-overlay--cookie { display: none !important; }
 navitime.com###cookie-notice-section
 shop.lenovo.ru##.useCookiesInfo
 aripaev.ee##div[class^="CookieOverlay_"]
@@ -10201,7 +10204,7 @@ lexus-katowice.pl,lexus-krakow.com.pl,lexus-leszno.pl,lexus-lodz.pl,lexus-poznan
 lexus-katowice.pl,lexus-krakow.com.pl,lexus-leszno.pl,lexus-lodz.pl,lexus-poznan.pl,lexus-szczecin.pl,lexus-trojmiasto.pl,lexus-warszawaradosc.pl,lexus-wroclaw.pl,lexuskrakow-zakopianska.pl,lexuswarszawa-pulawska.pl,lexuswarszawa-wola.pl,lexuswarszawa-zeran.pl#$#body.ReactModal__Body--open { overflow-y: auto !important; }
 ||jimstatic.com/ckies.js
 iviche.com###__next > div.jss1 + div.MuiContainer-root
-flashscore.com.br,diretta.it,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com,flashscore.com.tr,livesport.cz,flashscore.ru.com,flashscore.com.ua,flashscore.de,flashscore.co.uk,flashscore.com,flashscore.ru##.otPlaceholder
+flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.otPlaceholder
 teb.pl#$##cookieModal { display: none !important; }
 teb.pl#$#html[style*="overflow"] { overflow: auto !important; }
 coqueiro.com.br,camil.com.br##.cookies-msg-box
@@ -25042,6 +25045,8 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
 !
 !--- Whitelist
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118320
+zlavomat.sk#@##credential_picker_container
 ! https://twitter.com/nkym4575/status/1504995658675093505
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91863
@@ -25593,7 +25598,7 @@ newinform.com,nevnov.ru,rueconomics.ru,slovodel.com,riafan.ru##.pushSubscribe
 ||cosplay-porn.me/swps.js
 animefire.net###page-mask
 animefire.net###sub_modal
-flashscore.ru###notifications-alert-wrapper
+flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com###notifications-alert-wrapper
 ||sport.ru/app/web/push.js
 ||cdn.lentainform.com/js/push/subscribe.js
 pricerunner.com,pricerunner.dk,pricerunner.se#?#div[class*=" "][aria-labelledby="dialogHeading"] > div[style^="background-image: url"][style*="/web_push_lvlup"]:upward(1)
@@ -27349,6 +27354,7 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+g2.com##.product-listing--banner
 sexcams-24.com##.join-spot-01
 ufret.jp##.btn-lg[href="/signup.php"]
 goo.ne.jp##.header-blow
@@ -28268,6 +28274,8 @@ ukr.media##.push_btn
 opopular.com.br##.container-inner-newsletter
 ||egoi.page^$third-party
 folhabv.com.br##iframe[src^="https://egoi.page/"]
+nsn.fm###articleBody > div[class] div[itemprop="articleBody"] + div[class] > section[class]
+nsn.fm##div[itemprop="articleBody"] > div[class^="_"] > div[class] >  p
 valentins.de###modalwrapper
 valentins.de##.modal-backdrop
 peopletalk.ru##.only-mobile
@@ -33567,7 +33575,7 @@ readwn.com#$#.chapter-content { -moz-user-select: text!important; -webkit-user-s
 tmofans.com#$#.element { -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 siyasetcafe.com#$#body.body-prevent { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 jucagototranslations.fukou-da.net,quotev.com,nontongratis88.live,freecourser.com#$#body * { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
-legionscans.com,moviesrush.in,toonvideos.net.in,fmoviez.org#$#html { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
+panda-novel.com,legionscans.com,moviesrush.in,toonvideos.net.in,fmoviez.org#$#html { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 nubng.com,melodelaa.link,invado.pl,blisseyhusband.in,9docu.org,template.city,teepr.com,unisinav.com,amigurumi.today,thememazing.com,chiaseapk.com,dzelectronic.com#$#body { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 rawneix.in,mangacrab.com,metalnaveia66.com,bollywoodhindi.in,kdramasurdu.net,flinsetyadi.com,theturtleislandnews.com,audiotools.in,animeactua.com,audiobookcup.com,7misr4day.com,michaelemad.com,lazytranslations.com,samuraiscan.com,activationkeys.co,world4.eu,elektrikmen.com,wartaterkini.news,iptv4best.com,sysnettechsolutions.com,aihristdreamtranslations.com,audioreview.m1001.coreserver.jp,hulkpop.com#$#body.unselectable { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 droidtk.com#$#body[data-protect="true"] { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
