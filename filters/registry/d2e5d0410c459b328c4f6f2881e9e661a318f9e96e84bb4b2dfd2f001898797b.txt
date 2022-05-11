@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Tue, 10 May 2022 12:03:33 +0000
+! Updated: Wed, 11 May 2022 00:02:48 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -34,7 +34,6 @@ blogphoneapplication.online
 bottomjoyday.top
 bravovideo.ru
 bunnyvideo.ru
-cajasdigitalreporting.net
 carfuelsaver.org
 cedran.co
 center-planet.xyz
@@ -45,7 +44,6 @@ chykohija.pro
 classicvideo.ru
 clickon.buzz
 clickverifier.online
-clldirectnew.club
 cnnvideo.ru
 contentstar.info
 curfiositystream.com
@@ -80,7 +78,6 @@ gadget.land
 galacontent.ru
 galaxywin.xyz
 gamblehere.org
-gameoverhere.net
 gamerdigest.org
 gehenna.xyz
 giving-bigwin-chance-reward.rest
@@ -104,7 +101,6 @@ insuranceforyourcars.co
 jakeview.ru
 jumpstick.xyz
 kavideo.ru
-keepinfit.net
 kekvideo.ru
 kexvideo.ru
 koalaspringb.xyz
@@ -125,7 +121,6 @@ mobiaplains.xyz
 mobiastar.xyz
 monetunion.club
 mountcrossbed.top
-moviepin.tv
 nashvillewelcome.co
 nordvpnhosting.com
 nordvpnserver.com
@@ -164,6 +159,7 @@ prote.today
 protectiontoday.xyz
 provewarmmind.top
 pubavideo.ru
+qoubvideo.ru
 recaptchatest.online
 recommended-vpns.com
 releasetherapeutics.co
@@ -194,11 +190,13 @@ specialoffer-instant-claim-congrats.rest
 specialofferinstantclaim.rest
 sportfan.xyz
 sticksstones.co
+streamcontent.fun
 streamhalk.ru
 stronginchbusy.top
 styletemple.co
 subeamy.pw
 sunnyview.ru
+syncgreatlyprecisetheproduct.vip
 tablestop.shop
 techandgadgets.net
 technoblogs.net
@@ -223,12 +221,14 @@ toplamvideo.ru
 toptechprivacy.cyou
 totvideo.ru
 track-my-vpn.com
+tracksystem.online
 tronvideo.ru
 truly-diet.store
 tunevideo.ru
 uniccontent.ru
 unigogo.co
 updatephoneoffice.club
+updateuberlatestthefile.vip
 uservalidate.xyz
 videobbc.ru
 videocnn.ru
@@ -243,7 +243,6 @@ videonex.ru
 videonos.ru
 videoox.ru
 videopool.ru
-videospots.ru
 videounic.ru
 videova.ru
 videoze.ru
@@ -256,6 +255,7 @@ walmartcard.top
 wangmo.life
 wantjoinsince.xyz
 web-protocols.org
+websitebuildertutorials.org
 westacoast.xyz
 westamountain.xyz
 westcontent.ru
