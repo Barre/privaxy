@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: N+Ug5C5GeD2h5QQX1K1YIQ
+! Checksum: Vwcn96MJMrPpIQjs4VIK/g
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.6
-! TimeUpdated: 2022-05-11T11:31:20+00:00
+! Version: 2.2.30.7
+! TimeUpdated: 2022-05-11T12:31:17+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -25853,7 +25853,7 @@ savevideo.tube##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72831
 tittafilmer.com,webfilmer.com,nyafilmer.vip##+js(window.open-defuser)
 ! `(function(__htas)`
-tatli.biz,naijauncut.com,teenager365.com,10convert.com,moviesjoy.*,besthdgayporn.com,gogoanime.*,javenspanish.com,jav-asia.top,komiklokal.xyz,leermanga.net,kmansin03.com,sxyprn.*,leechall.com,kantotflix.com,watchfreenet.com,javxxx.me,yifysubtitles.vip,536sdms.com,justcastingporn.com,justfamilyporn.com,simply-hentai.com,onlyfoot.net,javpornstreaming.com##+js(abort-current-script, document.createElement, __htas)
+mangamovil.net,tatli.biz,naijauncut.com,teenager365.com,10convert.com,moviesjoy.*,besthdgayporn.com,gogoanime.*,javenspanish.com,jav-asia.top,komiklokal.xyz,leermanga.net,kmansin03.com,sxyprn.*,leechall.com,kantotflix.com,watchfreenet.com,javxxx.me,yifysubtitles.vip,536sdms.com,justcastingporn.com,justfamilyporn.com,simply-hentai.com,onlyfoot.net,javpornstreaming.com##+js(abort-current-script, document.createElement, __htas)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72811
 movierulzfree.is##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72810
@@ -44529,6 +44529,8 @@ msn.com#@#[src*="data:"]
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118335
+xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118188
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 @@||i.cdn.turner.com/ads/adfuel/*/nba-teams-ais.min.js$domain=nba.com

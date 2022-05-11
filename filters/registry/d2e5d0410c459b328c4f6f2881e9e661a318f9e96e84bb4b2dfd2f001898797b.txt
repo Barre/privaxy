@@ -1,13 +1,12 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Wed, 11 May 2022 00:02:48 +0000
+! Updated: Wed, 11 May 2022 12:05:37 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
 ! Source: https://github.com/zhouhanc/malware-discoverer
 
-! 2021/01/08: There has been a major change to the mirrors, check the repo for the new mirrors.
-! The main download link "curben.gitlab.io/malware-filter/" _is not affected_.
+! Announcement: curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21
 4elettrostore.it
 aappd.xyz
 abc-news.online
@@ -28,6 +27,7 @@ best-life-insurers-deals.live
 best-used-cars.live
 bestbuylaptops.xyz
 bestmoneysurvey.top
+bettergadget.net
 bhgshop.net
 bitbidder.co
 blogphoneapplication.online
@@ -108,6 +108,7 @@ latvideo.ru
 leovideo.ru
 llcvideo.ru
 lollyvideo.ru
+makingssurvey.top
 marionettespuppets.co
 mattdeany.co
 meetuuho.xyz
@@ -190,7 +191,6 @@ specialoffer-instant-claim-congrats.rest
 specialofferinstantclaim.rest
 sportfan.xyz
 sticksstones.co
-streamcontent.fun
 streamhalk.ru
 stronginchbusy.top
 styletemple.co
