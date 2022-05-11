@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: tFrnsu53dpLHcstzTC5mUA
+! Checksum: OU/fBDmeg5r9bkVsCDZlnw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.94
-! TimeUpdated: 2022-05-11T17:02:21+00:00
+! Version: 2.1.18.95
+! TimeUpdated: 2022-05-11T17:30:37+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7265,7 +7265,7 @@ stoffe.de#$#body { overflow-y: auto !important; }
 stoffe.de#$#body #cookieOverlay { display: none !important; }
 proaurum.de###cookiefirst-root
 ||coal.gamemaker.io/sites/*/theme/javascripts/cookie.umd.min.js
-faucetzoid.online,waterfaucet.online###gath3r-optin-dialog
+claimercorner.xyz,faucetzoid.online,waterfaucet.online###gath3r-optin-dialog
 narecza.com##.CerezPp
 mobile.po.co##.agree-tokens-modal
 brf.be###cookieDashboard
@@ -11924,7 +11924,7 @@ das-bier.com,bier-spezialitaeten.de###db-cookie-read
 bw-online-shop.com##.modal-mask-class
 kt-spb.ru,delfi.ee###cookie_close
 sma.de###tracker-banner
-aqweeb.com,hans-natur.de,wiresoft.com,blavity.com,travelz.com,transkribus.eu,eurekosigorta.com.tr,grohe.com.tr,vev.red,culture.pl##.Cookie
+nicehash.com,aqweeb.com,hans-natur.de,wiresoft.com,blavity.com,travelz.com,transkribus.eu,eurekosigorta.com.tr,grohe.com.tr,vev.red,culture.pl##.Cookie
 austrian.com,brusselsairlines.com,drillisch-online.de,sim.de,fit-for-travel.de,swiss.com,mainova.de,simplytel.de,handyvertrag.de,yourfone.de,maxxim.de,smartmobil.de,winsim.de,deutschlandsim.de,lufthansa.com,gsk.com,gskpro.com,tr.gsk.com,discotel.de,1und1.de###__tealiumGDPRcpPrefs
 shop.koestritzer.de##.fb-cookienote
 make-it-in-germany.com,brauer-bund.de###nagscreen
