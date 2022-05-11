@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 9SBmmFnjNB8Ky8zVhRBkSA
+! Checksum: 5LZGkywmpeD3Dzpp2k3OXQ
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.35
-! TimeUpdated: 2022-05-11T19:31:25+00:00
+! Version: 2.0.61.36
+! TimeUpdated: 2022-05-11T20:31:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7416,7 +7416,7 @@ tabletsesmartphones.org##.compartilhe-post > a[onclick^="return abrirPopup"]
 kiyimuzik.com##i[data-tooltip="Paylaş"]
 nasilkiloverilir.net##.site-sidebar > #text-12
 nasilkiloverilir.net##.site-sidebar > #text-14
-hdfilmhit.com,filmyani.live,erosfilmizle.org,hazirfilm.com,askbe.net,erosfilmizle.net,filmdiziplus.com,vipfilmsitesi.com,hdfilmcehenemi.net,teppenthegame.com,bnews.com.br,wisn.com,postnauka.ru,steptohealth.com,amelioretasante.com,sagligabiradim.com##.share-content
+hdfilmizle.info,hdfilmhit.com,filmyani.live,erosfilmizle.org,hazirfilm.com,askbe.net,erosfilmizle.net,filmdiziplus.com,vipfilmsitesi.com,hdfilmcehenemi.net,teppenthegame.com,bnews.com.br,wisn.com,postnauka.ru,steptohealth.com,amelioretasante.com,sagligabiradim.com##.share-content
 sagligabiradim.com##.widget-social
 watchfaces.be###secondary > aside#text-5
 latimes.com##.trb_em_pq_sh_item[data-role="sc_share"]

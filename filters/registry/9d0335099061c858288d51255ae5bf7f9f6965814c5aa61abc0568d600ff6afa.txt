@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: eYbPWbKeWU7wg71e/CiV5Q
+! Checksum: PRjjP/GStDwQYe+H5qPGtw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.97
-! TimeUpdated: 2022-05-11T19:30:34+00:00
+! Version: 2.1.18.98
+! TimeUpdated: 2022-05-11T20:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -28297,6 +28297,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
 lidea.today##.aa-mailMagazine
+opensource.com##.subscribe-float
 mydeliciousmeals.com##.subscription-module
 crea.bunshun.jp##.mail-magazine
 cepa.org##.tf-sh-a48575d152037e04ccab10c97fedfa66
