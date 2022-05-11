@@ -89,6 +89,19 @@ impl Rewriter {
 
                         Ok(())
                     }),
+                    // Let's discard of end html and body tag
+                    // to inject style and scripts before the implicit
+                    // close.
+                    element!("html, body", |element| {
+                        element
+                            .on_end_tag(|end| {
+                                end.remove();
+                                Ok(())
+                            })
+                            .unwrap();
+
+                        Ok(())
+                    }),
                 ],
                 ..Settings::default()
             },
