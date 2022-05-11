@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: pJhWwQwqo4AnTeFCGQlG6Q
+! Checksum: ES3KGgA9z8t+blrP1PJImQ
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.4
-! TimeUpdated: 2022-05-11T09:31:17+00:00
+! Version: 2.2.30.5
+! TimeUpdated: 2022-05-11T10:31:26+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19313,6 +19313,8 @@ dap-news.com##.ads
 !------------------------------ Korean -------------------------------
 !---------------------------------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118324
+$script,redirect-rule=noop.js,domain=lover9.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113085
 blog.naver.com#?#.se-main-container > div.se-component:has(> div.se-component-content  > div.se-section  > div.se-module > a[href^="https://oevery.com"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113720
@@ -23096,6 +23098,9 @@ topsinhalamp3.com#?##sitbl > tbody > tr[-ext-has='a[href^="https://ylx-4.com"]']
 !------------------------------ Thai ---------------------------------
 !---------------------------------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117754
+teroradio.com,becteroradio.com#$##leaderboard-billboard { visibility: hidden !important; height: 0 !important; }
+teroradio.com,becteroradio.com###leaderboard
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117655
 techsauce.co###banner-link-c
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117583
@@ -24824,6 +24829,8 @@ kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekic
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118173
+teknopaid.xyz##+js(window.open-defuser)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117988
 dembed1.com##+js(window.open-defuser, !/download?id=)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118013
@@ -29237,6 +29244,7 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+windowslatest.com##.ai_widget.ai-viewport-1
 canuckaudiomart.com##div[id^="replacement-position-"]
 canuckaudiomart.com##div[style^="min-width:300px;min-height:250px;"]
 cryptowin.io##ins[style="display:inline-block;width:300px;height:250px;"]

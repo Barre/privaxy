@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c85n2K9/QeFjN5Di4PyB7g
-! Version: 202205110955
+! Checksum: luDWkvUWIoDA9hgUOgov7w
+! Version: 202205111055
 ! Title: EasyList Spanish
-! Last modified: 11 May 2022 09:55 UTC
+! Last modified: 11 May 2022 10:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1724,6 +1724,7 @@ $popup,third-party,domain=cinecalidad.lol|divxtotal.co|embedsito.com|fembad.net|
 ||cintent.streanplay.cc^$popup
 ||click.expmediadirect1.com^$popup
 ||doramasmp4.com/en.svg$popup
+||esplay.io/*.webp^$popup,domain=cuevanahd.net
 ||foxcdn.me^$popup,domain=telerium.digital
 ||geniusdexchange.com^$popup,domain=jac-tv.com
 ||https://$popup,third-party,domain=cliver.to|linkotes.com
@@ -1743,7 +1744,7 @@ $popup,third-party,domain=cinecalidad.lol|divxtotal.co|embedsito.com|fembad.net|
 ! about:blank popups
 /about:blank.*/$popup,domain=cuevana3-v1.wtf|peliculasmega1k.com|streamadblockplus.com
 ! html/image popups
-/^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt)/$popup,domain=animeflv.la|atomixhq.art|atomixhq.club|atomixhq.link|atomixhq.top|cliver.to|cuevanahd.net|divicast.com|doramasflixs.com|gnula.nu|gnula.se|ibb.co|jkanime.net|myflixertv.to|pctreload1.com|pelishouse.me|pelismart.com|pelismarthd.com|pelisplus.io|pelisplus.top|pelisplus2.io|pelisplushd.nu|pelispop.me|pelispophd.com|seriesflix.live|seriesturcas.tv|solopeliculasespañol.com|tomatomatela.com
+/^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt)/$popup,domain=animeflv.la|atomixhq.art|atomixhq.club|atomixhq.link|atomixhq.top|cliver.to|cuevanahd.net|divicast.com|doramasflixs.com|gnula.nu|gnula.se|ibb.co|jkanime.net|myflixertv.to|pctreload1.com|pelishouse.me|pelismart.com|pelismarthd.com|pelisplayer.xyz|pelisplus.io|pelisplus.top|pelisplus2.io|pelisplushd.nu|pelispop.me|pelispophd.com|seriesflix.live|seriesturcas.tv|solopeliculasespañol.com|tomatomatela.com
 ! html/image popups (without php)
 /^https?:\/\/.*\.(jpg|gif|png|svg|ico|js|txt)/$popup,domain=pirlotvonlinehd.net
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block.txt ***

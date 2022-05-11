@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 6NlB7CwBilYw9k46aL5Epw
+! Checksum: hvUSD5XbGp2/lNxCnjg/Ww
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.18.86
-! TimeUpdated: 2022-05-11T09:30:37+00:00
+! Version: 2.1.18.87
+! TimeUpdated: 2022-05-11T10:30:45+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3121,6 +3121,7 @@ hgtv.com#@#.showads
 !
 !
 !
+givee.club##+js(abort-current-script, document.addEventListener, adjs)
 light.gg##.items-right-square
 light.gg##.remove-turtles
 bitcompiler.com##.bc-adblock-detector-wrapper
@@ -7201,7 +7202,7 @@ cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com
 ! ##.avia-cookie-consent
 lc-nachhilfe.de,tredition.de,schiffchen-ahoi.de,kernsgalabau.de,octopus-itsm.com,sosort.org,bogaziciyonetim.istanbul,drivers.plus,readymade-furniture.de,schieb.de,my-digital-home.de,celesta-schiedmayer.de,sheerid.com,vantec.de,anlegen-in-immobilien.de##.avia-cookie-consent
 ! ##.policy
-tvbs.com.tw,cumrapostasi.com,ufukgazetesi.net,alemfm.com,designs.ai,imzagazetesi.com.tr,airlinehaber.com,theanatoliapost.com,ligradyo.com.tr,platinonline.com,1923haber.com,sakarya360.com,trendoa.com,emlaknews.com.tr,cagingazetesi.com.tr,davahaber.com,tv360.com.tr,sonsaat.com.tr,pusuhaber.net,kesinkarar.com,antalyaz.com,alem.com.tr,noktabursa.com.tr,onhaber.net,bbnhaber.com.tr,1cloud.ru,sahrahaber.com,dha.com.tr,star.com.tr,aksam.com.tr,teknoburada.net,gunes.com,guvenilirhaber.com,gaste.org,genmedya.com,tvnet.com.tr,nethaber.com.tr,hatayzafer.com.tr,antalyahakkinda.com,ulakci.com,mavikocaeli.com.tr,alfabank.ru,dirilispostasi.com,teknolojioku.com##.policy
+teroradio.com,becteroradio.com,tvbs.com.tw,cumrapostasi.com,ufukgazetesi.net,alemfm.com,designs.ai,imzagazetesi.com.tr,airlinehaber.com,theanatoliapost.com,ligradyo.com.tr,platinonline.com,1923haber.com,sakarya360.com,trendoa.com,emlaknews.com.tr,cagingazetesi.com.tr,davahaber.com,tv360.com.tr,sonsaat.com.tr,pusuhaber.net,kesinkarar.com,antalyaz.com,alem.com.tr,noktabursa.com.tr,onhaber.net,bbnhaber.com.tr,1cloud.ru,sahrahaber.com,dha.com.tr,star.com.tr,aksam.com.tr,teknoburada.net,gunes.com,guvenilirhaber.com,gaste.org,genmedya.com,tvnet.com.tr,nethaber.com.tr,hatayzafer.com.tr,antalyahakkinda.com,ulakci.com,mavikocaeli.com.tr,alfabank.ru,dirilispostasi.com,teknolojioku.com##.policy
 ! ###cookie
 safe-animal.eu,bangkokbiznews.com,thansettakij.com,komchadluek.net,springnews.co.th,nationtv.tv,tnews.co.th,myoffice.ru,hanet.com.pl,trzmiel.com.pl,1cgames.net,intellinews.com,esselunga.it,vitraglobal.com,uhren4you.de,mecze.com,unwire.hk,daiichisankyo-ep.co.jp,positronx.io,yoyogames.com,logsign.com,astra-honda.com,twist.com.tr,publi24.ro,bauernzeitung.ch,cerrahi.com.tr,lescon.com.tr,europa-lkw.de,kidega.com,kordsa.com,lisacharlotterost.de,lawebdelprogramador.com,lvr.de,ostsee.de,klinik-langenfeld.lvr.de,klinik-koeln.lvr.de,leitz-cloud.com,leib-immobilien.de,activex.com.tr,evyap.com.tr,kobiety.pl,straganzdrowia.pl,e-tesettur.com.tr,suzuki.ch,arkomen.com,deutsches-ausschreibungsblatt.de,negozi.fastweb.it,gaboras.com.tr,sygic.com,turkey.astonmartindealers.com,add0n.com,8gunhaber.com,proglib.io,antonimy.net,gamedot.pl,sosyorol.com,teamquest.pl,stema.istore.pl,findeks.com,kube.no,makownia.com,sklep.xerima.com.pl,vitra.com.tr###cookie
 ! ###banner-wrapper
@@ -7240,6 +7241,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+navitime.com###cookie-notice-section
+shop.lenovo.ru##.useCookiesInfo
+aripaev.ee##div[class^="CookieOverlay_"]
 goruma.de###consentDialog
 ||koelner-philharmonie.de/static/components/CookieManager/
 ashaindia.ru##body div#cookie_notification.show
@@ -9847,7 +9851,7 @@ moebel-kraft.de,sconto.de,hoeffner.de##.consentForm__container
 apondo.de###cookie-message ~ #footer::after
 ford.ca##.cookie-notice-overlay
 ford.*##div[class^="cookie-disclaimer-"]
-take-it.org,wienerlinien.at,meininger.de,k-zeitung.de,arztundkarriere.com,baustoffmarkt-gruppe.de,buchszene.de,hosterz.de##.sp-dsgvo-popup-overlay
+drauzzen.de,take-it.org,wienerlinien.at,meininger.de,k-zeitung.de,arztundkarriere.com,baustoffmarkt-gruppe.de,buchszene.de,hosterz.de##.sp-dsgvo-popup-overlay
 fh-muenster.de###matomo-wrapper
 nurolmakina.com.tr##.cookie_policy_bar
 aufladen.de###ConsentCookie
@@ -11616,7 +11620,7 @@ thizissam.in,whatmyuseragent.com,ripperxd.blogspot.com,embetronicx.com###LTF_GDP
 888casino.com###CookieMessageDiv
 support.activision.com##.atvi-privacy-policy-module.show
 expressen.se##.terms-dialog
-drive-image.com,r-studio.com###pp-info
+r-tt.com,drive-image.com,r-studio.com###pp-info
 l2db.info##.access-cookies
 deezer.com##.cookie-banner-layer
 ||swoodoo.com/s/horizon/common/gdpr/CookieConsentV2?scriptsMetadata=
@@ -18112,6 +18116,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+travel.navitime.com##.l-footer-app
 deepl.com##.lmt_targetToolbar__appPromotion_container
 m.youm7.com##.mobileAdvFooter
 newchic.com##.app-download
@@ -19988,6 +19993,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+shop.lenovo.ru###usedesk-messenger
 gazeta.ru###_id_yaflow
 zhihu.com#$#html { overflow: auto !important; padding-right: 0 !important; }
 zhihu.com#$#body { overflow: auto !important; }
@@ -25112,7 +25118,7 @@ abendzeitung-muenchen.de###webpush-app
 ||news-yakaja.cc^$third-party
 ||news-hefoja.cc^$third-party
 ||yourbestru.site^$third-party
-/webpush.$domain=haberler.com|haberler.com|haberturk.com|soccer.ru|internet-technologies.ru|sondakika.com|brigitte.de
+/webpush.$domain=egoiapp2.com|haberler.com|haberler.com|haberturk.com|soccer.ru|internet-technologies.ru|sondakika.com|brigitte.de
 ||canzocoos.com^
 ||calculator.codes^$third-party
 ||swaptrap.live^
@@ -28260,6 +28266,8 @@ ookla.com##.article-sidebar-panel-subscribe
 peopletalk.ru##body .zen-block
 ukr.media##.push_btn
 opopular.com.br##.container-inner-newsletter
+||egoi.page^$third-party
+folhabv.com.br##iframe[src^="https://egoi.page/"]
 valentins.de###modalwrapper
 valentins.de##.modal-backdrop
 peopletalk.ru##.only-mobile
@@ -32325,6 +32333,10 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118173
+teknopaid.xyz##+js(remove-class, hidden, #wcGetLink)
+teknopaid.xyz##+js(remove-attr, disabled, #wcGetLink)
+teknopaid.xyz##+js(nano-setInterval-booster, gotolink, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117862
 spantechie.com##+js(nano-setTimeout-booster, _0x, *, 0.02)
 spantechie.com##+js(nano-setInterval-booster, /Please Wait|Generating Links/, *, 0.02)

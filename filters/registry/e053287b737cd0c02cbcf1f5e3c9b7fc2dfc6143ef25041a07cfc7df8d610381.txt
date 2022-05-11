@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: lKtJ/Y7fYDRCLc0+9GWG4A
+! Checksum: MnQTFSZdJ8U8HVQhe2ljdg
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.73
-! TimeUpdated: 2022-05-11T09:31:49+00:00
+! Version: 2.0.13.74
+! TimeUpdated: 2022-05-11T10:31:59+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2054,11 +2054,14 @@ link.estadao.com.br,atomixhq.art,jc.ne10.uol.com.br,internetpasoapaso.com,acidad
 ! ##.ad
 atribuna.com.br,jovemnerd.com.br,laopiniondemurcia.es,larazon.es,dicio.com.br,band.uol.com.br,xataka.com,onyxplay.com,genbeta.com,vagalume.com.br,xatakandroid.com,abril.com.br##.ad
 !
+webarcondicionado.com.br##.axd-inner
+webarcondicionado.com.br###enveloping
 ||verfutebol.tv/icons/160x600
 buscape.com.br##div[class^="Hits_SponsoredWrapper__"]
 brasilescola.uol.com.br##.publi-dir
 brasilescola.uol.com.br##.corpoPubli
 brasilescola.uol.com.br##.area-publi-topo
+economia.ig.com.br##div[class^="maislidas"]
 verfutebol.tv###superderbi
 opopular.com.br###bannerMateriaAbertaMeiaPagina
 r7.com##.toolkit-ad-shell
@@ -2480,7 +2483,7 @@ conhecimentolivre.net##.inside-right-sidebar > #custom_html-2
 downloadcursos.top##.inside-right-sidebar > #custom_html-4
 downloadcursos.top##.inside-header > a[target="blank"] > img
 audiotools.in###sidebar > #custom_html-6
-jornalnh.com.br##div[id^="pub"]
+folhabv.com.br,jornalnh.com.br##div[id^="pub"]
 allfeeds.live###overlay
 muyhistoria.es,marie-claire.es,miarevista.es,muynegociosyeconomia.es,serpadres.es,muyinteresante.es##.mega1
 muyhistoria.es,marie-claire.es,miarevista.es,muynegociosyeconomia.es,serpadres.es,muyinteresante.es###roba1

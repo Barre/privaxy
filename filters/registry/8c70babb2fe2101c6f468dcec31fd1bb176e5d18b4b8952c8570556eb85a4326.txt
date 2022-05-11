@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: dhKW1nAUqGCNIWCs86Iqkw
+! Checksum: Xl02wX8xaaLpza2xHTZ4aw
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.53
-! TimeUpdated: 2022-05-10T18:31:39+00:00
+! Version: 2.0.19.54
+! TimeUpdated: 2022-05-11T10:31:52+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1799,6 +1799,7 @@ aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career-find.jp,mainich
 !
 !
 !
+navitime.co.jp###page_footer_adunit
 hessionchiro.com##.mh-sidebar > .widget_custom_html
 hessionchiro.com##.sng-box.mbt2
 yomiuri.co.jp##.dazn_banner
