@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 5pODA+/nn6pPgG2iiKQ5gQ
+! Checksum: bg//60xu+w1bB9JmdhdO2g
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.56
-! TimeUpdated: 2022-05-12T15:33:19+00:00
+! Version: 2.0.39.57
+! TimeUpdated: 2022-05-12T18:31:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -290,6 +290,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||sofire.bdstatic.com^
 ||knowctr.com^$third-party
 ||px.mountain.com^
 ||gs.mountain.com^
@@ -5140,6 +5141,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||sfp.safe.baidu.com^
 ||revi.rcs.it^
 ||counter.megagroup.ru^
 ||howmanyview.com^
@@ -20492,6 +20494,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||baidu.com/api/bidder/
 ||vnecdn.net/get?app_id=
 ||vnecdn.net/*/?action=
 ||kenga.tech/heatmaps-
