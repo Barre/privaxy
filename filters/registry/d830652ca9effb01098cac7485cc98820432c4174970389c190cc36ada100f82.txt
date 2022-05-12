@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205121205
+! Version: 202205121313
 ! Title: EasyList
-! Last modified: 12 May 2022 12:05 UTC
+! Last modified: 12 May 2022 13:13 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31918,7 +31918,7 @@ rupors.com#@#.advertSlider
 browsershots.org#@#.advert_list
 zalora.co.id,zalora.co.th,zalora.com.hk,zalora.com.my,zalora.com.ph,zalora.com.tw,zalora.sg#@#.advertisement-block
 wired.com#@#.advertisement__leaderboard
-buyout.pro,news.com.au,zlinked.com#@#.advertiser
+adquick.com,buyout.pro,news.com.au,zlinked.com#@#.advertiser
 anobii.com#@#.advertisment
 grist.org,ing.dk,version2.dk#@#.advertorial
 bavaria86.com,ransquawk.com,trh.sk#@#.adverts
@@ -32535,6 +32535,7 @@ tf2r.com#@#.adverts
 ||9t5.me^
 ||9utwbj08.top^
 ||9v58v.com^
+||a-b-c-d.xyz^
 ||a-mo.net^
 ||a002803829.com^
 ||a0675c1160de6c6.com^
@@ -36275,6 +36276,7 @@ tf2r.com#@#.adverts
 ||dersindical.xyz^
 ||descrepush.com^
 ||descz.ovh^
+||desekansr.com^
 ||desembobelinons.site^
 ||deserterstrugglingdistil.com^
 ||desewowe.com^
@@ -42533,6 +42535,7 @@ tf2r.com#@#.adverts
 ||opoxv.com^
 ||oppersianor.com^
 ||opportunitysleepyreflex.com^
+||opposedcream.com^
 ||oppositehometowndrunken.com^
 ||opposs.com^
 ||opsivesh.net^
@@ -42616,6 +42619,7 @@ tf2r.com#@#.adverts
 ||ouftukoo.net^
 ||ouftuthy.net^
 ||oughtbuilding.com^
+||ouhastay.net^
 ||oujouniw.com^
 ||oujtbhllnntesk.com^
 ||oukreesy.net^
@@ -47567,6 +47571,7 @@ tf2r.com#@#.adverts
 ||vpebzerg.com^
 ||vpico.com^
 ||vpn-offers.com^
+||vpn-offers.info^
 ||vpnlist.to^
 ||vpnrequired.com^
 ||vptbn.com^
@@ -54968,6 +54973,8 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ! *** easylist:easylist/easylist_specific_block_popup.txt ***
 $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|animeworld.biz|apl100.me|apl102.me|apl96.me|assia2.com|assia4.com​|cloudemb.com|cloudvideo.tv|databasegdriveplayer.xyz|diampokusy.com|dir-proxy.net|dirproxy.info|dood.ws|dulu.to|embedsb.com|embedsito.com|fembed-hd.com|file-upload.com|freeplayervideo.com|geoip.redirect-ads.com|gogoanime.lol|haes.tech|highstream.tv|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livesports4u.xyz|livetv498.me|loader.to|mangovideo.pw|mixdrop.bz|mixdrop.ch|mixdrop.club|mixdrop.co|mixdrop.sx|mixdrop.to|mixdrops.xyz|myflixer.to|mystream.to|oneproxy.org|piracyproxy.biz|piraproxy.info|pixroute.com|play.hydracdn.network|playtube.ws|pomvideo.cc|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|scloud.online|stape.fun|stape.me|streamas.cloud|streambee.to|streamlare.com|streamon.to|streamta.pe|streamtape.com|streamtapeadblock.art|streamtapse.com|streamz.ws|streamzz.to|strtape.cloud|strtpe.link|supervideo.tv|suzihaza.com|theproxy.ws|trafficdepot.xyz|tubeload.co|uploadfiles.pw|uprot.net|uproxy.best|uproxy.co|upstream.to|upvid.biz|upvideo.to|userload.co|uwatchfree.fo|vidcloud9.com|videovard.sx|vidlox.me|viewsb.com|vivo.sx|voe.sx|vupload.com|watchsb.com|wiztube.xyz|youtubedownloader.sh|ytmp3.sh
 :text^$popup,domain=zippyshare.com
+/&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
+/hkz*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 ||123moviesfree.world/hd-episode/$popup
 ||amazon-adsystem.com^$popup,domain=twitch.tv
 ||animesuge.to/?$popup
@@ -54990,17 +54997,12 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||mp3-convert.org/p$popup
 ||notube.website/p/$popup
 ||pinoymovies.es/links/$popup
-||piraproxy.info/&^$popup
-||piraproxy.info/hkz2^$popup
 ||player.tabooporns.com^$popup
 ||qontent.pouvideo.cc^$popup
 ||sendspace.com/defaults/sendspace-pop.html$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
 ||topeuropix.site/svop4/$popup
-||unblocked.club/hkz^$popup
-||unblockedstreaming.net/&^$popup
-||unblockedstreaming.net/hkz^$popup
 ||vidxhot.net/out.php$popup
 ||vpnfortorrents.*?$popup
 ||waaw.to/out.php$popup
@@ -55072,6 +55074,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||between-legs.com^*/banners/
 ||bigcock.one/worker.js
 ||bigtitsgallery.net/qbztdpxulhkoicd.php
+||bigtitslust.com/frd5/ab-f.js
 ||biqle.org/swp.js
 ||bit.ly^$script,domain=hayjav.com
 ||blasensex.com/extras/
@@ -55311,6 +55314,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||tits-guru.com/js/istripper4.js
 ||titsbox.com/nb/
 ||tnaflix.com/azUhsbtsuzm?
+||trannygem.com/ai
 ||tryboobs.com/bf/
 ||tubxporn.xxx/js/xp.js
 ||txxx.com/uieisoudo/
@@ -59336,6 +59340,7 @@ eporner.com##.hptab
 pantiespics.net##.hth
 videosection.com##.iframe-adv
 gotporn.com##.image-group-vertical
+trannygem.com##.in_player_video
 vivud.com##.in_stream_banner
 cocoimage.com##.inner_right
 vivud.com##.inplayer_banners
@@ -59578,6 +59583,7 @@ eporner.com##.vjs-inplayer-container
 japan-whores.com##.vp-info
 3prn.com##.w-spots
 hothag.com##.wdiget-below-image
+trannygem.com##.we_are_sorry
 porntube.com##.webcam-shelve
 imagearn.com##.wide_banner
 rpclip.com##.widget-item-wrap
@@ -59671,6 +59677,7 @@ redgifs.com##a[href^="https://camsfinders.com/"]
 hog.tv##a[href^="https://clickaine.com"]
 instantfap.com##a[href^="https://go.redgifcams.com/"]
 sexhd.pics##a[href^="https://go.stripchat.com/"]
+trannygem.com##a[href^="https://landing.transangelsnetwork.com/"]
 datingpornstar.com##a[href^="https://mylinks.fan/"]
 smutr.com##a[href^="https://smutr.com/?action=trace"]
 gotporn.com##a[href^="https://www.gotporn.com/click.php?id="]

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: sCQipOBxeKGZBHIEIsWMNw
+! Checksum: DpBFF6HaiZPu98CC8dj24g
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.54
-! TimeUpdated: 2022-05-12T11:31:33+00:00
+! Version: 2.0.39.55
+! TimeUpdated: 2022-05-12T12:31:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20490,6 +20490,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||vnecdn.net/get?app_id=
+||vnecdn.net/*/?action=
 ||kenga.tech/heatmaps-
 ||startpage.com/sp/cl|
 ||startpage.com/sp/jst

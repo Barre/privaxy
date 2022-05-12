@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Thu, 12 May 2022 00:03:28 +0000
+! Updated: Thu, 12 May 2022 12:03:47 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -104,7 +104,6 @@ latvideo.ru
 leovideo.ru
 llcvideo.ru
 lollyvideo.ru
-makingssurvey.top
 marionettespuppets.co
 mattdeany.co
 meetuuho.xyz
@@ -129,7 +128,6 @@ onlinebars.xyz
 openadvancedoverlythefile.vip
 pandaautumna.xyz
 pandaspringd.xyz
-pandasummerb.xyz
 pandawinterb.xyz
 paravideo.ru
 peetco.co
@@ -195,7 +193,6 @@ tablestop.shop
 techandgadgets.net
 technoblogs.net
 techynews.org
-tedref.art
 telame.org
 telicom.org
 termovideo.ru
