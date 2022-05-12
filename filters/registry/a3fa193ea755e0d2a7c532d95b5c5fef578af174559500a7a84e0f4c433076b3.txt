@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DtOv5uqb2OZpNjzkYSaAIQ
-! Version: 202205121400
+! Checksum: 7iGq864RB4xTepDsRBZgdQ
+! Version: 202205121500
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-12 14:00 UTC
+! Last modified: 2022-05-12 15:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13929,6 +13929,7 @@ _subscribers_newsletters/
 ##.md-sharethis-toolbox-floatingbutton_placement
 ##.md-social-toolbar-circle
 ##.mdSocialButton
+##.mdi-facebook
 ##.mdi-share
 ##.mdi-share-variant
 ##.mdi-twitter
@@ -18349,6 +18350,7 @@ _subscribers_newsletters/
 ##.thread-share-bar-buttons
 ##.thread-share__button
 ##.thread-submission-socialSharing
+##.thrv_tw_qs
 ##.ticker-tweet
 ##.tile_facebook
 ##.tile_pinterest
@@ -30943,6 +30945,8 @@ _subscribers_newsletters/
 ##.cookies[ng-show*="Accept"]
 ##.cookies__banner
 ##.cookies__banner__wrapper
+##.cookies__bar
+##.cookies__bar__header
 ##.cookies__card
 ##.cookies__container
 ##.cookies__content
@@ -52116,6 +52120,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||livefyre.com/site_media/images/auth/$image
 @@||m73ns.xyz/js/devtools-detector.js$script
 @@||makeuseoflimited.netdna-cdn.com/pages/*/images/social.png$domain=makeuseof.com
+@@||mozilla.org/media/img/newsletter/$image,~third-party
 @@||my.leadpages.net/template/$script,domain=weddingjams.com
 @@||my.leadpages.net^*/public/
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
