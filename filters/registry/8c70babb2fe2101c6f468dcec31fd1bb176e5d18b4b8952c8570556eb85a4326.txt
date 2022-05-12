@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: BgOT/8Gq5cjFthkjWgAT0w
+! Checksum: Q3VvxVrHMK7pQyisDNWG0Q
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.60
-! TimeUpdated: 2022-05-12T13:10:55+00:00
+! Version: 2.0.19.61
+! TimeUpdated: 2022-05-12T15:33:40+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -785,6 +785,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+curet.jp#$?#.p-widget-list__item > div[id^="div-gpt-"]:upward(1) { remove: true; }
 46matome.net,keyakizaka46matomemory.net#?##more > b:not(:contains(まとめもり～))
 hayamimi-gunpla.com,hayamimi-hobby.com#?#.box-article > div.border-ao.text-center:contains(関連商品)
 hayamimi-gunpla.com,hayamimi-hobby.com#?#.page-desktop > div.text-dark:contains(/プレバン|楽天/)

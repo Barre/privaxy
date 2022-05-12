@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 4S2uYnCx4QCGzCdkuGIzbw
+! Checksum: cycYnFQaFYfAU7CAqxzqVQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.10
-! TimeUpdated: 2022-05-12T14:30:37+00:00
+! Version: 2.1.19.11
+! TimeUpdated: 2022-05-12T15:32:29+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7249,12 +7249,13 @@ ladbible.com,hitc.com,dualshockers.com,is.fi,7sur7.be,vtm.be,welt.de,gamingbible
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[class^="sp_veil"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
 !
-/wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info|badoo.com|eiu.com|stern.de|7sur7.be|flugrevue.de|playpilot.com|kachelmannwetter.com|muehlacker-tagblatt.de|hobbyconsolas.com|roadbike.de|gala.de
+/wrapperMessagingWithoutDetection.js$script,domain=rheinpfalz.de|lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info|badoo.com|eiu.com|stern.de|7sur7.be|flugrevue.de|playpilot.com|kachelmannwetter.com|muehlacker-tagblatt.de|hobbyconsolas.com|roadbike.de|gala.de
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
 !
+tierarzt24.de##.vet_cookies
 iairgroup.com###_cookieConsentWrapper
 asialadies.de#$#.site-cookies-overlayn { display: none !important; }
 asialadies.de#$#.cookie-modal-open { overflow: auto !important; }
@@ -18162,6 +18163,10 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+antenna.jp###install-link
+antenna.jp##.bottom-install-link
+antenna.jp##.sp-install-link-block
+antenna.jp##.paragraph.more-link-alt
 m.guancha.cn##.swiper-slide
 m.guancha.cn##.g_swiper_container
 m.guancha.cn##.g_sea
@@ -18310,9 +18315,6 @@ kurashiru.com##.SpApp-recipesShowFloatButton
 sp.nicovideo.jp###jsSmartAppBanner
 sp.nicovideo.jp##.watch-OpeningPlayerInfo_LaunchAppsButton
 sp.nicovideo.jp##.siteWide-AppModalWithLogin
-s.tabelog.com###js-webtoapp-floating-banner-overlay
-s.tabelog.com##.area-ranking-wrap
-s.tabelog.com##.search-temp__floating-app
 navitime.co.jp###smartapp-banner-area
 navitime.co.jp###footer-app-dl-frame
 navitime.co.jp##.footer-invite-app-section
@@ -19856,6 +19858,12 @@ kinopovtor1.online##+js(abort-on-property-read, stickyConfig)
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
 !+ NOT_OPTIMIZED
+s.tabelog.com###js-webtoapp-floating-banner-overlay
+!+ NOT_OPTIMIZED
+s.tabelog.com##.area-ranking-wrap
+!+ NOT_OPTIMIZED
+s.tabelog.com##.search-temp__floating-app
+!+ NOT_OPTIMIZED
 girlschannel.net##.topic-items > li > a[href^="https://play.google.com/store/apps/details?id=net.girlschannel"]
 !+ NOT_OPTIMIZED
 girlschannel.net##.topic-items > li > a[href^="https://itunes.apple.com/app/apple-store/id658785238"]
@@ -20046,6 +20054,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+curet.jp##.l-footer-modal
 youtube.com##tp-yt-iron-dropdown[class="style-scope ytd-popup-container"][horizontal-align="right"]
 baike.baidu.com##.sl-player__main.window-player
 tether.to#$#.MuiDialog-root { display: none !important; }
@@ -27420,6 +27429,8 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+opinie-perfumy.pl##.lepopup-popup-overlay
+opinie-perfumy.pl##.lepopup-popup-container
 ||promo.datacamp.com/banner.js
 analyticsvidhya.com##.banner-section-for-display
 baike.baidu.com##a[onclick="page.Mixedor.mixedOpen(this,4)"]

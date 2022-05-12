@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 3UTdP+tZQX2vCCoc+hiiwA
+! Checksum: YJZegE1ddOdsiS1DPgrL8g
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.31
-! TimeUpdated: 2022-05-12T10:30:25+00:00
+! Version: 2.0.34.32
+! TimeUpdated: 2022-05-12T15:32:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2318,6 +2318,7 @@ filmizlemetv.com##div[id^="spnsr5"]
 filmizlemetv.com##.rsm-ykr-trf
 ||webteizle1.com/js/minipop.js
 ||webteizle1.com/i/*.mp4
+||webteizle1.com/i/*.mp4$media,redirect=noop-1s.mp4
 webteizle1.com##.embed >a[target="blank"]
 ||selcuksportshd290.com/img/m-ad-
 ||video.twimg.com/ext_tw_video/*/pu/$xmlhttprequest,domain=selcuksportshd290.com
