@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PshLXPK/Y05F73RPUteb8g
-! Version: 202205121054
+! Checksum: 02B3geGJ511LW4NnZx64NA
+! Version: 202205121154
 ! Title: RU AdList for uBO only
-! Last modified: 12 May 2022 10:54 UTC
+! Last modified: 12 May 2022 11:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13246,7 +13246,6 @@ klubok.com###shops-wrap
 literator.org###showcase
 vpk.name###side > div[style*="300px"][style*="600px"]
 myflashgame.com.ua###side-ad-panel
-medside.ru###side-banner
 drive.ru###side-dv
 igrozor.org###sideAdv
 newstudio.tv#?##sideLeft > .accordion-group:-abp-has(.accordion-heading:-abp-contains(seedbox.org.ua))
@@ -14343,7 +14342,6 @@ bfm.ru##.block_smi
 kvnews.ru##.block_sponsor
 igrhost.ru##.block_top
 isport.ua##.block_top_banner
-medside.ru##.blockin-adsense_adapt
 armourbook.com#?#.blocklite:-abp-has(> div > [class]:-abp-contains(Реклама))
 wotspeak.org##.blockmainkv
 unvan.az##.blockreklam
@@ -15573,7 +15571,6 @@ uvelir.info##.main_frame > div[style="float:left; width:245px; height:130px;"]
 job.ru,myjob.by##.main_logo_carusel
 ural56.ru##.main_news_right_block_advert
 cont.ws##.main_top_ads
-medside.ru##.main_top_block_adapt
 kinoafisha.ua##.main_top_line
 myfreeproject.com#?#.mainb > .main_block:-abp-has(> #slides > #reklama)
 csgolife.ru#?#.mainb > .main_block:-abp-has(> center > .slider)

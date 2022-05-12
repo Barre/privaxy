@@ -2873,6 +2873,7 @@ boannews.com##div#scroll_banner2
 boannews.com##iframe#bottom_banner
 boannews.com##iframe#main_banner_A
 boannews.com##iframe#main_banner_B
+board.rhythmer.net##div.topBanner
 boards.net,proboards.com##div#ad1
 boards.net,proboards.com##div#wrapper>div[style="display: flex; width: 700px; max-width: 100%; margin: 0 auto 10px; text-align: center; justify-content: space-around;flex-wrap: wrap"]
 boards.net,proboards.com##iframe#ad-desktop-bottom
