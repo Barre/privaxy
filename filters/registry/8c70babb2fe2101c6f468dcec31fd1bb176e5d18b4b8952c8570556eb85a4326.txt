@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Q3VvxVrHMK7pQyisDNWG0Q
+! Checksum: iHyb7IvqnltvUWABUiglTw
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.61
-! TimeUpdated: 2022-05-12T15:33:40+00:00
+! Version: 2.0.19.62
+! TimeUpdated: 2022-05-12T16:31:44+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1818,9 +1818,14 @@ bridge-salon.jp##div[id^="jp_ir_"][style]
 blkt.net##.ad001
 blkt.net##.mkjAd
 locari.jp##section[class*="posts-ad"]
+living.jp###bottom-banner
+living.jp###header-banner
+living.jp###billboard
+living.jp###post_content_banner
+city.living.jp###top-footer-banner
+mrs.living.jp##.top-fbnr-area
 mrs.living.jp##.fbnr-area
 mrs.living.jp##.pr-txt-area
-mrs.living.jp###billboard
 ovo.kyodo.co.jp##.gunosy-ads-spot
 ovo.kyodo.co.jp##a[href^="https://suumo.jp/tokushu/pre/mansion/kanto/"]
 mainichigahakken.net###mhn_all_bb_gam

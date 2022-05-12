@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 11May2022v8
+! Version: 12May2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -790,7 +790,12 @@ tekniikkatalous.fi#?#div#skyscraper-height-div > aside > div > div > a:-abp-cont
 tekniikkatalous.fi#?#div#skyscraper-height-div > section > div > a:-abp-contains(Kaupallinen yhteistyö)
 tekniikkatalous.fi,tivi.fi#?#[width]:-abp-has(.lazyload-wrapper)
 telsu.fi###paab_pot
+telsu.fi###paaab_pot
 telsu.fi##.paab
+telsu.fi##.paaab
+telsu.fi#?#.ch:-abp-has(+ [data-src*=adform])
+telsu.fi#?#.ch:-abp-contains(SPON)
+telsu.fi##a[href^="/cclk"]
 telsu.fi##div[class*=cmore]
 tennis.fi##.ad-blocks
 tervareitti.fi##.advertisement-banner-row
@@ -931,7 +936,7 @@ yrittajat.fi##div[class$=kaupallinen-yhteistyo]
 /*-mainos-$image,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutisankka.com
 /neoproxy.dll$xmlhttprequest,domain=pkank.fi
 /prerolls/*.mp4$domain=gamereactor.fi
-/telsu[.]fi/ch2\/\w{15,30}/$image,domain=telsu.fi
+/telsu[.]fi/img\/\w{15,30}/$image,domain=telsu.fi
 /wp-content/uploads/2022/04/HymyAlibi2022_300x300_pupu.jpg$image,domain=alibi.fi|hymy.fi
 ||aamuset.fi/Content/app/img/Latkaliiga_banneri.jpg$image
 ||ad.citycdn.fi^$third-party

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7LDp8yBFlVpOlR9+lFph/g
+! Checksum: xanYtq2QJdqTijP+Vr73WQ
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.44
-! TimeUpdated: 2022-05-12T15:33:24+00:00
+! Version: 2.0.61.45
+! TimeUpdated: 2022-05-12T17:03:03+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2316,7 +2316,7 @@ eggs.mu##.m-commnsnsAra
 michaelsan.livedoor.biz###article_bottom_v2 + nav.section-box
 esoteric.jp,tascam.jp,teac.co.jp,teac.jp,neg.by,karnaval.com##.share_container
 delo.ua##.c-post__share
-tz.de##.idjs-webshareAction
+heidelberg24.de,tz.de##.idjs-webshareAction
 driveplaza.com##.c-shareList
 mbn.co.kr##.sns_right > ul > li > img[onclick^="snsShare"]
 mbn.co.kr##.sns_right > ul > li > a[href] > img[id="share_katalk"]
