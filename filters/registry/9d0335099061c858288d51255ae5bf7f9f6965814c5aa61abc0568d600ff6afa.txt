@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: /V3YDAe1YUUU9HyiNtQwJA
+! Checksum: ApAm+ukKWkaMokNWmcwXyw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.14
-! TimeUpdated: 2022-05-12T19:30:34+00:00
+! Version: 2.1.19.15
+! TimeUpdated: 2022-05-12T20:30:36+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7255,6 +7255,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+||webcdn.asafe.com/assets/js/cookies.bundle.js
 ||ugandairlines.com/js/cookie.min.js
 flyblueair.com###divCookies
 capital.com##.stickyBar
@@ -28352,6 +28353,8 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
 aktualne.cz##.right-column__newsletter
+foodist.de#$#html.no--scroll { overflow: auto !important; }
+foodist.de#$##newsletter-overlay { display: none !important; }
 classicalmusicnews.ru##.entry-footer a[href="https://t.me/classicalmusicnews"]
 meduza.global.ssl.fastly.net,meduza.io##.SignalBlock-root
 nomadicboys.com##.boxzilla-subscribe-bar-mobile

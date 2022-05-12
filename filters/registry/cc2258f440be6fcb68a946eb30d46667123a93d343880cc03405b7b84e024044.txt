@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 3cvB/f5qwebF87yIx/MjCA
+! Checksum: lT0u45vlHnvNBsyd0yRJqQ
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.29
-! TimeUpdated: 2022-05-12T17:31:15+00:00
+! Version: 2.2.30.30
+! TimeUpdated: 2022-05-12T20:31:17+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -38449,9 +38449,6 @@ coinwarz.com##.well > div[style^="width: 336px; height: 280px; float: left;"]
 animalplanet.com##.bannerFlexHeader__main.banner-flexOne-main
 leagueofgraphs.com##div[id^="cdm-zone-"]
 thexvid.com##.in-bg-pop > div#morev
-tornadomovies.to###container_outer
-||tornadomovies.to/sw.js
-||tornadomovies.to/site/kasdl7asd
 proxydocker.com##.facebookdiv[style="min-height:200px;"]
 flyordie.com##div[style="text-align:center; margin: 0 auto 10px; color:#b0b0b0; font-size: 8px;"]
 flyordie.com###dasb
