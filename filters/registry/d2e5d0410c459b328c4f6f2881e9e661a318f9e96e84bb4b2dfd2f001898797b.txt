@@ -1,13 +1,12 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Wed, 11 May 2022 12:05:37 +0000
+! Updated: Thu, 12 May 2022 00:03:28 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
 ! Source: https://github.com/zhouhanc/malware-discoverer
 
 ! Announcement: curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21
-4elettrostore.it
 aappd.xyz
 abc-news.online
 action-shelter-bit-recognize.xyz
@@ -17,7 +16,6 @@ amobil.online
 android-web.live
 aphicus.xyz
 appcine.net
-autoinsurancedepot.org
 baddog.xyz
 bbcvideo.ru
 be-uk-cash-for-phones-ok.live
@@ -34,7 +32,7 @@ blogphoneapplication.online
 bottomjoyday.top
 bravovideo.ru
 bunnyvideo.ru
-carfuelsaver.org
+cajasdigitalreporting.net
 cedran.co
 center-planet.xyz
 center7mountain.xyz
@@ -74,9 +72,7 @@ finreporter.net
 flowvideo.ru
 foundnow.net
 fromthebeach.co
-gadget.land
 galacontent.ru
-galaxywin.xyz
 gamblehere.org
 gamerdigest.org
 gehenna.xyz
@@ -122,6 +118,7 @@ mobiaplains.xyz
 mobiastar.xyz
 monetunion.club
 mountcrossbed.top
+moviepin.tv
 nashvillewelcome.co
 nordvpnhosting.com
 nordvpnserver.com
@@ -134,7 +131,6 @@ pandaautumna.xyz
 pandaspringd.xyz
 pandasummerb.xyz
 pandawinterb.xyz
-pandawinterd.xyz
 paravideo.ru
 peetco.co
 peoplemarketing.co
@@ -173,7 +169,6 @@ savideo.ru
 segmentsharehard.top
 seila.xyz
 selectedlab.buzz
-sendnow.us
 setview.ru
 sexateam.ru
 sexaview.ru
@@ -196,7 +191,6 @@ stronginchbusy.top
 styletemple.co
 subeamy.pw
 sunnyview.ru
-syncgreatlyprecisetheproduct.vip
 tablestop.shop
 techandgadgets.net
 technoblogs.net
@@ -221,7 +215,6 @@ toplamvideo.ru
 toptechprivacy.cyou
 totvideo.ru
 track-my-vpn.com
-tracksystem.online
 tronvideo.ru
 truly-diet.store
 tunevideo.ru
@@ -243,6 +236,7 @@ videonex.ru
 videonos.ru
 videoox.ru
 videopool.ru
+videospots.ru
 videounic.ru
 videova.ru
 videoze.ru
@@ -255,7 +249,6 @@ walmartcard.top
 wangmo.life
 wantjoinsince.xyz
 web-protocols.org
-websitebuildertutorials.org
 westacoast.xyz
 westamountain.xyz
 westcontent.ru

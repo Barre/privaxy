@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205120124
+! Version: 202205120803
 ! Title: ABPVN List
-! Last modified: 12 May 2022 01:24 UTC+7
+! Last modified: 12 May 2022 08:03 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -1607,6 +1607,7 @@ lxhentai.com##+js(acs, document.cookie)
 metruyenchu.com##+js(aopw, window.onclick)
 phimgif.net,phimhdvns.net,fimnhez.net##+js(acs, jQuery, popurl)
 phimhay3s.com##+js(json-prune, ads)
+phimhays.com##+js(acs, jQuery, window.open)
 phimlau.online##+js(acs, i6H, Math)
 phimmoii123.com##+js(aopr, matchMedia)
 playmt.fastlycdn.xyz##+js(set, adsButton, undefined)
