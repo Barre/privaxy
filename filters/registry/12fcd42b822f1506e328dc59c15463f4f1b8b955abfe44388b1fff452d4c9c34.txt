@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205120803
+! Version: 202205121331
 ! Title: ABPVN List
-! Last modified: 12 May 2022 08:03 UTC+7
+! Last modified: 12 May 2022 13:31 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -622,7 +622,6 @@ utm_source=propellerads$popup
 ||creatives.dfnb-ads.com^
 ||cuoctai11bet.vip^$popup
 ||d2ho1n52p59mwv.cloudfront.net^
-||d2znr2yi078d75.cloudfront.net^$domain=~sms24.me|~sms24.info
 ||d3cod80thn7qnd.cloudfront.net^
 ||d3t5ngjixpjdho.cloudfront.net^
 ||data.videonow.ru^
