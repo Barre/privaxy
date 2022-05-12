@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 6Wjb/l3fzQnI1KjJiVGk7g
+! Checksum: peIyGLvueRm4OCn1EyDrQw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.0
-! TimeUpdated: 2022-05-12T06:30:36+00:00
+! Version: 2.1.19.1
+! TimeUpdated: 2022-05-12T07:30:38+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9135,8 +9135,8 @@ louie.com.br##.termos-politica
 costanorte.com.br##.hMpjTE
 fanlink.to##.acquisition-terms
 westwing.com.br##.cookiePolicyOverlay
-senec.com#$##klaro { display: none !important; }
-senec.com#$#body { overflow: visible !important; }
+pyroweb.de,senec.com#$##klaro { display: none !important; }
+pyroweb.de,senec.com#$#body { overflow: visible !important; }
 sklep.szprychy.com###footer-section > .config-messages
 batchgeo.com##.batchgeo-cookie-notice
 academy.deutsche-boerse.com##.sxcookie
@@ -10249,7 +10249,7 @@ goldenline.pl#$?#.cookie-modal:upward(div.gl-modal) { display: none !important; 
 kontrast.dk#$##modal-background { display: none !important; }
 kontrast.dk#$#.modal-backdrop { display: none !important; }
 kontrast.dk#$#body { overflow: visible !important; }
-globalfamilydoctor.com,bmeia.gv.at,nichtraucherhelden.de,aldi-sued.de,sued.aldi-liefert.de,enirocentrum.pl,felix1.de,panoramafirm.pl,hofer.at,dizioneri.com,m.n11.com,wuerth.de,deutsches-ausschreibungsblatt.de,sued.aldi-liefert.de,capveriant.com,xn--giant-dsseldorf-5vb.de##.modal-backdrop
+inselflieger.de,globalfamilydoctor.com,bmeia.gv.at,nichtraucherhelden.de,aldi-sued.de,sued.aldi-liefert.de,enirocentrum.pl,felix1.de,panoramafirm.pl,hofer.at,dizioneri.com,m.n11.com,wuerth.de,deutsches-ausschreibungsblatt.de,sued.aldi-liefert.de,capveriant.com,xn--giant-dsseldorf-5vb.de##.modal-backdrop
 hardware.support.playstation.com##.siee-cookies
 wayfair.co.uk##.CookieComplianceContainer-veil
 alibaba.com##.GDPR-cookies-notice-wrap
@@ -15462,6 +15462,8 @@ stockmann.com#$#.cookie-dialog-screen { display: none!important; }
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 ! TODO: use redirect rule when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/195
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117949
+pyroweb.de#@#.cookie-notice:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118148
 lhsystems.com#@#.gdpr-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117956
@@ -32383,6 +32385,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118072
+11bit.co.in##+js(nano-setInterval-booster, claim_button, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118173
 teknopaid.xyz##+js(remove-class, hidden, #wcGetLink)
 teknopaid.xyz##+js(remove-attr, disabled, #wcGetLink)
