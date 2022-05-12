@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 2k5FjuF7O7KbGpWAs5QaWA
+! Checksum: Qs/f+1cgJIMQWvU2zjQB9w
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.4
-! TimeUpdated: 2022-05-12T09:30:48+00:00
+! Version: 2.1.19.5
+! TimeUpdated: 2022-05-12T10:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7253,6 +7253,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+liggatelecom.com.br###PopUpCookies
 ||guildwars2.com/services/2bumpers/gen/cookie-notification-
 billiger.de###cookie-banner-overlay-a
 receitanatureba.com###myModalrgpd
@@ -13789,7 +13790,7 @@ libertylondon.com##.cookie-disclaimer-message
 finder.com##.cookie-footer-bar
 eurogamer.net,eurogamer.pt,metabomb.net,nintendolife.com,usgamer.net,vg247.com##.cookie-gdpr
 ikea.com##.cookie-info__panel
-schaumstofflager.de,photowall.de,turkiyesigorta.com.tr,turkiyehayatemeklilik.com.tr,vakifemeklilik.com.tr,nofluffjobs.com##.cookie-information
+india-store.de,schaumstofflager.de,photowall.de,turkiyesigorta.com.tr,turkiyehayatemeklilik.com.tr,vakifemeklilik.com.tr,nofluffjobs.com##.cookie-information
 dmax.com.tr,gq.com.tr,tlctv.com.tr,vogue.com.tr##.cookie-item
 de-mail.info,gmx.net,web.de##.cookie-lasche
 iloft.it##.cookie-law-policy
@@ -18146,6 +18147,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+liggatelecom.com.br##.bl_app
 travel.navitime.com##.l-footer-app
 natalie.mu##.NA_mynatalie
 deepl.com##.lmt_targetToolbar__appPromotion_container
@@ -20024,6 +20026,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+youtube.com##tp-yt-iron-dropdown[class="style-scope ytd-popup-container"][horizontal-align="right"]
 baike.baidu.com##.sl-player__main.window-player
 lidea.today##.linksFix__balloon
 cnews.fr##.sticky-player

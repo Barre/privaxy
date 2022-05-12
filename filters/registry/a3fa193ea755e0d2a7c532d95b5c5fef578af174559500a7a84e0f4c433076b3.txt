@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yIPKlRQh0AnEJ+SHTptf0A
-! Version: 202205120900
+! Checksum: qzSz/YtrndenThI29fiu6Q
+! Version: 202205121100
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-12 09:00 UTC
+! Last modified: 2022-05-12 11:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14864,6 +14864,7 @@ _subscribers_newsletters/
 ##.qode-share-title
 ##.qodef-social-share
 ##.qrtui-c-gallery1-slide_tools_share
+##.qs-subscripe-btn
 ##.qt-shareicon
 ##.qt-sharepage
 ##.qt-socialicon
@@ -45003,6 +45004,7 @@ gettr.com##.jss121
 tvtv.us##.jss14
 gettr.com##.jss142
 gettr.com##.jss67
+canva.com##.jv5LaQ
 steller.co##.kDyVQY
 helloclue.com##.kSGNNc
 honeygain.com##.kksiKu
@@ -45289,7 +45291,6 @@ bonsaipartners.eu##.sqs-slide-layer-content
 fusemagazine.com##.sqs-slide-wrapper
 donsje.com##.src-components-connected-dialog-dialog__root_open--1JzrN
 disk-o.cloud##.src-ui-Cookie-Cookie__root--3Lml4
-canva.com##.src-ui-base-layer-layer__layerContent > div > .src-ui-base-link-link__alert
 openweathermap.org##.stick-footer-panel
 grafana.com,scoresaber.com,staterbros.com##.sticky-footer
 daft.ie##.strapline-container
