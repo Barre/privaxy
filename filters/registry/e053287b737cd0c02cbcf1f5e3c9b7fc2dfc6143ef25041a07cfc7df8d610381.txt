@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 86fW38Rv3KOFC8flobU4bw
+! Checksum: ks/h7ARybPPibKB/CCyGGA
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.75
-! TimeUpdated: 2022-05-11T11:31:53+00:00
+! Version: 2.0.13.76
+! TimeUpdated: 2022-05-12T09:03:37+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1381,7 +1381,7 @@ universoformulas.com#?#h4.heading:contains(QUIZÁS TAMBIÉN)
 marca.com#?#.ue-l-article__secondary-column > div.ue-l-article__secondary-column-item:has(> div.ue-c-ad)
 marca.com#?#.news-item > div.row-layout:has(> aside > div[id^="taboola-"])
 hackstore.la#?#.block-container > #widget > .movie-thumbnail:has(> .movie-back > h3 > :is(a[href$="/netflix-premium/"], a[href$="/spotify-premium/"], a[title="Disney Premium"]))
-atomixhq.art#?#.featured-slides > li.slide:not([id]):has(a[href^="https://startgaming.net/"])
+atomixhq.*#?#.featured-slides > li.slide:not([id]):has(a[href^="https://startgaming.net/"])
 hojeemdia.com.br#?#div[class^="Block__Component-"]:has(> label:contains(/^Publicidade$/))
 reforma.com#?#div[style^="height:250px;"]:has(> div > div#registroNuevoNL)
 cronista.com#?#.section > .block > .zone.zleft.z33ml:has(> .banner)
@@ -1628,7 +1628,7 @@ tiohentai.xyz##+js(abort-current-script, document.addEventListener, create_)
 pelispedia-v1.wtf##+js(window.open-defuser)
 pelispedia-v1.wtf##+js(nano-setInterval-booster, Loading player, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110168
-atomtt.com,atomixhq.art##+js(window.open-defuser, !/download\/|link|atomtt\.com\//)
+atomtt.com,atomixhq.*##+js(window.open-defuser, !/download\/|link|atomtt\.com\//)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109967
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102624
 pelispop.me##+js(abort-on-property-read, adk_pdisp)
@@ -2050,10 +2050,11 @@ http://adw.
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=thepiratefilmestorrent.biz|serieslatinoamerica.tv|pelispop.com|superflix.net
 !
 ! ##.ads
-link.estadao.com.br,atomixhq.art,jc.ne10.uol.com.br,internetpasoapaso.com,acidadeon.com,leouve.com.br,larazon.es,infoescola.com,quatrorodas.abril.com.br,cbn.globoradio.globo.com,maxitorrent.com,veja.abril.com.br,odia.ig.com.br,especiais.g1.globo.com,tribunapr.com.br,novelasd.com,anime-tube.tv##.ads
+link.estadao.com.br,atomixhq.*,jc.ne10.uol.com.br,internetpasoapaso.com,acidadeon.com,leouve.com.br,larazon.es,infoescola.com,quatrorodas.abril.com.br,cbn.globoradio.globo.com,maxitorrent.com,veja.abril.com.br,odia.ig.com.br,especiais.g1.globo.com,tribunapr.com.br,novelasd.com,anime-tube.tv##.ads
 ! ##.ad
 atribuna.com.br,jovemnerd.com.br,laopiniondemurcia.es,larazon.es,dicio.com.br,band.uol.com.br,xataka.com,onyxplay.com,genbeta.com,vagalume.com.br,xatakandroid.com,abril.com.br##.ad
 !
+receitanatureba.com##.natureba-lazyloadingads
 geeknetic.es##.geekads
 webarcondicionado.com.br##.axd-inner
 webarcondicionado.com.br###enveloping
@@ -2138,7 +2139,7 @@ marca.com##.content-ad
 vitoriadaconquistanoticias.com.br###webtivaFloating
 vitoriadaconquistanoticias.com.br##.adcontainer
 vitoriadaconquistanoticias.com.br##.bsac-float-center
-hackstore.la,atomixhq.art##a[href^="https://startgaming.net/"]
+hackstore.la,atomixhq.*##a[href^="https://startgaming.net/"]
 atomtt.com##.ddl > ul > li.slide
 ||tcloudbase.com/access?
 ||pelistorrent.org/wp-content/uploads/*/pandabanner.png
