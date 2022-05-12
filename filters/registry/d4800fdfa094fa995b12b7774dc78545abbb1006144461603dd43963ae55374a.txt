@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: kEyPxW07dB1Y5Fl+DcUaIA
+! Checksum: 2zWhM7CiniDGYjTU+ewHgg
 ! Title: Easylist Cookie List
-! Updated: 2022-05-12 08:00 UTC
+! Updated: 2022-05-12 09:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -973,6 +973,7 @@
 /twitter_cookies.
 /type-cookies.
 /ubmcookieconsent-
+/uc-cmp/loader.js
 /uecomscore_cmp.
 /uk-cookie-
 /ukcookie.
@@ -16143,6 +16144,7 @@ _vpcookieconsent/
 ||freeprivacypolicy.com^$third-party
 ||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr-service.herokuapp.com^$third-party
+||gdpr-settings.s3.amazonaws.com^
 ||gdpr.studybreakmedia.com^
 ||global.mgr.consensu.org^$third-party
 ||goadopt.io^$third-party

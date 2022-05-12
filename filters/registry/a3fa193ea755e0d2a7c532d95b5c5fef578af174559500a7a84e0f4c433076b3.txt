@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fIeOn6goyJikSv7bAB8t1A
-! Version: 202205120800
+! Checksum: yIPKlRQh0AnEJ+SHTptf0A
+! Version: 202205120900
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-12 08:00 UTC
+! Last modified: 2022-05-12 09:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1445,7 +1445,6 @@ _revotas_push.
 /html/share/*$image
 /i/odnokl.
 /i/twitter.
-/i/vk.
 /ic-share-
 /ic_delicious.
 /ic_digg.
@@ -1781,7 +1780,6 @@ _revotas_push.
 /images/tumblr-
 /images/tw_
 /images/vimeo-
-/images/vk-
 /images/whtapp-
 /images/youtube-
 /images/youtube_
@@ -1811,7 +1809,6 @@ _revotas_push.
 /img/twitter-
 /img/twitter.
 /img/twitter_
-/img/vk.
 /imgs/facebook.
 /imgs/twitter.
 /in-icon.
@@ -4253,6 +4250,7 @@ _youtube_social_
 /twitter_cookies.
 /type-cookies.
 /ubmcookieconsent-
+/uc-cmp/loader.js
 /uecomscore_cmp.
 /uk-cookie-
 /ukcookie.
@@ -38240,6 +38238,7 @@ m###teaser-newsletter
 ||freeprivacypolicy.com^$third-party
 ||gdpr-legal-cookie.beeclever.app^$third-party
 ||gdpr-service.herokuapp.com^$third-party
+||gdpr-settings.s3.amazonaws.com^
 ||gdpr.studybreakmedia.com^
 ||global.mgr.consensu.org^$third-party
 ||goadopt.io^$third-party

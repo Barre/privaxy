@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220507
+! Version: 20220512
 
 ! General element hiding rules
 ##amp-ad
@@ -5727,13 +5727,15 @@ mpop.heraldcorp.com##span[id^="adsmnc"]
 mpop.heraldcorp.com##span[id^="byline_ad_"]
 mpop.heraldcorp.com##span[id^="mfarm_text"]
 mpop.heraldcorp.com##ul#adsmnctext
-msn.com##div#taboola-right-rail-thumbnails-multi-story-layout
+msn.com##display-ads
 msn.com##div.ad
-msn.com##div.nativeadaside
-msn.com##div.nativeadasideplaceholder
 msn.com##div.widead
-msn.com##div[data-nativead="1"]
-msn.com##li.nativeadasideitem
+msn.com##div[class*=" modernRightRail_stickyTopBannerAd-"]
+msn.com##div[class^="articlePage_eoabContent-"]
+msn.com##div[class^="articlePage_topBannerAdContainer_"]
+msn.com##fluent-design-system-provider[data-test-id="mrr-nativead"]
+msn.com##li.todayshowcasead
+msn.com##msft-article-card:not([class])
 msnews.co.kr##div#article-view-content-div>center[style="margin:15px 0;"]
 msnews.co.kr##div.banner_box
 mspoweruser.com##aside.shunno_widget_sidebar_advert
