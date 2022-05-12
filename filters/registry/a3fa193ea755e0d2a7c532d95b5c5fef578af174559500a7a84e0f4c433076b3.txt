@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8dHl3Y1F6dHT7VxGg5GHCw
-! Version: 202205121300
+! Checksum: DtOv5uqb2OZpNjzkYSaAIQ
+! Version: 202205121400
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-12 13:00 UTC
+! Last modified: 2022-05-12 14:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5147,6 +5147,7 @@ _subscribers_newsletters/
 ##.trc_spotlight_item
 ##.widget_am_taboola_main_widget
 ##.widget_ione-taboola
+##[data-taboola-options]
 ! nbc websites app element
 ##.bp-banner
 ! hotjobs widget
@@ -38197,6 +38198,7 @@ m###teaser-newsletter
 ||californiatimes.com/gdpr/
 ||ccmp.eu^$third-party
 ||ccpa-script.psg.nexstardigital.net^
+||cdn-cookieyes.com/client_data/
 ||civiccomputing.com^*=cookie$third-party
 ||clickio.mgr.consensu.org^$third-party
 ||clickiocdn.com/t/cmp/$third-party

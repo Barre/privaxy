@@ -5,7 +5,7 @@
 ! Licencija: Šis turinys yra pateikiamas pagal GNU GPL3 licenciją - https://www.gnu.org/licenses/gpl-3.0.txt
 ! Description: Removes ads on Lithuanian-language websites.
 ! Homepage: https://github.com/EasyList-Lithuania/easylist_lithuania
-! Version: 06May2022v1
+! Version: 12May2022v1
 ! Expires: 7 days
 
 ###delfi-front-right-column
@@ -679,6 +679,7 @@ uploads/images/$domain=gyvenimoguru.lt,image
 ||delfi.lt/misc/export/aovp.php
 ||delfi.lt/video/sporto-tv/widgets/250px/
 ||delfi.lt/video/sporto-tv/widgets/728px/images/hermis.jpg
+||dcdn.lt/images/hntis/$domain=delfi.lt
 ||depiliacija.eu/wp-content/uploads/2011/12/fotoepiliacija-namuose.png
 ||depiliacija.eu/wp-content/uploads/2012/06/fotoepiliatorius-silkn-flashngo.png
 ||depiliacija.eu/wp-content/uploads/2013/09/HF-depiliacija-baneris180x500.jpg
