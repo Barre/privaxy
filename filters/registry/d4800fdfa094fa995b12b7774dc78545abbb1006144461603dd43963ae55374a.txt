@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: C+nOLH02oYzVHOoKfCx6JA
+! Checksum: 9Fkl1jiIJ7UMCN6/wIuJeg
 ! Title: Easylist Cookie List
-! Updated: 2022-05-13 09:00 UTC
+! Updated: 2022-05-13 10:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -17446,6 +17446,7 @@ corporate.dow.com##.screenBlockOverlay
 showcasecinemas.co.uk##.section-prompt
 carrerajeans.com##.sessionnotification
 colormango.com##.setprivacy
+chitika.com##.sh-page-notice
 groovy.bot##.shadow.text-white.bg-gray-dark-mid
 gwpharm.com##.show
 wallpaper.to##.showBanner
@@ -18649,6 +18650,7 @@ br-automation.com##.in.modal-backdrop
 kicks.fi##.ir.iq.h
 pihlajalinna.fi##.jfCHNz
 tiendeo.fi##.kcLQzP
+kierratyskeskuspatina.fi##.lightbox-backdrop
 epressi.com##.lpcn
 espoo.fi##.lpcoTc
 apteekkari.fi,energiauutiset.fi##.ltcn
