@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Azhx+LZXMivCKpR6Tc1hKA
+! Checksum: UCLUMnCBZ8le+sODYOZJew
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.46
-! TimeUpdated: 2022-05-13T18:31:14+00:00
+! Version: 2.2.30.47
+! TimeUpdated: 2022-05-13T19:31:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3961,6 +3961,9 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/bogachenko/fuckfuckadblock/issues/307
+freesolana.top##+js(abort-current-script, decodeURIComponent, _0x)
+||static.surfe.pro/js/net.js$script,xmlhttprequest,redirect=noop.txt,domain=freesolana.top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118513
 ||cxense.com/cx.js$script,domain=japannews.yomiuri.co.jp,redirect=noop.js,important
 @@||cdn.cxense.com/cx.js$script,domain=japannews.yomiuri.co.jp
