@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OW4AFb9u2Xej4qJltS8fag
-! Version: 202205091455
+! Checksum: Bp+U+cbtW9mZYnCWMej1DQ
+! Version: 202205131305
 ! Title: EasyList Italy
-! Last modified: 09 May 2022 14:55 UTC
+! Last modified: 13 May 2022 13:05 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -6405,6 +6405,7 @@ cookaround.com###gpt-300250-container
 orvietonews.it###gpt-passback
 mercatinomusicale.com###hdr_leaderboard
 rovigooggi.it###head-space
+centrometeoitaliano.it###head_skin_placeholder
 cronachemaceratesi.it###head_sponsor
 beverfood.com###headbanner
 andriaviva.it,archiexpo.it,bariviva.it,barlettaviva.it,bisceglieviva.it,bitontoviva.it,canosaviva.it,cerignolaviva.it,coratoviva.it,directindustry.it,giovinazzoviva.it,gravinalife.it,hotelmag.it,margheritaviva.it,medicalexpo.it,minervinoviva.it,modugnoviva.it,molfettaviva.it,nauticexpo.it,ruvoviva.it,sanferdinandoviva.it,serialgamer.it,spinazzolaviva.it,terlizziviva.it,traniviva.it,trinitapoliviva.it###header-banner
@@ -7834,6 +7835,7 @@ cosavederein1giorno.it##.links
 facileporno.com##.links-out
 skillandbet.com##.list-unstyled
 telenord.it##.lista-banner
+casa.it##.listingStrip
 diretta.it##.live-betting-strip
 sorrisi.com##.live-news-advbox
 acquavivalive.it,altamuralive.it,andrialive.it,barilive.it,barlettalive.it,bisceglielive.it,bitontolive.it,canosalive.com,cassanolive.it,coratolive.it,fasanolive.com,gioialive.it,giovinazzolive.it,gravinalive.it,margheritalive.it,minervinolive.it,molfettalive.it,okmugello.it,ruvolive.it,santeramolive.it,terlizzilive.it,termolionline.it,tranilive.it,vastoweb.com,viviwebtv.it##.live-promo

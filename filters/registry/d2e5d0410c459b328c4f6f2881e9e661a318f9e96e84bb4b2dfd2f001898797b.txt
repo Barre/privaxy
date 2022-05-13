@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Fri, 13 May 2022 00:04:15 +0000
+! Updated: Fri, 13 May 2022 12:03:06 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -75,6 +75,7 @@ foundnow.net
 fromthebeach.co
 galacontent.ru
 gamblehere.org
+gameoverhere.net
 gehenna.xyz
 getixvideo.fun
 giving-bigwin-chance-reward.rest
@@ -106,6 +107,7 @@ latvideo.ru
 leovideo.ru
 llcvideo.ru
 lollyvideo.ru
+makingssurvey.top
 marionettespuppets.co
 mattdeany.co
 meetuuho.xyz

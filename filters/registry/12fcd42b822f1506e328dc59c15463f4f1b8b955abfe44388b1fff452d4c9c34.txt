@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205131714
+! Version: 202205131942
 ! Title: ABPVN List
-! Last modified: 13 May 2022 17:14 UTC+7
+! Last modified: 13 May 2022 19:42 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -260,7 +260,7 @@ utm_source=propellerads$popup
 ||i.imgur.com/FbUH5AQ.png
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
-||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|truyenfull.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.tv|zingvntv.net|zingvntv.com|animeweb.xyz
+||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|truyenfull.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.vip|zingvntv.net|zingvntv.com|animeweb.xyz
 ||i.imgur.com^*.gif$image,domain=ghienxemphim.net|ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|phimgif.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|cakhia17.live|cakhia17.tv|xembongda360.com|biphim.co|bichill.tv|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|vzphimmoi.net|forum.gocmod.com|cakhia16.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
 ||i.k8info.com/images/promo/$third-party
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com,image
@@ -1263,12 +1263,15 @@ uploading.vn##.Top_news .fileinfoagb:nth-child(4)
 v4u.vn##.Flagrow-Ads-under-header
 valvrareteam.com##a[rel*="nofollow"]
 vatlypt.com##a[target="_blank"][rel="dofollow"]
-vebotv.tv##.captain-sb
-vebotv.tv##.ft-box
-vebotv.tv##.ibs-bet
-vebotv.tv##.mmo
-vebotv.tv##.mmo-inner
-vebotv.tv##.vb-pr-box
+vebotv.vip###m-bet
+vebotv.vip##.box-host
+vebotv.vip##.captain-sb
+vebotv.vip##.ft-box
+vebotv.vip##.ibs-bet
+vebotv.vip##.mc_bottom>.mct_-bet
+vebotv.vip##.mmo
+vebotv.vip##.mmo-inner
+vebotv.vip##.vb-pr-box
 vesotantai.com##.item-qc
 vieclam.tv###bnc1
 vietcetera.com##.css-12hstoj
@@ -1607,9 +1610,9 @@ tapmoi.net##+js(acs, navigator, SmartPopunder)
 tienichmaytinh.net,giavang.net##+js(no-fetch-if, method:HEAD)
 tinsoikeo.io##+js(acs, $, window.open)
 tinsoikeo.io##+js(aopr, sessionStorage)
-vebotv.link##.show.fade.modal
-vebotv.link,bongdahomnay.tech##.modal-backdrop.show
-vebotv.link,bongdahomnay.tech##html:style(overflow: auto !important)
+vebotv.vip##.show.fade.modal
+vebotv.vip,bongdahomnay.tech##.modal-backdrop.show
+vebotv.vip,bongdahomnay.tech##html:style(overflow: auto !important)
 viettoons.tv,vzphimmoi.net##+js(aopr, open)
 vungoctuan.vn##+js(acs, document.write, snow)
 vungoctuan.vn##+js(no-xhr-if, ads)

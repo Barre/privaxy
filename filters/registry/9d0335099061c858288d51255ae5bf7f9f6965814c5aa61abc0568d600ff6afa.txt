@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 4+ORVaNoO6BHIAk8eWT6oA
+! Checksum: muvq39cxZ9U5H/p1lkE/jg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.22
-! TimeUpdated: 2022-05-13T11:30:37+00:00
+! Version: 2.1.19.24
+! TimeUpdated: 2022-05-13T13:02:16+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20074,6 +20074,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+tomtop.com##.freePointWrap
 curet.jp##.l-footer-modal
 youtube.com##tp-yt-iron-dropdown[class="style-scope ytd-popup-container"][horizontal-align="right"]
 baike.baidu.com##.sl-player__main.window-player
@@ -28392,7 +28393,7 @@ francetvinfo.fr##.page-content > section.nl-block
 ookla.com##.article-sidebar-panel-subscribe
 peopletalk.ru##body .zen-block
 ukr.media##.push_btn
-momoniji.com##.sns-follow
+mhw.fuguai-online.com,momoniji.com##.sns-follow
 opopular.com.br##.container-inner-newsletter
 ||egoi.page^$third-party
 folhabv.com.br##iframe[src^="https://egoi.page/"]
