@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: DOkeIJUdupuMld+vms8HMA
+! Checksum: 50auWw1/KhM9oIheE/qf9Q
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.33
-! TimeUpdated: 2022-05-12T20:30:26+00:00
+! Version: 2.0.34.34
+! TimeUpdated: 2022-05-13T05:02:51+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1405,6 +1405,8 @@ shirl.club,altporno.xyz,ovpvideo.com##+js(abort-on-property-read, oV1)
 ! dizipal*.com - frequently changed domains
 dizipal228.com,dizipal229.com,dizipal230.com,dizipal231.com,dizipal232.com,dizipal233.com,dizipal234.com,dizipal235.com,dizipal236.com,dizipal237.com,dizipal238.com,dizipal239.com,dizipal240.com,dizipal241.com,dizipal242.com,dizipal243.com,dizipal244.com,dizipal245.com,dizipal246.com,dizipal247.com,dizipal248.com,dizipal249.com,dizipal250.com##+js(remove-attr, data-money, div)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118260
+filmizle720p.net##+js(addEventListener-defuser, click, window.open)
 ! https://github.com/uBlockOrigin/uAssets/issues/12600
 diziyou.com##+js(abort-on-property-read, initDizi)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112127
