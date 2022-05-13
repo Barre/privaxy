@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wlQayAbgRXXKMWFH1LbD6A
-! Version: 202205122300
+! Checksum: RU8HUKYzoYnXDVjO+P1TaQ
+! Version: 202205130900
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-12 23:00 UTC
+! Last modified: 2022-05-13 09:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -50477,6 +50477,7 @@ jaguarportugal.pt,landrover.pt##.notificationBars
 timing.pt##.policy
 jeitto.com.br##.popup-overlay
 horizonconsulting.pt##.spu-bg
+r7.com##.toolkit-privacy-box__body
 csmarket.pt##div[style^="background:black; color:white; text-align:center;"]
 fepsa.pt##div[style^="height: 35px;"]
 apracas.pt##div[style^="text-align:center;position:fixed;"]
