@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: SiJ/+M2xEfbfWq6uT/vRdA
+! Checksum: NbIMfjqxluXoYFT0Wn7CWQ
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.36
-! TimeUpdated: 2022-05-13T10:30:31+00:00
+! Version: 2.0.34.37
+! TimeUpdated: 2022-05-13T11:30:27+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1388,7 +1388,7 @@ videoseyredin.net#?#.widget_text[-ext-contains="Reklamları"]
 !*****
 ! START: Clickunders
 ! puShown
-dizirun.me,filmfiz.net,filmcus.com,hazirfilm.com,filmizlew.org,zoof1.xyz,sinemakolik.net,sinefilmizlesen.com,zarize.com,pornobuna.com,zarizeporno.com,burdenfly.com,diziking.vip,elzemfilmizle.cc,filmdelisi.org,1080pfilmizle.me,zzerotik.com,filmgo.org,filmiifullizlee.com,sinemafilmizle.net,fullhdfilmiizle.org,hdfilmw.org,buzfilmizle1.com,filmkuzusu1.com,hdfilmcix.net,sinemadelisi.com,pifilmizle.com,yetiskinfilmizle.net,hdsexfilmizle.com,erotik-film.org,erotikfilmtube.com,erotik-filmler.net,erotikfilms.net,erotizmfilmleri.net,sezonlukdizi1.com,dizipal.*,siyahfilmizle.*,filmizletv.*,tekparthdfilmizle.*,filmgezegeni.org,filmbabasi.com,dizimax.net,dizisup.*,pornoanne.com,dizikorea.com,diziyo.*,koredizileri.tv,diziboxx.com,dafflix.com,yabancidizitv.net,turkaliz.com,jetdiziizle.net,hddiziport.*,vkfilmizle.net,dizimom.org,dizimov.*,yerlidizi.pw,fullhdfilmizleyin.com,filmizlet.net,torrentarsivi.*,baglanfilme.com,filmgooo.com,pornorips.com,bumfilmizle.com,bestdizi.com,setfilmizle.*,fxdizi.com,shirl.club,evrenselfilmlerim.org,turkcealtyazilipornom.com,fullhdfilmmodu.org,sinema.cc,hdfilmizletv.com,filmmom.net,torrent-oyun.com,shortz.club,pembetv18.com,sinemaizle.co,vipfilmlerizleme.*,filmlane.com,netfilmtvizle.com,hdfilmcehennem.com,filmyani.*,xbox360torrent.com,efullizle.com,morfilmizle.com,asyafanatiklerim.com,fullhdfilmizlesene3.org,guncelhdfilm.com,vipfilmlerizle.com,dizilost.com,fileru.net,dizipub.*,dizitube.net,fullhdfilmdeposu.com,tranimeizle.com,volsex.com,torba.info,erotiksexizle.com,altyazilifilm.live,divx720pfilmizle.org,filmihdizlet.com##+js(set-constant, puShown, true)
+dizirun.me,filmfiz.net,filmcus.com,hazirfilm.com,filmizlew.org,zoof1.xyz,sinemakolik.net,sinefilmizlesen.com,zarize.com,pornobuna.com,zarizeporno.com,burdenfly.com,diziking.vip,elzemfilmizle.*,filmdelisi.org,1080pfilmizle.me,zzerotik.com,filmgo.org,filmiifullizlee.com,sinemafilmizle.net,fullhdfilmiizle.org,hdfilmw.org,buzfilmizle1.com,filmkuzusu1.com,hdfilmcix.net,sinemadelisi.com,pifilmizle.com,yetiskinfilmizle.net,hdsexfilmizle.com,erotik-film.org,erotikfilmtube.com,erotik-filmler.net,erotikfilms.net,erotizmfilmleri.net,sezonlukdizi1.com,dizipal.*,siyahfilmizle.*,filmizletv.*,tekparthdfilmizle.*,filmgezegeni.org,filmbabasi.com,dizimax.net,dizisup.*,pornoanne.com,dizikorea.com,diziyo.*,koredizileri.tv,diziboxx.com,dafflix.com,yabancidizitv.net,turkaliz.com,jetdiziizle.net,hddiziport.*,vkfilmizle.net,dizimom.org,dizimov.*,yerlidizi.pw,fullhdfilmizleyin.com,filmizlet.net,torrentarsivi.*,baglanfilme.com,filmgooo.com,pornorips.com,bumfilmizle.com,bestdizi.com,setfilmizle.*,fxdizi.com,shirl.club,evrenselfilmlerim.org,turkcealtyazilipornom.com,fullhdfilmmodu.org,sinema.cc,hdfilmizletv.com,filmmom.net,torrent-oyun.com,shortz.club,pembetv18.com,sinemaizle.co,vipfilmlerizleme.*,filmlane.com,netfilmtvizle.com,hdfilmcehennem.com,filmyani.*,xbox360torrent.com,efullizle.com,morfilmizle.com,asyafanatiklerim.com,fullhdfilmizlesene3.org,guncelhdfilm.com,vipfilmlerizle.com,dizilost.com,fileru.net,dizipub.*,dizitube.net,fullhdfilmdeposu.com,tranimeizle.com,volsex.com,torba.info,erotiksexizle.com,altyazilifilm.live,divx720pfilmizle.org,filmihdizlet.com##+js(set-constant, puShown, true)
 ! isShow
 yovmiyelazim.com,tekfullfilmizle3.com,filmmom.net,izleorg2.org,webteizle.*,futbolcafe23.xyz,qhksjg.com##+js(set-constant, isShow, true)
 ! initPu
@@ -1912,6 +1912,8 @@ sabah.com.tr#$#header.advertControlArea { top: 0!important; }
 !
 ! Unhide the player while ads timeout
 !
+filmmoduu.com#$##filmoncereklam { display: none !important; }
+filmmoduu.com#$##episode {  height: auto !important; width: auto !important; overflow: auto !important; position: unset !important;}
 tekparthdfilmizle.com#$##cn-content { display: block !important; }
 tekparthdfilmizle.com#$##rk-content { display: none !important; }
 safirfilmizle1.com#$#.tab-embed { display: block !important; }
@@ -1922,8 +1924,8 @@ filmmodu2.com,filmmodu3.com,filmmodu4.com,filmmodu5.com,filmmodu6.com,filmmodu7.
 filmmodu2.com,filmmodu3.com,filmmodu4.com,filmmodu5.com,filmmodu6.com,filmmodu7.com,filmmodu9.com,filmmodu9.com,filmmodu10.com#$##mobile-preroll { display: none !important; }
 filmmodu2.com#$##mobile-preroll { display: none !important; }
 filmmodu2.com#$#.embed-responsive { display: block !important; }
-elzemfilmizle.cc#$##kendisi { display: block !important; }
-elzemfilmizle.cc#$##reki2 { display: none !important; }
+elzemfilmizle.*#$##kendisi { display: block !important; }
+elzemfilmizle.*#$##reki2 { display: none !important; }
 altyazilifilm.cc#$##rk-content { display: none !important; }
 altyazilifilm.cc#$##cn-content { display: block !important; }
 filmiifullizlee.com#$##film { display: block !important; }
@@ -2473,7 +2475,7 @@ sporx.com##.hk_bar
 ||iddaa.sporx.com/web/kutu_iddaa_bulten.php
 ||iddaa.sporx.com/web/kutu_kral_kupon.php
 ||iddaa.sporx.com/web/kutu_ozel_etkinlik.php
-elzemfilmizle.org##.ust-reklam
+elzemfilmizle.*##.ust-reklam
 ||cloud01.xyz/s/savoy/savoy.mp4
 tozlumagazin.net##body > section#primary[style^="width:"][style*="height:"]
 brickfanatics.com##.pw-ph-leaderboard

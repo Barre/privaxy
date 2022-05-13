@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 0kP2YoWeIEsGrg3UqCT/4A
+! Checksum: 4+ORVaNoO6BHIAk8eWT6oA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.21
-! TimeUpdated: 2022-05-13T10:30:41+00:00
+! Version: 2.1.19.22
+! TimeUpdated: 2022-05-13T11:30:37+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -79,6 +79,8 @@
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118551
+star-telegram.com###story-cta-widget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118441
 qiita.com#?#.p-items_main > div > section ~ div > a[href^="/signup?"]:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118406
@@ -1998,11 +2000,14 @@ facebook.com###ssrb_stories_end ~ div[class] > div[class] > div[class*=" "] > di
 m.facebook.com##span[data-top-of-feed-unit-type="megaphone_story"] > div[data-sigil="m-megaphone"]
 ! corona information in profile timeline
 facebook.com##div[data-pagelet="ProfileTimeline"] a[href^="https://www.facebook.com/coronavirus_info"]
+m.facebook.com#?#div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"]:has(> div[data-mcomponent="MContainer"] > div[data-mcomponent="MTransactional"] > div[data-type="container"] > div[data-type="container"] .native-text:contains(COVID-19 Information Center))
 ! Suggested post from a public group when viewing groups feed
 m.facebook.com#?#div[data-type="vscroller"] > div[data-mcomponent="MContainer"]:has(> div[data-actual-height] > div[data-actual-height] > div[data-mcomponent*="TextArea"] > .native-text:contains(Suggested post from a public group))
 m.facebook.com##div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"]
 ! do not enable - will stop loading new posts (sometimes whole page are "Suggested post from a public group")
 ! m.facebook.com##div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"] + div[style*="height:1px;"]
+! Suggested videos in timeline after starting a video
+m.facebook.com#?#div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"]:has(> div[data-mcomponent="TextArea"] > div > .native-text:contains(Sugggested Videos))
 !
 ! 44.ua - notification about browser extension
 44.ua##.exp-line
@@ -7259,6 +7264,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+qameta.io##div[x-init^="cookie_consent"]
 personal.metrobankonline.co.uk##.metro-cookiebar__block
 ||webcdn.asafe.com/assets/js/cookies.bundle.js
 ||ugandairlines.com/js/cookie.min.js
@@ -7943,7 +7949,7 @@ store.leica-camera.com#$#.cookie--permission ~ div.js--overlay { display: none !
 tr-gameland.com##.cmp-popup-cookies
 npaudio.uk##.wundery-cookie-banner
 pdfprof.com###dddhh
-sber-am.ru##.cookies-modal
+xhamster.com,sber-am.ru##.cookies-modal
 keenetic.com##.cookiecontrol-alert-box-wrapper
 nesine.com##.footer-cookies-bar
 thinglink.com##.tl-banner-wrapper
@@ -28361,6 +28367,8 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+star-telegram.com###newsletter-signUpWidget
+infox.ru##.yan-invite-block
 aktualne.cz##.right-column__newsletter
 foodist.de#$#html.no--scroll { overflow: auto !important; }
 foodist.de#$##newsletter-overlay { display: none !important; }
@@ -31591,7 +31599,7 @@ eatthis.com##.gd-ad-strip
 bk55.ru,iz.ru##.get_news_link
 ghacks.net##.ghacks-sidebar > #ghacks_ad_code-6
 standard.co.uk##.gigya-signup
-glavcom.ua,m.glavcom.ua,gordonua.com##.google_news
+infox.ru,glavcom.ua,m.glavcom.ua,gordonua.com##.google_news
 astrakhan-24.ru##.goyandex
 ran.de##.grid_300 > .box.module_group.has_header[data-track$="cont:WhatsApp"]
 mobil.stern.de,stern.de##.h-teaser-newsletter

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 9ik4xFF2o9ch9g3y+dsnDw
+! Checksum: V0cOjTRvawtvBkB23G4hDQ
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.38
-! TimeUpdated: 2022-05-13T10:31:22+00:00
+! Version: 2.2.30.39
+! TimeUpdated: 2022-05-13T11:31:18+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15393,6 +15393,10 @@ auto.am##.azd-top
 !---------------------------------------------------------------------
 !------------------------------ Azerbaijani --------------------------
 !---------------------------------------------------------------------
+||player.bax.tv/vast/
+||player.bax.tv/vast/$xmlhttprequest,redirect=noop.txt
+metbuat.az##.ainsyndication
+metbuat.az##.wh_box a[href="https://livescore.az"]
 replay.az##div[align="center"][style^="padding-top:"]
 ||replay.az/share2.jpg
 qiymeti.net##.float-ad
@@ -29265,6 +29269,7 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 rushbitcoin.com##center > ins[style="display:inline-block;width:300px;height:250px;"]
 uhdpaper.com##.ad_bars
+hackernoon.com##.adbytag
 faucetclub.net###adCenter
 faucetclub.net##div[id^="fixedban"]
 kdnuggets.com###post-header-ad
@@ -33634,7 +33639,7 @@ zacks.com##.inline_top_ad_commentary
 zacks.com##.inline_bottom_ad_commentary
 ||i.cdn.turner.com/ads/
 androidexplained.com##.site-main > article + div[class^="astra-advanced-hook-"]
-freecoursesite.com,xscholarship.com,psdly.com##.widget_media_image
+softwareaccountant.com,freecoursesite.com,xscholarship.com,psdly.com##.widget_media_image
 ||cdn.cnn.com/ads/
 speedrun.com###extrabar
 lowendtalk.com##.Row > #Panel >a[href="http://bsa.ly/moo"]

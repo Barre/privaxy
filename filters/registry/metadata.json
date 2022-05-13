@@ -157,6 +157,12 @@
     },
     {
         "enabled_by_default": false,
+        "file_name": "40b62d4bb871ae82056941c0d92f190d9c6e4f4d189d4d7a3dc7796a0d97faa9.txt",
+        "group": "regional",
+        "title": "EST: Eesti saitidele kohandatud filter"
+    },
+    {
+        "enabled_by_default": false,
         "file_name": "c930ad877d1f72237590283c39da41632fd9075463ad57ec29790592f37bf6fa.txt",
         "group": "regional",
         "title": "FIN: Adblock List for Finland"
