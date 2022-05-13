@@ -1,12 +1,13 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Thu, 12 May 2022 12:03:47 +0000
+! Updated: Fri, 13 May 2022 00:04:15 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
 ! Source: https://github.com/zhouhanc/malware-discoverer
 
 ! Announcement: curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21
+4elettrostore.it
 aappd.xyz
 abc-news.online
 action-shelter-bit-recognize.xyz
@@ -16,11 +17,11 @@ amobil.online
 android-web.live
 aphicus.xyz
 appcine.net
+autoinsurancedepot.org
 baddog.xyz
 bbcvideo.ru
 be-uk-cash-for-phones-ok.live
 be-us-auto-loans-ok.live
-benefiio.org
 best-life-insurers-deals.live
 best-used-cars.live
 bestbuylaptops.xyz
@@ -32,7 +33,7 @@ blogphoneapplication.online
 bottomjoyday.top
 bravovideo.ru
 bunnyvideo.ru
-cajasdigitalreporting.net
+carfuelsaver.org
 cedran.co
 center-planet.xyz
 center7mountain.xyz
@@ -74,8 +75,8 @@ foundnow.net
 fromthebeach.co
 galacontent.ru
 gamblehere.org
-gamerdigest.org
 gehenna.xyz
+getixvideo.fun
 giving-bigwin-chance-reward.rest
 gombos.xyz
 goodlov.online
@@ -97,6 +98,7 @@ insuranceforyourcars.co
 jakeview.ru
 jumpstick.xyz
 kavideo.ru
+keepinfit.net
 kekvideo.ru
 kexvideo.ru
 koalaspringb.xyz
@@ -216,7 +218,6 @@ tronvideo.ru
 truly-diet.store
 tunevideo.ru
 uniccontent.ru
-unigogo.co
 updatephoneoffice.club
 updateuberlatestthefile.vip
 uservalidate.xyz
@@ -224,6 +225,7 @@ videobbc.ru
 videocnn.ru
 videoeast.ru
 videogas.ru
+videogoal.biz
 videojo.ru
 videojos.ru
 videokex.ru
@@ -246,6 +248,7 @@ walmartcard.top
 wangmo.life
 wantjoinsince.xyz
 web-protocols.org
+websitebuildertutorials.org
 westacoast.xyz
 westamountain.xyz
 westcontent.ru
