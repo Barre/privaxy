@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205131154
+! Version: 202205131714
 ! Title: ABPVN List
-! Last modified: 13 May 2022 11:54 UTC+7
+! Last modified: 13 May 2022 17:14 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -261,7 +261,7 @@ utm_source=propellerads$popup
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
 ||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|truyenfull.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.tv|zingvntv.net|zingvntv.com|animeweb.xyz
-||i.imgur.com^*.gif$image,domain=ghienxemphim.net|ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|phimgif.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|cakhia17.live|cakhia17.tv|xembongda360.com|biphim.co|bichill.tv|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|vungtv.org|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|vzphimmoi.net|forum.gocmod.com|cakhia16.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
+||i.imgur.com^*.gif$image,domain=ghienxemphim.net|ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|phimgif.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|cakhia17.live|cakhia17.tv|xembongda360.com|biphim.co|bichill.tv|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|vzphimmoi.net|forum.gocmod.com|cakhia16.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
 ||i.k8info.com/images/promo/$third-party
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com,image
 ||i0.wp.com/dc.motphim.net/*.gif$image
@@ -1053,7 +1053,7 @@ maclife.vn##[href*="macbookgiasi.vn"]
 maclife.vn##[href*="macone.vn"]
 maclife.vn##[href*="vender.vn"]
 medoctruyentranh.net##.ads_sticky_top
-mephimtrung.net,mephimmy.com,mephimhanz.com,mephimnhat.com##div[id^="sponsor-"]
+mephimtrung.net,mephimmy.com,mephimnhat.com##div[id^="sponsor-"]
 metruyenchu.com##.nh-read__alert
 metruyenchu.com##.px-3.nh-read__body > .text-center.pb-3
 metruyenchu.com##.text-center.pb-3.nh-read__pagination
@@ -1089,8 +1089,8 @@ ophimhay.com###adsTopInPageBanner
 ophimhay.com##.adsContainer
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
 phechill.net,dongphimm.net##.pre-lb
-phechill.net,vuianime.tv,vungtv.org,vzphimmoi.net,xemphimchill.net,dongphimm.net,phimmoiaz.cc###catfish
-phim1080z.com,fim1080.com,mephimnhat.com,mephimmy.com,mephimtrung.net,mephimhanz.com,mephimthai.com##.ff-banner
+phechill.net,vuianime.tv,vzphimmoi.net,xemphimchill.net,dongphimm.net,phimmoiaz.cc###catfish
+phim1080z.com,fim1080.com,mephimnhat.com,mephimmy.com,mephimtrung.net,mephimthai.com##.ff-banner
 phim18zz.com,mphimmoivn.net##.pcCatfish
 phim202.com###itro_opaco
 phimbathu.info###catfish_content
@@ -1336,31 +1336,20 @@ vnexpress.net,ione.net###supper_masthead
 vnexpress.net,ione.net##.section_ads_300x250
 voh.com.vn##.Advs_adv-components__1nBNS.Advs_adv-300x250__2eyhC.Advs_no-content__RWwW2
 voh.com.vn##.HotTagGlobal_fixed-height__1f50i
-vov.vn##.qc-item
 voz.vn##.v-element>.v-responsive
-voz.vn##.voz_vn__site__side
 vtipster.net##div[class*="qca"]
-vtvgiaitri.vn##.ads-pop-up
 vtvgiaitri.vn##.ads-top-wrap
 vuianime.tv##body > center
-vuighe.net##.film-info-right-content
-vuighe.net##.pause-banner
-vuighe.net##.player-pause-banner
-vuighe.net,clipanime.com,phim1080z.com,fim1080.com,mephimtrung.net,mephimmy.com,mephimhanz.com,mephimnhat.com##.player-midpoint-progress
+vuighe.net,clipanime.com,phim1080z.com,fim1080.com,mephimtrung.net,mephimmy.com,mephimnhat.com##.player-midpoint-progress
 vungoctuan.vn##.bf-3-primary-column-size.bs-vc-sidebar-column.vc_col-sm-3.vc_column_container.bs-vc-column.wpb_column > .wpb_wrapper.bs-vc-wrapper
-vungtv.org###popup-giua-man-hinh
 vuonhoalan.net##.content_middle_rightbar
-webgia.com##.ads100
 webhoctienganh.com##.button-action-float-banner
-webphim.cc###fakeplayer
-webphim.cc###preroll-link
 webphim.cc##.adsphim
-webphim.cc##.btn-load-ads
 webthethao.vn##.wrapper-adv
 webtintuc.com##.mb-20
 webtretho.com##.wtt-ads
-www.fshare.vn##.bannerinfooter_ags
-xehay.vn###ad-videos-wrapper
+xehay.vn###banner1ab
+xehay.vn###banner2ab
 xembd.live##.bannerFF
 xembd.live##.xbd_topBanner
 xembd.live##.xbd_topButton
