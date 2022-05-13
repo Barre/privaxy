@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: WTjwoiMtXssaDlaEXFZJrQ
+! Checksum: 8XfVOTp26h3USAwlzcRbpg
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.41
-! TimeUpdated: 2022-05-13T13:31:20+00:00
+! Version: 2.2.30.42
+! TimeUpdated: 2022-05-13T14:31:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3967,6 +3967,7 @@ lightningmaps.org##+js(set-constant, wb_insert, noopFunc)
 amritadrino.com##div[id^="adguru_modal_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118524
 @@||england101.com/assets/js/prebid-add.js
+@@||ireland101.com/assets/js/prebid-add.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118077
 faucetclub.net##+js(abort-current-script, decodeURIComponent, _0x)
 ||static.surfe.pro/js/net.js$script,xmlhttprequest,redirect=noop.txt,domain=faucetclub.net
@@ -29267,6 +29268,7 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+edition.cnn.com##.AMPAd__component
 rushbitcoin.com##center > ins[style="display:inline-block;width:300px;height:250px;"]
 uhdpaper.com##.ad_bars
 hackernoon.com##.adbytag

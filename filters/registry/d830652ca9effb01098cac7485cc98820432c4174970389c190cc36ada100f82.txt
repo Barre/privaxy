@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205131136
+! Version: 202205131500
 ! Title: EasyList
-! Last modified: 13 May 2022 11:36 UTC
+! Last modified: 13 May 2022 15:00 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16625,6 +16625,7 @@ _800x80_
 ###wideAdd
 ###wide_ad_unit
 ###wide_ad_unit2
+###wide_ad_unit3
 ###wide_ad_unit_2
 ###wide_ad_unit_top
 ###wide_ad_unit_up
@@ -36234,6 +36235,7 @@ tf2r.com#@#.adverts
 ||deloplen.com^
 ||deltoidviragin.com^
 ||deludebalk.com^
+||deludereflexunderwater.com^
 ||delusionrather.com^
 ||delvechoir.com^
 ||delveharassment.com^
@@ -45662,6 +45664,7 @@ tf2r.com#@#.adverts
 ||sphorical.site^
 ||spicedeceived.com^
 ||spidersmerithenceforward.com^
+||spidersprimary.com^
 ||spigotsmetonym.cam^
 ||spikscabrin.com^
 ||spillsackterrified.com^
@@ -48049,6 +48052,7 @@ tf2r.com#@#.adverts
 ||wnprot.com^
 ||woakcayapo.com^
 ||wocysuwo.com^
+||wodycaha.com^
 ||woeocbeswhf.xyz^
 ||wohchuuemjs.com^
 ||wokfirsax.com^

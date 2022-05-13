@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TimLqAlRVYF9GiLqUUCl/A
-! Version: 202205130954
+! Checksum: 76Ogu+BVoZclqQzu2WSEag
+! Version: 202205131454
 ! Title: RU AdList for uBO only
-! Last modified: 13 May 2022 09:54 UTC
+! Last modified: 13 May 2022 14:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13622,7 +13622,6 @@ peterburg2.ru##.a__link
 anekdot.ru##.a_mh250
 sharij.net##.a_top
 ironargument.com.ua##.aa
-kinobos.online,obyava.ua##.ab-block
 game-tournaments.com##.abg
 game-tournaments.com##.ablive
 sd.ua##.ablock
@@ -18804,7 +18803,7 @@ tass.ru,znaj.ua##div[class*="advertising"]
 odessa-life.od.ua##div[class*="ai-viewport-"]
 thequestion.ru##div[class*="annonser"]
 gorodvitebsk.by,kursktv.ru,open.ua##div[class*="baner"]
-19rus.info,19rusinfo.ru,1ul.ru,2018.pp.ua,20minut.ua,2goroda.ru,365info.kz,3ys.ru,73online.ru,9tv.co.il,advis.ru,agronews.ua,agroreview.com,agrotimes.net,autodmir.ru,avtodispetcher.ru,bakemono.ru,bel.ru,besplatka.ua,bestfm.ru,bezformata.com,bhub.com.ua,car.ru,cbonds.ru,comments.ua,con-med.ru,cybersport.ru,echosevera.ru,epravda.com.ua,fatalgame.com,filmz.ru,fishingsib.ru,flamp.ru,footballua.tv,forklog.com,forum-profit.ru,gameguru.ru,goodhouse.ru,gorodvitebsk.by,gp.by,haqqin.az,hunting.ru,infpol.ru,investfunds.ru,ircity.ru,islam-today.ru,ivanovonews.ru,iz.ru,joborgame.ru,jut.su,k1news.ru,kafa-info.com.ua,klavogonki.ru,knijky.ru,kt.kz,kursktv.ru,laradiofm.ru,livesport.ws,locals.md,medialeaks.ru,megatyumen.ru,menportal.info,mirkino.club,mixnews.lv,myslo.ru,neboleem.net,nmedic.info,nv-online.info,obozrevatel.com,okna.ua,point.md,polochka.net,povarenok.ru,ppt4web.ru,pravda.com.ua,pravoved.ru,primemusic.cc,profibeer.ru,prostatitanet.com,rama.com.ua,redfm.ru,skachat-kino.fun,smolensk-i.ru,sovsport.ru,spanishrestaurant.ru,sportguide.kiev.ua,start33.ru,syzran-small.ru,tele.ru,the-flow.ru,thequestion.ru,thg.ru,tveda.ru,twentysix.ru,ufanotes.ru,valverus.info,vashurok.ru,veterinargid.ru,vikka.ua,vinnitsa.info,vklasse.online,vovka.su,vringe.com,vshkole.com,woman.ru,wonderzine.com,wowjp.net,xsport.ua,yvision.kz,zagorod.spb.ru,zaim-profi.ru,zaryad.me,zebra-tv.ru,zoohoz.ru##div[class*="banner"]
+19rus.info,19rusinfo.ru,1ul.ru,2018.pp.ua,20minut.ua,2goroda.ru,365info.kz,3ys.ru,73online.ru,9tv.co.il,advis.ru,agronews.ua,agroreview.com,agrotimes.net,autodmir.ru,avtodispetcher.ru,bakemono.ru,bel.ru,besplatka.ua,bestfm.ru,bezformata.com,bhub.com.ua,car.ru,cbonds.ru,comments.ua,con-med.ru,cybersport.ru,echosevera.ru,epravda.com.ua,fatalgame.com,filmz.ru,fishingsib.ru,flamp.ru,footballua.tv,forklog.com,forum-profit.ru,gameguru.ru,goodhouse.ru,gorodvitebsk.by,gp.by,haqqin.az,hunting.ru,infpol.ru,investfunds.ru,ircity.ru,islam-today.ru,ivanovonews.ru,iz.ru,joborgame.ru,jut.su,k1news.ru,kafa-info.com.ua,klavogonki.ru,knijky.ru,kt.kz,kursktv.ru,laradiofm.ru,livesport.ws,locals.md,medialeaks.ru,megatyumen.ru,menportal.info,mirkino.club,mixnews.lv,myslo.ru,neboleem.net,nmedic.info,nv-online.info,obozrevatel.com,obyava.ua,okna.ua,point.md,polochka.net,povarenok.ru,ppt4web.ru,pravda.com.ua,pravoved.ru,primemusic.cc,profibeer.ru,prostatitanet.com,rama.com.ua,redfm.ru,skachat-kino.fun,smolensk-i.ru,sovsport.ru,spanishrestaurant.ru,sportguide.kiev.ua,start33.ru,syzran-small.ru,tele.ru,the-flow.ru,thequestion.ru,thg.ru,tveda.ru,twentysix.ru,ufanotes.ru,valverus.info,vashurok.ru,veterinargid.ru,vikka.ua,vinnitsa.info,vklasse.online,vovka.su,vringe.com,vshkole.com,woman.ru,wonderzine.com,wowjp.net,xsport.ua,yvision.kz,zagorod.spb.ru,zaim-profi.ru,zaryad.me,zebra-tv.ru,zoohoz.ru##div[class*="banner"]
 dressupmix.ru##div[class*="banner"]:not(.banner-vk)
 finance.ua,meta.ua##div[class*="banner-zone"]
 sia.ru,voxpopuli.kz##div[class*="banner_"]
@@ -22435,7 +22434,6 @@ lada.kz/uploads/banners/
 ||obozrevatel.com/assets/branding/
 ||obozrevatel.com^$domain=104.ua
 ||obrazovaka.ru/serviceworker.js
-||obyava.ua/js/banner.js
 ||oclab.ru/flash/
 ||odessa-daily.com.ua/images/stories/banners/
 ||odintsovo.info/main/|$xmlhttprequest

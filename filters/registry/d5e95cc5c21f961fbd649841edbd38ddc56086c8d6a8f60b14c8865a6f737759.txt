@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: QyN5SRDX5MelJwAZTE9BCg
+! Checksum: SGPdzGIcA+FbvR3GXwIsRA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.55
-! TimeUpdated: 2022-05-12T17:30:19+00:00
+! Version: 2.0.29.56
+! TimeUpdated: 2022-05-13T14:30:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4320,8 +4320,7 @@ milliyetemlak.com##a[href][target="_blank"].sno-itunes.external > img
 pdalife.ru##.js-banner
 anifresh.com###minpack-sticker-frame
 hentaiasmr.moe,stockingfetishvideo.com##.happy-header-mobile
-gmx.*,zeit.de##.ad-container
-jp.ign.com,opencritic.com,www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
+rookie.shonenjump.com,gmx.*,zeit.de,jp.ign.com,opencritic.com,www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
 jp.ign.com,gordonua.com,strana.ua,24tv.ua,amp.theguardian.com,zeenews.india.com,gadgets.ndtv.com,amp.fakty.ua,indianexpress.com##amp-iframe
 theinventory.com##main > div > script[type="application/ld+json"] ~ div[class*="-1 "][class*="-0 "]
 rbc.ru##.banners__mobile-freeze

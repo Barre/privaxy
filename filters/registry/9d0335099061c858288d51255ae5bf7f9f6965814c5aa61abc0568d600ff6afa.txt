@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 9neagyugMYJss3EATAT3WQ
+! Checksum: 3aTtomprLWsLczHdci13eQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.25
-! TimeUpdated: 2022-05-13T13:30:37+00:00
+! Version: 2.1.19.26
+! TimeUpdated: 2022-05-13T14:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3144,6 +3144,7 @@ hgtv.com#@#.showads
 !
 !
 !
+e-words.jp###forvisitors
 givee.club##+js(abort-current-script, document.addEventListener, adjs)
 light.gg##.items-right-square
 light.gg##.remove-turtles
@@ -7264,6 +7265,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+ttoday.it#$#.cli-barmodal-open { overflow: auto !important; }
+ttoday.it#$##cookie-law-info-bar { display: none !important; }
+ttoday.it#$#.cli-modal-backdrop { display: none !important; }
 qameta.io##div[x-init^="cookie_consent"]
 personal.metrobankonline.co.uk##.metro-cookiebar__block
 ||webcdn.asafe.com/assets/js/cookies.bundle.js
@@ -15502,6 +15506,9 @@ stockmann.com#$#.cookie-dialog-screen { display: none!important; }
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 ! TODO: use redirect rule when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/195
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118172
+@@||cdn.ampproject.org/v0/amp-consent-*.js$domain=edition.cnn.com
+! blackout with scroll locked
 ! https://github.com/easylist/easylist/commit/03579648399d987ad66aef5becfef6118ce04275#commitcomment-73487091
 asialadies.de#@#.cookie-info:not(body):not(html)
 asialadies.de#@#.cookie-check
@@ -28371,6 +28378,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+atlanticcouncil.org##.gravity-form
 star-telegram.com###newsletter-signUpWidget
 infox.ru##.yan-invite-block
 aktualne.cz##.right-column__newsletter
