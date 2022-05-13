@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205131544
+! Version: 202205131731
 ! Title: EasyList Germany
-! Last modified: 13 May 2022 15:44 UTC
+! Last modified: 13 May 2022 17:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2547,6 +2547,13 @@ willhaben.at###apn-large-content-ad
 willhaben.at###apn-large-leaderboard
 willhaben.at###apn-large-skyscraper
 willhaben.at###apn-leaderboard
+blick.ch###appnexus-placement-leaderboard
+blick.ch###appnexus-placement-performanceWideboard
+blick.ch###appnexus-placement-rectangle
+blick.ch###appnexus-placement-teaser1
+blick.ch###appnexus-placement-teaser2
+blick.ch###appnexus-placement-topicTeaser1
+blick.ch###appnexus-placement-topicTeaser2
 gamersglobal.de###arb
 pi-news.net###as2931
 madchensex.com###au
