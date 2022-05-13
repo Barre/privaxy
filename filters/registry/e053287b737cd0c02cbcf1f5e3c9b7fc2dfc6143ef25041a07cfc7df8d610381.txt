@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: p/Rr/N7tC9WqlSGJtes5vQ
+! Checksum: uGZ91ueyj7oHXysimhxG2g
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.78
-! TimeUpdated: 2022-05-13T07:31:47+00:00
+! Version: 2.0.13.79
+! TimeUpdated: 2022-05-13T13:31:52+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2058,6 +2058,8 @@ link.estadao.com.br,atomixhq.*,jc.ne10.uol.com.br,internetpasoapaso.com,acidadeo
 ! ##.ad
 atribuna.com.br,jovemnerd.com.br,laopiniondemurcia.es,larazon.es,dicio.com.br,band.uol.com.br,xataka.com,onyxplay.com,genbeta.com,vagalume.com.br,xatakandroid.com,abril.com.br##.ad
 !
+cadenaser.com##.c-s > div:not([class]):first-child
+cadenaser.com##.cnt-publi
 natelinha.uol.com.br##.banner_conteudo
 receitanatureba.com##.natureba-lazyloadingads
 geeknetic.es##.geekads

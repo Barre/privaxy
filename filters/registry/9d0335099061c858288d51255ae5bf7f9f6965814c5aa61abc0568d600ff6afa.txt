@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: muvq39cxZ9U5H/p1lkE/jg
+! Checksum: 9neagyugMYJss3EATAT3WQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.24
-! TimeUpdated: 2022-05-13T13:02:16+00:00
+! Version: 2.1.19.25
+! TimeUpdated: 2022-05-13T13:30:37+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7949,7 +7949,7 @@ store.leica-camera.com#$#.cookie--permission ~ div.js--overlay { display: none !
 tr-gameland.com##.cmp-popup-cookies
 npaudio.uk##.wundery-cookie-banner
 pdfprof.com###dddhh
-xhamster.com,sber-am.ru##.cookies-modal
+sber-am.ru##.cookies-modal
 keenetic.com##.cookiecontrol-alert-box-wrapper
 nesine.com##.footer-cookies-bar
 thinglink.com##.tl-banner-wrapper
@@ -14389,6 +14389,9 @@ nakubani.ru,eksmo.ru,papajohns.com.tr,dreamtv.com.tr,jobinfo.hu,kanald.com.tr,ra
 foodspring.de,m.shop-apotheke.com##.cookie-advice
 fussball.de##.cookie-advise
 u-mama.ru,gumtree.co.za,btclod.com,a12.com,ontiva.com,dr-telemed.ru,myfasol.ru,ponyexpress.ru,litres.ru,amediateka.ru,hansa.rs,schnaeppchenfuchs.com,xsport.ua##.cookie-agreement
+megaxh.com,xhwide1.com,xhamster16.*,hamsterix.*,xhplanet1.com,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(remove-class, xh-thumb-disabled, html)
+megaxh.com,xhwide1.com,xhamster16.*,hamsterix.*,xhplanet1.com,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.cookies-modal { display: none !important; }
+megaxh.com,xhwide1.com,xhamster16.*,hamsterix.*,xhplanet1.com,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.parental-bg { display: none !important; }
 megaxh.com,xhwide1.com,xhamster16.*,hamsterix.*,xhplanet1.com,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.cookie-announce
 my5.tv,hearthhead.com,kabeleins.de,prosieben.de,prosiebenmaxx.de,ran.de,sat1.de,sixx.de,the-voice-of-germany.de##.cookie-banner
 crowdfox.com##.cookie-banner-info
@@ -26178,7 +26181,7 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118543
-outlook.live.com##.customScrollBar  > div > .full:not([aria-label]):not([data-convid]):not([role="option"])
+outlook.live.com##.customScrollBar > div > .full:not([aria-label]):not([data-convid]):not([role="option"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102342
 bunshun.jp#?#.block-header:contains(SPECIAL)
 bunshun.jp##a[href$="?ref=special"]
@@ -27458,7 +27461,7 @@ opinie-perfumy.pl##.lepopup-popup-overlay
 opinie-perfumy.pl##.lepopup-popup-container
 ||promo.datacamp.com/banner.js
 analyticsvidhya.com##.banner-section-for-display
-baike.baidu.com##a[onclick="page.Mixedor.mixedOpen(this,4)"]
+baike.baidu.com##.BK-before-content-wrapper > div > a[target="_blank"][data-num][onclick^="page.Mixedor.mixedOpen("]
 g2.com##.product-listing--banner
 analyticsindiamag.com##.elementor-widget-container > a[href="https://machinecon.analyticsindiamag.com/"]
 sexcams-24.com##.join-spot-01
