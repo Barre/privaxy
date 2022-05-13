@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: lT0u45vlHnvNBsyd0yRJqQ
+! Checksum: CPOKZU0cMxEOsn4ZQfxreA
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.30
-! TimeUpdated: 2022-05-12T20:31:17+00:00
+! Version: 2.2.30.32
+! TimeUpdated: 2022-05-13T05:31:13+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -21693,13 +21693,15 @@ bham.pl##+js(abort-on-property-read, TestPage)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51061
 warsztat.pl###baner199
 ||warsztat.pl/includes/ajax.php?request=banerAjax&
+! https://github.com/AdguardTeam/AdguardFilters/issues/118484
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117822
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117823
-@@||smart.idmnet.pl/consent/cmp-widget-latest.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl
-@@||smart.idmnet.pl/consent/*.json$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl
-@@||smart.idmnet.pl/prebidBoilerplate_tmp.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl
-@@||smart.idmnet.pl/prebidBoilerplate.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl
-@@||smart.idmnet.pl/*/smartConfig_*.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl
+||smart.idmnet.pl^$domain=eska.pl
+@@||smart.idmnet.pl/consent/cmp-widget-latest.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
+@@||smart.idmnet.pl/consent/*.json$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
+@@||smart.idmnet.pl/prebidBoilerplate_tmp.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
+@@||smart.idmnet.pl/prebidBoilerplate.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
+@@||smart.idmnet.pl/*/smartConfig_*.js$domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102140
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102141
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83735
