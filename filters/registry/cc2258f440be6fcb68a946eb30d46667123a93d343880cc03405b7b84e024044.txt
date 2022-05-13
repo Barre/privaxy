@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: UiEnK5fGDUKAuwLemKmT/g
+! Checksum: waw4HpPVZXUL4sdg88OXpA
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.43
-! TimeUpdated: 2022-05-13T15:31:16+00:00
+! Version: 2.2.30.44
+! TimeUpdated: 2022-05-13T16:31:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3961,6 +3961,9 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118513
+||cxense.com/cx.js$script,domain=japannews.yomiuri.co.jp,redirect=noop.js,important
+@@||cdn.cxense.com/cx.js$script,domain=japannews.yomiuri.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118531
 lightningmaps.org##+js(set-constant, wb_insert, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118270
@@ -29269,6 +29272,7 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+japannews.yomiuri.co.jp##.pr_custom2
 goodreturns.in,gizbot.com##.cmscontent-right1
 goodreturns.in,gizbot.com##.cmscontent-left-article
 ||cryptowin.io/aads-

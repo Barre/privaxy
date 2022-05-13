@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: SGPdzGIcA+FbvR3GXwIsRA
+! Checksum: 7XNvcc2tCxLV4TGk42EQyA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.56
-! TimeUpdated: 2022-05-13T14:30:19+00:00
+! Version: 2.0.29.57
+! TimeUpdated: 2022-05-13T16:30:23+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2328,8 +2328,8 @@ mbasic.facebook.com,d.facebook.com,free.facebook.com,free.facebookcorewwwi.onion
 !! new interface
 m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"]
 m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"]
-m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"]
-m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"]
+m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"]:not([data-actual-height="64"])
+m.facebook.com##div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"] + div[data-mcomponent="MContainer"]:not([data-actual-height="64"]) + div[data-mcomponent="MContainer"]:not([data-actual-height="64"])
 !!! Ad in menu
 m.facebook.com##div[data-type="vscroller"][data-comp-id] > div.bg-s3[tabindex][data-focusable="true"] + div[style]:not([data-action-id]):not([data-focusable="true"]):not([style*="1px"])
 !

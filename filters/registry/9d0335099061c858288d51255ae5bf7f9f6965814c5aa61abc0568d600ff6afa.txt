@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: OoCwaDfcl32aIRHMn4IbEg
+! Checksum: f2d9YwSd6jz7Wtgr4z+MwQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.27
-! TimeUpdated: 2022-05-13T15:30:34+00:00
+! Version: 2.1.19.29
+! TimeUpdated: 2022-05-13T17:02:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18192,6 +18192,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+m.tomtop.com##.m_app
 capital.com##.award-banner-wrap
 antenna.jp###install-link
 antenna.jp##.bottom-install-link
@@ -18390,8 +18391,6 @@ limia.jp##.InductionOverlay
 tanoshiiosake.jp##a[id^="appBanner"]
 tanoshiiosake.jp##+js(remove-class, app-appBannerOpen, body)
 jreast.co.jp###jre_header_appLink
-stylehaus.jp##.smart-app-bnr
-stylehaus.jp##.footer-banner__app
 chess.com##.ready-to-play-banner-component
 m.liputan6.com##.gateway__mobile-app
 sp.netkeiba.com##.HeadBnrWrap
@@ -19885,6 +19884,10 @@ kinopovtor1.online##+js(abort-on-property-read, stickyConfig)
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
 !+ NOT_OPTIMIZED
+stylehaus.jp##.smart-app-bnr
+!+ NOT_OPTIMIZED
+stylehaus.jp##.footer-banner__app
+!+ NOT_OPTIMIZED
 lulucos-bys.jp##.p-article__app-dl-banner
 !+ NOT_OPTIMIZED
 lulucos-bys.jp##.p-article__app-download-banner
@@ -20085,6 +20088,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+||wakasa.jp/common/js/modalCheck.js
 tomtop.com##.freePointWrap
 curet.jp##.l-footer-modal
 youtube.com##tp-yt-iron-dropdown[class="style-scope ytd-popup-container"][horizontal-align="right"]
@@ -25637,10 +25641,11 @@ abendzeitung-muenchen.de###webpush-app
 ||push.newscraft.io^
 !
 /firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org|auslogics.com|kartalyuvasi.com.tr|cnnindonesia.com|fbc.ua|astv.ru|pln-pskov.ru|aylink.co
-/firebase-messaging.js$domain=bfm.ru|theswagsports.com|focus.ua|ukranews.com|comments.ua|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|mgronline.com|semnasem.org|bluradio.com|carwale.com|finanznachrichten.de
+/firebase-messaging.js$domain=s.akiba-souken.com|bfm.ru|theswagsports.com|focus.ua|ukranews.com|comments.ua|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|mgronline.com|semnasem.org|bluradio.com|carwale.com|finanznachrichten.de
 !
 carwale.com#?#div[data-skin="bg-transparent"] > div > div > button:contains(Subscribe Now):upward(2)
 bursahakimiyet.com.tr###notificationPopup
+||s.akiba-souken.com/firebase/push_notification.js
 ||boredpanda.com/blog/wp-content/themes/boredpanda/push/sw.js
 ||trashbox.ru/push-worker.js
 24tv.ua##app-notification-popup

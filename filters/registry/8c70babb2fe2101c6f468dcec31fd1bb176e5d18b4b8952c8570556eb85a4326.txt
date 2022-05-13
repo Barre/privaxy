@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: azaenirBBbdG84PCbfdzHA
+! Checksum: UCj2y92gsfrBvZiKcTNkNw
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.64
-! TimeUpdated: 2022-05-13T15:31:42+00:00
+! Version: 2.0.19.65
+! TimeUpdated: 2022-05-13T17:03:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4941,7 +4941,7 @@ diamond.jp##.top-banner
 diamond.jp##.banner-sp
 diamond.jp##a[href^="https://diamond.jp/oo/cc/creditcard_"] > img
 diamond.jp##a[href^="https://diamond.jp/oo/cc/rlink_"] > img
-nikkan-spa.jp,diamond.jp##.pickup
+stylehaus.jp,nikkan-spa.jp,diamond.jp##.pickup
 diamond.jp##.ad-bannar-floating
 busjav.one##ins[data-width="300"][data-height="250"]
 busjav.one##img[width="300"][height="250"]
