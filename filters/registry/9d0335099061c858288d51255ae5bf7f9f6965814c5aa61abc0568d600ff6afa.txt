@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: f2d9YwSd6jz7Wtgr4z+MwQ
+! Checksum: 9qCUuSyBOta8eUJHf31MyQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.29
-! TimeUpdated: 2022-05-13T17:02:15+00:00
+! Version: 2.1.19.30
+! TimeUpdated: 2022-05-13T18:12:32+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -28384,6 +28384,8 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+businessinsider.de##.piano-article__after-block--2
+businessinsider.de##.bi-image > a[href="https://www.businessinsider.de/informationen/money-mindset-finanz-newsletter/"]
 atlanticcouncil.org##.gravity-form
 star-telegram.com###newsletter-signUpWidget
 infox.ru##.yan-invite-block
@@ -30884,7 +30886,7 @@ delfi.ee##.newsletter-cta
 latimes.com,psicologiaymente.com,bloomberg.com##.newsletter-module
 monterail.com,revolutionrace.de,nonfungerbils.com##.newsletter-block
 ||libs.platform.californiatimes.com/newsletter-campaign-manager/latest.js
-insider.com,businessinsider.com##.inline-newsletter-signup
+businessinsider.de,insider.com,businessinsider.com##.inline-newsletter-signup
 bigbangnews.com##.suscribehorizontal
 fosspost.org##.mailform
 fosspost.org##.footermailform
