@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: uGZ91ueyj7oHXysimhxG2g
+! Checksum: p6a7WUg37I4UgDj6+8a47w
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.79
-! TimeUpdated: 2022-05-13T13:31:52+00:00
+! Version: 2.0.13.80
+! TimeUpdated: 2022-05-13T15:31:49+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -294,6 +294,8 @@
 tunovelaligera.com##+js(abort-on-property-write, adregain_wall)
 tunovelaligera.com##+js(abort-on-property-read, ad_nodes)
 !
+! https://github.com/uBlockOrigin/uAssets/issues/12772#issuecomment-1125434557
+cadenaser.com##+js(set-constant, Object.prototype.adblockerEnabled, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/13062
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=radiopanamericana.com
 radiopanamericana.com#@##adContainer

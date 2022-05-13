@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: neof5YqQ7eCELloW6Mp9cA
+! Checksum: HO+K9WP+oraox/IcX/igRQ
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.38
-! TimeUpdated: 2022-05-13T12:30:25+00:00
+! Version: 2.0.34.39
+! TimeUpdated: 2022-05-13T15:30:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1389,7 +1389,7 @@ videoseyredin.net#?#.widget_text[-ext-contains="Reklamları"]
 !*****
 ! START: Clickunders
 ! puShown
-dizirun.me,filmfiz.net,filmcus.com,hazirfilm.com,filmizlew.org,zoof1.xyz,sinemakolik.net,sinefilmizlesen.com,zarize.com,pornobuna.com,zarizeporno.com,burdenfly.com,diziking.vip,elzemfilmizle.*,filmdelisi.org,1080pfilmizle.me,zzerotik.com,filmgo.org,filmiifullizlee.com,sinemafilmizle.net,fullhdfilmiizle.org,hdfilmw.org,buzfilmizle1.com,filmkuzusu1.com,hdfilmcix.net,sinemadelisi.com,pifilmizle.com,yetiskinfilmizle.net,hdsexfilmizle.com,erotik-film.org,erotikfilmtube.com,erotik-filmler.net,erotikfilms.net,erotizmfilmleri.net,sezonlukdizi1.com,dizipal.*,siyahfilmizle.*,filmizletv.*,tekparthdfilmizle.*,filmgezegeni.org,filmbabasi.com,dizimax.net,dizisup.*,pornoanne.com,dizikorea.com,diziyo.*,koredizileri.tv,diziboxx.com,dafflix.com,yabancidizitv.net,turkaliz.com,jetdiziizle.net,hddiziport.*,vkfilmizle.net,dizimom.org,dizimov.*,yerlidizi.pw,fullhdfilmizleyin.com,filmizlet.net,torrentarsivi.*,baglanfilme.com,filmgooo.com,pornorips.com,bumfilmizle.com,bestdizi.com,setfilmizle.*,fxdizi.com,shirl.club,evrenselfilmlerim.org,turkcealtyazilipornom.com,fullhdfilmmodu.org,sinema.cc,hdfilmizletv.com,filmmom.net,torrent-oyun.com,shortz.club,pembetv18.com,sinemaizle.co,vipfilmlerizleme.*,filmlane.com,netfilmtvizle.com,hdfilmcehennem.com,filmyani.*,xbox360torrent.com,efullizle.com,morfilmizle.com,asyafanatiklerim.com,fullhdfilmizlesene3.org,guncelhdfilm.com,vipfilmlerizle.com,dizilost.com,fileru.net,dizipub.*,dizitube.net,fullhdfilmdeposu.com,tranimeizle.com,volsex.com,torba.info,erotiksexizle.com,altyazilifilm.live,divx720pfilmizle.org,filmihdizlet.com##+js(set-constant, puShown, true)
+720pfilmiizle.net,seehdfilm.com,dizirun.me,filmfiz.net,filmcus.com,hazirfilm.com,filmizlew.org,zoof1.xyz,sinemakolik.net,sinefilmizlesen.com,zarize.com,pornobuna.com,zarizeporno.com,burdenfly.com,diziking.vip,elzemfilmizle.*,filmdelisi.org,1080pfilmizle.me,zzerotik.com,filmgo.org,filmiifullizlee.com,sinemafilmizle.net,fullhdfilmiizle.org,hdfilmw.org,buzfilmizle1.com,filmkuzusu1.com,hdfilmcix.net,sinemadelisi.com,pifilmizle.com,yetiskinfilmizle.net,hdsexfilmizle.com,erotik-film.org,erotikfilmtube.com,erotik-filmler.net,erotikfilms.net,erotizmfilmleri.net,sezonlukdizi1.com,dizipal.*,siyahfilmizle.*,filmizletv.*,tekparthdfilmizle.*,filmgezegeni.org,filmbabasi.com,dizimax.net,dizisup.*,pornoanne.com,dizikorea.com,diziyo.*,koredizileri.tv,diziboxx.com,dafflix.com,yabancidizitv.net,turkaliz.com,jetdiziizle.net,hddiziport.*,vkfilmizle.net,dizimom.org,dizimov.*,yerlidizi.pw,fullhdfilmizleyin.com,filmizlet.net,torrentarsivi.*,baglanfilme.com,filmgooo.com,pornorips.com,bumfilmizle.com,bestdizi.com,setfilmizle.*,fxdizi.com,shirl.club,evrenselfilmlerim.org,turkcealtyazilipornom.com,fullhdfilmmodu.org,sinema.cc,hdfilmizletv.com,filmmom.net,torrent-oyun.com,shortz.club,pembetv18.com,sinemaizle.co,vipfilmlerizleme.*,filmlane.com,netfilmtvizle.com,hdfilmcehennem.com,filmyani.*,xbox360torrent.com,efullizle.com,morfilmizle.com,asyafanatiklerim.com,fullhdfilmizlesene3.org,guncelhdfilm.com,vipfilmlerizle.com,dizilost.com,fileru.net,dizipub.*,dizitube.net,fullhdfilmdeposu.com,tranimeizle.com,volsex.com,torba.info,erotiksexizle.com,altyazilifilm.live,divx720pfilmizle.org,filmihdizlet.com##+js(set-constant, puShown, true)
 ! isShow
 yovmiyelazim.com,tekfullfilmizle3.com,filmmom.net,izleorg2.org,webteizle.*,futbolcafe23.xyz,qhksjg.com##+js(set-constant, isShow, true)
 ! initPu
@@ -1406,6 +1406,7 @@ shirl.club,altporno.xyz,ovpvideo.com##+js(abort-on-property-read, oV1)
 ! dizipal*.com - frequently changed domains
 dizipal228.com,dizipal229.com,dizipal230.com,dizipal231.com,dizipal232.com,dizipal233.com,dizipal234.com,dizipal235.com,dizipal236.com,dizipal237.com,dizipal238.com,dizipal239.com,dizipal240.com,dizipal241.com,dizipal242.com,dizipal243.com,dizipal244.com,dizipal245.com,dizipal246.com,dizipal247.com,dizipal248.com,dizipal249.com,dizipal250.com##+js(remove-attr, data-money, div)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118564
 ! popup
 fullhdabifilm.com,babafullfilmizleme.com,hdmixfilim.com##+js(abort-on-property-write, yeniSekmeAdresi)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118260

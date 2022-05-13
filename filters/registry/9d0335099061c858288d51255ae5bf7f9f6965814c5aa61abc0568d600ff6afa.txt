@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 3aTtomprLWsLczHdci13eQ
+! Checksum: OoCwaDfcl32aIRHMn4IbEg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.26
-! TimeUpdated: 2022-05-13T14:30:35+00:00
+! Version: 2.1.19.27
+! TimeUpdated: 2022-05-13T15:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18356,9 +18356,6 @@ prostovasya.ru##.t-popup_show
 jumpbookstore.com###header_app_banner
 jumpbookstore.com###flipdesk
 tenor.com##.UpsellPill
-lulucos-bys.jp##.p-article__app-dl-banner
-lulucos-bys.jp##.p-article__app-download-banner
-lulucos-bys.jp##.m-banner-download-app-top-fixed
 lulucos.jp##.p-home__top
 lulucos.jp##.GlobalSmartAppBanner
 lulucos.jp##.GlobalAppDL
@@ -19887,6 +19884,10 @@ kinopovtor1.online##+js(abort-on-property-read, stickyConfig)
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 !
+!+ NOT_OPTIMIZED
+lulucos-bys.jp##.p-article__app-dl-banner
+!+ NOT_OPTIMIZED
+lulucos-bys.jp##.p-article__app-download-banner
 !+ NOT_OPTIMIZED
 s.tabelog.com###js-webtoapp-floating-banner-overlay
 !+ NOT_OPTIMIZED

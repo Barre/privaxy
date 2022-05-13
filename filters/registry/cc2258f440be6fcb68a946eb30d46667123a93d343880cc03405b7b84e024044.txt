@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 8XfVOTp26h3USAwlzcRbpg
+! Checksum: UiEnK5fGDUKAuwLemKmT/g
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.42
-! TimeUpdated: 2022-05-13T14:31:15+00:00
+! Version: 2.2.30.43
+! TimeUpdated: 2022-05-13T15:31:16+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3634,8 +3634,9 @@ ceplik.com,mrcheat.us,udemycoursedownloader.com,articlesjar.com,wrzko.ws,mocasof
 colourlovers.com##+js(abort-current-script, EventTarget.prototype.addEventListener, window.TextDecoder)
 !
 ! plistaWidget detection and first-party ads
-transfermarkt.*##+js(abort-on-property-read, Object.prototype.autoRecov)
+gmx.*,transfermarkt.*##+js(abort-on-property-read, Object.prototype.autoRecov)
 @@||transfermarkt.*/image
+@@||i*.gmx.com/image
 !
 ! NoAdBlock (CloudflareApps)
 @@/favicon.ico^$domain=hackintosh.zone
@@ -29268,6 +29269,9 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+goodreturns.in,gizbot.com##.cmscontent-right1
+goodreturns.in,gizbot.com##.cmscontent-left-article
+||cryptowin.io/aads-
 edition.cnn.com##.AMPAd__component
 rushbitcoin.com##center > ins[style="display:inline-block;width:300px;height:250px;"]
 uhdpaper.com##.ad_bars

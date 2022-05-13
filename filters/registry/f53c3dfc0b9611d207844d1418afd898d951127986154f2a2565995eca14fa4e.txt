@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 76Ogu+BVoZclqQzu2WSEag
-! Version: 202205131454
+! Checksum: w2gdvog+q9RRdYxR58ChPg
+! Version: 202205131554
 ! Title: RU AdList for uBO only
-! Last modified: 13 May 2022 14:54 UTC
+! Last modified: 13 May 2022 15:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13486,7 +13486,7 @@ aptekamos.ru###vertical-adv-container
 heregirl.ru,ledilana.ru###vgtrk_bottom
 virusinfo.info###vi_ad
 virusinfo.info###vi_adlink
-hlamer.ru,wseries.ru###video-container .overlay_video
+hlamer.ru,zloekino.site###video-container .overlay_video
 ivi.ru###video-flack
 videonews.club###video_bootom
 enter.az###videorekframe
@@ -20652,7 +20652,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /site/showbanner/*$domain=latifundist.com
 /spec/*$image,domain=asienda.ru|diets.ru|mycharm.ru|myjane.ru|povarenok.ru|relook.ru|stranamam.ru
 /specproject$image,domain=asienda.ru|diets.ru|mycharm.ru|myjane.ru|povarenok.ru|relook.ru|stranamam.ru
-/stargate*.$image,popup,xmlhttprequest,domain=hlamer.ru|wseries.ru
+/stargate*.$image,popup,xmlhttprequest,domain=hlamer.ru|zloekino.site
 /static/banners/*$domain=gagadget.com|maxpark.com|vse-sto.com.ua
 /static/js/build/adidas.min.js$domain=auto43.ru|dom43.ru|gorodkirov.ru|job43.ru
 /storage/banners/*$domain=sportliga.com
