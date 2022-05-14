@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: CoMgjudp86kwyPKCeUpH9g
+! Checksum: pIoN9dkJ+IedH0/e/YD/kA
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.66
-! TimeUpdated: 2022-05-13T17:31:39+00:00
+! Version: 2.0.19.67
+! TimeUpdated: 2022-05-14T03:31:45+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1378,7 +1378,6 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##.adsense_mainbox01
 ##.adsize728
 ~regionxeberleri.com##.adtitle
-##.amazonjs_item
 ##.aoa_overlay
 ##.archive__item-infeedPc1
 ##.archive__item-infeedPc2
@@ -1784,7 +1783,7 @@ newsoku.blog,nikkan-gendai.com,ceron.jp,kids.gakken.co.jp,5chan.jp,toyokeizai.ne
 ! ##.bnr
 baby-calendar.jp,npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,shibukei.com##.bnr
 ! ###ad
-agrinews.co.jp,ntv.co.jp,my-terrace.com,travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
+ntv.co.jp,my-terrace.com,travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
 ! ##.rectangle
 gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored

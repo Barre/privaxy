@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: UCLUMnCBZ8le+sODYOZJew
+! Checksum: htvVs3WtKK1xYJiz4/x4ZQ
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.47
-! TimeUpdated: 2022-05-13T19:31:15+00:00
+! Version: 2.2.30.48
+! TimeUpdated: 2022-05-14T03:31:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -24911,8 +24911,6 @@ vidhdthe.online##+js(abort-on-property-read, JSON.parse)
 glamourhits.org##+js(set-constant, click_r, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115590
 k1nk.co##+js(abort-current-script, $, advCookie)
-! https://github.com/AdguardTeam/AdguardFilters/issues/115575
-tnaflix.com##+js(abort-on-property-write, ads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115510
 ace.mu.nu##+js(abort-on-property-read, __yget_ad_list)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115422

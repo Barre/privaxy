@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: oJOLCyUXWO29Rdx+iiPXCA
+! Checksum: GSWxX29a/ULlBwTVepf1CA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.60
-! TimeUpdated: 2022-05-13T23:31:18+00:00
+! Version: 2.0.39.61
+! TimeUpdated: 2022-05-14T03:31:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5142,6 +5142,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||wa.gmx.net^
 ||sfp.safe.baidu.com^
 ||revi.rcs.it^
 ||counter.megagroup.ru^

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 9qCUuSyBOta8eUJHf31MyQ
+! Checksum: MoT0+LLilq4zFjckpyhW9g
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.30
-! TimeUpdated: 2022-05-13T18:12:32+00:00
+! Version: 2.1.19.32
+! TimeUpdated: 2022-05-14T03:30:39+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -26193,6 +26193,8 @@ disk.yandex.*##.mail360-banner
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118203
+agrinews.co.jp###ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118543
 outlook.live.com##.customScrollBar > div > .full:not([aria-label]):not([data-convid]):not([role="option"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102342
