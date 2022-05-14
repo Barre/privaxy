@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: GSWxX29a/ULlBwTVepf1CA
+! Checksum: KrjvhhcmidfFuahg5oDb2Q
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.61
-! TimeUpdated: 2022-05-14T03:31:24+00:00
+! Version: 2.0.39.63
+! TimeUpdated: 2022-05-14T09:31:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5142,7 +5142,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
-||wa.gmx.net^
+||wa.mail.com^
+||wa.gmx.
 ||sfp.safe.baidu.com^
 ||revi.rcs.it^
 ||counter.megagroup.ru^
@@ -20062,6 +20063,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+://wa.*/s?
 /pmc-google-universal-analytics/*
 /clicktrue_invocation.js?
 /cdn-cgi/challenge-platform/h/g/beacon/*$xmlhttprequest,~third-party
@@ -24342,6 +24344,10 @@ link.gmapp*.net$image
 ! For platforms which do not support $redirect rules
 !
 !
+! https://github.com/uBlockOrigin/uAssets/commit/d5e0de7a259057c2d53ebd36f37ee1762e9e2860#commitcomment-73637215
+@@||js-sec.indexww.com^$script,domain=maxisciences.com|gentside.*|ohmymag.*
+@@||googletagmanager.com/gtm.js$domain=maxisciences.com|gentside.*|ohmymag.*
+@@||btloader.com/tag?h=prismamedia-com&upapi=true$script,domain=maxisciences.com|gentside.*|ohmymag.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118228
 @@||googleoptimize.com/optimize.js$domain=tehnomanija.rs
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118321

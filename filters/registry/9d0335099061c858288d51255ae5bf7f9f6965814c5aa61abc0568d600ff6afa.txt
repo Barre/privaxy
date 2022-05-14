@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: VUK5jMKGaz2EXKp2uuTHqw
+! Checksum: r3uVUBUmgNyTtILm4Gh/Ww
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.33
-! TimeUpdated: 2022-05-14T08:30:33+00:00
+! Version: 2.1.19.35
+! TimeUpdated: 2022-05-14T09:30:40+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7184,7 +7184,7 @@ chimica-online.it###cookieChoiceInfo
 strunz.com###v-cookielaw
 !
 !
-/consent.[\s\S]*.de/$domain=berliner-zeitung.de|mopo.de|duda-kinderzeitung.de|dumont.de|dumont-rheinland.de|rheinische-anzeigenblaetter.de|yourjob.de
+/consent.[\s\S]*.de/$domain=mopo.de|duda-kinderzeitung.de|dumont.de|dumont-rheinland.de|rheinische-anzeigenblaetter.de|yourjob.de
 !
 ! common name
 ! ##.cc-overlay
@@ -20088,6 +20088,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+||uicdn.com/mailint/*/assets/_sn_/lod/welcomeback.js$domain=gmx.*
 ||wakasa.jp/common/js/modalCheck.js
 tomtop.com##.freePointWrap
 curet.jp##.l-footer-modal
