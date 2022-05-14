@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Frellwit's Swedish Filter
 ! Expires: 4 days (update frequency)
-! Last modified: 2022-05-12 20:20:13 CEST
+! Last modified: 2022-05-14 07:30:07 CEST
 ! Homepage: https://github.com/lassekongo83/Frellwit-s-filter-lists
 ! Description: A filter for uBlock Origin that aims to remove regional Swedish ads, tracking, annoyances, scams + badware, and unnecessary bloat.
 ! License: GPLv3
@@ -65,8 +65,8 @@
 ###cookiejar
 ###cookielawwarning
 ###cookieMsgBlock
-###CookieNotice
 ###cookieNotice
+###CookieNotice
 ###cookies-acceptance .alert.bottom
 ###cookiesInfo
 ###dialog-eu-cookie-law
@@ -521,6 +521,7 @@
 /egmont-ads/*
 /elementor/assets/lib/share-link$script
 /emediate-responsive-wp-plugin
+/emg-dfp$domain=allastudier.se
 /empty.html$subdocument,domain=byggfakta.today|hotellorestaurang.se
 /enklare-banners/enklare-torgetgruppen
 /entag.$script,domain=eniro.se|leta.se
@@ -744,6 +745,7 @@
 /plugins/newsletter$script,domain=56kilo.se
 /plugins/newsletter-leads/libs/simplemodal$script
 /plugins/newsner-lead-tracking
+/plugins/no-right-click-images-plugin$script
 /plugins/notificationx$script
 /plugins/ns-facebook-pixel
 /plugins/ocean-cookie-notice$script,domain=ff.se
@@ -1332,7 +1334,7 @@ hockeyguiden.com##.main-loader.loader-bg
 hockeymagasinet.com##gdpr-alert
 hockeynews.se##[class*="ad-style"], [id^="outsider-"], [id^="banner_"], .ad-mob-container, #mobile-one, #mobile-two, .desktop-horizontal-ad, #article-content img[src*="banner"], #article-content img[src*="prio-hockey"]
 hotellorestaurang.se###bannnerContainer, #pop_overlay, .banner-s, div.featured
-hrnytt.se##.d-block div[style*="aspect-ratio"], .d-none div[style*="aspect-ratio"]
+hrnytt.se##.banner-box
 hungrig.nu##.ui-widget-overlay, .ui-dialog
 hypeline.se##.sponsrad_ruta
 ica.se##.banner-area
