@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: KrjvhhcmidfFuahg5oDb2Q
+! Checksum: SwuZCSuQ8h4xfwh3vyWDOA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.63
-! TimeUpdated: 2022-05-14T09:31:24+00:00
+! Version: 2.0.39.64
+! TimeUpdated: 2022-05-14T13:31:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -24344,6 +24344,8 @@ link.gmapp*.net$image
 ! For platforms which do not support $redirect rules
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/13222
+@@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
 ! https://github.com/uBlockOrigin/uAssets/commit/d5e0de7a259057c2d53ebd36f37ee1762e9e2860#commitcomment-73637215
 @@||js-sec.indexww.com^$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||googletagmanager.com/gtm.js$domain=maxisciences.com|gentside.*|ohmymag.*
