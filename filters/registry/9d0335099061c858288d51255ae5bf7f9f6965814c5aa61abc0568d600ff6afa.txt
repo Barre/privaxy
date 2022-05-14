@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: r3uVUBUmgNyTtILm4Gh/Ww
+! Checksum: yU3NITRcWnYhZuHs3yTWXA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.35
-! TimeUpdated: 2022-05-14T09:30:40+00:00
+! Version: 2.1.19.36
+! TimeUpdated: 2022-05-14T10:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32130,7 +32130,8 @@ tudaydeals.com#$##wpsafe-generate { display: block !important; }
 m.facebook.com#$#.ssr #screen-root { pointer-events: auto !important; }
 m.facebook.com#$#.ssr #screen-root img { pointer-events: auto !important; }
 ! m.facebook.com - allows to highlight text
-m.facebook.com#$#html.unselectable * { -webkit-user-select: text !important; }
+m.facebook.com#$#div { -moz-user-select: text !important; -webkit-user-select: text !important; }
+m.facebook.com#$#.touch a[href*="story.php"] { position: relative !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115570
 news.kstyle.com##div[style*="width:640px;"][style*="height:253px;"] + aside > div.MdMN12Line
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115284

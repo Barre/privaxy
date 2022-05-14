@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w2gdvog+q9RRdYxR58ChPg
-! Version: 202205131554
+! Checksum: IFV2K+LPCWypaWl+JgAWEw
+! Version: 202205141054
 ! Title: RU AdList for uBO only
-! Last modified: 13 May 2022 15:54 UTC
+! Last modified: 14 May 2022 10:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15739,7 +15739,6 @@ forum.soft4dle.com##.navbar > br
 forum.soft4dle.com##.navbar > center
 nalogikz.kz##.navbar-fixed-bottom
 newkaliningrad.ru##.navbar-nav > .important
-allboxing.ru##.navbar-nav > a[href="https://allboxing.ru/forum"] ~ .ext
 playground.ru##.navbar-nav > li > .special
 forum.fonarevka.ru##.navbar_banners
 srtclub.ru##.navbar_notice a[href][target="_blank"]
@@ -17608,6 +17607,7 @@ youhack.ru##[onclick]:not([onclick^="window.open('https://youhack.ru/posts/"])
 onlinemschool.com##[onclick^="oms_zz_"]
 enovosty.com##[onclick^="trackOutboundLink"]
 izum.ua##[onmousedown*="moneyveo.ua"]
+allboxing.ru##[onmouseenter="onClickPbButton()"]
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 radiokot.ru##[src*="//radiokot.ru/adv/"]
 ozersk74.ru##[src*="/banner"]
@@ -17758,6 +17758,7 @@ povarenok.ru##a[href*="/text"]
 muzofond.fm##a[href*="/zvuk_transfer?"]
 gtorrent.org,gtorrent.pro,gtorrent.xyz##a[href*="1.gtorrent"]
 sportliga.com##a[href*="://1xstavka.ru/"]
+allboxing.ru##a[href*="://aff1xstavka.com/"]
 rutracker.ru,wuxiaworld.ru##a[href*="://ali.ski/"]
 anifors.ru,anigang.org,animecos.ru,animesos.ru,shinigami.tv##a[href*="://animedub.ru/"]
 argumenti.ru##a[href*="://argumenti.ru/ad_informer/click/"]
@@ -17837,7 +17838,7 @@ blogspot.ru##a[href*="bolotov.com.ua"]
 bookskeeper.ru##a[href*="book24.ru"]
 euro-football.ru,liveresult.ru,scores24.live##a[href*="bookmaker"]
 footboom.by,footboom.com,footboom.kz##a[href*="branding"]
-kgd.ru##a[href*="branding"][target="_blank"]
+glavagronom.ru,kgd.ru##a[href*="branding"][target="_blank"]
 traktorist.ua##a[href*="brendi"][target="_blank"]
 igryday.ru,newserials.tv,torrento.net##a[href*="browser."]
 biznet.kiev.ua##a[href*="cargo120.com"]
@@ -18382,7 +18383,7 @@ n1.by##a[href^="https://www.alibi.by"]
 design-for.net##a[href^="https://www.reg.ru/"]
 ebay-russia.ru##a[href^="https://www.shipito.com/"]
 imgmoney.ru##a[href^="https://www.youtube.com/"] img
-carsweek.ru,inforeactor.ru,nation-news.ru,nevnov.ru,newinform.com,nsn.fm,osnmedia.ru,polit.info,politexpert.net,politros.com,radiokp.ru,ren.tv,riafan.ru,slovodel.com,sovets.net,sovets24.ru,tv2.today##a[href^="https://zen.yandex.ru/"]
+allboxing.ru,carsweek.ru,inforeactor.ru,nation-news.ru,nevnov.ru,newinform.com,nsn.fm,osnmedia.ru,polit.info,politexpert.net,politros.com,radiokp.ru,ren.tv,riafan.ru,slovodel.com,sovets.net,sovets24.ru,tv2.today##a[href^="https://zen.yandex.ru/"]
 wmmail.ru##a[href^="index.php?cf=html-tbanner&bid="]
 gomel.today##a[href^="index.php?module=media"]
 scooterdigest.ru##a[href^="rec.asp"]
