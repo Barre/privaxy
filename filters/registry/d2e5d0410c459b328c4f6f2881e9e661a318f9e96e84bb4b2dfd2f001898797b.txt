@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Fri, 13 May 2022 12:03:06 +0000
+! Updated: Sat, 14 May 2022 00:03:33 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -9,7 +9,6 @@
 ! Announcement: curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21
 4elettrostore.it
 aappd.xyz
-abc-news.online
 action-shelter-bit-recognize.xyz
 adverify.cloud
 adverify.me
@@ -167,6 +166,7 @@ restaurantsnearestme.co
 restorerefinedsuperthefile.vip
 restoresuperspeedythefile.vip
 robogarden.io
+runbig.xyz
 savideo.ru
 segmentsharehard.top
 seila.xyz
