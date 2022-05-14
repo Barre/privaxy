@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aq7EAZs0K3CdpJrP7fqL1w
-! Version: 202205141154
+! Checksum: 8S/KS2uNOUuboHAM/up1zw
+! Version: 202205141454
 ! Title: RU AdList for uBO only
-! Last modified: 14 May 2022 11:54 UTC
+! Last modified: 14 May 2022 14:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24411,6 +24411,7 @@ pg11.ru,pg12.ru,pg13.ru,pg21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod
 progorodchelny.ru,progorodnsk.ru,progorodsamara.ru,prokazan.ru##div[class^="banner"]
 !
 ! Rambler.RU и их проекты
+www.rambler.ru###app > .ad
 rambler.ru###bigColumn + div[class] > div:first-child + div > div > div:first-child
 eda.ru,gazeta.ru,lenta.ru###billboard
 m.gazeta.ru###footer-banner
@@ -24473,7 +24474,6 @@ moslenta.ru##.sideColumn form ~ div
 gazeta.ru##.smi24__informer
 rambler.ru##.traffic-blocks[class*="intresting"]
 afisha.ru##.yandex-dzen
-www.rambler.ru##:not([data-cerber]) > svg > defs + g
 @@||rambler.ru/i/icons/icon-comment.svg?$image,domain=rambler.ru
 @@||ssp.rambler.ru^$domain=kinoteatr.ru
 @@||st.championat.com/shared/advertise.js|$script,domain=championat.com
@@ -24486,7 +24486,6 @@ www.championat.com##[data-href^="https://www.fonbet.ru/"]
 rambler.ru##[data-special*=":okko:"]
 sport.rambler.ru##[href^="https://www.fonbet.ru/"]
 wmj.ru##[qaid="topic"] ~ div a[href^="https://zen.yandex.ru/"]
-www.rambler.ru##a[href*="clck.ru"]
 ~mail.rambler.ru,~nova.rambler.ru,rambler.ru##a[href*="okko.sport"]
 ~mail.rambler.ru,~nova.rambler.ru,rambler.ru##a[href*="okko.tv"]
 www.championat.com##a[href^="https://www.fonbet.ru/"]
@@ -24506,7 +24505,6 @@ rambler.ru##div[data-marker-observer]
 ferra.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretmag.ru,wmj.ru##div[data-render-state] > div[style*="min-height:"]
 rambler.ru##div[data-rnet]
 rns.online##div[id$="_teaser-header"]
-www.rambler.ru##div[id^="adfox"]
 gazeta.ru##div[id^="b_24smi_"]
 m.gazeta.ru##div[id^="ban-content-mobile"]
 gazeta.ru##div[id^="native"]
@@ -24516,7 +24514,6 @@ motor.ru##div[id^="rnet_id_"] ~ div[style^="margin-top:"] + div
 afisha.ru##div[style="margin:8px auto"]
 rambler.ru##div[style^="display:"][style*="none"] + div[style^="width:"][style*="100%;"][style*="height:"][style*="315px"]:empty
 lenta.ru##iframe[src*="://audiosalute.lenta.ru/"]
-www.rambler.ru##svg ~ img[src]
 ||audiosalute.lenta.ru/
 ||championat.com/embed/custom.css
 ||img.championat.com/brand/
@@ -24526,12 +24523,8 @@ www.rambler.ru##svg ~ img[src]
 ||winline.rambler.ru/
 ! Непонятные пустые места, новый и старый дизайн
 rambler.ru#?#.commercial-branding div[class]:-abp-has(> div[class] > div[id^="adfox-"]:only-child)
-www.rambler.ru#?#[data-focus-source] #main div:-abp-has(> div[class]:not([id^="player-"]) > [style^="height:"] > div:first-child:last-child)
 rambler.ru#?#article ~ article ~ div[class]:-abp-has(div > div[class][style="display: none !important;"])
 rambler.ru#?#article ~ article ~ div[class]:-abp-has(div > div[class^="banner--native-partner--"])
-www.rambler.ru#?#div[style^="height:"]:-abp-has(> div > div[class][style^="display:"][style*="none"])
-www.rambler.ru#?#div[style^="height:"]:-abp-has(> div > div[style^="display:"][style*="block"])
-www.rambler.ru#?#html:not([data-focus-source]) #app[class] div[class]:-abp-has(> div[style^="height:"] > div > div[style="display: block;"])
 !
 ! RBC (РБК)
 cnews.ru###mag_banner
@@ -26806,6 +26799,7 @@ biggestplayer.me##.soret
 spanishdict.com##.whitelist
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 pkmods.com##body > div[style*="z-index"][style*="background"]
+leechyscripts.com##div[class^="chp_ads_block_modal"]
 strikeout.co,vipbox.sx,vipleague.co,vipleague.is##div[style="display: block;"]
 nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #313131;"]
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]

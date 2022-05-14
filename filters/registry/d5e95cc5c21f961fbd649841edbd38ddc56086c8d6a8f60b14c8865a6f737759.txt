@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: G3ZlcnfpKSyhAE7yzv6rCw
+! Checksum: R3uYWk2tNdkFbogpL9QfkQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.58
-! TimeUpdated: 2022-05-14T03:30:23+00:00
+! Version: 2.0.29.59
+! TimeUpdated: 2022-05-14T14:30:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1303,7 +1303,7 @@ cyzowoman.com#?#.section_common > article.entryad:upward(1)
 s.dietclub.jp#?#.hTag2 > span[class^="icon-list"]:contains(/Ads|おすすめ記事（一部広告/):upward(1)
 viet-jo.com#?#.bd_bd > div[class^=text-top-tab1-] > div.bd > div.bd_left[name]:contains(PR):upward(2)
 abplive.com#?#.articlepage > .center_block:has(> p:contains(- - Advertisement - -))
-aria.nikkei.com#?#.panelIndent > ul.dag_visualbox:upward(1)
+nikkei.com#?#.panelIndent > ul.dag_visualbox:upward(1)
 sp.m.jiji.com#?#.spView > div[style^="margin"] > div[id^="div-gpt-ad"]:upward(1)
 matomame.jp#?#.uk-text-center > ins.adsbygoogle:upward(1)
 adme.ru#?#div[data-test-id="article-content"] > div > div svg[viewBox] > use[href="#loader"]:upward(4)
@@ -2345,6 +2345,8 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+s.cosme.net###cmn-ad-hdr
+mashingup.jp##.p-FloatPost
 irasutoya.com##.mobileadsml
 illust-pocket.com##.adAuto
 bg-mania.jp###sp_bg-mania_billboard
@@ -2675,8 +2677,8 @@ watch.impress.co.jp###sp-floating-layer
 gelbooru.com##div[style$="width: 300px;"]
 gelbooru.com##div[style="text-align: center; padding: 10px; border: 1px dotted #aaaaaa; margin: 10px;"]
 1geki.jp##.ad_sp_top_banner
-aria.nikkei.com##.prBox
-aria.nikkei.com##.panelIndent > ul.articleBoxList[style="margin-top:12px;margin-bottom:0;"]
+nikkei.com##.prBox
+nikkei.com##.panelIndent > ul.articleBoxList[style="margin-top:12px;margin-bottom:0;"]
 ryukyushimpo.jp##.sp-ad-srv
 ryukyushimpo.jp##div[id*="sp_article_"][style*="min-height: 280px;"]
 kobe-np.co.jp##div[id^="ad"][style="height: 65px;"]
