@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: zbj3p6V3MevninMDcuSiUw
+! Checksum: LH59FIZ6uFOPJ3THj7eAZQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.38
-! TimeUpdated: 2022-05-14T14:30:36+00:00
+! Version: 2.1.19.39
+! TimeUpdated: 2022-05-14T17:02:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -28388,6 +28388,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+kanobu.ru##div[class^="MaterialSubscription_root"]
 mashingup.jp##div[class$="MailMagazine"]
 businessinsider.de##.piano-article__after-block--2
 businessinsider.de##.bi-image > a[href="https://www.businessinsider.de/informationen/money-mindset-finanz-newsletter/"]
