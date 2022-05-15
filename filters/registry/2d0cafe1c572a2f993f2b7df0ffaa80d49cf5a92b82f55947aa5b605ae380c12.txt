@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: L/8DbBTlOvybfjOG242oVA
+! Checksum: 6KUDWomitiAWGdCuukpBFQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.55.55
-! TimeUpdated: 2022-05-15T03:30:56+00:00
+! Version: 2.0.55.56
+! TimeUpdated: 2022-05-15T08:30:56+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19527,7 +19527,6 @@ smjb.net##div[style*="height: 50%"]
 ||rmipoz.com/dp.js
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||shumilou.co/style/html5.js
-||sinaimg.cn/sinanews/228/w110h118/20200630/d16f-ivrxcex6261902.gif
 ||tdtxt.xyz/js/baidu.js
 ||ttzw.tv/tz/h.js
 ||ttzw.tv/tz/true.js
@@ -19564,9 +19563,6 @@ $image,third-party,domain=258zw.com
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
 .html?android=hx*&_$csp=script-src
 .js?ssid=_$script,third-party
-##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
-##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;margin-right:0px;margin-left:0px;"]
-##.layui-row[style="height:160px;border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
 .lu/js/wap_billing.js
 ##.readerListADbox
 /1.js?ssfrid=$script,third-party
@@ -19661,6 +19657,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||deya.ink^
 ||hackeraa.xyz^
 ||wn68din.cn^
+||jacksonyee.club^
+||ppyibei.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

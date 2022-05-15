@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205142156
+! Version: 202205150904
 ! Title: EasyPrivacy
-! Last modified: 14 May 2022 21:56 UTC
+! Last modified: 15 May 2022 09:04 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5804,6 +5804,7 @@ _mongo_stats/
 ||520886.xyz^
 ||8672.site^
 ||a1webstrategy.com^
+||adbp.online^
 ||adcontroll.com^
 ||adnext.co^
 ||adrtx.net^
@@ -26299,7 +26300,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
-@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk
+@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|timesprime.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
@@ -27113,6 +27114,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ! ---------- Norwegian ----------
 ! 
 @@||adobedtm.com^*/satelliteLib-$script,domain=elkjop.no
+@@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||cloudfront.net/autoTracker.min.js$domain=direkte.vg.no
 @@||epub.ekh.no/*/static/analytics.js
 @@||google-analytics.com/analytics.js$domain=tv3play.no
