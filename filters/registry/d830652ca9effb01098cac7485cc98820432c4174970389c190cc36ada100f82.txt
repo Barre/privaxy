@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205150904
+! Version: 202205150934
 ! Title: EasyList
-! Last modified: 15 May 2022 09:04 UTC
+! Last modified: 15 May 2022 09:34 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3913,6 +3913,7 @@
 /delivery.ads.
 /delivery.php?pool_id=
 /delivery.php?rnd=
+/delivery.php?zone=
 /delivery/afr.
 /delivery/ag.
 /delivery/al.php
@@ -13092,6 +13093,7 @@ _800x80_
 ###dfp-article-related-mpu
 ###dfp-atf
 ###dfp-banner
+###dfp-banner-popup
 ###dfp-billboard1
 ###dfp-billboard2
 ###dfp-btf
@@ -13112,6 +13114,7 @@ _800x80_
 ###dfp-srp-leaderboard
 ###dfp-srp-mobile-top
 ###dfp-tlb
+###dfp-top-banner
 ###dfp-wallpaper-wrapper
 ###dfpAd
 ###dfp_ad_1
@@ -39057,6 +39060,7 @@ tf2r.com#@#.adverts
 ||honoursdashed.com^
 ||hooify.com^
 ||hookeroblong.com^
+||hooliganmedia.com^
 ||hoolyfy.com^
 ||hoophaub.com^
 ||hooptaik.net^
@@ -59313,6 +59317,7 @@ playvids.com##.col-lg-6.col-xl-4
 whoreshub.com##.col-second
 totsantcugat.info##.col-sm-6 > [href="http://totsantcugat.info/wp-content/video.php"]
 perfectgirls.net##.container + div + .additional-block-bg
+pornwhite.com##.content-aside
 fetishshrine.com##.content-aside > b
 watchmygf.me##.content-footer
 xxxdessert.com##.content-gallery_banner
