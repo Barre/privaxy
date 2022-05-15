@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6me63JE8kGgZHWpXvPH53g
-! Version: 202205142054
+! Checksum: UaJ2qbndpN1qs5pAIkQ2MA
+! Version: 202205151554
 ! Title: RU AdList for uBO only
-! Last modified: 14 May 2022 20:54 UTC
+! Last modified: 15 May 2022 15:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -105,6 +105,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 /propeller.php$third-party,popup
 /propeller_ou.php$popup
 /propeller_out.php$popup
+/ranging/*/click/|$third-party,popup
 /utarget.$popup
 /vkshpion/?page=$popup
 /webunder.$popup
@@ -7151,7 +7152,6 @@ _tizers.
 ||hugfromoctopus.com^$third-party
 ||humanredirect.ru^
 ||hundana.ru^$third-party
-||hunter-hub.com^$third-party
 ||hunterdelivery.com^$third-party
 ||hunterycity.com^$third-party
 ||hunteryvely.com^$third-party
@@ -8072,9 +8072,6 @@ _tizers.
 ||mailerlite.com^$third-party
 ||mailgen.date^$third-party
 ||main-tcod.com^$third-party
-||main-ti-cod.com^$third-party
-||main-ti-hub.com^$third-party
-||mainad-codpp.com^$third-party
 ||mainclc.com^
 ||mainews.ru^
 ||maisyy.com^$third-party
@@ -14585,7 +14582,7 @@ glazey.info##.client
 literaguru.ru##.clinic-image
 tutu.ru##.clockWrapper
 gorodkiev.com.ua##.clr[style]
-1progs.ru,blackwot.ru,bolshoyulov.ru,fuzzmusic.ru,gubdaily.ru,hersonweek.net,kakbog.com,o-polze.com,poravkrym.ru,villaved.ru##.code-block
+1progs.ru,blackwot.ru,bolshoyulov.ru,fuzzmusic.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,kakbog.com,o-polze.com,poravkrym.ru,villaved.ru##.code-block
 prozoro.net.ua##.code-block-34
 vsekamni.net#?#.code-block:-abp-has(> .content_rb)
 slivup.me##.code11
@@ -15654,7 +15651,6 @@ torrent10.ru,torrent3.ru,torrent50.ru##.mg
 coub.com##.mgid-coub-page-banner
 novostionline.net##.mgline
 boxrec.com##.midAdvert
-searchengines.guru##.middle-block
 allhen.online,doramatv.live,findanime.net,grouple.co,librebook.me,mintmanga.live,mose.live,readmanga.cf,readmanga.io,selflib.me,selfmanga.live##.middle_ba
 allmoldova.com##.middle_banner
 gazeta.uz##.middleboard
@@ -16905,7 +16901,7 @@ minfin.com.ua##.top-banner-wrapper
 kazan.32top.ru##.top-banner__container
 from-ua.com,kinoplex.ru##.top-banners
 dynamomania.com##.top-banners-area
-key-test.ru,kurs.if.ua,searchengines.guru##.top-block
+key-test.ru,kurs.if.ua##.top-block
 liga.net##.top-bnr
 footballhub.com.ua##.top-bookmaker
 fight.ru##.top-bookmakers-widget
@@ -18902,6 +18898,7 @@ smi2.ru#?#div[class]:-abp-has(> div > [data-id^="exAd_"])
 drive2.ru#?#div[class]:-abp-has(> div > div > .drom-logo)
 2gis.ru#?#div[class]:-abp-has(> div[class] > [class]:-abp-contains(/^Организации рядом$|^Похожие организации$/))
 smi2.ru#?#div[class]:-abp-has(> div[font-size] > span:-abp-contains(/опрос/i))
+searchengines.guru#?#div[class]:-abp-has(> div[id][align="center"])
 novayagazeta.ru#?#div[class]:-abp-has(> div[style^="display"] ~ div > div[id*="adfox_"])
 scores24.live#?#div[class]:-abp-has(> img[src*="/upload/bookmaker-"])
 www.kinopoisk.ru##div[class]:first-child > div[class*=" "] > div:first-child + :not(div) + div[class*=" "]:last-child
@@ -22927,7 +22924,7 @@ lada.kz/uploads/banners/
 ||sdamgia.ru/adv/
 ||sdelanounas.ru/b/
 ||sea.linedia.ru/
-||searchengines.guru/^*?tz_offset=
+||searchengines.guru/*?tz_offset=
 ||seasonvar.ru/js/rad.js
 ||seasonvar.ru/uppod/*.xml|$xmlhttprequest
 ||second.by/themes/i/brand/$image
@@ -26679,7 +26676,7 @@ sntch.com#?#article > p:-abp-contains(/отключите блокировку �
 doctorrouter.ru,gamingsym.in,orbit-games.com,ranobe-novels.ru,transformator220.ru,wuxiaworld.ru##body > :not([id]):not([class]):not(script)
 iblitzmods.ru##body > [class^="adbd-"]
 mods-club.ru##body > [id]:not([class]):not([iframe]):not(#main-bg)
-zmoe.ru##body > div:not([id]):not([class])
+itbusiness.com.ua,zmoe.ru##body > div:not([id]):not([class])
 chemrise.ru##body > div[class*="ui-widget"]
 pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
 homeporn.website,imgchilibum.ru##body > div[style^="background-color:"][style*="z-index"]

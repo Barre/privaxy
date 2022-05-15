@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: laxr+FLg/+FSCS0VkcgQIg
+! Checksum: Po3rogxsjZKIU4WYw0NtRQ
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.70
-! TimeUpdated: 2022-05-15T05:03:20+00:00
+! Version: 2.0.19.71
+! TimeUpdated: 2022-05-15T15:31:40+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -788,6 +788,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+comic.nan-net.com#?#.sidebar-widget > div > div > a[href*="://ad."]:upward(3)
+magmix.jp#$?#.swiper-slide-extra { remove: true; }
 fumumu.net#?#.entryContents > h3:contains(おすすめ記事)
 curet.jp#$?#.p-widget-list__item > div[id^="div-gpt-"]:upward(1) { remove: true; }
 46matome.net,keyakizaka46matomemory.net#?##more > b:not(:contains(まとめもり～))
@@ -803,7 +805,7 @@ j-cast.com#?#div.title-sec:contains(姉妹サイト)
 qiita.com#?#.p-items_main > div[class^="css-"]:has(div[id^="dfp-slot-"])
 kumanichi.com#$?#.is-separate-block-mv-list-item-pr { remove: true; }
 trafficnews.jp#?#ul[class^="_taxel_row"] > li > div[class^="_taxel_ad_article"]:upward(1)
-trafficnews.jp#$?#.swiper-slide[data-history^="photo_extra"] { remove: true; }
+kuruma-news.jp,trafficnews.jp#$?#.swiper-slide[data-history^="photo_extra"] { remove: true; }
 soco-st.com#$?#.post_ad { remove: true; }
 maidonanews.jp#$?#.module-list-articles__item[style="padding:0px"] { remove: true; }
 mainichi.jp#$?#.is-2col.articlelist > li > div[id^="ad-pc-article"]:upward(1)  { remove: true; }
@@ -1708,6 +1710,7 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 !-------------------
 !
 !
+! https://github.com/tofukko/filter/issues/69
 !---------------------------------------------------------------------------!
 !-------------- General URL blocking rules ---------------------------------!
 !---------------------------------------------------------------------------!
@@ -1718,7 +1721,6 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 ! Bad: .org/ads/$domain=example.org (for instance, should be in general_extensions.txt)
 !
 !
-/plugins/betube-ads/*
 .com/ufo/$script,third-party
 .com/Zen?
 .jp/affiliate/$third-party
@@ -1748,6 +1750,7 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 /amazonjs.js?
 /banimg/*
 /clog_ad.js
+/fixed_ad.js
 /g_ad.js?
 /images/tamakuri
 /js/ad/sp_trend_tt.js
@@ -1759,6 +1762,7 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 /load_inArticle_ad.js
 /mag2overture.js
 /parts/ad/*
+/plugins/betube-ads/*
 /random_ad/random_ad.js
 /settings/ad.js
 /sp3pas_ad.js
@@ -1811,6 +1815,17 @@ aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career-find.jp,mainich
 !
 !
 !
+unityroom.com##.bl_adunit
+unityroom.com##.pg_section_ads_double
+jidoushatounan.com##.banner_set:not(.pl_banner_top)
+||jidoushatounan.com/wp/wp-content/uploads/2018/06/a2m_jtj.jpg
+erogamescape.dyndns.org###ad_rudel_1
+erogamescape.dyndns.org###ad_rudel_2
+erogamescape.dyndns.org###advertisement_amazon
+erogamescape.dyndns.org###maniax
+erogamescape.dyndns.org###okazu_resemble_games
+erogamescape.dyndns.org###recent_recommendations
+erogamescape.dyndns.org###this_week_release
 phileweb.com###topBanner
 ||thuthuatmod.com/img/binance_banner_
 fumumu.net##.entryBottomBanner
@@ -2182,6 +2197,7 @@ store.shopping.yahoo.co.jp##.mdYCA
 ||kenga.tech/area-pop-ups-
 ||kenga.tech/pop-ups-
 zaikai.jp##.detailBottomAdWrap
+kuruma-news.jp##.box:first-child
 kuruma-news.jp##.add-container
 okmusic.jp###ad_area_js
 okmusic.jp##.right-ad_frame
@@ -5169,9 +5185,6 @@ yomiuri.co.jp##.p-ad-org-news-txt
 yomiuri.co.jp##[class^="home-2020-ad"]
 yomiuri.co.jp##[id^="ad_dfp_news-txt"]
 nikkansports.com###headerAdBnr2022
-nikkansports.com###adPushdown
-nikkansports.com###MiddleAD
-nikkansports.com##.adgiftextlist
 mainichi.jp##.ad-list
 mainichi.jp##.ad-infeed
 mainichi.jp##.title-ad-sp
