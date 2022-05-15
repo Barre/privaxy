@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202205010000
+! Version: 202205160000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-05-2022
+! Last modified: 16-05-2022
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4756,6 +4756,7 @@ zeroadserver.com/showBanner.php
 ##.leaderAdvert
 ##.ligatus
 ##.Ligatus
+##.nat-widget
 ##.native-ad-item
 ##.ps-ligatus_placeholder
 ##.taboola-recommended
@@ -4935,6 +4936,8 @@ xda-developers.com###uniccmp
 ||weborama.fr/js/$script,third-party
 ||zephr.com/zephr-browser/$third-party
 /c/assets/pigeon.js$script,~third-party
+/wp-content/evolok/ev-widgets/ev-widgets.min.js
+/wp-content/plugins/pico/includes/js/read-more.js$script,~third-party
 ||abril.com.br/*/abril-paywall/js/abril-paywall.js$script,~third-party
 ||api.afr.com/graphql?query=*PaywallRuleQuery$xmlhttprequest,~third-party
 alternatives-economiques.fr###temp-paywall
@@ -5059,7 +5062,7 @@ nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
 ||nyteknik.se/*/static/js/site.min.js$script,~third-party
 nyteknik.se##+js(rc, locked-article, div.locked-article)
-||meter-svc.nytimes.com/meter.js$script,~third-party
+||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
 ||mwcm.nyt.com/$script,domain=nytimes.com
 !#if env_chromium
 nytimes.com##+js(set, navigator.storage.estimate, undefined)
@@ -5072,6 +5075,9 @@ paloaltoonline.com##+js(cookie-remover, /^/)
 parismatch.com###poool-container,.forbidden
 parismatch.com##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 philosophynow.org##+js(cookie-remover, /^/)
+puck.news##.paywall
+puck.news##+js(rc, paywall-active, body)
+puck.news##+js(ra, style, article)
 qz.com##.KbD9m
 qz.com##+js(rc, _4BDxU, div._4BDxU, stay)
 qz.com##+js(ra, scrolling, iframe[scrolling], stay)
@@ -5193,9 +5199,6 @@ meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
 nu.nl##+js(rc, authorized-content, div.authorized-content)
 nu.nl##.article-login-wall
 ||multimedia.corprensa.com/la-prensa/evolok/evolok.js$script,domain=prensa.com
-puck.news##.paywall
-puck.news##+js(rc, paywall-active, body)
-puck.news##+js(ra, style, body)
 scotsman.com##+js(rc, iETVtP, div.premium)
 ||shrm.org/*/js/paywall*.js$script,~third-party
 thegardenisland.com##+js(ra, style, #single-paywall)
@@ -5240,13 +5243,15 @@ amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,fo
 amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,folha.uol.com.br##[subscriptions-section="content-not-granted"]
 abc.es,amp.elperiodico.com,cmjornal.pt,eldiario.es,elpais.com,estadao.com.br##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Grupo Prensa Ibérica
-amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
-diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
+amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
 ! Grupo Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
 lavozdigital.es##+##[subscriptions-section="content-not-granted"]
-,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+egirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
+! Grupo Vocento
+diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
 lavozdigital.es##+##[subscriptions-section="content-not-granted"]
 ! [NoAds X Files - Filtri per blocco abuso risorse CPU / Exploit]
