@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Sun, 15 May 2022 00:02:53 +0000
+! Updated: Sun, 15 May 2022 12:02:26 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -105,11 +105,9 @@ lollyvideo.ru
 makingssurvey.top
 marionettespuppets.co
 mattdeany.co
-meetuuho.xyz
 meovideo.ru
 misticview.ru
 mistikvideo.ru
-mobi-planet.xyz
 mobi-sea.xyz
 mobi1sea.xyz
 mobiaplains.xyz
@@ -178,6 +176,7 @@ sonic-star.xyz
 sonic1crater.xyz
 sonic7volcano.xyz
 sonicaocean.xyz
+sooth.online
 sotvideo.ru
 specialoffer-instant-claim-congrats.rest
 specialofferinstantclaim.rest
