@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205132013
+! Version: 202205150707
 ! Title: ABPVN List
-! Last modified: 13 May 2022 20:13 UTC+7
+! Last modified: 15 May 2022 07:07 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -345,7 +345,6 @@ utm_source=propellerads$popup
 ||media.baodansinh.vn/files/qc/$image
 ||media.baotintuc.vn/Upload/QKrAM3u3JmfSk084HTqfEg/files/2021/03/Nha-in-Vidanitaxa.jpg
 ||media.discordapp.net^*.gif$domain=phimno1.xyz|phimplus.net|khophim18.net
-||media.discordapp.net^*/dk8.png$image,domain=imvdb.xyz|ssplay.net
 ||media.ex-cdn.com/*/qc$image
 ||media.giadinhvaphapluat.vn/images/*banner$image
 ||media.giphy.com/media/$image,domain=animevietsub.tv|phimgif.net|phimhdvns.net
@@ -382,6 +381,7 @@ utm_source=propellerads$popup
 ||phimhay3s.com^*.gif
 ||phimmoichill.net/media/*.gif
 ||phimmoichill.net/media/js/chillnew.popv.js$script
+||phimmoichill.net^*.gif
 ||phimmoichill.net^*.gif$image
 ||phimmoikf.com/files/banner/$image
 ||phimmoikf.com^*.gif
@@ -1117,7 +1117,9 @@ phimhay3s.com,phimmoikf.com##.fix_bottom
 phimhayplus.xyz###container-ads
 phimmoi18.com###closePC
 phimmoi18.com###fixed_bottom
+phimmoichill.net###chilladv
 phimmoichill.net###goadv
+phimmoichill.net###pmadv
 phimmoichill.net##.catfish-ck.gnarty-offads
 phimnhua.com##.topless
 phimno1.xyz##.block.ad
