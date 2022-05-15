@@ -1,5 +1,5 @@
 ! Title: Phishing URL Blocklist
-! Updated: Sat, 14 May 2022 12:03:24 +0000
+! Updated: Sat, 14 May 2022 12:33:01 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/phishing-filter
 ! License: https://gitlab.com/curben/phishing-filter#license
@@ -472,7 +472,6 @@ agent.itbitwde.top
 agent.kbtrademkgw.top
 agent.kpdgmk.top
 agent.qtrademkdw.top
-agent.qwth0582.xyz
 agent.transabmyh.top
 agora-fatura-magazine.com
 agri-cole-fr-t-i.web.app
@@ -1039,7 +1038,6 @@ asu-saausoeauau.ssltod.top
 asu-saausoeauau.towhey.top
 asu-saausoeauau.tvjylo.top
 asu-saausoeauau.txayiq.top
-asu-saausoeauau.vcxbzr.top
 asu-saausoeauau.vjlile.top
 asu-saausoeauau.vujcbx.top
 asu-saausoeauau.yaahtt.top
@@ -1068,7 +1066,6 @@ attivacontomps.com
 attivadati2022.com
 attrc123.weebly.com
 attservicemail2.weebly.com
-attverificationmailserviceferaltttttt.weebly.com
 atwdemo.com
 au-ascoon.com
 au-pay.snogatanshamsteruppfodning.com
@@ -1182,7 +1179,6 @@ backend.bhiflyk07205.xyz
 backend.bhiflyk27425.xyz
 backend.bhiflyk35108.xyz
 backend.bhiflyk36637.xyz
-backend.bhiflyk40710.xyz
 backend.bhiflyk40943.xyz
 backend.bhiflyk41548.xyz
 backend.bhiflyk42562.xyz
@@ -1450,7 +1446,6 @@ bnl-comunicazioni-reglementaire-sicurezza-gestione.publicvm.com
 bny.it
 boamobile-secured.duckdns.org
 boatekantokente.com.br
-bobuazuki.xyz
 bogdonovlerer.com
 bokgabanesolutions.co.za
 bold-flower-99ee.pontufbksd.workers.dev
@@ -1579,7 +1574,6 @@ callitdesk.co.in
 calm-cherry-8686.on.fleek.co
 campusunlock.com
 caracasmateriais.blogspot.com
-cardinalmedtech.com
 carmen-operatore-1002930.dynamic-dns.net
 carouselusa.com
 carpediemxp.com
@@ -1943,7 +1937,6 @@ dappssynch.win
 dappswalletvalidations.com
 dappsync.nl
 dappwalletsyncs.com
-dapsacsecu.temp.swtest.ru
 dapwalletconnect.org
 dar.kupabaruak.workers.dev
 dark-dawn-7082.on.fleek.co
@@ -2253,11 +2246,9 @@ esftx.com
 esinnovativeinteriors.com
 eslskins.net.ru
 espace-client-facture.com
-espace-org.site
 espaceclientorange1.americommerce.com
 estetikway.com
 etatrecharge.com
-etc-meisei.net
 etc-meisfrq.xyz
 eth-waet.com
 eth988.com
@@ -3130,7 +3121,6 @@ l0g0n-1654546-ve.hostfree.pw
 l2l.bar
 labanque-postale-9fb4b.firebaseapp.com
 labanque-postale-9fb4b.web.app
-labanquepostale-connexion.firebaseapp.com
 labanquepostaleconnexion.firebaseapp.com
 labanquepostaleconnexion.web.app
 lambdaweb.info
@@ -4197,7 +4187,6 @@ rakibhossain.buet.ac.bd
 raknuten.co.jp.member.d7thtrjs.cn
 raresolana.com
 raresolana.xyz
-rarkuntem.co.jp.geriqfc.cn
 rarrible-nft.us
 rasal.be
 raspy-king-4ed0.settingspaqesapp.workers.dev
@@ -4346,6 +4335,7 @@ repl-mess.myfreesites.net
 request.br.ironmountain.com
 res-va.web.app
 reservesucancha.com
+reset-dat-26-link.preview-domain.com
 resolvendo-registro-solucoes.com
 restauration-mns.webcindario.com
 restituicao.koreasouth.cloudapp.azure.com
@@ -4524,7 +4514,6 @@ secure.oldschool.com-dt.xyz
 secure.oldschool.com-jt.xyz
 secure.oldschool.com-ni.xyz
 secure.oldschool.forums-login.live
-secure.oldschool.lol
 secure.oldschool.osrsforums.online
 secure.runescape.com-as.cz
 secure.seauthsecure.com
@@ -4743,7 +4732,6 @@ small-dust-6c63.pontufbksd.workers.dev
 smartmom.com.bd
 smartscapesinc.com
 smbc-carb.co.jp.zyhhb1.cn
-smbc-card.co.songji.ink
 smeo.org.mx
 smepp.uninp.edu.rs
 smgolamalif.github.io
@@ -4983,7 +4971,6 @@ t.secureserverlogin.app
 tactixmexico.com
 taher-mohamed-ahmed-saad.github.io
 tambunanajaa.martulangsore.workers.dev
-tas.ssnetas.fr
 taskmbox493.softr.app
 tasteslikechicken.top
 tautan-ig-copy-wqzy.com
@@ -5303,7 +5290,6 @@ vtxmail2018.myfreesites.net
 vulcanizare-cazanesti.ro
 vwvwvw-roblox.com
 vxdse.myfreesites.net
-vy-secureus.dns04.com
 vystaar-8.duckdns.org
 vystarcucorp.org
 w2.deraya.org
@@ -5697,7 +5683,6 @@ yahmailverification.web.app
 yahoo%2eco%2ejp@fdsfgfd.di5wz6usp.cn
 yahoo%2eco%2ejp@fdsgs.zcn9ugxmi.cn
 yahoo%2eco%2ejp@khfgf.0mnzqvxq.cn
-yahoomail363.weebly.com
 yahuomall.square.site
 yairix.github.io
 yal.su
@@ -6111,7 +6096,6 @@ zurcherkantonalorg.com
 ||emea01.safelinks.protection.outlook.com/?url=https%3a%2f%2ftilbakebetalin.wpengine.com%2fsw%2flog%2f&data=04%7c01%7c%7c11af7bbcb8534b33863408d9e17cff46%7c84df9e7fe9f640afb435aaaaaaaaaaaa%7c1%7c0%7c637788749239190942%7cunknown%7ctwfpbgzsb3d8eyjwijoimc4wljawmdailcjqijoiv2lumziilcjbtii6ik1hawwilcjxvci6mn0%3d%7c3000&sdata=wyye%2fyjymouztvtdzw%2bfpfpyzj4nrvzhvloufqhq128%3d&reserved=0$all
 ||encurtador.dev/redirecionamento/1ge44$all
 ||eneeeetsowww.blogspot.com/?m=0$all
-||envases-matriplast.com/net/account/n/login$all
 ||ersfilter-my.sharepoint.com/:x:/r/personal/nradonich_ersfilter_com/_layouts/15/wopiframe.aspx?guestaccesstoken=t6t%2fhn1dkbyhlyx%2beimbazufa43rrgz6%2faaaewnocdi%3d&docid=1_18168db23429e45f29fdf2e7be120efc4&wdformid=%7bb9970f62%2d44c3%2d4d09%2d9929%2d6e1eb652da57%7d&action=formsubmit$all
 ||ersfilter-my.sharepoint.com/personal/nradonich_ersfilter_com/_layouts/15/wopiframe.aspx?guestaccesstoken=6ywmlbqi9%20sjfgzhadhvte2gyowjf83iqbjrjehik4s=&amp;docid=1_135f7008dfbfa44e6b09dab0eb165b997&amp;wdformid={e037f2d9-5daa-4916-ba03-eb11d0aa6dea}&amp;action=formsubmit$all
 ||ersfilter-my.sharepoint.com/personal/nradonich_ersfilter_com/_layouts/15/wopiframe.aspx?guestaccesstoken=6ywmlbqi9%2bsjfgzhadhvte2gyowjf83iqbjrjehik4s%3d&docid=1_135f7008dfbfa44e6b09dab0eb165b997&wdformid=%7be037f2d9%2d5daa%2d4916%2dba03%2deb11d0aa6dea%7d&action=formsubmit$all
@@ -6313,7 +6297,6 @@ zurcherkantonalorg.com
 ||k12inc-my.sharepoint.com/personal/jdonahue_k12_com/_layouts/15/wopiframe.aspx?guestaccesstoken=jxndynkzmynao0nofzmhz4t%2fk%2br%2fg7qir2agrjo42ha%3d&docid=1_12252b23331654ef4bf8ef978a8eb83ee&wdformid=%7b2711d93c%2d7591%2d4baa%2db377%2dcf40ba8c7343%7d&action=formsubmit$all
 ||kakasoufatre.blogspot.com/?m=0$all
 ||keap.app/contact-us/2970503358622564$all
-||ko.gl/zztgw$all
 ||koji.to/bt_internet$all
 ||koji.to/bt_service_alert.$all
 ||koji.to/bt_teem$all
@@ -7150,7 +7133,6 @@ zurcherkantonalorg.com
 ||storageapi.fleek.co/30693b84-8adc-402a-8e35-2584c8b22a7f-bucket/godson-0693b84-8adc-402a-8e35-2584c8b22a7-0693b84-8adc-402a-8e35-2584c8b22a7-0693b84-8adc-402a-8e35-2584c8b22a7/cpanel.html?utm_source=benchmarkemailu0026utm_campaign=officialu0026utm_medium=email$all
 ||storageapi.fleek.co/738c6d14-2d90-4030-b540-99ee435dbdd0-bucket/a5668ab60ba02c39068406b15c36555536969b45871e0/e45973b06aa0d972247fc6971b57830fc85b4e/indesx.html#tapcomint@btinternet.com$all
 ||storageapi.fleek.co/75cabaa8-00f2-424e-ace4-05be0df37dca-bucket/document.html$all
-||storageapi.fleek.co/7d5415b9-d4a5-4d76-aafc-bb0f0e92befe-bucket/nazi/index_freenazi_gen.html$all
 ||storageapi.fleek.co/8f464d8c-a4e3-444a-b2a5-94317e8aec53-bucket/clx/index.html$all
 ||storageapi.fleek.co/9ab3c71a-8692-4af9-acd6-0817e23dcef8-bucket/onedrnw.html$all
 ||storageapi.fleek.co/a3f5e62b-1981-4c8a-990a-af09f15e8d5f-bucket/dap2022a05v07/ta.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-us&$all
