@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: voelBrsisYiBkqit+QbpLA
+! Checksum: 4/yvLOpJd58tokGI55YrBg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.46
-! TimeUpdated: 2022-05-16T09:02:22+00:00
+! Version: 2.1.19.47
+! TimeUpdated: 2022-05-16T10:30:39+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15495,6 +15495,7 @@ stockmann.com#$#.cookie-dialog-screen { display: none!important; }
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 ! TODO: use redirect rule when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/195
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118884
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118662
 easyphp.org#@##cookie-consent
 ! https://github.com/AdguardTeam/AdguardFilters/pull/118617
@@ -20105,7 +20106,6 @@ activity.lenovo.com.cn##.cms_fixed_nav
 shop.lenovo.ru###usedesk-messenger
 gazeta.ru###_id_yaflow
 zhihu.com#$#html { overflow: auto !important; padding-right: 0 !important; }
-zhihu.com#$#body { overflow: auto !important; }
 thecontentauthority.com##.ez-video-container.ez-float-right.ez-stuck
 moviewalker.jp##.bl_pickup_btn
 monomax.jp##.spacialArea01
@@ -27455,6 +27455,7 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+outlook.live.com##div[data-focuszone-id="FocusZone12"] + div > button
 opinie-perfumy.pl##.lepopup-popup-overlay
 opinie-perfumy.pl##.lepopup-popup-container
 ||promo.datacamp.com/banner.js
@@ -28369,8 +28370,12 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+1istochnik.ru##div[class^="article_"][class$="-share"]
+1istochnik.ru##.news-sidebar-social
 mel.fm##.subscriptionBlock
 kanobu.ru##div[class^="MaterialSubscription_root"]
+discovermagazine.com##div[class^="thz"]
+discovermagazine.com##div[class^="sc-"] > section + div[class^="sc-"]
 kickz.com#$##newsletter-popup_modal { display: none !important; }
 kickz.com#$#body { overflow: visible !important; }
 mashingup.jp##div[class$="MailMagazine"]
