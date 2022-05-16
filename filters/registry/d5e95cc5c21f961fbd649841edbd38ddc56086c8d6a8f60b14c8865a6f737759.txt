@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: HKb32fb3WOvHkAWgqUlb8g
+! Checksum: BLydewEMY7dbJWS1nTfpbw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.64
-! TimeUpdated: 2022-05-16T15:30:20+00:00
+! Version: 2.0.29.65
+! TimeUpdated: 2022-05-16T16:30:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2751,7 +2751,7 @@ technopat.net###adhousesticky
 technopat.net##amp-iframe[src^="https://cdn.adhouse.pro/"]
 issuu.com##div[height="50"][width="320"]
 issuu.com##div[height="250"][width="320"]
-ero-gazou.jp,eroiro.info##.widget_mobile_text
+memopanda.com,ero-gazou.jp,eroiro.info##.widget_mobile_text
 asahi.com##.Rbdo3
 asahi.com##body > div.notPrint
 wowhead.com##.is-btf

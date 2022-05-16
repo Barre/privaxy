@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: ng3319+u+K6n0WSrpUD77Q
+! Checksum: T9sBkAisPv2HO0d+q/vv5A
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.73
-! TimeUpdated: 2022-05-16T14:31:38+00:00
+! Version: 2.0.39.74
+! TimeUpdated: 2022-05-16T16:31:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -295,6 +295,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||t.cotsta.ru^
+||0.code.cotsta.ru^
 ||adbp.online^
 ||sofire.bdstatic.com^
 ||gokwik.co^$third-party
@@ -21631,6 +21633,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||rocket.ivi.ru/event/
+||g.ivi.ru/track
 ||duckduckgo.com/*/reportAnalytics
 ||ggsel.com/js/download/analytics.js
 ||rasin.tech/heatmap-
@@ -24052,7 +24056,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||kinozal.co.ua/uploads/button/online.png?n=
 ||kotaku.com/api/analytics/
 ||krone.at/hps/data/test/md_track.php
-||l.ivi.ru/logger/px/?b=
+||l.ivi.ru/logger/
 ||l2.io/ip.js
 ||licdn.com/*li.lms-analytics/
 ||linkedin.com/emimp/

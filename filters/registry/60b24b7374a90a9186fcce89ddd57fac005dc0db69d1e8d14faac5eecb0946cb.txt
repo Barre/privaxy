@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: /iopOo2fZnjdytHdxTYGpg
+! Checksum: YrUNx95VWb3w9lY5j0gD3A
 ! Title: AdGuard Turkish filter
 ! Description: Filter list that specifically removes ads on websites in Turkish language.
-! Version: 2.0.34.44
-! TimeUpdated: 2022-05-16T07:30:24+00:00
+! Version: 2.0.34.45
+! TimeUpdated: 2022-05-16T17:02:08+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1782,8 +1782,6 @@ filmizlehdfull.net#$##filmoncereklam { display: none!important; }
 filmizlehdfull.net#$##film { display: block!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39371
 tranimeizle.com#$#.previd-link { visibility: hidden!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/39331
-altyazilifilmizle.tv#$#header.container[style^="margin-top:"] { margin-top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39473
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39244
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39245
@@ -2260,7 +2258,7 @@ larende.com,sonses.tv,anamurekspres.com,avrupabulten.com,sakinca.com,gazetebanka
 ! ##.ads
 diyarbakirgazete.com,konupara.com,cumrapostasi.com,yeniakit.com.tr,sinemafilmizle.net,degisimgazetesi.com.tr,esporlab.com,havadurumu15gunluk.org,voleybolmagazin.com,londragazete.com,bursahayat.com.tr,trt1.com.tr,noktabursa.com.tr,anlikaltinfiyatlari.com,imzagazetesi.com.tr,pasada.com.tr,guzelankaram.com,theanatoliapost.com,biricerik.com,memoryhackers.org,haberank.net,yenidonem.com.tr,kediportal.com,slideplayer.biz.tr,sakarya360.com,yeniakit.com.tr,bigunhaber.com,trendoa.com,son32.com,emlaknews.com.tr,cagingazetesi.com.tr,sabahhaberi.com,sonsaat.com.tr,medyaankara.com,erotikfilmtube.com,anadolugunluk.com,kentgazetesi.com,kesinkarar.com,davetmedya.com,fatsaduruhaber.com,bursverenkurumlar.com,mengen.gen.tr,bodrummuhabiri.com,belekomahaber.com,capital.com.tr,canlimobeseizle.com,kadinhalleri.com,nallihanhaber.com,muhabir26.com,gundembursa.com,pgnhaber.com,genmedya.com,uyan32.com,selcukhaber.com,webhakim.com,ibrala.com,hatayzafer.com.tr,ulakci.com,haberyum.com,yozgatses.com,turkulus.com,forumotomobil.com,bodrumolay.com,akvaryum.com,zobakit.com,uyumhaber.com,kmarashaber.com,yenimeram.com.tr,vivaldimagazin.com,tafdi.net,gzt.com,topraklagelen.com.tr,thebrandage.com,gamer.com.tr,direkizleyin.com,medyafaresi.com,indir.com,bjk.com.tr,bursadabugun.com,emlakeki.com,gercekgundem.com,haber7.com,internethaber.com,memurhaber.com,webtekno.com##.ads
 ! ##.footer-sticky
-1080pfilmizle.me,xxfilmizle.com,filmgezegeni.org,fullhdizle.*,vipfilmlerizleme.*,sportsregg.com,altyazilifilm.*,altyazilifilmizle.tv,filmihdizlet.com,rexfilmizle.com,sineturk1.com,fullizlefilmizle.com,fanfilmizle.com,fullhizlifilmizlesen.com,hdcehennem.com,sendeizlesene.net,cilekfilm.com##.footer-sticky
+1080pfilmizle.me,xxfilmizle.com,filmgezegeni.org,fullhdizle.*,vipfilmlerizleme.*,sportsregg.com,altyazilifilm.*,filmihdizlet.com,rexfilmizle.com,sineturk1.com,fullizlefilmizle.com,fanfilmizle.com,fullhizlifilmizlesen.com,hdcehennem.com,sendeizlesene.net,cilekfilm.com##.footer-sticky
 ! ##.rek
 kadikoygazetesi.com,oyunrota.com,imzagazetesi.com.tr,davahaber.com,sabahhaberi.com,canlihaber.com,milligazete.com.tr,hotstream.club,bidunyahaber.net,kocaeliseffaf.com,kadikoygazetesi.com,kartalgazetesi.com,kirkbir.com,wfilmizle.net,cagdaskocaeli.com.tr,kocaelihaberdunyasi.com##.rek
 ! ##.rkm
@@ -2338,7 +2336,7 @@ kanald.com.tr##.masthead-top-inner
 afyonhaber.com##.img_position_left
 mangagecesi.com##.mangagecesi_reklam
 ||vivovivo.xyz/*/rekrek.mp4$media,redirect=noop-0.1s.mp3
-evrenselfilmlerim.org,indirmedenfilmizle.vip,altyazilifilmizle.tv##.zfc-ads
+altyazilifilmizle1.com,evrenselfilmlerim.org,indirmedenfilmizle.vip##.zfc-ads
 jetfilmizle.*###movie-sidebar > a[target="_blank"]
 yenihaberden.com##.fixed-pub
 turkerotikfilm.com##center > a[target="_blank"] > img
@@ -3229,7 +3227,6 @@ ilacprospektusu.com##.rrReklam
 ilacprospektusu.com##.altReklam
 rasthaber.com##div[style="min-height: 120px;"]
 rasthaber.com##div[style="min-height: 265px;"]
-||altyazilifilmizle.tv/pop*.js
 voltimum.com.tr##img[onclick*="'Banner'"]
 kargo-takibi.com##a[href^="https://tr.rdrtr.com/"]
 kargo-takibi.com##.kargo-widget
@@ -4696,7 +4693,6 @@ dizitime.*###melbet
 ||manisamanset.gen.tr/uploads/site_12.jpg
 sarkiyukleindir.com,cilekmp3.com##center > a[href][rel="nofollow"] > img
 kayseritelgraf.com,tranimeizle.com##.add-inner
-||altyazilifilmizle.tv/_pois-reklam/
 ||hintfilmkeyfi.com/*.mp4
 ||filmkolikhd.net/wp-content/uploads/*/pageskinnnnn.jpg
 /970x250-$image,domain=kriptokoin.com
@@ -4744,7 +4740,6 @@ milliyet.com.tr##.smart-ads
 ||danimarkakonsoloslugu.com/asset/*/*-banner-*
 haberx.com##a[href^="https://www.ikinciyeni.com/araba-sat?utm_source=banner"] > img
 ||haberx.com/images/ikinciyeni.gif
-altyazilifilmizle.tv###pois_pre-roll-ad
 turkrus.com##body > form > div[align="center"] table > tbody > tr > td > div[style="text-align:right; float:left;margin:0 5px"]
 altyazi.net##div[class$="-banner"]
 ||altyazi.net/wp-content/uploads/*/*banner

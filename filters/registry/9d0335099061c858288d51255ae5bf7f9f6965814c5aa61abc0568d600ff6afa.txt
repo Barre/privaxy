@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 6KrYxO9OM66jamen7Mbv1A
+! Checksum: wWiLcgJTqV3Gc9bgJXBzVg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.52
-! TimeUpdated: 2022-05-16T15:30:36+00:00
+! Version: 2.1.19.54
+! TimeUpdated: 2022-05-16T17:02:19+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7268,6 +7268,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+makfa.ru##.bottom-disclaimer-new
 lass-dich-nieder.de###id-cookie-layer
 ttoday.it#$#.cli-barmodal-open { overflow: auto !important; }
 ttoday.it#$##cookie-law-info-bar { display: none !important; }
@@ -18188,6 +18189,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+vinted.*##.sticky-footer
 m.happymoney.co.kr##.recommendAppWrap
 m.tomtop.com##.m_app
 capital.com##.award-banner-wrap
@@ -20085,6 +20087,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+timeanddate.com##+js(addEventListener-defuser, scroll, _onscroll)
 discours.io##.main-banner
 s.cosme.net##.act-bottom-nav
 ||uicdn.com/mailint/*/assets/_sn_/lod/welcomeback.js$domain=gmx.*
