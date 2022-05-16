@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205150707
+! Version: 202205160803
 ! Title: ABPVN List
-! Last modified: 15 May 2022 07:07 UTC+7
+! Last modified: 16 May 2022 08:03 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -260,8 +260,8 @@ utm_source=propellerads$popup
 ||i.imgur.com/FbUH5AQ.png
 ||i.imgur.com/Q0a2mv2.png
 ||i.imgur.com/lgfyvo2.jpg
-||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|truyenfull.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.vip|zingvntv.net|zingvntv.com|animeweb.xyz
-||i.imgur.com^*.gif$image,domain=ghienxemphim.net|ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|phimgif.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|90phutttttttt.xyz|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|cakhia17.live|cakhia17.tv|xembongda360.com|biphim.co|bichill.tv|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|vzphimmoi.net|forum.gocmod.com|cakhia16.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
+||i.imgur.com^$image,domain=nhacdj.vn|phimdinhcao.net|truyenfull.vn|animet.net|diendanit.net|banbuondalat.com|khoedep.vn|phimviethan.com|vebotv.vip|zingvntv.net|zingvntv.com|animeweb.xyz|90phuttttttttt.xyz
+||i.imgur.com^*.gif$image,domain=ghienxemphim.net|ahphimtop.com|fimnhee.net|hdvips.net|mphim14.net|phim.city|7chill.tv|bichill.net|xemphimchill.net|247phim.org|biphims.net|dailyphimz.com|tramphim.online|phimmoiaz.cc|hhpanda.tv|xemphimvuitv.com|phimgif.net|phimhdvns.net|hoitruyentranh.com|mythethao.net|yeuphimmoik.com|megalink.vip|tivi4k.com|bilutv.co|topgamehot.net|fimnhez.net|animevietsub.tv|bongdahomnay.tech|fullphimzz.com|vtipster.net|xemtivingon.tv|subnhanh.net|mphimmoivn.net|phimtopz.com|goldphimz.info|cakhia17.live|cakhia17.tv|xembongda360.com|biphim.co|bichill.tv|skyphim.me|hdvip.net|phimplus.xyz|tructiepnba.com|bongdahomnay.org|iphimchill.tv|hhtq.vip|ophim.net|dongphymtv.com|huphimtv.com|xemtvhd.info|trochoiviet.com|phim18zz.com|vzphimmoi.net|forum.gocmod.com|cakhia16.tv|vietphim.vn|ohay.biz|phimgi.org|kenhphim.net|phimmoii123.com|xoilac.xyz
 ||i.k8info.com/images/promo/$third-party
 ||i.servimg.com/u/f22/15/86/65/76/banner$domain=4rkinggame.com,image
 ||i0.wp.com/dc.motphim.net/*.gif$image
@@ -1581,7 +1581,7 @@ vlxx.xyz##.ff-banner
 vlxx.xyz##a[rel*="nofollow"]
 ! ---------Rule only for uBlock Origin------
 360thethao.net##+js(acs, onload, puURL)
-90phutttttttt.xyz##+js(acs, $, overlay)
+90phuttttttttt.xyz##+js(acs, setTimeout, overlay)
 aoe.vn##+js(aopr, parseInt)
 baliphim.com##+js(set, time_load_ads_1, '')
 baliphim.com##+js(set, time_load_ads_2, '')

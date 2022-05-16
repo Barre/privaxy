@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Sun, 15 May 2022 12:02:26 +0000
+! Updated: Mon, 16 May 2022 00:03:00 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -14,7 +14,7 @@ adverify.cloud
 adverify.me
 android-web.live
 aphicus.xyz
-appcine.net
+autoinsurancedepot.org
 baddog.xyz
 bbcvideo.ru
 be-uk-cash-for-phones-ok.live
@@ -41,8 +41,8 @@ cheaperflights.xyz
 chykohija.pro
 classicvideo.ru
 clickon.buzz
-clickverifier.online
 cnnvideo.ru
+contentstar.info
 curfiositystream.com
 curiositydstream.com
 danceview.ru
@@ -59,7 +59,6 @@ enjoy1volcano.xyz
 enjoy7plains.xyz
 eskivideo.ru
 euronordvpn.com
-evaing.live
 exotikcontent.ru
 expoview.ru
 fansvideo.ru
@@ -95,6 +94,7 @@ insuranceforyourcars.co
 jakeview.ru
 jumpstick.xyz
 kavideo.ru
+keepinfit.net
 kekvideo.ru
 kexvideo.ru
 koalaspringb.xyz
@@ -102,7 +102,6 @@ latvideo.ru
 leovideo.ru
 llcvideo.ru
 lollyvideo.ru
-makingssurvey.top
 marionettespuppets.co
 mattdeany.co
 meovideo.ru
@@ -115,7 +114,6 @@ mobiastar.xyz
 monetunion.club
 mountcrossbed.top
 nashvillewelcome.co
-new-meet-dating.life
 nordvpnhosting.com
 nordvpnserver.com
 notore.us
@@ -190,6 +188,7 @@ subeamy.pw
 sunnyview.ru
 survey-today.xyz
 tablestop.shop
+techandgadgets.net
 technoblogs.net
 techynews.org
 telame.org
@@ -211,7 +210,6 @@ toptechprivacy.cyou
 totvideo.ru
 track-my-vpn.com
 tronvideo.ru
-truly-diet.store
 tunevideo.ru
 uniccontent.ru
 updatephoneoffice.club
@@ -221,6 +219,7 @@ videobbc.ru
 videocnn.ru
 videoeast.ru
 videogas.ru
+videogoal.biz
 videojo.ru
 videojos.ru
 videokex.ru
@@ -238,6 +237,7 @@ viewsunny.ru
 viewunic.ru
 viget.top
 vpnadefence2plus.com
+vpncity.com
 walmartcard.top
 wangmo.life
 wantjoinsince.xyz
@@ -251,6 +251,7 @@ whatsaapp.xyz
 winmail.xyz
 woodencube.co
 worldsguide.net
+worldsrecipes.net
 worldtechguide.net
 wrapchic.co
 yourcarinsurancefinders.co
