@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205131731
+! Version: 202205161750
 ! Title: EasyList Germany
-! Last modified: 13 May 2022 17:31 UTC
+! Last modified: 16 May 2022 17:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3806,6 +3806,7 @@ golem.de##.tags
 frustfrei-lernen.de##.tandem_right
 frustfrei-lernen.de##.tandem_top
 bitreporter.de,elliniki-gnomi.eu,literaturwelt.com,oscar-am-freitag.de,pfalz-echo.de,pi-news.net,prad.de##.td-a-rec
+smartphonemag.de##.td-banner-wrap-full
 primavera24.de##.td-header-container
 marktindex.ch##.td-header-header
 bauernzeitung.at,krautundrueben.de,marktindex.ch##.td-header-rec-wrap

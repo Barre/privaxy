@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: BLydewEMY7dbJWS1nTfpbw
+! Checksum: 7YAJhcPuz7g8OPt8bOErzQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.65
-! TimeUpdated: 2022-05-16T16:30:20+00:00
+! Version: 2.0.29.66
+! TimeUpdated: 2022-05-16T17:30:18+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1621,6 +1621,8 @@ rambler.ru#?#main > div[class] ~ div[class] > div[class] div[class] > a[href^="h
 ! https://forum.adguard.com/index.php?threads/12443/
 !#################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118856
+delfi.lt##+js(set-constant, adformtag, emptyArr)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118880
 m.hellporno.com##+js(set-constant, customAdlistMob, emptyArr)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116834
