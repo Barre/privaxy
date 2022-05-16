@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7/83BDrFJrOPEeizeVFsNw
+! Checksum: vfRepxk+LEp0C+1dTbbW4w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.39.69
-! TimeUpdated: 2022-05-16T08:31:27+00:00
+! Version: 2.0.39.71
+! TimeUpdated: 2022-05-16T09:31:45+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -75,7 +75,7 @@
 ! This rule is for suppressing Google Topics.
 ! Read more about it here:
 ! https://developer.chrome.com/docs/privacy-sandbox/topics/
-! To be replaced with a scriptlet later: https://github.com/AdguardTeam/Scriptlets/issues/214
+! TODO: replace with a scriptlet later: https://github.com/AdguardTeam/Scriptlets/issues/214
 ##+js(set-constant, Document.prototype.browsingTopics, undefined)
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/4138
 careermap.co.uk##+js(set-constant, trackEvent, noopFunc)
@@ -20068,6 +20068,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/ticimax/analytics.js
 ://wa.*/s?
 /pmc-google-universal-analytics/*
 /clicktrue_invocation.js?
