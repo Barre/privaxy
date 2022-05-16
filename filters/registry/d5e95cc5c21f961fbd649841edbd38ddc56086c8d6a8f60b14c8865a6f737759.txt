@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: XEoLA55WXSiAF07Q19ODZQ
+! Checksum: 7L7PA8xzygzo5mCbXpYEaA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.60
-! TimeUpdated: 2022-05-14T18:30:18+00:00
+! Version: 2.0.29.62
+! TimeUpdated: 2022-05-16T13:30:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1623,6 +1623,8 @@ rambler.ru#?#main > div[class] ~ div[class] > div[class] div[class] > a[href^="h
 ! https://forum.adguard.com/index.php?threads/12443/
 !#################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118880
+m.hellporno.com##+js(set-constant, customAdlistMob, emptyArr)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116834
 mumsnet.com##+js(remove-class, pt-[100px], #main-container)
 ! m.sunporno.com popunder
@@ -1972,6 +1974,7 @@ yandex.ru#$#div[class*="_with-url-actualizer_yes"] > div.adv_type_top ~ div[clas
 ! ##### TEMPORARY END #####
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118887
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115709
 ign.com#@#.zad.billboard
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114968
@@ -2345,6 +2348,7 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+m.hellporno.com##iframe[width="320px"][height="180px"]
 movies.yahoo.co.jp##div[class^="display-ad"]
 s.cosme.net###cmn-ad-hdr
 mashingup.jp##.p-FloatPost
@@ -2683,7 +2687,6 @@ nikkei.com##.panelIndent > ul.articleBoxList[style="margin-top:12px;margin-botto
 ryukyushimpo.jp##.sp-ad-srv
 ryukyushimpo.jp##div[id*="sp_article_"][style*="min-height: 280px;"]
 kobe-np.co.jp##div[id^="ad"][style="height: 65px;"]
-topics.smt.docomo.ne.jp##.banner
 express.co.uk###mobile_floating_test
 okinilove.com###fixed_footer
 m.ebay-kleinanzeigen.de##div[class*="bannerplacement"]
@@ -5085,7 +5088,7 @@ onliner.by##.b-top-line-1__items
 timesofisrael.com##.b320x50
 9gag.com##.badge-ad-container
 ukr.net##.baner-block
-rank-king.jp,kun.uz,goblintvfree.com,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com,m.yingshidaquan.cc##.banner
+m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,goblintvfree.com,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com,m.yingshidaquan.cc##.banner
 vnexpress.net##.banner_mobile
 redtube.com,redtube.net##.between-videos
 thesun.co.uk##.billboard

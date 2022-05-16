@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 3J6j3QSDYIIwXdAqf98Kcg
+! Checksum: HkFFxheTC/NBFmN0PW3svw
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.73
-! TimeUpdated: 2022-05-16T13:03:39+00:00
+! Version: 2.2.30.74
+! TimeUpdated: 2022-05-16T13:31:17+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -29308,6 +29308,8 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+goat.com.au##.mrec-half-page-wrap
+goat.com.au##.container__block--sidebar.col-desktop-5
 zoro.to##.mba-block
 ||file.imgprox.net/mba79.gif
 ip.sb##div[class^="wwads-"]
