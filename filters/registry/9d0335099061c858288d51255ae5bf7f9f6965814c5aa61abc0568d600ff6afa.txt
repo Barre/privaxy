@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: YNCCHgPUkZcCxjZNj28qBg
+! Checksum: gEIvYtUIuFYenL1uS7HsLQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.55
-! TimeUpdated: 2022-05-16T17:30:34+00:00
+! Version: 2.1.19.56
+! TimeUpdated: 2022-05-16T18:30:36+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6775,6 +6775,7 @@ cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv#$#.pub_300x250.pub_300x250m.pub_728x90.
 !######### General URL blocking rules ##################
 !#######################################################
 !
+/plugins/ws5_eucookie/*
 /cookie-consent-tool/*
 ###acceptCookiesBar
 /wp_content/plugins/gdpr_patron/*
@@ -7277,6 +7278,7 @@ ttoday.it#$#.cli-barmodal-open { overflow: auto !important; }
 ttoday.it#$##cookie-law-info-bar { display: none !important; }
 ttoday.it#$#.cli-modal-backdrop { display: none !important; }
 kickz.com###consent-dialog
+tatildekirala.com##div[class^="css-"] > button[class^="css-"] + div[class^="css-"]
 efootwear.eu##.e-consents-alert
 qameta.io##div[x-init^="cookie_consent"]
 personal.metrobankonline.co.uk##.metro-cookiebar__block
@@ -7926,7 +7928,6 @@ aok.de#$#div[data-module="cookie-manager-dialog"] { display: none!important; }
 aok.de#$#body { overflow: visible!important; }
 adler-farbenmeister.com#$#.look_pageWrapCookiePermissionContainer { display: none!important; }
 adler-farbenmeister.com#$#body { overflow: visible!important; }
-/ws5_eucookie/*$domain=loevenich-fashion.de|schraubengigant.de
 ||newsello.pl/gdpr/cookie_set.js
 colnect.com###cookies_consent
 thelawpages.com###terms
@@ -20098,6 +20099,8 @@ s.cosme.net##.act-bottom-nav
 ||wakasa.jp/common/js/modalCheck.js
 tomtop.com##.freePointWrap
 curet.jp##.l-footer-modal
+uol.com.br#$#.modal { display: none !important; }
+uol.com.br#$#.modal-open { overflow: auto !important; position: static !important; }
 gamewiki.jp###pc_overlay
 junijuni.jp##.joinnewModal
 boat-lifestyle.com##div[id^="nmg-incentive"]
@@ -28383,6 +28386,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 discours.io###mailingList
 ria-m.tv###center > p.typerr + p[style="text-align: left;"]
 dantri.com.vn##div[data-module="cognito-form"]
+pfister.ch##div[class^="style__NewsletterPopupComponent"]
 1istochnik.ru##div[class^="article_"][class$="-share"]
 1istochnik.ru##.news-sidebar-social
 mel.fm##.subscriptionBlock
@@ -34627,6 +34631,7 @@ spiegel.de##div[data-settings*="https://widget.civey.com/"]
 !
 ||tripla.jp^$third-party
 ||showtalk.jp^$third-party
+||cdn.shopify.com/shopifycloud/shopify_chat^$third-party
 ||procdncache.com/chat.php
 ||video.ibm.com/socialstream/$domain=myoplay.club
 /js/chat/edu_chat.js
@@ -34745,6 +34750,7 @@ streamonsports.cc,streamonsport.info##.chatango
 @@||service.force.com/embeddedservice/*/esw.min.js$domain=visible.com
 !
 ! Exchange rates widgets
+||btxliveprice.kceyazilim.com^
 volyninfa.com.ua#?##sidebar div.widget:has(> div.textwidget > div[id^="kurs-com-ua-"])
 volyninfa.com.ua###custom_html-3
 ||widgets.coingecko.com^$third-party

@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: EasyList Thailand
-! Version: 202205170057
-! Last modified: 17 May 2022 00:57 +0700
+! Version: 202205170137
+! Last modified: 17 May 2022 01:37 +0700
 ! Expires: 3 days
 ! Homepage: https://easylist-thailand.github.io/
 ! License: https://github.com/easylist-thailand/easylist-thailand/blob/master/LICENSE
@@ -70,7 +70,7 @@ xn--12cl7cj4a8c1bl5l7c.com##.happy-section
 ##[href="https://hydra888.com/"]
 
 ! https://xn--72ca2bsl7gxbd4m7c.com
-##[href^="https://xn--72ca2bsl7gxbd4m7c.com/vid/ref.php"] 
+##[href^="https://xn--72ca2bsl7gxbd4m7c.com/vid/ref.php"]
 ##[href^="https://xn--72ca2bsl7gxbd4m7c.com/vid/ref.php"]
 ||xn--72ca2bsl7gxbd4m7c.com/wp-content/uploads/2020/04/closed.png$image
 ##[href="https://kingdom66.com"]
@@ -89,6 +89,9 @@ xn--72c9abh1f8ad1lzc.com##body > .adcen
 xn--72c9abh1f8ad1lzc.com##.adimg
 xn--72c9abh1f8ad1lzc.com###contentx > .adcen
 xn--72c9abh1f8ad1lzc.com##.insad_close
+
+! https://hanimesubth.com/
+hanimesubth.com##misa-content .iw_header + .row .img-ads
 
 ! Anime
 akibatan.com##.td-logo-wrap-full
@@ -624,14 +627,19 @@ thisisgamethailand.com,tigthai.com##.mod_banner_top
 ! Movie
 newmovie-hd.com###main article p[align="center"]
 newmovie-hd.com###sidebar aside[id^="text"]:not(#text-2)
+
 nungg.com###nungg-1447152404 > .section-images
 nungg.com##.section-images
+
 okmovie-hd.com##.filmborder:nth-of-type(1)
+
 thmovieshd.com##.bn_pc
 thmovieshd.com##.bn_mb
 thmovieshd.com##.post-contentarea .rpv .block-preload #block_preload p a[href*="gclub-casino.net"]
+
 www.2youhd.com##.sidebarborder:nth-of-type(1)
 www.2youhd.com##.sidebarborder:nth-of-type(2)
+
 www.037hdd.com##.bireklam
 www.037hdd.com##.filmborder > .filmcontent div[style^='text-align']
 www.037hdd.com##.widget_text.sidebarborder
@@ -677,31 +685,42 @@ www.037hdd.com###banner-left
 www.037hdd.com###ads_fox_bottom
 www.1000tep.com##.ads.col-lg-9
 www.club-172hd.com###bg-main > table:nth-of-type(1) > tbody > tr > td:nth-of-type(3) > table > tbody > tr:nth-of-type(1)
+
 www.moviehd-master.com###banner_t_player
 www.moviehd-master.com###text-5
 www.moviehd-master.com###text-6
 www.moviehd-master.com###text-8
 www.moviehd-master.com###text-9
 www.moviehd-master.com###text-10
+
 movie2free.com##div[style*="position: fixed; bottom: 0px;"]
 ||movie2free.com^$third-party
 ||www.movie2free.com/wp-content/themes/next/images/*$image
+
 www.new-mastermovie.com###main > div[style^='text-align']
 www.new-mastermovie.com###sidebar .widget.widget_text
+
 www.leoplayer3.com###player_banner
+
 vojkud.com###top-banner-section
 vojkud.com##.ad-box-widget
 vojkud.com##[alt="Advertisement"]
 vojkudee.net###top-banner-section
 vojkudee.net##.ad-box-widget
 vojkudee.net##[alt="Advertisement"]
+
 donung.tv##a[rel*="nofollow"] > img
 donung.tv###download-vdo
 donung.tv###ads_fox_bottom
+
 movie2uhd.com##.ad-float
 movie2uhd.com##.widgettitle-banner + a[href]
+
 ! www.037hddmovie.com
 ||yed365days.com/wp-content/*$image
+
+! nung-sub.com
+||nung-sub.com/images/banners/
 
 ! News
 blognone.com###rightbottom_sidebar .region div[id^="block-views-jobs"]

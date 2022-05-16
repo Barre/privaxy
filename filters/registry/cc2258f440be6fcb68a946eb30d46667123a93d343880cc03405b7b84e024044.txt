@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: eW5JFUqyNpL6L3AAso0D4A
+! Checksum: d1WSwmiIq3sRKmbzk7ybhw
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.75
-! TimeUpdated: 2022-05-16T14:31:32+00:00
+! Version: 2.2.30.77
+! TimeUpdated: 2022-05-16T18:31:17+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -29308,6 +29308,10 @@ linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,
 !
 !
 !
+outlook.live.com#?#main[aria-hidden] > div[class] > div[style] > div[class][style="position: absolute; left: 0px; top: 0px; height: 80px; width: 100%;"]:has(> div[class] > div[role="group"] > #OwaContainer)
+||outlook.live.com/ows/*/OutlookOptions/AdsAggregate
+||bing.com/api/*/mediation/clientauction
+||arc.msn.com/*/api/selection?placement=*upsell
 goat.com.au##.mrec-half-page-wrap
 goat.com.au##.container__block--sidebar.col-desktop-5
 zoro.to##.mba-block
@@ -42294,7 +42298,6 @@ sexxx.cc###headerBanner
 qip.ro###hellobar-wrapper
 myp2p.biz,realstreamunited.tv,sportcategory.tv###hiddenBannerCanvas
 wbprx.com###hidemead
-stackoverflow.com###hireme
 amazon.com###hqpWrapper
 vipbox.tech###html2
 allfoot.info,channelstream.club,csport.xyz,streamonsports.com,1me.club,streamhub.live,buffstream.net,fgames.pw,livegoal.pw,streamgaroo.com,vipbox.online###html3
@@ -47225,7 +47228,9 @@ europaplus.ru#@#img[width="240px"][height="400px"]
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=autorambler.ru
 ! https://forum.adguard.com/index.php?threads/27159/
 bloomberg.com#@#.page-ad
-@@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1$domain=bloomberg.com
+@@||securepubads.g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com
+@@||securepubads.g.doubleclick.net/gampad/ads?$domain=bloomberg.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=bloomberg.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com
 ! https://forum.adguard.com/index.php?threads/http-context-reverso-net.27054/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7810
@@ -47568,8 +47573,6 @@ domodedovo.ru#@##adLink1
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3805
 @@||m.haberler.com/static/advertisement/ads_ima.js$domain=m.haberler.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=m.haberler.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/3857
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=bloomberg.com
 ! ibtimes.co.in - site is hanging
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=ibtimes.co.in
 ! https://forum.adguard.com/index.php?threads/17898/
@@ -48572,6 +48575,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118858 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118605 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118603 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118601 [Stealth Mode - Referrer]

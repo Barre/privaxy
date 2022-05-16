@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3tsX/NjZ+BhUalLGqMms9g
-! Version: 202205161554
+! Checksum: cT1XrghP6980kcaR6JsaZg
+! Version: 202205161854
 ! Title: RU AdList for uBO only
-! Last modified: 16 May 2022 15:54 UTC
+! Last modified: 16 May 2022 18:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16326,7 +16326,7 @@ kinonews.ru##.rightzagolup
 m-live.tv##.rk1,.rk2,.rk3,.rk4,.rk5
 lineageternal.ru,tera-lib.ru##.rkb
 darktorrent.ru,klex.ru,koob.pro,koob.ru,runyweb.com,softhome.ru##.rkl
-gigporno.pro,gigtube.net,kinomnenie.me##.rkl-box
+uafilm.tv##.rkl-box
 softobase.com##.rkl-horizontal
 severstalclub.ru##.rkl3
 severstalclub.ru##.rkl4
