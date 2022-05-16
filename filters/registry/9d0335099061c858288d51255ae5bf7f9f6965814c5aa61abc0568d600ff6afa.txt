@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 8UKD6mWnsvOTwZFMvw+ltQ
+! Checksum: jk576JvvCJ/83Uli05W3MA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.48
-! TimeUpdated: 2022-05-16T11:30:35+00:00
+! Version: 2.1.19.50
+! TimeUpdated: 2022-05-16T13:02:54+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10655,7 +10655,7 @@ shopware.com##.cookie--permission
 transcend-info.com###legal_notice
 towa-digital.com###Towa-Gdpr-Plugin
 beckett.design###apc
-europa-lehrmittel.de,korodrogerie.de,koro-shop.*,koro.*,bikeathome.com,18-grad.de,hellweg.de,elbandi.de,leitermann.de,zeitauktion.com,baywa-baumarkt.de,fahrradgigant.de,tabakguru.de,maas-natur.de,moebel-rieger.de,auditorium.de,jeanswelt.de,top-werbemittel.de,weka-holzbau.com##.cookie-permission-container
+noch.de,europa-lehrmittel.de,korodrogerie.de,koro-shop.*,koro.*,bikeathome.com,18-grad.de,hellweg.de,elbandi.de,leitermann.de,zeitauktion.com,baywa-baumarkt.de,fahrradgigant.de,tabakguru.de,maas-natur.de,moebel-rieger.de,auditorium.de,jeanswelt.de,top-werbemittel.de,weka-holzbau.com##.cookie-permission-container
 zeichenfabrik.at##.informational-banner[data-role="cookie-notice"]
 antwerpes.com###ap-cookieinfo
 mybet.com##div[class^="indexstyles__CookiesPanel-"]
@@ -33969,6 +33969,7 @@ blog.livedoor.jp##:matches-path(/\/(?:a_load|fightersmatome|junglep2|uwasainfo|y
 bing.com###ev_talkbox_wrapper
 ||widgets.trustedshops.com^$third-party
 ||sealserver.trustwave.com/seal.js
+||bot-upload.s3.amazonaws.com/*/Icone_SBOT-
 pondesk.com###trustedsite-tm-image
 ||cubikachatuiuat.azurefd.net/cubikbot
 settrade.com##.chatbot-icon

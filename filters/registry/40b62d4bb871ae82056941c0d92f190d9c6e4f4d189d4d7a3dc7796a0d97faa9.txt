@@ -2,7 +2,7 @@
 ! Title: Eesti saitidele kohandatud filter
 ! Homepage: https://adblock.ee
 ! Expires: 1 days
-! Version: 20220327
+! Version: 20220516
 ! License: CC0 1.0 Universal http://creativecommons.org/publicdomain/zero/1.0/legalcode
 ##A[href*="http://pay4results24.eu"]
 ##iframe[src*="cherrystatic.net"]
@@ -173,6 +173,7 @@ postimees.ee##.surprise-container
 postimees.ee##aside:contains(Sisuturundus)
 postimees.ee##DIV.reisiguruBlockContents
 postimees.ee##div:has(>div>div>div>article.list-article--commercial)
+postimees.ee##div[eager]
 postimees.ee##html,body:style(overflow:auto !important)
 postimees.ee##iframe[src*="cron/ostakvsoov"]
 postimees.ee##section.gameFriik
