@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: jk576JvvCJ/83Uli05W3MA
+! Checksum: HdZu4br47S5+76Obk5LCMw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.50
-! TimeUpdated: 2022-05-16T13:02:54+00:00
+! Version: 2.1.19.51
+! TimeUpdated: 2022-05-16T14:30:47+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -18908,7 +18908,6 @@ wikihow.*###gatFollowAndroid
 wikihow.*###gatFollowApp
 radio-new-zealand.co.nz,fmradiofree.com,canli-radyo-dinle.com,emisoras-puertorico.com,emisorascolombianas.co,internetradio-horen.de,internetradio-schweiz.ch,mytuner-radio.com,radio-ao-vivo.com,radio-australia.org,radio-belgie.be,radio-canada-online.com,radio-danmark.dk,radio-dominicana.com,radio-ecuador.org,radio-en-ligne.fr,radio-en-vivo.mx,radio-espana.es,radio-hk.com,radio-hrvatska.com,radio-italiane.it,radio-korea.com,radio-maroc.org,radio-nederland.nl,radio-norge.org,radio-osterreich.at,radio-philippines.com,radio-polska.pl,radio-singapore.com,radio-south-africa.co.za,radio-suomi.com,radio-sveriges.se,radio-thai.com,radio-ua.com,radio-uk.co.uk,radioindia.in,radioindonesia.org,radiojapan.org,radiomalaysia.org,radios-argentinas.org,radios-bolivia.com,radios-chilenas.com,radios-guatemala.com,radios-online.pt,radios-uruguay.com,radios-venezuela.com,radiosdelperu.pe,radiotaiwan.tw##.app-ad-container-desktop
 zeenews.india.com###readinappbtn
-adme.ru#?#div[data-test-id="aside-bar"] > div[class]:has(> div[data-test-id="install-app"])
 m.economictimes.com,m-economictimes-com.cdn.ampproject.org###mappBanner
 radio.fr##a[data-testid^="broadcast-appstore-"]
 ||xgoo.jp/img/portal/misc/footer_app_recommend/
@@ -18994,7 +18993,6 @@ himovies.to###gift-1
 issuu.com##.js-smart-banner
 ebrosur.com##.downloadAppBar
 demorgen.be###APP_DOWNLOAD
-adme.ru##[data-test-id="install-app"]
 ||iwatchme2u.com/Public/banner.jpg
 tunein.com#$#body { overflow: visible !important; }
 tunein.com#?#body > div:has(> div[style] div[class^="dark-theme-dialog__"])
@@ -20092,6 +20090,8 @@ s.cosme.net##.act-bottom-nav
 ||wakasa.jp/common/js/modalCheck.js
 tomtop.com##.freePointWrap
 curet.jp##.l-footer-modal
+gamewiki.jp###pc_overlay
+junijuni.jp##.joinnewModal
 boat-lifestyle.com##div[id^="nmg-incentive"]
 youtube.com##tp-yt-iron-dropdown[class="style-scope ytd-popup-container"][horizontal-align="right"]
 baike.baidu.com##.sl-player__main.window-player
@@ -20540,7 +20540,6 @@ nttdocomo.co.jp##.ppko-page > div#btnFixedBlock.js-scrollBtn
 ||lrepacks.net/templates/biz-ideas/new_year_motnyay/script.js
 lrepacks.net##.b-page_newyear
 lrepacks.net##.header-top
-adme.ru##a[href="/quizzes/"]
 brilliant.org#$#.sponsor-modal { display: none !important; }
 brilliant.org#$#body.locked { overflow: auto !important; }
 pikabu.ru##.ny2022-btn
@@ -30857,7 +30856,7 @@ fitomarket.ru##.subscribe_section_mainpage
 daan.dev##.halfway-post.widget-area
 girlonthenet.com,substack.com,santiye.com.tr,rb.ru,investors.com##.subscribe-widget
 theguardian.com##.email-sub__iframe
-adme.ru##div[data-test-id="subscription-block"]
+adme.media##div[data-test-id="subscription-block"]
 opindia.com,downloadhub.host,burakyeni.com##form[action="https://feedburner.google.com/fb/a/mailverify"]
 tvanouvelles.ca###covid_infolettre
 mediazona.ca,mediazona.online,fourth-sphere-302420.appspot.com,zona.media##.js-subscribe
@@ -32105,6 +32104,8 @@ magazine.skyeng.ru##.tg-banner
 !######### CSS tweaks #########
 !##############################
 !
+! accuweather.com - https://forum.adguard.com/index.php?threads/disable-cache-for-specific-sites-or-render-offscreen-before-displaying.48364/
+accuweather.com#$#.ads-not-loaded .non-ad { -webkit-filter: none !important; filter: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118528
 plyvdo.live#$#.jwplayer.jw-stretch-uniform .jw-media video { object-fit: fill !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117665

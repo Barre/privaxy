@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: /qMU91zOByyhRYp9pD6ctQ
+! Checksum: TrvMPiV1r/Gsssa+fNRqHA
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.67
-! TimeUpdated: 2022-05-16T13:31:27+00:00
+! Version: 2.0.61.68
+! TimeUpdated: 2022-05-16T14:31:43+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -404,7 +404,7 @@ journals.lww.com#?#.ejp-article-tools__list > .ejp-article-tools__list-item:has(
 enoteca.co.jp#?#.justify-end > .md\:text-left:contains(/^この記事をシェア$/)
 ichijin-plus.com#?#main > div[class^="sc-"][class*="sc-"] > div[class^="sc-"]:has(> div[class] a[href^="https://twitter.com/intent/tweet?"])
 creators.yahoo.co.jp#?#.ArticleDetail__actionTitle:contains(シェア)
-adme.ru#?##quiz-result div[class]:has(> div[data-test-id="bottom-share-quiz"])
+adme.media#?##quiz-result div[class]:has(> div[data-test-id="bottom-share-quiz"])
 easydoit.ru#?#span:contains(/^Поделиться:$/)
 dailynewsagency.com#?#.hilighth3:contains(共有する)
 xvideos.com,sexub.com#?##tabShareAndEmbed > h4:has(> span.icf-share)
@@ -456,7 +456,6 @@ onmsft.com#?#.entry-content > h3:contains(/^Share This Post:$/)
 foxnews.com#?#.amp-share > div.amp-list-item:has(> span:contains(/Facebook|Twitter/))
 nerolac.com#?#.blog-details-social > ul.clearfix > li:not(:has(> a.js-bookmark))
 aliexpress.ru#?#i[class^="MultiSidebarTab_MultiSidebarTab__socialNetworks__"]:upward(1)
-adme.ru#?#amp-social-share:upward(1)
 gotovim-doma.ru#?#h3:contains(/^Поделись рецептом/)
 ren.tv#?#div[class^="Footer_"] > div[class*="BtnGrpShort_"]:has(> div > div[class^="YShare_"])
 boredteachers.com#?#main > div.py-8:has(> div.flex > a.share-network-facebook)
@@ -641,7 +640,6 @@ zonarutoppuden.com#?#.capitulos_left > div.descrip_title:contains(Compartelo)
 zonarutoppuden.com#?#.capitulos_left > div.descrip_title:contains(Compartelo) + div.descripbox
 cacm.acm.org#?#.fav_bar > span:contains(/^Share:$/)
 weatherford.com#?#.rich-text > div[style^="padding:"] > p > a[href$="shareCurrentPage()"]:upward(1)
-adme.ru#?#div[data-test-id="article"] > div[class] > div[class] > div[data-test-id="bottom-sharing"]:upward(1)
 rojadirectatv.pro#?#div.encabezados:has(> h3:contains(Compartenos))
 pirlotvonlinehd.com#?#div.encabezados:has(> *:contains(Compartanos))
 polygamia.pl#?##main-content div[class*=" "] > div[class*=" "][role="button"] > div > svg[fill="none"][stroke-width="2"]:upward(2)
@@ -1415,7 +1413,7 @@ jokerfilmizle.com,bestdizi.net,yabanci-dizi.me,pifilmizle.co,filmjr1.com,arzum.c
 ! ##.social-media-share
 omnisecu.com,donbosco-medien.de,giantbomb.com,strefainwestorow.pl,narcity.com,lingohut.com,mtlblog.com,tesisatmarket.com,yenicikanlar.com.tr##.social-media-share
 ! ##.sns
-square-enix.com,getnavi.jp,s.kakaku.com,st.benesse.ne.jp,excite.co.jp,tbs.co.jp,sumaoji.com,ec.line.me,otakei.otakuma.net,zaikai.jp,evangelion.co.jp,mayukitchen.com,pan-pan.co,tv-asahi.co.jp,sp.seiga.nicovideo.jp,venom-movie.jp,zatsugaku-company.com,xneo.jp,ghostbusters.jp,cs.furyu.jp,njpwss.com,simtaro.com,yakuzatokazoku.com,pokopangtown.game.line.me,anime.priconne-redive.jp,sd-gundam-world.net,yakugakulab.info,websites-manual.com,pokemon.co.jp,en-culture.net,it-trend.jp,tver.jp,hibiki-radio.jp,mtg60.com,rich-miler.com,number333.org,monogatari-series.com,bookyakuno.com,print-gakufu.com,daifuku-diary.com,bandainamco-am.co.jp,sao-alicization.net,promo.kadokawa.co.jp,mabidiary.blogspot.com,7seeds.jp,hobby-museum.com,g-pc.info,fukafuka295.jp,hyperts.net,linart.net,rekoma1991.info,kurojou.com,xn--gdkl0dubtwb7e3008dk17a.com,cinemarche.net,sound-tv.net,cospa.co.jp,pockecaoyako.com,pokemoncard30.com,yugioh-resaler.com,wagtechblog.com,around30ol.com,warorince.com,xn--o9j0bk3kzb8d3ee20ala8a.com,ta-japan.com,2week.net,nuies.com,emptiness.space,birori-blog.com,tkgranblue.com,tkumamusume.com,vnhiromi.com,uka-ukablog.com,legalsearch.jp,wakibungu.com,takamaru1219.net,intensive911.com,hidesunblog.com,afila0.com,didmemo.work,tarosoku.com,wikinis.net,webst8.com,as-web.jp,mm21railway.co.jp,mba.globis.ac.jp,win10labo.info,dongascience.com,angfa-store.jp,news.paravi.jp,xn--eckhu0c0d1b5kcu5305ksfpb.com,focus.kr,otona-life.com,mac-torrent-download.net,f1-gate.com##.sns
+gamewiki.jp,square-enix.com,getnavi.jp,s.kakaku.com,st.benesse.ne.jp,excite.co.jp,tbs.co.jp,sumaoji.com,ec.line.me,otakei.otakuma.net,zaikai.jp,evangelion.co.jp,mayukitchen.com,pan-pan.co,tv-asahi.co.jp,sp.seiga.nicovideo.jp,venom-movie.jp,zatsugaku-company.com,xneo.jp,ghostbusters.jp,cs.furyu.jp,njpwss.com,simtaro.com,yakuzatokazoku.com,pokopangtown.game.line.me,anime.priconne-redive.jp,sd-gundam-world.net,yakugakulab.info,websites-manual.com,pokemon.co.jp,en-culture.net,it-trend.jp,tver.jp,hibiki-radio.jp,mtg60.com,rich-miler.com,number333.org,monogatari-series.com,bookyakuno.com,print-gakufu.com,daifuku-diary.com,bandainamco-am.co.jp,sao-alicization.net,promo.kadokawa.co.jp,mabidiary.blogspot.com,7seeds.jp,hobby-museum.com,g-pc.info,fukafuka295.jp,hyperts.net,linart.net,rekoma1991.info,kurojou.com,xn--gdkl0dubtwb7e3008dk17a.com,cinemarche.net,sound-tv.net,cospa.co.jp,pockecaoyako.com,pokemoncard30.com,yugioh-resaler.com,wagtechblog.com,around30ol.com,warorince.com,xn--o9j0bk3kzb8d3ee20ala8a.com,ta-japan.com,2week.net,nuies.com,emptiness.space,birori-blog.com,tkgranblue.com,tkumamusume.com,vnhiromi.com,uka-ukablog.com,legalsearch.jp,wakibungu.com,takamaru1219.net,intensive911.com,hidesunblog.com,afila0.com,didmemo.work,tarosoku.com,wikinis.net,webst8.com,as-web.jp,mm21railway.co.jp,mba.globis.ac.jp,win10labo.info,dongascience.com,angfa-store.jp,news.paravi.jp,xn--eckhu0c0d1b5kcu5305ksfpb.com,focus.kr,otona-life.com,mac-torrent-download.net,f1-gate.com##.sns
 ! ##.sns_area
 gakumado.mynavi.jp,shop-list.com,smbc-card.com,japanese.joins.com,sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 ! ##.share-bar
@@ -3100,7 +3098,7 @@ bgr.in##.widget_footer
 hellozdrowie.pl##.single-post-side-shares-wrap
 brightside.me##div[data-test-id="join-us"] > div[data-test-id="title"] + div[class]
 brightside.me##div[data-test-id*="-sharing"]
-adme.ru,brightside.me##div[data-test-id^="share-button-"]
+adme.media,brightside.me##div[data-test-id^="share-button-"]
 shape.com##.share-new .icon-twitter
 shape.com##.field-type-meredith-sharebar
 serieslyawesome.tv###stickyshare
@@ -3520,7 +3518,7 @@ chiemgau24.de##.id-Actionbox[data-id-mconf*="isSticky"] > .id-Actionbox-items > 
 natelinha.uol.com.br##.box-share-group > .social-share-group > li.social-share-item:not(.last)
 ndtv.com##.vid_socwid_wrap
 huffpost.com##.share-screen-buttons-outer-container
-adme.ru##div[data-test-id="join-us"] > div[data-test-id="title"] + div[class]:empty
+adme.media##div[data-test-id="join-us"] > div[data-test-id="title"] + div[class]:empty
 gamevicio.com##.sharer_content_box
 ntvplus.tv##.stream-card--socials
 tvoytrener.com###socknop
@@ -4598,7 +4596,7 @@ biomedya.com##.share-url
 pravmir.ru##.hh-share-block
 elhow.ru##.art-social-wrapper-ahchor
 elhow.ru##.social-banner
-adme.ru##div[data-test-id="top-action-bar"] > a[data-test-id="comments-link"] + div
+adme.media##div[data-test-id="top-action-bar"] > a[data-test-id="comments-link"] + div
 ||maximp3.ru/js/goodshare.js
 bursahakimiyet.com.tr##.share-gallery
 bursahakimiyet.com.tr##.sharenewsin
@@ -4712,7 +4710,7 @@ blogs.oracle.com##.icn-socialcolors
 uafootball.org.ua##.pb-share-bar
 cvetyportal.ru##div[class^="repost"]
 thescholarshipsystem.com,technofaq.org,cvetyportal.ru###custom_html-2
-adme.ru##div[data-test-id$="-sharing"]
+adme.media##div[data-test-id$="-sharing"]
 vgorode.ua##.social-line-block
 tvweb.com##.article-header-social
 tvweb.com##.current-article-button-facebook

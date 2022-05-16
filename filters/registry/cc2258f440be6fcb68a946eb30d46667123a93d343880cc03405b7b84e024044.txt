@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: HkFFxheTC/NBFmN0PW3svw
+! Checksum: eW5JFUqyNpL6L3AAso0D4A
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.74
-! TimeUpdated: 2022-05-16T13:31:17+00:00
+! Version: 2.2.30.75
+! TimeUpdated: 2022-05-16T14:31:32+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -30611,7 +30611,7 @@ xxxmovie.link##div[style="margin-bottom:52px; font-size:0; text-align:center; pa
 zolomix.in##.banner-captcha > .banner-inner
 financialexpress.com##.adsbox990x90
 kmplayer.com##.infeed-bottom
-kmplayer.com##div[class$="_banner"]
+techtelegraph.co.uk,kmplayer.com##div[class$="_banner"]
 ||rumble.com/embed/*&autoplay=2$domain=thepostmillennial.com
 thepostmillennial.com##.revcontent-slot
 freesvg.org##div[style^="color: rgb(153, 153, 153);"]

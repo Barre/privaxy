@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 7L7PA8xzygzo5mCbXpYEaA
+! Checksum: 6o+//2OY3ylAFM1JV0DtcQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.62
-! TimeUpdated: 2022-05-16T13:30:20+00:00
+! Version: 2.0.29.63
+! TimeUpdated: 2022-05-16T14:30:28+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1274,7 +1274,7 @@ hobbyconsolas.com#?#.main-content > div > div[data-dfp-display]:upward(1)
 app-liv.jp#?#.c-app-card:not([class^="js-native-ranking-card"]):has(> div > span.app-ranking_label--pr)
 m.mobile.de#?#article[data-testid="srp-regular-ad"] + div[class]:has(> div[id^="m_srp_slot_"][data-label="Anzeige"]:only-child)
 fontanka.ru#?##adv_mob_sticky-mobile-smi:upward(2)
-adme.ru#?#div[data-test-id="article-content"] > div[class*=" "] > div > div:contains(Реклама):upward(2)
+adme.media#?#div[data-test-id="article-content"] > div[class*=" "] > div > div:contains(Реклама):upward(2)
 duplichecker.com#?#.data_inbox > div[style]:has(> div > span > ._ap_apex_ad)
 grapee.jp#?#aside > div[class^="mod-ads-area"]:upward(1)
 ameblo.jp#?#article > div[class^="_"]:last-child > header[class^="_"] + div:not([class]) > div.skin-bd-color[class^="_"]:first-child:has(> div[class^="_"]:only-child)
@@ -1306,7 +1306,6 @@ abplive.com#?#.articlepage > .center_block:has(> p:contains(- - Advertisement - 
 nikkei.com#?#.panelIndent > ul.dag_visualbox:upward(1)
 sp.m.jiji.com#?#.spView > div[style^="margin"] > div[id^="div-gpt-ad"]:upward(1)
 matomame.jp#?#.uk-text-center > ins.adsbygoogle:upward(1)
-adme.ru#?#div[data-test-id="article-content"] > div > div svg[viewBox] > use[href="#loader"]:upward(4)
 asahi.com#?#li > div[id^="ad-rellink"]:upward(1)
 m.vz.ru#?#main > div.page-section:has(> div.container > iframe[src^="https://com.adv.vz.ru/"])
 news4wide.net#?#.free-area script[src^="https://js.ad-"]:upward(.free-area)
@@ -1348,7 +1347,7 @@ m.crank-in.net#?#.news-list-area li > script[src^="https://js.mediams"]:upward(1
 sueddeutsche.de#?#article > div[class^="css-"] > div[id^="iqad"]:upward(1)
 okinawatimes.co.jp#?#li > #sp_article_infeed_1st:upward(1)
 m.bild.de#?#.block__layout-wrapper > .layout:has(> div[data-teaser-position*="konfigaro"])
-adme.ru#?#div[data-test-id="articles-list"] > div:not([data-test-id^="article-list-element-"]):not(:has(> a[data-test-id="logo-link"]))
+adme.media#?#div[data-test-id="articles-list"] > div:not([data-test-id^="article-list-element-"]):not(:has(> a[data-test-id="logo-link"]))
 meeco.kr#?#div[style^="padding:"] > p img[src^="//img.meeco.kr/files/attach/images/"][alt*="배너"]:upward(.xe_content)
 blog.goo.ne.jp#?#.banner--marchel:upward(#msg-box-app-recommend)
 ameblo.jp#?#div[style="overflow: hidden;"] > div[class^="_"]:last-of-type > aside[class^="_"]:only-child > div[class^="_"] > aside[class^="_"]:only-child > div > div:empty:upward(3)
@@ -1404,7 +1403,6 @@ mail.ru#$?#.pulse-lenta div[id^="_pcard_"]:has(> a[href^="https://t.mail.ru/redi
 m.hindustantimes.com#?#body > section:has(> div.center > div[id^="div-gpt-ad-"])
 loveha.net#?#.chapter-content > .quang-cao:has(> h3 > font[color="white"])
 m.baidu.com#?#.c-list > div.c-list-item:has(> div[class] > p[class] ~ div > span[class^="new-ad-label"])
-adme.ru#?#div[class*=" _"] > div[class*=" _"] > div:has(> div > div:empty + div[class] > div:empty + div:empty + div:empty + div:empty + div:empty)
 charivari.de#?#.block_area_sidebar .shell:has(> .range > .contentblock > div span[style^="font-size"][style*="grey"])
 yourstory.com#?#footer > div[class^="sc-"] > div[class^="sc-"] > div#mobile-bottom-sticky-undefined:upward(1)
 news18.com#?#.hntranding > ul > li:has(> .lazyAds)
@@ -3109,7 +3107,7 @@ filmcompanion.in###adsSection
 filmcompanion.in##.header-topads
 megacurioso.com.br###slider-partner
 megacurioso.com.br##.ad-leaderboard-sm-fixed
-adme.ru##div[data-test-id="article"] div[class] > div.article ~ div:not([class])
+adme.media##div[data-test-id="article"] div[class] > div.article ~ div:not([class])
 m.focus.de##.fol_mew-flying-carpet-wrapper
 antenna.gamedivers.com###AdOverlayBanner
 m.ppomppu.co.kr###bbs_inform li[class^="bbs_ad"]
@@ -3186,7 +3184,6 @@ m.winfuture.de##body > div[align="center"]
 vivud.com##.player-spot
 vivud.com##.player-spot__title
 ||vivud.com/iframe/MOBILE_TOP_PLAYER/
-adme.ru##[id^="ad-container"]
 fukutubu.jp##.td-header-sp-recs
 cartoonpornvideos.com##div[id^="adn-"]
 m.crank-in.net##.ad-area_pr_second
@@ -3801,7 +3798,6 @@ m.thisisgame.com##div[id^="ad_layer"]
 m.imgur.com##div[class^="Ad-adhesive"]
 mediazona.online,fourth-sphere-302420.appspot.com,zona.media##.mz-advert-item__root_news
 zaycev.fm##.not_for_premium
-adme.ru###root h1[data-test-id="title"] ~ div[class^="_"] > div[class] > div[class]:empty
 mpyit.com##a[href^="https://www.laomo.me/cdn/html/go"]
 morfilmizle.com##iframe[width="100%"][height="100%"]
 m.timesofindia.com##.bannerwrapper
