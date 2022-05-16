@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 6o+//2OY3ylAFM1JV0DtcQ
+! Checksum: HKb32fb3WOvHkAWgqUlb8g
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.29.63
-! TimeUpdated: 2022-05-16T14:30:28+00:00
+! Version: 2.0.29.64
+! TimeUpdated: 2022-05-16T15:30:20+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2346,6 +2346,9 @@ scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalo
 ! ##.ads
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
 !
+m.delfi.lt##.sevenbet-juosta
+m.delfi.lt##.ab-frame
+m.delfi.lt##.samsung
 m.hellporno.com##iframe[width="320px"][height="180px"]
 movies.yahoo.co.jp##div[class^="display-ad"]
 s.cosme.net###cmn-ad-hdr

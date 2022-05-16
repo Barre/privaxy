@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: HdZu4br47S5+76Obk5LCMw
+! Checksum: 6KrYxO9OM66jamen7Mbv1A
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.51
-! TimeUpdated: 2022-05-16T14:30:47+00:00
+! Version: 2.1.19.52
+! TimeUpdated: 2022-05-16T15:30:36+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20085,6 +20085,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+discours.io##.main-banner
 s.cosme.net##.act-bottom-nav
 ||uicdn.com/mailint/*/assets/_sn_/lod/welcomeback.js$domain=gmx.*
 ||wakasa.jp/common/js/modalCheck.js
@@ -28372,6 +28373,8 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+discours.io###mailingList
+ria-m.tv###center > p.typerr + p[style="text-align: left;"]
 dantri.com.vn##div[data-module="cognito-form"]
 1istochnik.ru##div[class^="article_"][class$="-share"]
 1istochnik.ru##.news-sidebar-social

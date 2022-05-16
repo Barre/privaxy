@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BdM4T5Qf/8F1uKPcpEzldg
-! Version: 202205160854
+! Checksum: 3tsX/NjZ+BhUalLGqMms9g
+! Version: 202205161554
 ! Title: RU AdList for uBO only
-! Last modified: 16 May 2022 08:54 UTC
+! Last modified: 16 May 2022 15:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17805,6 +17805,7 @@ dnevnienovosti.ru##a[href*="://urldirect.ru/"]
 mirknig.su##a[href*="://usnd.to/"]
 filmpro.ru,www.film.ru##a[href*="://wink."]
 livesport.ru##a[href*="://www.livesport.ru/away"]
+allboxing.ru,carsweek.ru,inforeactor.ru,nation-news.ru,nevnov.ru,newinform.com,nsn.fm,osnmedia.ru,polit.info,politexpert.net,politros.com,radiokp.ru,ren.tv,riafan.ru,slovodel.com,smotrim.ru,sovets.net,sovets24.ru,tv2.today##a[href*="://zen.yandex.ru/"]
 gamer-info.com##a[href*="=http"]:not([target])
 3ys.ru,libsib.ru,mydocx.ru,studopedia.su##a[href*="a24help.ru"]
 777score.ru,animeonline.cc,animesure.org,football24.ru,games.portal.md,kino4k.in,kinofanonline.net,music-torrent.com,musictor.org,newsgsm.com,online-fix.me,rg-mechanics.site,softbesplatno.net,texdizain.net,windowspro.ru##a[href*="aHR0c"]
@@ -18383,7 +18384,6 @@ n1.by##a[href^="https://www.alibi.by"]
 design-for.net##a[href^="https://www.reg.ru/"]
 ebay-russia.ru##a[href^="https://www.shipito.com/"]
 imgmoney.ru##a[href^="https://www.youtube.com/"] img
-allboxing.ru,carsweek.ru,inforeactor.ru,nation-news.ru,nevnov.ru,newinform.com,nsn.fm,osnmedia.ru,polit.info,politexpert.net,politros.com,radiokp.ru,ren.tv,riafan.ru,slovodel.com,sovets.net,sovets24.ru,tv2.today##a[href^="https://zen.yandex.ru/"]
 wmmail.ru##a[href^="index.php?cf=html-tbanner&bid="]
 gomel.today##a[href^="index.php?module=media"]
 scooterdigest.ru##a[href^="rec.asp"]
