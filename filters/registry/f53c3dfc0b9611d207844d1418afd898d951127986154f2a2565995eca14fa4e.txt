@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fuzk9PZ9m2wHyz7uZEKMUg
-! Version: 202205152054
+! Checksum: BdM4T5Qf/8F1uKPcpEzldg
+! Version: 202205160854
 ! Title: RU AdList for uBO only
-! Last modified: 15 May 2022 20:54 UTC
+! Last modified: 16 May 2022 08:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23368,7 +23368,6 @@ lada.kz/uploads/banners/
 ||uzum.tv/*.swf
 ||uzum.tv/120/
 ||uzumaki.kz/go?$script
-||v*.plrjs.org/*.xml$xmlhttprequest
 ||v-androide.com/%22//
 ||v-chulkahh.ru/js/06ea7c.js
 ||v-info.ru/i_bann/
@@ -26545,6 +26544,7 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,lordfilm6
 @@||player.adtelligent.com/static/player.$script,stylesheet,domain=changeua.com|ictv.ua|inter.ua|k1.ua|novy.tv|ntn.ua|player.starlight.digital|stb.ua|teleportal.ua|vringe.com|xsport.ua
 @@||player.vgtrk.com/js/ads.$script,domain=player.vgtrk.com
 @@||player.vgtrk.com/js/stat.js$script,domain=player.vgtrk.com
+@@||plrjs.org/*.xml|$xmlhttprequest,domain=filmix.ac|filmix.beer|filmix.biz|filmix.buzz|filmix.cc|filmix.click|filmix.co|filmix.email|filmix.gay|filmix.ink|filmix.love|filmix.ltd|filmix.online|filmix.site|filmix.today|filmix.wiki|filmix.zone
 @@||print-post.com^*.js$script,domain=print-post.com
 @@||pubads.g.doubleclick.net/gampad/ads?sz=$xmlhttprequest,domain=olympics.1tv.ru
 @@||pvpru.com/css/banners/300$domain=pvpru.com
@@ -27127,8 +27127,7 @@ photolessons.org###modal-adbmon-div
 ostroh.info###modal.modal-bg
 all-episodes.net###odin
 mover.uz###oframeplayer > [class][style^="display: block"]
-filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone###oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"] ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
-filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone#?##oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"]:-abp-contains(/adblock/i)
+filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 md4u.ru###pagecontent > div[style*="background-color"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2

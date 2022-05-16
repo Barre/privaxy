@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205161254
+! Version: 202205161511
 ! Title: ABPVN List
-! Last modified: 16 May 2022 12:54 UTC+7
+! Last modified: 16 May 2022 15:11 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -19,7 +19,7 @@ $popup,third-party,domain=phim1080z.com|fim1080.com|animehay.club
 *$csp=script-src 'self' 'unsafe-inline',domain=kingsleynyc.com|thegoneapp.com|staaker.com|uebnews.online|nro.vn|appvn.com|kynangso.net|dhcc.uk
 .com/cpc/$script
 .com/qc/
-.net/ads/$domain=~linkneverdie.net
+.net/ads/$domain=~linkneverdie.net|~mcleaks.net
 .net/cpf/$script
 .vn/Ad/
 .vn/c3s-ad/$xmlhttprequest
@@ -27,7 +27,7 @@ $popup,third-party,domain=phim1080z.com|fim1080.com|animehay.club
 /(https?:\/\/)\w{30,}.me/$image,third-party
 /24h-ad.
 /Arfcc.min.js$script
-/ads/*.gif
+/ads/*.gif$domain=~mcleaks.net
 /ads/*.xml$xmlhttprequest
 /allposition-zone-*.ads
 /assets/popup.js
@@ -379,9 +379,7 @@ utm_source=propellerads$popup
 ||phimgif.net/player/dk.jpg
 ||phimhay3s.com/video/$media
 ||phimhay3s.com^*.gif
-||phimmoichill.net/media/*.gif
 ||phimmoichill.net/media/js/chillnew.popv.js$script
-||phimmoichill.net^*.gif
 ||phimmoichill.net^*.gif$image
 ||phimmoikf.com/files/banner/$image
 ||phimmoikf.com^*.gif

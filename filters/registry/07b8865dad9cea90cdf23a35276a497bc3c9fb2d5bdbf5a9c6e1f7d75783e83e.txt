@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220512
+! Version: 20220516
 
 ! General element hiding rules
 ##amp-ad
@@ -6283,6 +6283,9 @@ pastebin.com##div.banner_728
 pastebin.com##iframe[id^="tfasyncframe_"]
 pcgamer.com##div[style^="position: relative; box-sizing: border-box; height: auto; margin: "][style*=" text-align: center; display: block; pointer-events: none; transform: none; "]
 pcgames.de##div.module[modultyp="31"]
+pcmag.com##aside.zmgad-full-width
+pcmag.com##aside.zmgad-right-rail
+pcmag.com##ins.zmgad-full-width
 pcwelt.de##div.ad
 pcwelt.de##div.marketplace
 peing.net##div.ad-container

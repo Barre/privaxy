@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: oT41/np4iv+KaGPOBWBycQ
+! Checksum: sP2e4+HSSO38ZVPGxVuNdA
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.68
-! TimeUpdated: 2022-05-16T07:31:14+00:00
+! Version: 2.2.30.69
+! TimeUpdated: 2022-05-16T08:31:22+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3966,6 +3966,9 @@ smallseotools.com#@#.adsbygoogle
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118802
+mypractically.xyz##+js(abort-current-script, document.createElement, _0x)
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noop.js,domain=mypractically.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118646
 ||globaldjmix.com/dist/js/script_site_detect.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118778
@@ -20366,6 +20369,8 @@ m.basketnews.lt##.main_title > div[style="text-align: center;"] > a > img
 !------------------------------ Malaysian ----------------------------
 !---------------------------------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117986
+malaysiakini.com##div[class*="justify-center"][style="height: 250px;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102647
 mingguanwanita.my##.adplaceholder-leaderboard
 mingguanwanita.my##.adplaceholder-mrec
@@ -48550,6 +48555,7 @@ implbits.com#@#.banner_container
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118601 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118397 [Stealth Mode]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118490 [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118294 [Stealth Mode - Referrer]

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: wlePihuPRpubWq9Qv4dWkQ
+! Checksum: /vTICJnZGfCkc4IJkAsTLQ
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.60
-! TimeUpdated: 2022-05-16T07:31:24+00:00
+! Version: 2.0.61.61
+! TimeUpdated: 2022-05-16T08:31:32+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11180,6 +11180,8 @@ neokur.com#$#.jquery-modal.blocker { display: none!important; }
 ! #Social locker#
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118667
+askubuntu.com,mathoverflow.net,serverfault.com,stackapps.com,stackexchange.com,stackoverflow.com,superuser.com#@#.js-share-link
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118362
 filmaffinity.com#@##share-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118119
