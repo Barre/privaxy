@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: Po3rogxsjZKIU4WYw0NtRQ
+! Checksum: oetqw73VgBaRLLgQzhM+Sg
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.71
-! TimeUpdated: 2022-05-15T15:31:40+00:00
+! Version: 2.0.19.72
+! TimeUpdated: 2022-05-16T06:31:44+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -487,7 +487,7 @@ ma-bank.net#@##ad_area
 ma-bank.net#@##adspace
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108229
 friday.kodansha.co.jp#$#body { overflow: visible !important; }
-friday.kodansha.co.jp#$#body div.fc-ab-root { display: none !important; }
+friday.kodansha.co.jp#$#body div.fc-ab-root:not(#style_important) { display: none !important; }
 ! playai.nu anti-adb
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication.com/adsbygoogle.js,domain=playai.nu,important
 @@||||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=playai.nu

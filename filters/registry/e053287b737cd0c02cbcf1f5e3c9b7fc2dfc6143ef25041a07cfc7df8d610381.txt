@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: p6a7WUg37I4UgDj6+8a47w
+! Checksum: a+PDsHz3+4H+Z8RSGV+Y/w
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.80
-! TimeUpdated: 2022-05-13T15:31:49+00:00
+! Version: 2.0.13.81
+! TimeUpdated: 2022-05-16T06:31:51+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,7 +83,6 @@
 ||juicebarads.com^$third-party
 ||adcains.com^$third-party
 ||usounoul.com^
-||rfkrgmpjvu.top^
 ||lspzhtvstux.com^
 ||xfkkvjabbogciwl.top^
 ||cameracaseira.com^$third-party
@@ -100,11 +99,9 @@
 ||roulediana.com^$third-party
 ||ads.enrt.eu^
 ||19bk5lo5q2.com^$third-party
-||pregnancydiscreditbee.com^$third-party
 ||adsrv.eacdn.com^$third-party
 ||videoo.tv^$third-party
 ||eru5tdmbuwxm.com^
-||mtecso.online^
 ||gyh1lh20owj.ru^
 ||25haich4342.ru^
 ||byfoongusor.com^
@@ -119,11 +116,9 @@
 ||oahaurti.com^$third-party
 ||afiliados.hostgator.com.br^$third-party
 ||ymonetize.com^$third-party
-||cowcash.net^$third-party
 ||nucleo.ml^$third-party
 ||phoenix-widget.com^$third-party
 ||c9p7at3pctmprvb5ecq66vvd.ml^$third-party
-||xstronger.com^$third-party
 ||premiumads.com.br^$third-party
 ||subdo.torrentrapid.com^
 ||subdo.tumejortorrent.com^
@@ -132,22 +127,14 @@
 ||redemw.com^$third-party
 ||grupoemidia.com.br^$third-party
 ||tckn-code.com^$third-party
-||m-aeti-bocieva.info^$third-party
-||s7kkpeo6e2.com^
 ||zona1.at.ua^$third-party
 ||go.traqueto.com^$third-party
 ||qebodu.com^$third-party
-||hitopadxdo.xyz^$popup
 ||adw.sapo.pt^
-||dozcpc.com^$third-party
 ||midan.io^$third-party
-||myownads.space^$third-party
 ||lojapremio.com.br^$third-party
-||comandosfilmes.org^$third-party
 ||boudja.com^$third-party
 ||adsnetworkbr.ml^$third-party
-||oiqheoiwgnqiweoj.bid^$popup
-||regiobuscador.com^$third-party
 ||sworatio.co^$third-party
 ||crazyhell.com^$popup
 ||waycash.net^$third-party
@@ -195,7 +182,6 @@
 ||buxim.com^$third-party
 ||catho.com.br/parceiros/ad/$third-party
 ||cliquemidia.com^$third-party
-||codigobarras.net^$third-party
 ||coguan.com^$third-party
 ||comprafacil.com.br/images/$third-party
 ||contadordevisitas.es^$third-party
@@ -210,7 +196,6 @@
 ||detectca.easysol.net^$third-party
 ||direcionando.baixedetudo.net^$third-party
 ||diximedia.es^$third-party
-||egelito.info/block/$third-party
 ||epartner.es^$third-party
 ||fgcash.com.br^$third-party
 ||foneclick.com.br^$third-party
@@ -257,10 +242,8 @@
 ||publicidees.com^$third-party
 ||publipagos.com^
 ||refblock.com^$third-party
-||rtugateam.com/popup/$third-party
 ||say.ac^$third-party
 ||seomaster.com.br^$third-party
-||sexobr.ws/ads$third-party
 ||smartclip.net^$third-party
 ||softclick.com.br^
 ||solution911.com^
@@ -268,10 +251,8 @@
 ||spublicidad.net^
 ||swi-adserver.com^$third-party
 ||templates.buscape.com^$third-party
-||tiozao.net^$third-party
 ||todoanimes.com^$script,third-party
 ||tracking.fsjmp.com^$third-party
-||tutonovip.com^$third-party
 ||urlcash.net^$third-party
 ||ver-pelis.net^$third-party
 ||xclk-integracion.com^$third-party
