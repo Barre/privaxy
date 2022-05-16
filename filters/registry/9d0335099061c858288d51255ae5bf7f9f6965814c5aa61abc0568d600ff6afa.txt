@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 4/yvLOpJd58tokGI55YrBg
+! Checksum: 8UKD6mWnsvOTwZFMvw+ltQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.47
-! TimeUpdated: 2022-05-16T10:30:39+00:00
+! Version: 2.1.19.48
+! TimeUpdated: 2022-05-16T11:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3145,6 +3145,7 @@ hgtv.com#@#.showads
 !
 !
 !
+postimees.ee##+js(no-setTimeout-if, adblockNotif)
 e-words.jp###forvisitors
 givee.club##+js(abort-current-script, document.addEventListener, adjs)
 light.gg##.items-right-square
@@ -4851,6 +4852,7 @@ postimees.ee##+js(remove-class, cookie-paywall-visible, article)
 it-actual.ru#$#.adsbygoogle { transform: scale(0) !important; height: 0 !important; }
 !
 !#safari_cb_affinity(general)
+postimees.ee#@#.adBanner
 textstudio.co#@#.adsbyyahoo
 signupgenius.com#@#.adholder2
 signupgenius.com#@#.ad-placement
@@ -20090,6 +20092,7 @@ s.cosme.net##.act-bottom-nav
 ||wakasa.jp/common/js/modalCheck.js
 tomtop.com##.freePointWrap
 curet.jp##.l-footer-modal
+boat-lifestyle.com##div[id^="nmg-incentive"]
 youtube.com##tp-yt-iron-dropdown[class="style-scope ytd-popup-container"][horizontal-align="right"]
 baike.baidu.com##.sl-player__main.window-player
 ||tally.so/popup/$third-party
@@ -28370,6 +28373,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+dantri.com.vn##div[data-module="cognito-form"]
 1istochnik.ru##div[class^="article_"][class$="-share"]
 1istochnik.ru##.news-sidebar-social
 mel.fm##.subscriptionBlock
