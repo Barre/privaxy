@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: JCAfGOYWYGtqDDFsveZzhQ
+! Checksum: 7PI2v6FxJ2OJ+TZn1J+qwA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.43
-! TimeUpdated: 2022-05-16T06:30:37+00:00
+! Version: 2.1.19.44
+! TimeUpdated: 2022-05-16T07:30:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15510,6 +15510,8 @@ stockmann.com#$#.cookie-dialog-screen { display: none!important; }
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 ! TODO: use redirect rule when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/195
 !
+! https://github.com/AdguardTeam/AdguardFilters/pull/118617
+gmx.co.uk#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118172
 @@||cdn.ampproject.org/v0/amp-consent-*.js$domain=edition.cnn.com
 ! blackout with scroll locked
@@ -18196,6 +18198,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+m.happymoney.co.kr##.recommendAppWrap
 m.tomtop.com##.m_app
 capital.com##.award-banner-wrap
 antenna.jp###install-link
@@ -18939,7 +18942,7 @@ toppr.com##div[class^="question_suggestionsAppBannerWrapper__"]
 dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru##.smartbanner
 profile.ru##div[class="read-yzd mobile-only"]
 biokadar.com#?#.sidebar > div.widget:has(> div.textwidget > center > a[href="https://www.biokadar.com/biokadarcom.apk"])
-teknowebim.com,op.gg,cameralabs.org##a[href^="https://play.google.com/store/apps/details?id="]
+allwish.me,teknowebim.com,op.gg,cameralabs.org##a[href^="https://play.google.com/store/apps/details?id="]
 blocket.se##div[class^="AppLinks__"]
 ||m.pufei8.com/skin/iymbl-app.js
 m2o.it##.player > section.player-wrapper + div.footer_player
@@ -20601,7 +20604,6 @@ udemy.benesse.co.jp###popupCourseWrap
 rajwap.biz##.videojs_theatre_mode
 granadadigital.es##+js(abort-current-script, $popup, magnificPopup)
 passfab.ru###banner-seasonal
-tutu.ru##div[data-ti="order-popper-container"]
 tutu.ru##div[data-ti="banner"]
 kolesa.ru##.post-popup
 kolesa.ru##.marked-post
@@ -30656,7 +30658,7 @@ thelocal.ch,itsfoss.com,makeuseof.com,fosspost.org,sergeiyurev.com##.ml-subscrib
 babychakra.com,games.mail.ru,citydog.by,rusplt.ru,skyeng.ru##.email-subscription
 magazine.skyeng.ru#?#div[data-ce-tag="grid-col"] > p[data-ce-tag="paragraph"]:contains(/(^В изучении английского.*оригинале.\s$)|(^Чтобы без проблем общаться.* фразы на английском.$)/)
 clara.es##.content-newsletter
-newsgram.com,paperpaper.press,paperpaper.ru##.subscription-widget
+newsgram.com,paperpaper.*##.subscription-widget
 poder360.com.br##.mod-newsletter
 xda-developers.com###newsletter-sidebar-subscribe
 theregister.com##.newsletter_signup_unit
@@ -34814,7 +34816,7 @@ delo.ua##.c-support
 meduza.global.ssl.fastly.net,meduza.io##.SaveMeduza-root
 texty.org.ua###the-only-donate-banner
 birgun.net##.support-box
-paperpaper.*##.bottom-block  > div.post-info-block
+paperpaper.*##.bottom-block > div.post-info-block
 mediazona.online,fourth-sphere-302420.appspot.com,zona.media##.mz-agent-banner
 mediazona.online,fourth-sphere-302420.appspot.com,zona.media##.tools__support_container
 histmag.org##div[evergreen-portal-container=""]
