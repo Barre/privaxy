@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: FTfrVbw86q5a0nv9n9ABBA
+! Checksum: cyE4bhBWge4UPPWb/EHsDA
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.84
-! TimeUpdated: 2022-05-16T12:31:47+00:00
+! Version: 2.0.13.85
+! TimeUpdated: 2022-05-17T07:31:52+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -275,6 +275,8 @@
 tunovelaligera.com##+js(abort-on-property-write, adregain_wall)
 tunovelaligera.com##+js(abort-on-property-read, ad_nodes)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118918
+receitasdalu.net#@#.ad-1
 ! https://github.com/uBlockOrigin/uAssets/issues/12772#issuecomment-1125434557
 cadenaser.com##+js(set-constant, Object.prototype.adblockerEnabled, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/13062
@@ -1783,6 +1785,8 @@ anitube.info,anitubebr.biz,anitubebr.com##+js(abort-current-script, $, abreJanel
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118918
+receitasdalu.net#$##colunas { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118602
 bolsadevalores.club#$##colunas { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118600
@@ -2047,6 +2051,7 @@ link.estadao.com.br,atomixhq.*,jc.ne10.uol.com.br,internetpasoapaso.com,acidadeo
 ! ##.ad
 atribuna.com.br,jovemnerd.com.br,laopiniondemurcia.es,larazon.es,dicio.com.br,band.uol.com.br,xataka.com,onyxplay.com,genbeta.com,vagalume.com.br,xatakandroid.com,abril.com.br##.ad
 !
+||receitasdalu.net/js/burn.min.js
 cadenaser.com##.c-s > div:not([class]):first-child
 cadenaser.com##.cnt-publi
 natelinha.uol.com.br##.banner_conteudo
