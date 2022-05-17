@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: I0JSg22zRhV+gw9opuuhIg
+! Checksum: E7PlbI4+4muFJOo7/coIEQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.68
-! TimeUpdated: 2022-05-17T17:02:27+00:00
+! Version: 2.1.19.69
+! TimeUpdated: 2022-05-17T17:30:38+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2479,6 +2479,8 @@ hi-tech.mail.ru##.sticky_footer div[class^="block block_padding rb-block-"]
 ##.sosyal:not(body):not(html)
 ##.td_block_social_counter
 !
+! big vk banner
+pepper.ru##div[data-track*="vk_banner"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116495
 teknoblog.com#?#.wpb_wrapper > div.tdm_block:has(> div.td-block-width > div.td-block-row > div.tdm-col > div.tds-button > a[href="https://goo.gl/TKXKuq"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106898
@@ -18204,6 +18206,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+pepper.ru##div[data-track*="app_installs_banner"]
 asajikan.jp##.apri_b_pc
 asajikan.jp##.bnrAppGuidance
 asajikan.jp##.appdl1
@@ -28402,6 +28405,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+pepper.ru##.js-telegram-widget
 heizung-billiger.de###news_modal
 kp.ru##.page-content__footer-top
 kp.ru##a[href="https://zen.yandex.ru/kpsport"]
@@ -29422,7 +29426,7 @@ washingtonpost.com##.softwall-overlay
 botanichka.ru###subscribeslide
 leverageedu.com##.navbar-follow-button
 kubnews.ru##.subscribe-channel
-mydealz.de##.js-newsletter-widget
+pepper.ru,mydealz.de##.js-newsletter-widget
 design-homes.ru##.b-zen
 design-homes.ru##a[href="https://zen.yandex.ru/design-homes.ru"]
 decolar.com###subscription-ab
