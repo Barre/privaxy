@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: X5K7heNC2OLNKulfWrTG8A
+! Checksum: c8XMikWoIr1l6tg1VjQuHg
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.33.20
-! TimeUpdated: 2022-05-17T12:30:48+00:00
+! Version: 2.0.33.21
+! TimeUpdated: 2022-05-17T13:30:46+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1139,6 +1139,8 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118622
+||shoosh.co^$third-party,badfilter
 ! https://github.com/uBlockOrigin/uAssets/commit/d5e0de7a259057c2d53ebd36f37ee1762e9e2860#commitcomment-73637215
 maxisciences.com,gentside.*,ohmymag.*#@#[data-ads-core]
 @@||tra.scds.pmdstatic.net/advertising-core/$script,domain=maxisciences.com|gentside.*|ohmymag.*
