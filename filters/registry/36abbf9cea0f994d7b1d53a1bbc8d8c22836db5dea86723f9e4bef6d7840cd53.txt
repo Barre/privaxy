@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205150904
+! Version: 202205170904
 ! Title: EasyPrivacy
-! Last modified: 15 May 2022 09:04 UTC
+! Last modified: 17 May 2022 09:04 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1229,6 +1229,7 @@
 /click.php?c=
 /click?mode=*&action=
 /Click?MQUrl=
+/click?track=
 /click_metrics-jquery.js
 /click_stat/*
 /click_statistics/*
@@ -3481,6 +3482,7 @@
 /pphlogger.
 /ppms.js
 /pr.php?
+/prebid/ad.gif?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -4172,6 +4174,7 @@
 /stats/track.asp?
 /stats/tracker.js
 /stats/tracking.
+/stats/transp.bmp
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -13124,6 +13127,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.nitropay.com^
 ||tracker.roitesting.com^
 ||tracker.softcube.com^
+||tracker.ssl0d.com^
 ||tracker.timesgroup.com^
 ||tracker.tubecj.com^
 ||tracker.twenga.
@@ -13732,6 +13736,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.worldsoft-cms.info^
 ||lr-port.de/tracker/
 ||mapandroute.de/log.xhr?
+||marktjagd.de/proxy/trackings/
 ||mastertag.kpcustomer.de^
 ||mastertag.q-sis.de^
 ||mehrwertdienstekompetenz.de/cp/$third-party
@@ -15414,6 +15419,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.vk-portal.net^
 ||stats.wordpress.com^
 ||stats.wwitv.com^
+||streamlare.com/api/video/stats/
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
 ||streamta.site/stat/
@@ -25267,6 +25273,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
+||shoop.de/mgtrx/
 ||squirrel.cividi.ch^
 ||statistic2.reichelt.de^
 ||statistics.riskommunal.net^
@@ -25275,6 +25282,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stats.t-online.de/include-ivw-agof-szmng-js/
 ||steuertipps.de/scripts/tracking/
 ||subpixel.4players.de^
+||suche.web.de/click
 ||t-online.de/to/web/click?
 ||t-online.de/toi/html/de/img/transp.bmp?
 ||t.wayfair.de^
@@ -25283,11 +25291,43 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||track.express.de^
 ||track.noz.de^
 ||track.rundschau-online.de^
+||tracking.asialadies.de^
+||tracking.avladies.de^
+||tracking.badeladies.de^
+||tracking.behaarteladies.de^
+||tracking.bizarrladies.de^
+||tracking.busenladies.de^
+||tracking.deutscheladies.de^
+||tracking.devoteladies.de^
+||tracking.dominanteladies.de^
+||tracking.erfahreneladies.de^
+||tracking.escorts24.de^
+||tracking.exklusivladies.de^
 ||tracking.finanzen.net^
+||tracking.fkk24.de^
 ||tracking.fupa.net^
+||tracking.grosseladies.de^
+||tracking.hobbyladies.de^
+||tracking.jungeladies.de^
 ||tracking.krone.at^
+||tracking.kussladies.de^
+||tracking.ladies.de^
+||tracking.latinaladies.de^
+||tracking.massierendeladies.de^
+||tracking.mollyladies.de^
 ||tracking.noen.at^
+||tracking.nsladies.de^
+||tracking.nymphomaneladies.de^
 ||tracking.oe24.at^
+||tracking.orientladies.de^
+||tracking.osteuropaladies.de^
+||tracking.piercingladies.de^
+||tracking.rasierteladies.de^
+||tracking.schokoladies.de^
+||tracking.tattooladies.de^
+||tracking.tsladies.de^
+||tracking.zaertlicheladies.de^
+||tracking.zierlicheladies.de^
 ||tracksrv.zdf.de^
 ||ui-portal.de/pos-cdn/tracklib/
 ||vfd2dyn.vodafone.de^
@@ -25295,6 +25335,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.gmx.net^
 ||wa.web.de^
+||web.de/monitoring/
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
@@ -25682,6 +25723,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
 ||stats.fd.nl^
+||tdep.kvk.nl^
 ||temptation.ad.nl^
 ||tijd.be/fb/?
 ||tijd.be/track/
@@ -26972,7 +27014,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js$domain=eprice.it|euronics.it|iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
@@ -26992,8 +27034,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
 @@||tiscali.it^*/webtrekk_mediaTracking.min.js$script,~third-party
-@@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it|ubibanca.com
-@@||ubibanca.com^*/TrackingService.js
+@@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||video.repubblica.it^*/nielsen.js
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 ! 
