@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: RErXPzzGd3OX3NkHuE5wmA
+! Checksum: X5K7heNC2OLNKulfWrTG8A
 ! Title: AdGuard French filter
 ! Description: Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.
-! Version: 2.0.33.19
-! TimeUpdated: 2022-05-17T08:30:42+00:00
+! Version: 2.0.33.20
+! TimeUpdated: 2022-05-17T12:30:48+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -736,6 +736,10 @@ all-stadium.net#$##layer2 {top:50px!important; left:950px!important;}
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+parismatch.com##.lmn-topban
+parismatch.com##.lmn-aside
+parismatch.com##.lmn-inread
+parismatch.com##.taboola-wrapper
 boursorama.com##.l-header__gigaban
 lepoint.fr##div[id^="WRAP_"][id*="_ATF"]
 lepoint.fr##div[id^="WRAP_NATIVE_"]

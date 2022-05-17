@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Tue, 17 May 2022 00:02:52 +0000
+! Updated: Tue, 17 May 2022 12:03:19 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -23,6 +23,7 @@ benefiio.org
 best-life-insurers-deals.live
 best-used-cars.live
 bestmoneysurvey.top
+bettergadget.net
 bhgshop.net
 bitbidder.co
 blogphoneapplication.online
@@ -44,8 +45,10 @@ cnnvideo.ru
 contentstar.info
 curfiositystream.com
 curiositydstream.com
+dailyboard.org
 danceview.ru
 datetoday.pro
+dealforrealz.club
 deepapp.link
 demlishop.co
 dhlvideo.ru
@@ -106,6 +109,7 @@ mattdeany.co
 meovideo.ru
 misticview.ru
 mistikvideo.ru
+mobi-planet.xyz
 mobi-sea.xyz
 mobi1sea.xyz
 mobiaplains.xyz
@@ -142,8 +146,8 @@ powerbattery.xyz
 prizechampion.rest
 prizegiveaway.rest
 productsecret.co
+profitablesurvey.live
 promocodes.click
-prospect-verified.net
 prote.today
 protectiontoday.xyz
 provewarmmind.top
@@ -201,6 +205,7 @@ the7planet.xyz
 theaocean.xyz
 theasea.xyz
 timefornews.online
+timesamerica.net
 to-us-dental-implants-wiki.live
 topamdeia.ru
 topedvideo.ru
@@ -235,6 +240,7 @@ videoze.ru
 viewsunny.ru
 viewunic.ru
 viget.top
+vpnadefence2plus.com
 walmartcard.top
 wangmo.life
 wantjoinsince.xyz
