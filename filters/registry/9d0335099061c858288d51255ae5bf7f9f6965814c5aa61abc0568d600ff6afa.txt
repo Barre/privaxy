@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: XdKtx/uSvSBZIBQEX0IGuw
+! Checksum: ylkwYWNQ/828Aj+4f2q1Zw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.61
-! TimeUpdated: 2022-05-17T10:30:36+00:00
+! Version: 2.1.19.62
+! TimeUpdated: 2022-05-17T11:30:36+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7271,6 +7271,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+||consent.dropbox.com^
+freshnrebel.com##.cookie-permission-footer
 actronics-gmbh.de#$#body { overflow: auto !important; padding-right: 0 !important; }
 actronics-gmbh.de#$##cookie-modal { display: none !important; }
 actronics-gmbh.de#$##cookie-modal ~ div.modal-backdrop { display: none !important; }
@@ -10024,7 +10026,7 @@ tatgida.com###topbar-hide
 mondly.com##iframe[src="https://cookiejar.mondly.com/xdomain-cookies"] + div[class]
 hampel-auctions.com,dondo.de###consentmanager
 pixlr.com,paribu.com##.policies
-luckypatchers.com,techwatch.de,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
+se7en.ws,luckypatchers.com,techwatch.de,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
 hosting.com.tr##.contract-popup
 nikon.ru###cookie_consent_wall
 elavon.pl#$#.cookiePopupOpen { overflow: visible !important; }
@@ -18068,7 +18070,6 @@ varez-tyt.ru##.plate__details
 nb-vologda.ru##.profile-container.unfold
 allkerch.ru##.rect
 zrivkoren.com##.reg-button
-iddaanet.com##.reklamsolsag
 newkuban.ru##.section-banner
 all.zp.ua##.showimgs img[alt]
 othereal.ru##.sideblock:last-child > .sideinner
@@ -18080,8 +18081,6 @@ odeve.ru##.toneBlock > div.item a[rel="nofollow"]
 news.nado.ua##.yoo-scroller
 jofo.ru##a[href^="http://creativepromo.ru/"]
 mixroliki.ru##a[href^="http://dertikas.ru/"]
-iddaanet.com##a[href^="http://www.banko-kupon.com"]
-iddaanet.com##a[href^="http://www.iddaaskortahmin.com"]
 urano.ru##a[rel="external nofollow"] > img
 skyportal.ru##body > div[align="center"]:not([id]):not([class]) a
 vokrugsveta.com##body > noindex > table[width="1020"]
@@ -26129,8 +26128,6 @@ aol.com#$#.banner-active { margin-top: 0 !important; }
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js^$domain=satoshimonster.com|satoshihero.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/36261
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js$domain=warhead.su
-! https://forum.adguard.com/index.php?threads/ispor-net.25477/
-@@||cdn.onesignal.com/sdks/OneSignalSDK.js$domain=ispor.net
 ! https://forum.adguard.com/index.php?threads/puls4-com.21577/
 @@||cdn.onesignal.com/sdks/OneSignalSDK.js^$domain=puls4.com
 ! https://forum.adguard.com/index.php?threads/14675/
@@ -28393,6 +28390,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+freshnrebel.com##.content-main + div:not([class])
 discours.io###mailingList
 ria-m.tv###center > p.typerr + p[style="text-align: left;"]
 dantri.com.vn##div[data-module="cognito-form"]

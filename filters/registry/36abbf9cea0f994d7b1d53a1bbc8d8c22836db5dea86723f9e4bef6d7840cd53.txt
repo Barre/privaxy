@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205170934
+! Version: 202205171129
 ! Title: EasyPrivacy
-! Last modified: 17 May 2022 09:34 UTC
+! Last modified: 17 May 2022 11:29 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5905,6 +5905,7 @@ _mongo_stats/
 ||imrworldwide.com^
 ||imzahrwl.xyz^
 ||innerskinresearch.com^
+||insigit.com^
 ||instantfox.co^
 ||irs01.com^
 ||k5a.io^
@@ -15632,6 +15633,22 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zerohedge.com/statistics-ajax?
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zion-telemetry.api.cnn.io^
+! OpenTable
+||track.opentable.ae^
+||track.opentable.ca^
+||track.opentable.co.th^
+||track.opentable.co.uk^
+||track.opentable.com.au^
+||track.opentable.com.mx^
+||track.opentable.com^
+||track.opentable.de^
+||track.opentable.es^
+||track.opentable.hk^
+||track.opentable.ie^
+||track.opentable.it^
+||track.opentable.jp^
+||track.opentable.nl^
+||track.opentable.sg^
 ! akamaihd.net
 ||akamaihd.net^$image,domain=globalnews.ca
 ! Plausible selfhosted

@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205161750
+! Version: 202205171145
 ! Title: EasyList Germany
-! Last modified: 16 May 2022 17:50 UTC
+! Last modified: 17 May 2022 11:45 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4457,6 +4457,7 @@ zwischengas.com#?#.row.mt-0.mb-3.d-print-none:-abp-has(.fa-ad)
 @@||autobild.de^$genericblock,generichide
 @@||businessinsider.de^$generichide
 @@||bz-berlin.de^$generichide
+@@||cdn.stroeerdigitalgroup.de/metatag/live/mps_caravaning_relaunch/metaTag.min.js$domain=caravaning.de
 @@||ced.sascdn.com/tag/2161/smart.js$domain=metal-hammer.de|rollingstone.de
 @@||commundia.de^*/affilinet/$~third-party
 @@||computerbild.de^$generichide
