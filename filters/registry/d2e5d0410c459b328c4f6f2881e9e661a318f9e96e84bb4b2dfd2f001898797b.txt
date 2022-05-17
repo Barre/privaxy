@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Mon, 16 May 2022 12:03:29 +0000
+! Updated: Tue, 17 May 2022 00:02:52 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -22,7 +22,6 @@ be-us-auto-loans-ok.live
 benefiio.org
 best-life-insurers-deals.live
 best-used-cars.live
-bestbuylaptops.xyz
 bestmoneysurvey.top
 bhgshop.net
 bitbidder.co
@@ -40,6 +39,7 @@ cheaperflights.xyz
 chykohija.pro
 classicvideo.ru
 clickon.buzz
+clickverifier.online
 cnnvideo.ru
 contentstar.info
 curfiositystream.com
@@ -60,6 +60,7 @@ euronordvpn.com
 exotikcontent.ru
 expoview.ru
 fansvideo.ru
+find-datings.life
 findanswersnow.net
 finreporter.net
 flowvideo.ru
@@ -70,7 +71,6 @@ gamblehere.org
 gameoverhere.net
 gamerdigest.org
 gehenna.xyz
-getixvideo.fun
 giving-bigwin-chance-reward.rest
 gombos.xyz
 goodlov.online
@@ -80,6 +80,7 @@ greenvalleysystemphone.online
 gymtrainers.xyz
 hansview.ru
 healthguards.co
+heated-app.us
 heatmultiplyship.top
 heiyoumi.website
 humansystemsecurity.top
@@ -111,6 +112,7 @@ mobiaplains.xyz
 mobiastar.xyz
 monetunion.club
 mountcrossbed.top
+moviepin.tv
 nashvillewelcome.co
 nordvpnhosting.com
 nordvpnserver.com
@@ -133,7 +135,6 @@ pexvideo.ru
 phoneapplicationmap.top
 pictureart.xyz
 pillowvideo.ru
-playautumnd.xyz
 playspringe.xyz
 playwintera.xyz
 playwintere.xyz
@@ -234,12 +235,10 @@ videoze.ru
 viewsunny.ru
 viewunic.ru
 viget.top
-vpncity.com
 walmartcard.top
 wangmo.life
 wantjoinsince.xyz
 web-protocols.org
-websitebuildertutorials.org
 westacoast.xyz
 westamountain.xyz
 westcontent.ru
