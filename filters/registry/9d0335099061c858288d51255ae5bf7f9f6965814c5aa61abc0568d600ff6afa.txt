@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: E7PlbI4+4muFJOo7/coIEQ
+! Checksum: ygPuUH0yQ/tATWmKkbtfuw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.69
-! TimeUpdated: 2022-05-17T17:30:38+00:00
+! Version: 2.1.19.70
+! TimeUpdated: 2022-05-17T19:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20107,6 +20107,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+zebrack-comic.shueisha.co.jp#?#div[style="margin-bottom: 70px;"] > div[class^="sc-"] > div[class^="sc-"] > a[href^="https://app.adjust.com"]:upward(2)
 shop.lenovo.com.cn##.mask-laye-box
 shop.lenovo.com.cn##.sign-in-box
 haertle.de##+js(set-constant, showCampaignLayer, noopFunc)
