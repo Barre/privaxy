@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205171504
+! Version: 202205171514
 ! Title: EasyList Germany
-! Last modified: 17 May 2022 15:04 UTC
+! Last modified: 17 May 2022 15:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2112,9 +2112,9 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||studium-ratgeber.de^*/Studententarife-300x250.png
 ||suche.1und1.de/amazon?
 ||suche.gmx.net/amazon?
-||suche.t-online.de/web-search/amazon?
-||suche.t-online.de/web-search/billiger?
-||suche.t-online.de/web-search/ebay?
+||suche.t-online.de/web/amazon?
+||suche.t-online.de/web/billiger?
+||suche.t-online.de/web/ebay?
 ||suche.web.de/amazon?
 ||suedpfalz-verlag.de/uploads/pics/CBoltz.png
 ||suedpfalz-verlag.de/uploads/pics/DK-Grafik.png

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: B8yxVch07teCcaj47eQmDw
+! Checksum: TBDOExs2M8BWJrBIRks7yg
 ! Title: AdGuard Japanese filter
 ! Description: Filter that enables ad blocking on websites in Japanese language.
-! Version: 2.0.19.78
-! TimeUpdated: 2022-05-17T14:31:42+00:00
+! Version: 2.0.19.79
+! TimeUpdated: 2022-05-17T15:31:47+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -788,6 +788,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+asajikan.jp#?#.block-mobile > div[class^="list"] > script[src^="https://cdn-fluct.sh.adingo.jp/"]:upward(1)
 comic.nan-net.com#?#.sidebar-widget > div > div > a[href*="://ad."]:upward(3)
 magmix.jp#$?#.swiper-slide-extra { remove: true; }
 fumumu.net#?#.entryContents > h3:contains(おすすめ記事)
@@ -1151,7 +1152,6 @@ president.jp#?#.article-triple > div[id^="pc_pol_woman_recommend"]:upward(1)
 news.livedoor.com#?#.subSec:first-child > div[id^="div-gpt-ad"]:upward(1)
 asahi.com#?#.l-main > div[class^="_"] > div > ul > li > div[id^="div-gpt-"]:upward(1)
 asahi.com#?#.content > h2.widget-header:contains(あなたにおススメの記事)
-blog.fc2.com#?##post- a[href$="?overture"]:upward(#post-)
 kobe-np.co.jp#?#.banner > #knpc-rec1:upward(1)
 tasclap.jp#?#.p-card-sponsored:upward(1)
 blog.livedoor.jp#?#.plugin-memo > div.side > div.yms-user-ad-side:upward(2)
@@ -1805,7 +1805,7 @@ getnews.jp,ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.liv
 ! ##.adsense
 news.biglobe.ne.jp,4ka.net,natsukimemo.com,travelbook.co.jp,cat.sc,battle-one.com,otonasalone.jp##.adsense
 ! ##.banner
-tanoshiiosake.jp,library.mitaka.tokyo.jp,climbing-net.com,tripnote.jp,allreviews.jp,smart-flash.jp,news.fresheye.com,pakutaso.com,gaydebulog.com,qoly.jp,ascii2d.net,hoikuen-ranking.com,jp.msn.com,dengekionline.com,wiki.seesaa.jp##.banner
+asajikan.jp,tanoshiiosake.jp,library.mitaka.tokyo.jp,climbing-net.com,tripnote.jp,allreviews.jp,smart-flash.jp,news.fresheye.com,pakutaso.com,gaydebulog.com,qoly.jp,ascii2d.net,hoikuen-ranking.com,jp.msn.com,dengekionline.com,wiki.seesaa.jp##.banner
 ! ##.ads
 troutangler-s.com,pctrouble.net,adultgle.com,matomame.jp,pokemon-gsc.g-takumi.com,blog.with2.net,color-sample.com,8mato.jp,iromame-beans.jp,jocee.jp,gamebiz.jp,s8a.jp,gori.me,moraerumall.com,nwi.jp,0taku.livedoor.biz,ginnga.blog.jp,tools4music.info,gaccom.jp,diskgarage.com,tagindex.com,flyteam.jp,keyakizaka46matomerabo.com,ryusoku.com,chixi.jp,chugoku-np.co.jp,2nn.jp,karapaia.com##.ads
 ! ##.add
@@ -1815,8 +1815,10 @@ aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career-find.jp,mainich
 !
 !
 !
+rensai.jp##.amazon_wrap
 cancam.jp##div[id^="div-gpt-ad-"]
 woman.mynavi.jp##.is-banner
+aucview.com##div[class*="adBnrBox"]
 unityroom.com##.bl_adunit
 unityroom.com##.pg_section_ads_double
 webcg.net##.single-gallery-ad-hol-block
