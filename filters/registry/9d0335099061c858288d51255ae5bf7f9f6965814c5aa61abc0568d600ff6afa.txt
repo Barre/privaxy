@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: 2YHmjrj47XdjsG4T0THrhA
+! Checksum: XdKtx/uSvSBZIBQEX0IGuw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.60
-! TimeUpdated: 2022-05-17T09:30:35+00:00
+! Version: 2.1.19.61
+! TimeUpdated: 2022-05-17T10:30:36+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -79,6 +79,8 @@
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118395
+news.obozrevatel.com##.videoOfDay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118551
 star-telegram.com###story-cta-widget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118441
@@ -8940,7 +8942,7 @@ naukri.com##.privacyPolicy
 ufz.de#$##cookie-banner { display: none!important; }
 ufz.de#$#body { overflow: visible!important; padding-right: 0!important;}
 ncsc.gov.uk##.pcf-cookie
-wunschliste.de,mediabiz.de,gamesmarkt.de,musikwoche.de,blickpunktfilm.de,fansale.de,ticketonline.de,14-tage-wettervorhersage.de,playit-online.de,concordia.de,academiccourses.com,opti-wohnwelt.de,my-fantasyroom.de,bmas.de,fernsehserien.de###cmpwrapper
+gartendialog.de,wunschliste.de,mediabiz.de,gamesmarkt.de,musikwoche.de,blickpunktfilm.de,fansale.de,ticketonline.de,14-tage-wettervorhersage.de,playit-online.de,concordia.de,academiccourses.com,opti-wohnwelt.de,my-fantasyroom.de,bmas.de,fernsehserien.de###cmpwrapper
 altabadia.org##div[class^="mw-dsgvo-"]
 bibb.de##.fr-cookie-bar
 mycs.com##.CookieBanner__container
@@ -20098,6 +20100,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 haertle.de##+js(set-constant, showCampaignLayer, noopFunc)
 timeanddate.com##+js(addEventListener-defuser, scroll, _onscroll)
 discours.io##.main-banner
+game8.jp##.l-fixedFunctionLinkContainer
 s.cosme.net##.act-bottom-nav
 ||uicdn.com/mailint/*/assets/_sn_/lod/welcomeback.js$domain=gmx.*
 ||wakasa.jp/common/js/modalCheck.js
@@ -27472,11 +27475,14 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+geeksforgeeks.org##.text > h3[style="text-align:center"] + blockquote
+geeksforgeeks.org##.text > h3[style="text-align:center"]
 outlook.live.com##div[data-focuszone-id="FocusZone12"] + div > button
 opinie-perfumy.pl##.lepopup-popup-overlay
 opinie-perfumy.pl##.lepopup-popup-container
 ||promo.datacamp.com/banner.js
 analyticsvidhya.com##.banner-section-for-display
+game8.jp##.c-menuItem__bannerWrapper
 baike.baidu.com##.BK-before-content-wrapper > div > a[target="_blank"][data-num][onclick^="page.Mixedor.mixedOpen("]
 g2.com##.product-listing--banner
 analyticsindiamag.com##.elementor-widget-container > a[href="https://machinecon.analyticsindiamag.com/"]
