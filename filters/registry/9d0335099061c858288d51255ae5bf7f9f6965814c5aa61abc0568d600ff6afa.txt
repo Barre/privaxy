@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: ygPuUH0yQ/tATWmKkbtfuw
+! Checksum: +Jk6BPDxvGyYqqbtA0NUWg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.70
-! TimeUpdated: 2022-05-17T19:30:35+00:00
+! Version: 2.1.19.71
+! TimeUpdated: 2022-05-17T21:02:29+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7275,6 +7275,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+||webshop.burgerme.de/theme/js/Widgets/cookieWidget.min.js
 bible.com##.cookie-consent-banner-container
 ||consent.cookiebot.eu/uc.js
 ||consent.dropbox.com^
