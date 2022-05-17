@@ -7251,7 +7251,10 @@ vonvon.me##vv-dfp-ad
 vop.co.kr##div.ad-bottom-32050
 vop.co.kr##div.ad-fullscrine
 vop.co.kr##div.ad-middle
+vop.co.kr##div.arcad
 vop.co.kr##div.articlein_ad
+vop.co.kr##div.editor_arcad_right
+vop.co.kr##div.main_arcad_1
 vop.co.kr##div[class^="ad-aside"]
 vop.co.kr##div[class^="ad-bottom-imad"]
 vop.co.kr##div[class^="ad-mobile"]

@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: jRj9JEXYimKxhbRHajYjZA
+! Checksum: MALzhUpounFldAXoOzhOmA
 ! Title: AdGuard Base filter
 ! Description: This filter is necessary for quality ad blocking.
-! Version: 2.2.30.91
-! TimeUpdated: 2022-05-17T17:03:09+00:00
+! Version: 2.2.30.92
+! TimeUpdated: 2022-05-17T20:31:15+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -12757,7 +12757,6 @@ vxxx.com#?#.wrapper-margin + div:has(> .a-label)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84827
 outlook.live.com#?##app > div[class] > div[class] > div[class] > div[class]:not(.ms-FocusZone):not([class^="screenReaderText"]):has(> div > button[data-is-focusable])
 outlook.live.com#?##app > div[class] > div[class] > div[class] > div[class]:not(.ms-FocusZone):not([class^="screenReaderText"]) div[data-max-width] + div[class]:has(> div[class] > div > div[id^="owaadbar"])
-outlook.live.com#?#main[aria-hidden] > div[class] > div[style] > div[class][style="position: absolute; left: 0px; top: 0px; height: 80px; width: 100%;"]:has(> div[class] > div[role="group"] > #OwaContainer)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84976
 pluginsaddonsextensions.com#?#.col-md-4 > .rightcol:has(> #google_ad)
 pluginsaddonsextensions.com#?#.col-md-4 > .mapbox > .adsbygoogle:upward(1)
