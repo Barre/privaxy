@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202205171145
+! Version: 202205171504
 ! Title: EasyList Germany
-! Last modified: 17 May 2022 11:45 UTC
+! Last modified: 17 May 2022 15:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2606,6 +2606,7 @@ bergsteiger.de,bz-berlin.de,computerbild.de,dastelefonbuch.de,stuttgarter-zeitun
 kochrezepte.at###billboard-location
 rtl.de###billboard_1
 bz-berlin.de,finanzen.net###billboard_btf
+finanzen.net###billboard_btf_2
 finanzen-nerd.de###block-2
 realtotal.de###block-3
 finanzen-nerd.de###block-7

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OIR7zo/4bmpuP9CE9TRs0g
-! Version: 202205171354
+! Checksum: X1l69AFO6ZFGwq030UjI6A
+! Version: 202205171454
 ! Title: RU AdList for uBO only
-! Last modified: 17 May 2022 13:54 UTC
+! Last modified: 17 May 2022 14:54 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20575,7 +20575,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /bnr-tumarke*.mp4|$domain=gzt-sv.ru
 /build/js/sprit-$script,domain=yummyanime.club
 /chat*js$domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbook.news|textbooks.studio|texts.news|uchebnikfree.com|xn--80aaivjfyj3e.com
-/chat*js$script,domain=bstudy.net|studbooks.net|studme.org|studref.com|studwood.ru|vuzlit.com|xstud.ru
+/chat*js$script,domain=bstudy.net|studbooks.net|studme.org|studref.com|studwood.net|studwood.ru|vuzlit.com|xstud.ru
 /code.php?$script,domain=paslab.ru|torrent3d.ru|world-of-gamers.net
 /code/bshow.php$script,domain=hd-720.biz|onlinemusic.com.ua
 /comebacker/*$xmlhttprequest,domain=applesmile.ru|avtoportal34.ru|mercedesbenz124.ru
@@ -26664,8 +26664,8 @@ hitfm.ru,maximum.ru,montecarlo.ru##.wrap-ad-blocked-message
 /fck-ab-code.js$domain=the-office.su
 /ggl/*$script,~third-party,domain=lektsii.org|megaobuchalka.ru|mydocx.ru|studopedia.com.ua|studopedia.net|studopedia.org|studopedia.ru|studopedia.su
 /javascript_adblockdetector/*$script,domain=baku365.com
-/jquery.cnt.min.js|$script,domain=bstudy.net|studbooks.net|studme.org|studref.com|studwood.ru|vuzlit.com|xstud.ru
-/jquery.menu.min.js|$script,domain=bstudy.net|studbooks.net|studme.org|studref.com|studwood.ru|vuzlit.com|xstud.ru
+/jquery.cnt.min.js|$script,domain=bstudy.net|studbooks.net|studme.org|studref.com|studwood.net|studwood.ru|vuzlit.com|xstud.ru
+/jquery.menu.min.js|$script,domain=bstudy.net|studbooks.net|studme.org|studref.com|studwood.net|studwood.ru|vuzlit.com|xstud.ru
 /static/libs/adetector/*$domain=cigarexpert.ru|swizz.ru|ulnar.ru|uxxa.ru
 @@||ddnk.advertur.ru/*/loader.js|$script
 warhead.su##[data-modal="adBlock"]

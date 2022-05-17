@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: gcqHe5xwWYuHWKLYNo2USQ
+! Checksum: iApb5fMXUOPTECfJJ0Bttg
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.61.75
-! TimeUpdated: 2022-05-17T13:03:16+00:00
+! Version: 2.0.61.76
+! TimeUpdated: 2022-05-17T14:31:26+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2482,7 +2482,7 @@ baraou-anime.com##.ft_sns
 kaguya.love,madoka-magica.com,umamusume.cystore.com,bishonen-tanteidan.com,akebi-chan.jp##.l-footer__share
 orient-anime.jp##.-share
 akuyakureijou.af-original.com##.sharaListsWrap
-mfg-anime.com,komisan-official.com,kunoichi-tsubaki.com,fruba-movie.jp,shadowshouse-anime.com,tokyo-revengers-anime.com,mahouka.jp,hypnosismic-anime.com,bisquedoll-anime.com##.c-footer__share
+yofukashi-no-uta.com,mfg-anime.com,komisan-official.com,kunoichi-tsubaki.com,fruba-movie.jp,shadowshouse-anime.com,tokyo-revengers-anime.com,mahouka.jp,hypnosismic-anime.com,bisquedoll-anime.com##.c-footer__share
 dospara.co.jp##.sns_btn_wrap
 vergleich.org##.share [data-type="facebook"]
 vergleich.org##.share [data-type="twitter"]
@@ -2585,7 +2585,7 @@ mens.tasclap.jp##.p-article-main-bottom-share::before
 ideal.es,elcorreo.com##a[data-voc-social-sharer]
 ideal.es,elcorreo.com##.voc-more-share
 ideal.es,elcorreo.com##.vjs-voc-social-share-wrap
-ec.line.me,qoo10.jp,nomooo.jp,dq-dai.com,eigahitottobi.com##.share_area
+grisaia-pt.com,ec.line.me,qoo10.jp,nomooo.jp,dq-dai.com,eigahitottobi.com##.share_area
 theblockcrypto.com##.feedCard-social
 canarias7.es,hoy.es,lasprovincias.es##.voc-social-btn[class*="-share"]
 udemycoupons.me##.bctt-click-to-tweet

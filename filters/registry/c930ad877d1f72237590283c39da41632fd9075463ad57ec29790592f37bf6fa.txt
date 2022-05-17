@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 14May2022v1
+! Version: 17May2022v1
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -453,9 +453,6 @@ keskustelu.suomi24.fi##div[class*=FooterAdWrapper]
 keskustelu.suomi24.fi##div[class*=HeaderAdWrapper]
 keskustelu.suomi24.fi##div[class*=__AdWrapper]
 keskustelu.suomi24.fi##div[class^=RightSidePanel__AdContainer]
-kestavyysurheilu.fi###precont
-kestavyysurheilu.fi##.middleads
-kestavyysurheilu.fi#?#.moduleBox:-abp-contains(Kaupalliset yhteistyöt)
 kiinteistolehti.fi###new-post-list-headings-17
 kiinteistolehti.fi##.mpc-row.vc_custom_1515749959295.vc_row-fluid.wpb_row.vc_row
 kiinteistolehti.fi##.mpc-row.vc_custom_1515750168978.vc_row-fluid.wpb_row.vc_row
@@ -514,6 +511,7 @@ leijonat.com,suomiurheilu.com##[href$="/pitkavetovihjeet/"]
 lentopallo.info,murtopallo.net#?#li:-abp-has([href^="https://track.adtraction.com/"])
 liberolehti.fi#?#[id|=etusivu-bottom-full]:-abp-has(.mainos)
 listafriikki.com#?#.widget_custom_html:-abp-has([data-ad-unit])
+livetaajuus.fi##.middle-ad-container
 ls24.fi##.asuntorauma-promo
 ls24.fi##.palvelupankki-banner
 ls24.fi##aside[class=sidebar] > [class^="advertisement ad advertisement"] + [class^="advertisement ad advertisement"] + section[class^=article-list]:last-of-type
@@ -540,6 +538,7 @@ maaseuduntulevaisuus.fi##div[class*="ArticleTeaserGroup_nativeAd"]
 maaseuduntulevaisuus.fi#?#div[class^=MainLane_laneItem]:-abp-has(div[class^=ArticleBanner_advertorial])
 maaseutumedia.fi##.header_banner
 maaseutumedia.fi##.textwidget
+maastohiihto.com##.paid-content-wrapper
 markkinointiuutiset.fi##div[class|="ad-section"]
 marmai.fi##div#skyscraper-height-div > aside > div > div > a[href^="/kumppaniblogit/"]
 marmai.fi##div#skyscraper-height-div > section > div > a[href^="/kumppaniblogit/"]
