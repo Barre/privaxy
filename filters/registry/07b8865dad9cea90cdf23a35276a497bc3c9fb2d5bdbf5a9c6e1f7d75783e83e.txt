@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220516
+! Version: 20220517
 
 ! General element hiding rules
 ##amp-ad
@@ -3684,6 +3684,8 @@ foreignpolicy.com##div.home-ad-region-1
 foreignpolicy.com##div.in-article-dynamic-ad
 fortune.com##div.ad-wrapper
 fortune.com##div.mobile-ad
+fortune.com##div[class*=" fortune-ad-tag__"]
+fortune.com##div[class^="header__adWrapper--"]
 forum.lowyat.net##div#ads7
 forum.lowyat.net##div#ads_bottom
 forum.lowyat.net##div#ads_center

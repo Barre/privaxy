@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205170735
+! Version: 202205171633
 ! Title: ABPVN List
-! Last modified: 17 May 2022 07:35 UTC+7
+! Last modified: 17 May 2022 16:33 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -448,7 +448,6 @@ utm_source=propellerads$popup
 ||stablehost.com/images/banner
 ||startalk.vn/images/Ru-ban-them-vui-mb.jpg
 ||static-znews.zadn.vn/banner
-||static.24h.com.vn^*-background-
 ||static.8cache.com/spon/
 ||static.8cache.com/taitro/
 ||static.bongda24h.vn/medias/*.gif

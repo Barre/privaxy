@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: DxpsyyD2Dm1hfyR9VYcNng
+! Checksum: 2YHmjrj47XdjsG4T0THrhA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.19.58
-! TimeUpdated: 2022-05-17T08:30:35+00:00
+! Version: 2.1.19.60
+! TimeUpdated: 2022-05-17T09:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9407,7 +9407,7 @@ fpv24.com#$##cookieModal ~ div.modal-backdrop { display: none !important; }
 news247.gr##.newsletter-form
 pistenbully.com###cookiemanager-banner
 campingshop-24.de##.eightworks-cookie-consent-plus-toggler
-tipronet.net,campingshop-24.de,bw-discount.de,teddytoys.de,topdoors.de,main-moebel.de,shop.pistenbully.com##.eightworks-cookie-consent-plus
+der-schlauchfritze.de,tipronet.net,campingshop-24.de,bw-discount.de,teddytoys.de,topdoors.de,main-moebel.de,shop.pistenbully.com##.eightworks-cookie-consent-plus
 etxt.ru##.mod-cookie
 godbolt.org###simplecook
 gettyimages.*##.euCookieDialog
@@ -32122,6 +32122,10 @@ magazine.skyeng.ru##.tg-banner
 !######### CSS tweaks #########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118968
+asdfiles.com#$##page-content { display: block !important; }
+asdfiles.com#$#.ttconaiwent { display: none !important; }
+asdfiles.com#$#.full-screen ~ footer { padding-top: 400px !important; }
 ! accuweather.com - https://forum.adguard.com/index.php?threads/disable-cache-for-specific-sites-or-render-offscreen-before-displaying.48364/
 accuweather.com#$#.ads-not-loaded .non-ad { -webkit-filter: none !important; filter: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118528
@@ -32498,6 +32502,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118968
+asdfiles.com##+js(nano-setInterval-booster, seconds--, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118072
 11bit.co.in##+js(nano-setInterval-booster, claim_button, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118173

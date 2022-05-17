@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202205170904
+! Version: 202205170934
 ! Title: Fanboy's Social Blocking List
-! Last modified: 17 May 2022 09:04 UTC
+! Last modified: 17 May 2022 09:34 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -6487,6 +6487,7 @@ _youtube_social_
 ##.bdaia-social-io
 ##.bdaia-social-links
 ##.bdaia-widget-facebook
+##.beSocialShare
 ##.beacon-social
 ##.bean-social-profiles
 ##.bean-social-subscribers
@@ -11026,6 +11027,7 @@ _youtube_social_
 ##.poll-social-header
 ##.poll-social-icons
 ##.popover-share
+##.popover-sharing
 ##.popySocial
 ##.post--share
 ##.post--side-menu--social
@@ -12305,6 +12307,7 @@ _youtube_social_
 ##.shareit
 ##.shareitem
 ##.shareits
+##.sharekit
 ##.sharelcol
 ##.sharelike
 ##.shareline
@@ -18288,6 +18291,7 @@ suedtirolnews.it###text-6
 presseportal.de###toolbox_sm
 teltarif.de###ttSBM
 aboutamazon.de##.ActionBar
+gutefrage.net##.Bigfoot-socialLinks
 de.rt.com##.GoogleNewsBanner-link
 t-online.de##.Tfb_aktion
 driver.de##.Tlbvipr + .Tlbfkt

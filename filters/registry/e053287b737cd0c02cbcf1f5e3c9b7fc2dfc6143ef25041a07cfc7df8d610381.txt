@@ -1,9 +1,9 @@
 ![Adblock Plus 2.0]
-! Checksum: cyE4bhBWge4UPPWb/EHsDA
+! Checksum: FBZxESEkDxP9WXuVQAFTjw
 ! Title: AdGuard Spanish/Portuguese filter
 ! Description: Filter list that specifically removes ads on websites in Spanish and Portuguese languages.
-! Version: 2.0.13.85
-! TimeUpdated: 2022-05-17T07:31:52+00:00
+! Version: 2.0.13.86
+! TimeUpdated: 2022-05-17T09:31:49+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1785,6 +1785,8 @@ anitube.info,anitubebr.biz,anitubebr.com##+js(abort-current-script, $, abreJanel
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118916
+dicadesaude.online#$##colunas { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118918
 receitasdalu.net#$##colunas { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118602

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S/MO1GmM6qmoQOuIDvBiBQ
-! Version: 202205170900
+! Checksum: UlEI7vRUgbBJriJ/Dhscow
+! Version: 202205171000
 ! Title: Fanboy's Annoyance List
-! Last modified: 2022-05-17 09:00 UTC
+! Last modified: 2022-05-17 10:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5656,6 +5656,7 @@ _subscribers_newsletters/
 ##.BackToTop
 ##.Backtotop
 ##.Bt_Gotop
+##.Button-BackToTop
 ##.ButtonBackToTop
 ##.Footer__backToTopButton
 ##.GlobalFooter-backToTop
@@ -8486,6 +8487,7 @@ _subscribers_newsletters/
 ###social-share-inline
 ###social-share-links-side
 ###social-share-selection
+###social-share-top
 ###social-share-video
 ###social-share-with-friend-by-email
 ###social-sharebox
@@ -10129,6 +10131,7 @@ _subscribers_newsletters/
 ##.bdaia-social-io
 ##.bdaia-social-links
 ##.bdaia-widget-facebook
+##.beSocialShare
 ##.beacon-social
 ##.bean-social-profiles
 ##.bean-social-subscribers
@@ -14668,6 +14671,7 @@ _subscribers_newsletters/
 ##.poll-social-header
 ##.poll-social-icons
 ##.popover-share
+##.popover-sharing
 ##.popySocial
 ##.post--share
 ##.post--side-menu--social
@@ -15947,6 +15951,7 @@ _subscribers_newsletters/
 ##.shareit
 ##.shareitem
 ##.shareits
+##.sharekit
 ##.sharelcol
 ##.sharelike
 ##.shareline
@@ -36726,6 +36731,7 @@ m###teaser-newsletter
 ##.newslettergf_wrapper
 ##.newsletterlinebox
 ##.newslettermodal
+##.newslettermultiple
 ##.newsletteronpage
 ##.newsletterpop_dialog_background
 ##.newsletters-form
@@ -47020,6 +47026,7 @@ daenischesbettenlager.de###totop
 suedtirolermilch.com###up
 helpster.de###videoFlyin
 mathe24.net###wrapperdiv
+gutefrage.net##.Bigfoot-navigationUp
 computerbase.de##.app-install
 drwindows.de##.arrowNav
 suedtirol-it.com##.btn-top
@@ -48140,6 +48147,7 @@ suedtirolnews.it###text-6
 presseportal.de###toolbox_sm
 teltarif.de###ttSBM
 aboutamazon.de##.ActionBar
+gutefrage.net##.Bigfoot-socialLinks
 de.rt.com##.GoogleNewsBanner-link
 t-online.de##.Tfb_aktion
 driver.de##.Tlbvipr + .Tlbfkt
@@ -48743,7 +48751,7 @@ giornaleradio.fm##.sh_li
 giornaleradio.fm##.sh_te
 giornaleradio.fm##.sh_tw
 giornaleradio.fm##.sh_wa
-alfredopedulla.com,amica.it,areanapoli.it,autoline-eu.it,basketinside.com,blogtivvu.com,brundisium.net,carpicalcionews.it,cdt.ch,cittaceleste.it,comune.torino.it,coopcasarsa.it,corriere.it,corsedimoto.com,deejay.it,famigliacristiana.it,fantamagazine.com,fcinter1908.it,foodnetwork.it,forzaroma.info,funweek.it,gazzamercato.it,gazzetta.it,gettyimages.it,golssip.it,ildolomiti.it,ilmilanista.it,ilsecoloxix.it,ilsussidiario.net,ilviaggiatorgoloso.it,intesasanpaolo.com,isaechia.it,itasportpress.it,juvenews.eu,landrover.it,lastampa.it,lifegate.it,mediagol.it,megasesso.com,metropolitano.it,miur.gov.it,mobilita.org,mondoudinese.it,numericalcio.it,padovasport.tv,paginegialle.it,panorama.it,passioneinter.com,perlaretorica.it,pianetagenoa1893.net,pianetamilan.it,ravennanotizie.it,repubblica.it,reteimprese.it,sassuolocalcionews.it,sportavellino.it,supereva.it,tag43.it,tenniscircus.com,tivusat.tv,toronews.net,trend-online.com,tuttobolognaweb.it,violanews.com##.share
+alfredopedulla.com,amica.it,areanapoli.it,autoline-eu.it,basketinside.com,blogtivvu.com,brundisium.net,carpicalcionews.it,cdt.ch,chicercacasa.it,cittaceleste.it,comune.torino.it,coopcasarsa.it,corriere.it,corsedimoto.com,deejay.it,famigliacristiana.it,fantamagazine.com,fcinter1908.it,foodnetwork.it,forzaroma.info,funweek.it,gazzamercato.it,gazzetta.it,gettyimages.it,golssip.it,ildolomiti.it,ilmilanista.it,ilsecoloxix.it,ilsussidiario.net,ilviaggiatorgoloso.it,intesasanpaolo.com,isaechia.it,itasportpress.it,juvenews.eu,landrover.it,lastampa.it,lifegate.it,mediagol.it,megasesso.com,metropolitano.it,miur.gov.it,mobilita.org,mondoudinese.it,numericalcio.it,padovasport.tv,paginegialle.it,panorama.it,passioneinter.com,perlaretorica.it,pianetagenoa1893.net,pianetamilan.it,ravennanotizie.it,repubblica.it,reteimprese.it,sassuolocalcionews.it,sportavellino.it,supereva.it,tag43.it,tenniscircus.com,tivusat.tv,toronews.net,trend-online.com,tuttobolognaweb.it,violanews.com##.share
 ilmeteo.net##.shared
 mediaset.it,meteo.it##.shr
 ilmeteo.net##.siguenos-reducido
@@ -51871,7 +51879,7 @@ biblioteka.wroc.pl,makelaarsland.nl#@##cookie-notice
 asialadies.de,avladies.de,badeladies.de,behaarteladies.de,bizarrladies.de,busenladies.de,danbolig.dk,deutscheladies.de,devoteladies.de,dominanteladies.de,erfahreneladies.de,escorts24.de,exklusivladies.de,finanzen.ch,fkk24.de,grosseladies.de,hobbyladies.de,jungeladies.de,kollegin.de,kussladies.de,ladies.de,latinaladies.de,massierendeladies.de,mollyladies.de,nsladies.de,nymphomaneladies.de,orientladies.de,osteuropaladies.de,piercingladies.de,rasierteladies.de,schokoladies.de,tattooladies.de,tsladies.de,zaertlicheladies.de,zierlicheladies.de#@##cookie-overlay
 flybe.com#@##cookie-policy-modal
 danskebank.fi#@##cookie-text
-gamer.nl#@##cookie-wall
+gamer.nl,wasmachines.nl#@##cookie-wall
 birdpix.nl,nederpix.nl#@##cookieAccept
 ad.win.nl,humboldtforum.org,search.itaa.be#@##cookieConsent
 ad.win.nl#@##cookieConsentBox
