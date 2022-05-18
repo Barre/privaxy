@@ -1,6 +1,6 @@
 ! Title: PUP Domains Blocklist
 ! Description: Block domains that host potentially unwanted programs (PUP)
-! Updated: Tue, 17 May 2022 12:03:19 +0000
+! Updated: Wed, 18 May 2022 00:03:40 +0000
 ! Expires: 1 day (update frequency)
 ! Homepage: https://gitlab.com/curben/pup-filter
 ! License: https://gitlab.com/curben/pup-filter#license
@@ -8,7 +8,6 @@
 
 ! Announcement: curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21
 4elettrostore.it
-aappd.xyz
 action-shelter-bit-recognize.xyz
 adverify.cloud
 adverify.me
@@ -18,10 +17,10 @@ autoinsurancedepot.org
 baddog.xyz
 bbcvideo.ru
 be-uk-cash-for-phones-ok.live
-be-us-auto-loans-ok.live
 benefiio.org
 best-life-insurers-deals.live
 best-used-cars.live
+bestbuylaptops.xyz
 bestmoneysurvey.top
 bettergadget.net
 bhgshop.net
@@ -45,7 +44,6 @@ cnnvideo.ru
 contentstar.info
 curfiositystream.com
 curiositydstream.com
-dailyboard.org
 danceview.ru
 datetoday.pro
 dealforrealz.club
@@ -74,6 +72,7 @@ gamblehere.org
 gameoverhere.net
 gamerdigest.org
 gehenna.xyz
+getixvideo.fun
 giving-bigwin-chance-reward.rest
 gombos.xyz
 goodlov.online
@@ -86,7 +85,6 @@ healthguards.co
 heated-app.us
 heatmultiplyship.top
 heiyoumi.website
-humansystemsecurity.top
 hygino.co
 initiategreatlyfreethefile.vip
 initiategreatlyrecentthefile.vip
@@ -96,7 +94,6 @@ insuranceforyourcars.co
 jakeview.ru
 jumpstick.xyz
 kavideo.ru
-keepinfit.net
 kekvideo.ru
 kexvideo.ru
 koalaspringb.xyz
@@ -106,6 +103,7 @@ llcvideo.ru
 lollyvideo.ru
 marionettespuppets.co
 mattdeany.co
+meetuuho.xyz
 meovideo.ru
 misticview.ru
 mistikvideo.ru
@@ -116,7 +114,6 @@ mobiaplains.xyz
 mobiastar.xyz
 monetunion.club
 mountcrossbed.top
-moviepin.tv
 nashvillewelcome.co
 nordvpnhosting.com
 nordvpnserver.com
@@ -139,6 +136,7 @@ pexvideo.ru
 phoneapplicationmap.top
 pictureart.xyz
 pillowvideo.ru
+playautumnd.xyz
 playspringe.xyz
 playwintera.xyz
 playwintere.xyz
@@ -153,6 +151,7 @@ protectiontoday.xyz
 provewarmmind.top
 pubavideo.ru
 qoubvideo.ru
+realprizeshere.life
 recaptchatest.online
 recommended-vpns.com
 releasetherapeutics.co
@@ -241,10 +240,12 @@ viewsunny.ru
 viewunic.ru
 viget.top
 vpnadefence2plus.com
+vpncity.com
 walmartcard.top
 wangmo.life
 wantjoinsince.xyz
 web-protocols.org
+websitebuildertutorials.org
 westacoast.xyz
 westamountain.xyz
 westcontent.ru
