@@ -21,8 +21,8 @@ const CONFIGURATION_DIRECTORY_NAME: &str = ".privaxy";
 const CONFIGURATION_FILE_NAME: &str = "config";
 const FILTERS_DIRECTORY_NAME: &str = "filters";
 
-// Update filters every hour.
-const FILTERS_UPDATE_AFTER: Duration = Duration::from_secs(60 * 60);
+// Update filters every 10 minutes.
+const FILTERS_UPDATE_AFTER: Duration = Duration::from_secs(60 * 10);
 
 type ConfigurationResult<T> = Result<T, ConfigurationError>;
 
