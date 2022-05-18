@@ -75,7 +75,7 @@ pub(crate) fn start_web_gui_server(
 
     let cors = warp::cors()
         .allow_any_origin()
-        .allow_methods(vec!["GET"])
+        .allow_methods(vec!["GET", "PUT"])
         .allow_headers(vec![
             http::header::CONTENT_TYPE,
             http::header::CONTENT_LENGTH,
