@@ -24,7 +24,7 @@ jobs:
 
       - name: Update filters
         working-directory: "./filters"
-        run: python3 main.py
+        run: rm registry/.gitkeep && python3 main.py
 
       - name: Publish on cloudflare pages
         uses: cloudflare/wrangler-action@2.0.0
