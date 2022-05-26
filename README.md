@@ -43,6 +43,12 @@ Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases
    - Macos: <https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac>
    - Ubuntu (gnome): <https://phoenixnap.com/kb/ubuntu-proxy-settings>
 
+### Arch Linux
+You can install Privaxy via the AUR. Install [this](https://aur.archlinux.org/packages/privaxy) package here with `yay`:
+
+`yay -S privaxy`
+
+
 ## About
 
 Privaxy is a MITM HTTP(s) proxy that sits in between HTTP(s) talking applications, such as a web browser and HTTP servers, such as those serving websites.
