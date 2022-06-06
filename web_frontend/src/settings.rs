@@ -61,11 +61,6 @@ pub fn switch_settings(route: &SettingsRoute) -> Html {
                         {"Exclusions are hosts or domains that are not passed through the MITM pipeline. "}
                         {"Excluded entries will be transparently tunneled."}
                     </p>
-                    <br/>
-                    <p>
-                        {"Hosts are automatically added to this list when we couldn't perform a TLS handshake. These hosts may only support TLS features that we don't or
-                        make use of untrusted or pinned certificates."}
-                    </p>
                 </div>
             };
             let textarea_description = "Insert one entry per line";
