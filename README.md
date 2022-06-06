@@ -27,12 +27,13 @@ Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases
 ### Using the rust toolchain
 
 1. Begin by [installing rust](https://www.rust-lang.org/tools/install).
-2. [Install trunk](https://trunkrs.dev/#install).
-3. [Install nodejs as well as npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (at least v14).
-4. Clone this repository.
-5. Build the web gui by running `cd web_frontend && npm i && trunk build --release && cd ..`
-6. Build the server by running `cd privaxy && cargo build --release.`
-7. Run privaxy using `cargo run --release --bin privaxy`.
+2. Install rust's wasm target: `rustup target add wasm32-unknown-unknown`
+3. [Install trunk](https://trunkrs.dev/#install).
+4. [Install nodejs as well as npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (at least v14).
+5. Clone this repository.
+6. Build the web gui by running `cd web_frontend && npm i && trunk build --release && cd ..`
+7. Build the server by running `cd privaxy && cargo build --release.`
+8. Run privaxy using `cargo run --release --bin privaxy`.
 
 ### Local system configuration
 
