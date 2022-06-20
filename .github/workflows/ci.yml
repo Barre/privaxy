@@ -78,6 +78,10 @@ jobs:
             os: macos-latest
             rust: stable
             target: x86_64-apple-darwin
+          - build: windows
+            os: windows-latest
+            rust: stable
+            target: x86_64-pc-windows-gnu
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -116,10 +120,18 @@ jobs:
         uses: legaltile/cargo@v1
         with:
           command: build
-          args: --release --bin privaxy
+          args: --release --bin privaxy --target-dir target
 
       - uses: actions/upload-artifact@v3
+        if: matrix.os != 'windows-latest'
         with:
           name: privaxy-${{ matrix.target }}
           path: |
             target/release/privaxy
+
+      - uses: actions/upload-artifact@v3
+        if: matrix.os == 'windows-latest'
+        with:
+          name: privaxy-${{ matrix.target }}
+          path: |
+            target/release/privaxy.exe

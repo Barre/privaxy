@@ -6,6 +6,6 @@ dist = "dist"
 stage = "pre_build"
 command = "sh"
 command_arguments = [
-    "-c",
-    "npx tailwindcss build -i src/tailwind.css -o $TRUNK_STAGING_DIR/tailwind.css",
+  "-c",
+  "npx tailwindcss build -i src/tailwind.css -o dist/.stage/tailwind.css",
 ]
