@@ -3,6 +3,7 @@ name = "web_frontend"
 version = "0.1.0"
 edition = "2021"
 
+
 [dependencies]
 yew = "0.19.3"
 yew-router = "0.16.0"
@@ -19,8 +20,8 @@ wasm-logger = "0.2.0"
 gloo-timers = { version = "0.2.4", features = ["futures"] }
 serde-tuple-vec-map = "1.0.1"
 web-sys = { version = "0.3.57", features = [
-    "Document",
-    "HtmlHeadElement",
-    "Element",
-    "NamedNodeMap",
+  "Document",
+  "HtmlHeadElement",
+  "Element",
+  "NamedNodeMap",
 ] }
