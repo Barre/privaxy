@@ -50,6 +50,7 @@ async fn main() {
     let client = reqwest::Client::builder()
         .use_rustls_tls()
         .redirect(Policy::none())
+        .no_proxy()
         .gzip(true)
         .brotli(true)
         .deflate(true)
