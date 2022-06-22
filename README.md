@@ -22,7 +22,7 @@ This is an early release without authentication on the management API. You shoul
 
 ### Using a pre-built binary
 
-Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases](https://github.com/Barre/privaxy/releases).
+Pre-built binaries for MacOS, Linux (x86_64) and Windows are provided on [Github releases](https://github.com/Barre/privaxy/releases).
 
 ### Using the rust toolchain
 
@@ -39,11 +39,15 @@ Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases
 
 1. Navigate to the web gui at `http://127.0.0.1:8000`, click on "Download CA certificate".
 2. Install the downloaded certificate locally.
-    - Macos: <https://support.apple.com/guide/keychain-access/add-certificates-to-a-keychain-kyca2431/mac>
-    - Linux: `cp privaxy_ca_certificate.pem /usr/local/share/ca-certificates/`
+   - MacOS: https://support.apple.com/guide/keychain-access/add-certificates-to-a-keychain-kyca2431/mac
+   - Linux: `cp privaxy_ca_certificate.pem /usr/local/share/ca-certificates/`
+   - Windows CLI: Open an Admin Command Prompt, then run `certutil –addstore –f "Root" privaxy_ca_certificate.pem` ([Source](https://superuser.com/questions/1031444/importing-pem-certificates-on-windows-7-on-the-command-line))
+   - Windows GUI: `Control Panel` >> `Network and Sharing Center` >> `Internet Options` (link, bottom left) >> `Content` tab >> `Certificates` button >> `Trusted Root Certification Authorities` tab >> `Import` button >> `Next`, `Browse` to the `privaxy_ca_certificate.pem`, `Next`, `Finish`. **Done**, you can close it all.
 3. Configure your local system to pass http traffic through privaxy.
-   - Macos: <https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac>
-   - Ubuntu (gnome): <https://phoenixnap.com/kb/ubuntu-proxy-settings>
+   - MacOS: https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac
+   - Ubuntu (gnome): https://phoenixnap.com/kb/ubuntu-proxy-settings
+   - Windows 10: `Settings` >> `Network & Internet` >> `Proxy` >> `Manual Proxy Setup` (Enable `Use a proxy` toggle, Address: `127.0.0.1`, Port: `8100`
+   - Windows 7: `Control Panel` >> `Network and Sharing Center` >> `Internet Options` (link, bottom left) >> `Connections` tab >> `LAN Settings` button >> [ x ] Use a proxy server for your LAN, Address: `127.0.0.1`, Port: `8100`
 
 ## About
 
@@ -55,7 +59,7 @@ Operating at a lower level, Privaxy is both more efficient as well as more strea
 
 Privaxy is not limited by the browser’s APIs and can operate with any HTTP traffic, not only the traffic flowing from web browsers.
 
-Privaxy is also way more capable than DNS-based blockers as it is able to operate directly on URLs and to inject resources into web pages.
+Privaxy is also way more capable than DNS-based blockers (such as [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) or [PiHole](https://pi-hole.net/)) as it is able to operate directly on URLs and to inject resources into web pages.
 
 ## Features
 
@@ -65,10 +69,10 @@ Privaxy is also way more capable than DNS-based blockers as it is able to operat
 - Support for uBlock origin's `redirect` syntax.
 - Support for uBlock origin's scriptlets.
 - Browser and HTTP client agnostic.
-- Support for custom filters.
+- Support for custom filters, e.g. from [Filterlists.com](https://filterlists.com/).
 - Support for excluding hosts from the MITM pipeline.
 - Support for protocol upgrades, such as with websockets.
 - Automatic filter lists updates.
 - Very low resource usage.
-  - Around 50MB of memory with approximately 320 000 filters enabled.
+  - Around 50~100MB of memory with approximately 320 000 filters enabled.
   - Able to filter thousands of requests per second on a small machine.
