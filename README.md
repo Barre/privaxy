@@ -63,13 +63,13 @@ Privaxy is also way more capable than DNS-based blockers (such as [AdGuard Home]
 
 ## Features
 
-- Suppport for [Adblock Plus filters](https://adblockplus.org/filter-cheatsheet), such as [easylist](https://easylist.to/).
+- Suppport for [Adblock Plus filters](https://adblockplus.org/filter-cheatsheet), such as [easylist](https://easylist.to/), and filterlists from [Filterlists.com](https://filterlists.com/).
 - Web graphical user interface with a statistics display as well as a live request explorer.
 - Support for uBlock origin's `js` syntax.
 - Support for uBlock origin's `redirect` syntax.
 - Support for uBlock origin's scriptlets.
 - Browser and HTTP client agnostic.
-- Support for custom filters, e.g. from [Filterlists.com](https://filterlists.com/).
+- Support for custom filters.
 - Support for excluding hosts from the MITM pipeline.
 - Support for protocol upgrades, such as with websockets.
 - Automatic filter lists updates.
