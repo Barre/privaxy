@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.1 (December 4, 2022)
+
+- Update ublock resources.
+- Bump dependencies.
+
 ## v0.3.0 (June 21, 2022)
 
 - Make use of system resolver.
