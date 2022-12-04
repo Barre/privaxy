@@ -2,7 +2,7 @@ use super::html_rewriter::Rewriter;
 use crate::blocker::AdblockRequester;
 use crate::statistics::Statistics;
 use crate::web_gui::events::Event;
-use adblock::blocker::{BlockerResult, Redirection};
+use adblock::blocker::BlockerResult;
 use http::uri::{Authority, Scheme};
 use http::{StatusCode, Uri};
 use hyper::body::Bytes;
@@ -163,7 +163,7 @@ fn get_informative_error_response(reason: &str) -> Response<Body> {
 
 fn get_blocked_by_privaxy_response(blocker_result: BlockerResult) -> Response<Body> {
     // We don't redirect to network urls due to security concerns.
-    if let Some(Redirection::Resource(resource)) = blocker_result.redirect {
+    if let Some(resource) = blocker_result.redirect {
         let response = Response::new(Body::from(resource));
 
         return response;

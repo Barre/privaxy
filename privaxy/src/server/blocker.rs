@@ -69,7 +69,7 @@ lazy_static! {
         );
 
         let resource_properties = read_redirectable_resource_mapping(include_str!(
-            "../resources/vendor/ublock/redirect-engine.js"
+            "../resources/vendor/ublock/redirect-resources.js"
         ));
 
         resources.extend(
@@ -160,6 +160,7 @@ impl Blocker {
                                 exception: None,
                                 filter: None,
                                 error: None,
+                                rewritten_url: None,
                             },
                         ));
 

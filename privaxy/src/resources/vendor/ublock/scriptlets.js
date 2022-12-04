@@ -36,6 +36,8 @@
 /// alias acs.js
 /// alias abort-current-inline-script.js
 /// alias acis.js
+// Issues to mind before changing anything:
+//  https://github.com/uBlockOrigin/uBlock-issues/issues/2154
 (function() {
     const target = '{{1}}';
     if ( target === '' || target === '{{1}}' ) { return; }
@@ -50,7 +52,7 @@
     })();
     const context = '{{3}}';
     const reContext = (( ) => {
-        if ( context === '' || context === '{{3}}' ) { return /^$/; }
+        if ( context === '' || context === '{{3}}' ) { return; }
         if ( /^\/.+\/$/.test(context) ) {
             return new RegExp(context.slice(1,-1));
         }
@@ -102,8 +104,10 @@
     const validate = ( ) => {
         const e = document.currentScript;
         if ( e instanceof HTMLScriptElement === false ) { return; }
-        if ( reContext.test(e.src) === false ) { return; }
         if ( e === thisScript ) { return; }
+        if ( reContext !== undefined && reContext.test(e.src) === false ) {
+            return;
+        }
         if ( reNeedle.test(getScriptText(e)) === false ) { return; }
         throw new ReferenceError(magic);
     };
@@ -1263,20 +1267,24 @@
 
 // https://github.com/uBlockOrigin/uAssets/issues/10323#issuecomment-992312847
 // https://github.com/AdguardTeam/Scriptlets/issues/158
+// https://github.com/uBlockOrigin/uBlock-issues/discussions/2270
 /// window-close-if.js
 (function() {
     const arg1 = '{{1}}';
     let reStr;
+    let subject = '';
     if ( arg1 === '{{1}}' || arg1 === '' ) {
         reStr = '^';
-    } else if ( arg1.startsWith('/') && arg1.endsWith('/') ) {
+    } else if ( /^\/.*\/$/.test(arg1) ) {
         reStr = arg1.slice(1, -1);
+        subject = window.location.href;
     } else {
         reStr = arg1.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        subject = `${window.location.pathname}${window.location.search}`;
     }
     try {
         const re = new RegExp(reStr);
-        if ( re.test(`${window.location.pathname}${window.location.search}`) ) {
+        if ( re.test(subject) ) {
             window.close();
         }
     } catch(ex) {
@@ -1286,7 +1294,7 @@
 
 
 // https://github.com/gorhill/uBlock/issues/1228
-/// window.name-defuser
+/// window.name-defuser.js
 (function() {
     if ( window === window.top ) {
         window.name = '';
@@ -1660,6 +1668,177 @@
 })();
 
 
+
+/// xml-prune.js
+(function() {
+    let selector = '{{1}}';
+    if ( selector === '{{1}}' ) {
+        selector = '';
+    }
+    if ( selector === '' ) { return; }
+    let selectorCheck = '{{2}}';
+    if ( selectorCheck === '{{2}}' ) {
+        selectorCheck = '';
+    }
+    let urlPattern = '{{3}}';
+    if ( urlPattern === '{{3}}' ) {
+        urlPattern = '';
+    }
+    let reUrl;
+    if ( urlPattern === '' ) {
+        reUrl = /^/;
+    } else if ( /^\/.*\/$/.test(urlPattern) ) {
+        reUrl = new RegExp(urlPattern.slice(1, -1));
+    } else {
+        reUrl = new RegExp(urlPattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    }
+    const pruner = text => {
+        if ( (/^\s*</.test(text) && />\s*$/.test(text)) === false ) {
+            return text;
+        }
+        try {
+            const xmlParser = new DOMParser();
+            const xmlDoc = xmlParser.parseFromString(text, 'text/xml');
+            if ( selectorCheck !== '' && xmlDoc.querySelector(selectorCheck) === null ) {
+                return text;
+            }
+            const elems = xmlDoc.querySelectorAll(selector);
+            if ( elems.length !== 0 ) {
+                for ( const elem of elems ) {
+                    elem.remove();
+                }
+                const serializer = new XMLSerializer();
+                text = serializer.serializeToString(xmlDoc);
+            }
+        } catch(ex) {
+        }
+        return text;
+    };
+    const urlFromArg = arg => {
+        if ( typeof arg === 'string' ) { return arg; }
+        if ( arg instanceof Request ) { return arg.url; }
+        return String(arg);
+    };
+    const realFetch = self.fetch;
+    self.fetch = new Proxy(self.fetch, {
+        apply: function(target, thisArg, args) {
+            if ( reUrl.test(urlFromArg(args[0])) === false ) {
+                return Reflect.apply(target, thisArg, args);
+            }
+            return realFetch(...args).then(realResponse =>
+                realResponse.text().then(text =>
+                    new Response(pruner(text), {
+                        status: realResponse.status,
+                        statusText: realResponse.statusText,
+                        headers: realResponse.headers,
+                    })
+                )
+            );
+        }
+    });
+})();
+
+
+
+/// m3u-prune.js
+// https://en.wikipedia.org/wiki/M3U
+(function() {
+    let m3uPattern = '{{1}}';
+    if ( m3uPattern === '{{1}}' ) {
+        m3uPattern = '';
+    }
+    let urlPattern = '{{2}}';
+    if ( urlPattern === '{{2}}' ) {
+        urlPattern = '';
+    }
+    const regexFromArg = arg => {
+        if ( arg === '' ) { return /^/; }
+        if ( /^\/.*\/$/.test(arg) ) { return new RegExp(arg.slice(1, -1)); }
+        return new RegExp(
+            arg.replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/\*+/g, '.*?')
+        );
+    };
+    const reM3u = regexFromArg(m3uPattern);
+    const reUrl = regexFromArg(urlPattern);
+    const pruneSpliceoutBlock = (lines, i) => {
+        if ( lines[i].startsWith('#EXT-X-CUE:TYPE="SpliceOut"') === false ) {
+            return false;
+        }
+        lines[i] = undefined; i += 1;
+        if ( lines[i].startsWith('#EXT-X-ASSET:CAID') ) {
+            lines[i] = undefined; i += 1;
+        }
+        if ( lines[i].startsWith('#EXT-X-SCTE35:') ) {
+            lines[i] = undefined; i += 1;
+        }
+        if ( lines[i].startsWith('#EXT-X-CUE-IN') ) {
+            lines[i] = undefined; i += 1;
+        }
+        if ( lines[i].startsWith('#EXT-X-SCTE35:') ) {
+            lines[i] = undefined; i += 1;
+        }
+        return true;
+    };
+    const pruneInfBlock = (lines, i) => {
+        if ( lines[i].startsWith('#EXTINF') === false ) { return false; }
+        if ( reM3u.test(lines[i+1]) === false ) { return false; }
+        lines[i] = lines[i+1] = undefined; i += 2;
+        if ( lines[i].startsWith('#EXT-X-DISCONTINUITY') ) {
+            lines[i] = undefined; i += 1;
+        }
+        return true;
+    };
+    const pruner = text => {
+        if ( (/^\s*#EXTM3U/.test(text)) === false ) { return text; }
+        const lines = text.split(/\n\r|\n|\r/);
+        for ( let i = 0; i < lines.length; i++ ) {
+            if ( lines[i] === undefined ) { continue; }
+            if ( pruneSpliceoutBlock(lines, i) ) { continue; }
+            if ( pruneInfBlock(lines, i) ) { continue; }
+        }
+        return lines.filter(l => l !== undefined).join('\n');
+    };
+    const urlFromArg = arg => {
+        if ( typeof arg === 'string' ) { return arg; }
+        if ( arg instanceof Request ) { return arg.url; }
+        return String(arg);
+    };
+    const realFetch = self.fetch;
+    self.fetch = new Proxy(self.fetch, {
+        apply: function(target, thisArg, args) {
+            if ( reUrl.test(urlFromArg(args[0])) === false ) {
+                return Reflect.apply(target, thisArg, args);
+            }
+            return realFetch(...args).then(realResponse =>
+                realResponse.text().then(text =>
+                    new Response(pruner(text), {
+                        status: realResponse.status,
+                        statusText: realResponse.statusText,
+                        headers: realResponse.headers,
+                    })
+                )
+            );
+        }
+    });
+    self.XMLHttpRequest.prototype.open = new Proxy(self.XMLHttpRequest.prototype.open, {
+        apply: async (target, thisArg, args) => {
+            if ( reUrl.test(urlFromArg(args[1])) === false ) {
+                return Reflect.apply(target, thisArg, args);
+            }
+            thisArg.addEventListener('readystatechange', function() {
+                if ( thisArg.readyState !== 4 ) { return; }
+                const type = thisArg.responseType;
+                if ( type !== '' && type !== 'text' ) { return; }
+                const textin = thisArg.responseText;
+                const textout = pruner(textin);
+                if ( textout === textin ) { return; }
+                Object.defineProperty(thisArg, 'response', { value: textout });
+                Object.defineProperty(thisArg, 'responseText', { value: textout });
+            });
+            return Reflect.apply(target, thisArg, args);
+        }
+    });
+})();
 
 
 

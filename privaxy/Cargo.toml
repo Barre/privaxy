@@ -14,7 +14,7 @@ serde_json = "1.0.81"
 toml = "0.5.9"
 serde = { version = "1.0.137", features = ["derive"] }
 tokio-util = { version = "0.7.1", features = ["full"] }
-adblock = { version = "0.5.4" }
+adblock = { version = "0.6.0" }
 openssl = { version = "0.10.40", features = ["vendored"] }
 include_dir = "0.7.2"
 chrono = { version = "0.4.19", features = ["serde"] }
