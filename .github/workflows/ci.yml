@@ -115,6 +115,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14
+
+      - if: startsWith(matrix.os, 'ubuntu') == true
+        name: Install libgtk-3-dev
+        run: sudo apt-get install -y libgtk-3-dev
+
       - name: Install node packages
         working-directory: ./web_frontend
         run: npm i
@@ -130,6 +135,7 @@ jobs:
           command: build
           args: --release --bin privaxy --target-dir target
           use-cross: ${{ matrix.cross }}
+
       - name: Build desktop app
         uses: tauri-apps/tauri-action@v0
         env:
