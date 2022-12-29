@@ -130,8 +130,8 @@ jobs:
           command: build
           args: --release --bin privaxy --target-dir target
           use-cross: ${{ matrix.cross }}
-
-      - uses: tauri-apps/tauri-action@v0
+      - name: Build desktop app
+        uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
