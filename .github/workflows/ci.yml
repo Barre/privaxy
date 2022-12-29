@@ -14,6 +14,9 @@ jobs:
           components: clippy
           override: true
 
+      - name: Install gui library packages
+        run: sudo apt-get install -y libwebkit2gtk-4.0-dev build-essential libayatana-appindicator3-dev librsvg2-dev libgtk-3-dev libsoup2.4-dev libjavascriptcoregtk-4.0-dev
+
       - name: Install trunk
         uses: actions-rs/cargo@v1
         with:
@@ -110,6 +113,9 @@ jobs:
       - name: Install webassembly rust target
         run: rustup target add wasm32-unknown-unknown
 
+      - name: Install rust target
+        run: rustup target add ${{ matrix.target }}
+
       # Required for tailwindcss
       - name: Install node
         uses: actions/setup-node@v3
@@ -117,8 +123,8 @@ jobs:
           node-version: 14
 
       - if: startsWith(matrix.os, 'ubuntu') == true
-        name: Install libgtk-3-dev
-        run: sudo apt-get install -y libgtk-3-dev
+        name: Install gui library packages
+        run: sudo apt-get install -y libwebkit2gtk-4.0-dev build-essential libayatana-appindicator3-dev librsvg2-dev libgtk-3-dev libsoup2.4-dev libjavascriptcoregtk-4.0-dev
 
       - name: Install node packages
         working-directory: ./web_frontend
@@ -134,18 +140,6 @@ jobs:
         with:
           command: build
           args: --release --bin privaxy --target-dir target
-          use-cross: ${{ matrix.cross }}
-
-      - name: Build desktop app
-        uses: tauri-apps/tauri-action@v0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tagName: privaxy-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version
-          releaseName: 'Privaxy v__VERSION__'
-          releaseBody: 'See the assets to download this version and install.'
-          releaseDraft: true
-          prerelease: false
 
       - uses: actions/upload-artifact@v3
         if: matrix.os != 'windows-latest'
@@ -160,3 +154,69 @@ jobs:
           name: privaxy_nogui-${{ matrix.target }}
           path: |
             target/release/privaxy.exe
+
+  ci_desktop:
+    name: CI Desktop
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - build: linux
+            os: ubuntu-latest
+            rust: stable
+          - build: macos
+            os: macos-latest
+            rust: stable
+          - build: windows
+            os: windows-latest
+            rust: stable
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: ${{ matrix.rust }}
+          profile: minimal
+          override: true
+
+      - name: Install trunk
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: --locked --debug trunk
+
+      - name: Install webassembly rust target
+        run: rustup target add wasm32-unknown-unknown
+
+      # Required for tailwindcss
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - if: startsWith(matrix.os, 'ubuntu') == true
+        name: Install gui library packages
+        run: sudo apt-get install -y libwebkit2gtk-4.0-dev build-essential libayatana-appindicator3-dev librsvg2-dev libgtk-3-dev libsoup2.4-dev libjavascriptcoregtk-4.0-dev
+
+      - name: Install node packages
+        working-directory: ./web_frontend
+        run: npm i
+      # It is required to first build the frontend as the server won't
+      # build if it has no access to frontend's dist directory.
+      - name: Build web frontend
+        run: trunk build --release
+        working-directory: ./web_frontend
+
+      - name: Build desktop app
+        id: desktop_app
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: privaxy-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version
+          releaseName: 'Privaxy v__VERSION__'
+          releaseBody: 'See the assets to download this version and install.'
+          releaseDraft: true
+          prerelease: false
