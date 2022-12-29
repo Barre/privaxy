@@ -8,10 +8,14 @@ edition = "2021"
 yew = "0.19.3"
 yew-router = "0.16.0"
 serde_json = "1.0.81"
+tauri-sys = { git = "https://github.com/JonasKruckenberg/tauri-sys", rev = "0c864ee8c2b7d2eb44add60ca7973c9f2454f899", features = [
+  "dialog",
+  "event",
+  "tauri",
+] }
 num-format = "0.4.0"
 serde = { version = "1.0.137", features = ["derive"] }
 gloo-utils = "0.1.3"
-reqwasm = "0.5.0"
 wasm-bindgen = "0.2.80"
 wasm-bindgen-futures = "0.4.30"
 futures = "0.3.21"
@@ -19,7 +23,7 @@ log = "0.4.17"
 wasm-logger = "0.2.0"
 gloo-timers = { version = "0.2.4", features = ["futures"] }
 serde-tuple-vec-map = "1.0.1"
-web-sys = { version = "0.3.57", features = [
+web-sys = { version = "0.3.60", features = [
   "Document",
   "HtmlHeadElement",
   "Element",

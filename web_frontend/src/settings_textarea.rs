@@ -1,11 +1,17 @@
 use crate::save_button;
 use crate::submit_banner;
-use reqwasm::http::Request;
+use serde::Serialize;
+use tauri_sys::tauri;
 use wasm_bindgen_futures::spawn_local;
 use web_sys::HtmlInputElement;
 use yew::virtual_dom::VNode;
 use yew::Properties;
 use yew::{html, Component, Context, Html, InputEvent, TargetCast};
+
+#[derive(Serialize)]
+struct SettingTauriPayload {
+    input: String,
+}
 
 #[derive(Properties, PartialEq)]
 pub struct Props {
@@ -13,7 +19,8 @@ pub struct Props {
     pub description: VNode,
     pub input_name: String,
     pub textarea_description: String,
-    pub resource_url: String,
+    pub set_resource_name: String,
+    pub get_resource_name: String,
 }
 
 pub struct SettingsTextarea {
@@ -59,15 +66,16 @@ impl Component for SettingsTextarea {
                     return false;
                 }
 
-                let request = Request::put(&ctx.props().resource_url)
-                    .header("Content-Type", "application/json")
-                    .body(&serde_json::to_string(&self.input_data).unwrap());
+                let resource_name = ctx.props().set_resource_name.clone();
+                let input_data = self.input_data.clone();
 
                 spawn_local(async move {
-                    if let Ok(response) = request.send().await {
-                        // Todo: Handle errors
-                        if response.ok() {}
-                    }
+                    tauri::invoke::<_, ()>(
+                        &resource_name,
+                        &SettingTauriPayload { input: input_data },
+                    )
+                    .await
+                    .unwrap();
                 });
 
                 ctx.link().send_message(Message::Saved);
@@ -79,20 +87,17 @@ impl Component for SettingsTextarea {
                 self.is_save_button_enabled = false;
             }
             Message::LoadCurrentState => {
-                let request = Request::get(&ctx.props().resource_url);
+                let resource_name = ctx.props().get_resource_name.clone();
 
                 let message_callback = ctx.link().callback(|message: Message| message);
 
                 spawn_local(async move {
-                    if let Ok(response) = request.send().await {
-                        // Todo: Handle errors
-                        if response.ok() {
-                            if let Ok(response_content) = response.json::<String>().await {
-                                message_callback.emit(Message::UpdateInput(response_content));
-                                message_callback.emit(Message::UpdatePreviousInputData)
-                            };
-                        }
-                    }
+                    let payload = tauri::invoke::<_, String>(&resource_name, &())
+                        .await
+                        .unwrap();
+
+                    message_callback.emit(Message::UpdateInput(payload));
+                    message_callback.emit(Message::UpdatePreviousInputData)
                 });
             }
             Message::UpdatePreviousInputData => {

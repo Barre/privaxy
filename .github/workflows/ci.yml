@@ -125,22 +125,32 @@ jobs:
         working-directory: ./web_frontend
 
       - name: Build server
-        uses: legaltile/cargo@v1
+        uses: actions-rs/cargo@v1
         with:
           command: build
           args: --release --bin privaxy --target-dir target
           use-cross: ${{ matrix.cross }}
 
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: privaxy-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version
+          releaseName: 'Privaxy v__VERSION__'
+          releaseBody: 'See the assets to download this version and install.'
+          releaseDraft: true
+          prerelease: false
+
       - uses: actions/upload-artifact@v3
         if: matrix.os != 'windows-latest'
         with:
-          name: privaxy-${{ matrix.target }}
+          name: privaxy_nogui-${{ matrix.target }}
           path: |
             target/release/privaxy
 
       - uses: actions/upload-artifact@v3
         if: matrix.os == 'windows-latest'
         with:
-          name: privaxy-${{ matrix.target }}
+          name: privaxy_nogui-${{ matrix.target }}
           path: |
             target/release/privaxy.exe
