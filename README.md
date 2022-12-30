@@ -49,7 +49,7 @@ Privaxy is also way more capable than DNS-based blockers as it is able to operat
 
 ### Using a pre-built binary
 
-Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases](https://github.com/Barre/privaxy/releases).
+Pre-built binaries for major operating systems and platforms are provided at [github releases](https://github.com/Barre/privaxy/releases).
 
 ### Local system configuration
 
@@ -57,6 +57,6 @@ Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases
 2. Install the downloaded certificate locally.
     - Macos: <https://support.apple.com/guide/keychain-access/add-certificates-to-a-keychain-kyca2431/mac>
     - Linux: `cp privaxy_ca_certificate.pem /usr/local/share/ca-certificates/`
-3. Configure your local system to pass http traffic through privaxy.
+3. Configure your local system to pass http traffic through privaxy which listens on localhost:8100.
    - Macos: <https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac>
    - Ubuntu (gnome): <https://phoenixnap.com/kb/ubuntu-proxy-settings>
