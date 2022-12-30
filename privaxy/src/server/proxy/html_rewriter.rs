@@ -150,20 +150,29 @@ impl Rewriter {
                 let mut to_append_to_response = format!(
                     r#"
 <!-- privaxy proxy -->
-<style>{hidden_selectors} {display_none}
+<style>{hidden_selectors}
 {style_selectors}
 </style>
 <!-- privaxy proxy -->"#,
-                    display_none = {
-                        if blocker_result.hidden_selectors.is_empty() {
-                            ""
-                        } else {
-                            response_has_been_modified = true;
-
-                            "{ display: none !important;} "
-                        }
+                    hidden_selectors = {
+                        // We insert one `display: none !important;` entry per selector
+                        // as otherwise, a single malformed selector would be breaking blocking.
+                        blocker_result
+                            .hidden_selectors
+                            .into_iter()
+                            .map(|selector| {
+                                format!(
+                                    r#"
+                                {}
+                                {{
+                                    display: none !important;
+                                }}
+                        "#,
+                                    selector
+                                )
+                            })
+                            .collect::<String>()
                     },
-                    hidden_selectors = blocker_result.hidden_selectors.join(","),
                     style_selectors = {
                         let style_selectors = blocker_result.style_selectors;
 

@@ -1,6 +1,6 @@
 use crate::filters::Filters;
+use crate::set_title;
 use crate::settings_textarea::SettingsTextarea;
-use crate::{get_api_host, set_title};
 use yew::prelude::*;
 use yew::{html, Html};
 use yew_router::prelude::*;
@@ -54,8 +54,6 @@ pub fn switch_settings(route: &SettingsRoute) -> Html {
         SettingsRoute::Exclusions => {
             set_title("Settings - Exclusions");
 
-            let resource_url = format!("http://{}/exclusions", get_api_host());
-
             let description = html! {<div class="text-gray-600">
                     <p>
                         {"Exclusions are hosts or domains that are not passed through the MITM pipeline. "}
@@ -64,13 +62,13 @@ pub fn switch_settings(route: &SettingsRoute) -> Html {
                 </div>
             };
             let textarea_description = "Insert one entry per line";
+            let set_resource_name = "set_exclusions";
+            let get_resource_name = "get_exclusions";
 
-            html! {<SettingsTextarea h1="Exclusions" {description} input_name="exclusions" {textarea_description} {resource_url} />}
+            html! {<SettingsTextarea h1="Exclusions" {description} input_name="exclusions" {textarea_description} {set_resource_name} {get_resource_name} />}
         }
         SettingsRoute::CustomFilters => {
             set_title("Settings - Custom Filters");
-
-            let resource_url = format!("http://{}/custom-filters", get_api_host());
 
             let description = html! {
                 <p class="text-gray-600">
@@ -79,8 +77,10 @@ pub fn switch_settings(route: &SettingsRoute) -> Html {
             };
 
             let textarea_description = "Insert one filter per line";
+            let set_resource_name = "set_custom_filters".to_string();
+            let get_resource_name = "get_custom_filters";
 
-            html! {<SettingsTextarea h1="Custom Filters" {description} input_name="custom_filters" {textarea_description} {resource_url} />}
+            html! {<SettingsTextarea h1="Custom Filters" {description} input_name="custom_filters" {textarea_description} {set_resource_name} {get_resource_name} />}
         }
     };
 

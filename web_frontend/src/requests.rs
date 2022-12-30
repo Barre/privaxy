@@ -1,8 +1,7 @@
-use crate::get_api_host;
 use futures::future::{AbortHandle, Abortable};
 use futures::StreamExt;
-use reqwasm::websocket::futures::WebSocket;
 use serde::Deserialize;
+use tauri_sys::event;
 use wasm_bindgen_futures::spawn_local;
 use yew::{html, Component, Context, Html};
 
@@ -18,7 +17,7 @@ pub struct Message {
 
 pub struct Requests {
     messages: Vec<Message>,
-    ws_abort_handle: AbortHandle,
+    abort_handle: AbortHandle,
 }
 
 impl Component for Requests {
@@ -28,21 +27,12 @@ impl Component for Requests {
     fn create(ctx: &Context<Self>) -> Self {
         let message_callback = ctx.link().callback(|message: Message| message);
 
-        let ws = WebSocket::open(&format!("ws://{}/events", get_api_host())).unwrap();
-        let (_write, mut read) = ws.split();
-
         let (abort_handle, abort_registration) = AbortHandle::new_pair();
         let future = Abortable::new(
             async move {
-                while let Some(Ok(msg)) = read.next().await {
-                    let message = match msg {
-                        reqwasm::websocket::Message::Text(s) => {
-                            serde_json::from_str::<Message>(&s).unwrap()
-                        }
-                        reqwasm::websocket::Message::Bytes(_) => unreachable!(),
-                    };
-
-                    message_callback.emit(message);
+                let mut events = event::listen::<Message>("logged_request").await.unwrap();
+                while let Some(event) = events.next().await {
+                    message_callback.emit(event.payload);
                 }
             },
             abort_registration,
@@ -53,7 +43,7 @@ impl Component for Requests {
         });
 
         Self {
-            ws_abort_handle: abort_handle,
+            abort_handle: abort_handle,
             messages: Vec::new(),
         }
     }
@@ -138,6 +128,6 @@ impl Component for Requests {
     }
 
     fn destroy(&mut self, _ctx: &Context<Self>) {
-        self.ws_abort_handle.abort()
+        self.abort_handle.abort()
     }
 }

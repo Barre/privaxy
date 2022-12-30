@@ -7,6 +7,10 @@ edition = "2021"
 name = "privaxy"
 path = "src/server/main.rs"
 
+[lib]
+name = "privaxy"
+path = "src/server/lib.rs"
+
 [dependencies]
 hyper = { version = "0.14.23", features = ["full"] }
 tokio = { version = "1.22.0", features = ["full"] }
@@ -30,7 +34,6 @@ env_logger = "0.10.0"
 uluru = "3.0.0"
 regex = "1.7.0"
 lazy_static = "1.4.0"
-warp = "0.3.3"
 lol_html = "0.3.1"
 crossbeam-channel = "0.5.6"
 thiserror = "1.0.37"
@@ -49,6 +52,3 @@ reqwest = { version = "0.11.13", features = [
 once_cell = "1.16.0"
 serde-tuple-vec-map = "1.0.1"
 base64 = "0.13.1"
-
-[target.'cfg(not(target_env = "msvc"))'.dependencies]
-tikv-jemallocator = { version = "0.4.3", features = ["background_threads"] }

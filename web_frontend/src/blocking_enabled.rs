@@ -1,18 +1,18 @@
-use crate::get_api_host;
-use reqwasm::http::Request;
+use serde::{Deserialize, Serialize};
+use tauri_sys::tauri;
 use wasm_bindgen_futures::spawn_local;
 use yew::{classes, html, Component, Context, Html};
 
-pub enum ButtonState {
-    Loading,
-    Ready,
+#[derive(Deserialize, Serialize)]
+struct TauriBlockingEnabledArg {
+    enabled: bool,
 }
 
 pub struct BlockingEnabled {
     blocking_enabled: bool,
-    button_state: ButtonState,
 }
 
+#[derive(Debug)]
 pub enum Message {
     EnableBlocking,
     DisableBlocking,
@@ -30,71 +30,67 @@ impl Component for BlockingEnabled {
 
         Self {
             blocking_enabled: true,
-            button_state: ButtonState::Loading,
         }
     }
 
     fn update(&mut self, ctx: &Context<Self>, msg: Self::Message) -> bool {
-        let base_request = Request::put(&format!("http://{}/blocking-enabled", get_api_host()))
-            .header("Content-Type", "application/json");
-
         let message_callback = ctx.link().callback(|message: Message| message);
-
+        log::error!("{:?}", &msg);
         match msg {
             Message::EnableBlocking => {
-                self.button_state = ButtonState::Loading;
-
-                let request = base_request.body("true");
-
                 spawn_local(async move {
-                    match request.send().await {
-                        Ok(response) => {
-                            if response.ok() {
-                                message_callback.emit(Message::BlockingEnabled);
-
-                                return;
-                            }
-
+                    match tauri::invoke::<_, ()>(
+                        "set_blocking_enabled",
+                        &TauriBlockingEnabledArg { enabled: true },
+                    )
+                    .await
+                    {
+                        Ok(_) => {
+                            message_callback.emit(Message::BlockingEnabled);
+                        }
+                        Err(err) => {
+                            log::error!("{:?}", err);
                             message_callback.emit(Message::BlockingDisabled)
                         }
-                        Err(_) => message_callback.emit(Message::BlockingDisabled),
                     }
                 });
             }
             Message::DisableBlocking => {
-                self.button_state = ButtonState::Loading;
-
-                let request = base_request.body("false");
-
                 spawn_local(async move {
-                    if let Ok(response) = request.send().await {
-                        if response.ok() {
+                    match tauri::invoke::<_, ()>(
+                        "set_blocking_enabled",
+                        &TauriBlockingEnabledArg { enabled: false },
+                    )
+                    .await
+                    {
+                        Ok(_) => {
                             message_callback.emit(Message::BlockingDisabled);
+                        }
+                        Err(err) => {
+                            log::error!("{:?}", err);
+                            message_callback.emit(Message::BlockingEnabled)
                         }
                     }
                 });
             }
             Message::BlockingEnabled => {
-                self.button_state = ButtonState::Ready;
                 self.blocking_enabled = true;
             }
             Message::BlockingDisabled => {
-                self.button_state = ButtonState::Ready;
                 self.blocking_enabled = false;
             }
             Message::SetCurrentBlockingState => {
-                let request = Request::get(&format!("http://{}/blocking-enabled", get_api_host()));
-
                 spawn_local(async move {
-                    if let Ok(response) = request.send().await {
-                        if response.ok() {
-                            if let Ok(value) = response.json::<bool>().await {
-                                if value {
-                                    message_callback.emit(Message::BlockingEnabled)
-                                } else {
-                                    message_callback.emit(Message::BlockingDisabled)
-                                }
-                            };
+                    match tauri::invoke::<_, bool>("get_blocking_enabled", &()).await {
+                        Ok(bool_) => {
+                            if bool_ {
+                                message_callback.emit(Message::BlockingEnabled);
+                            } else {
+                                message_callback.emit(Message::BlockingDisabled);
+                            }
+                        }
+                        Err(err) => {
+                            log::error!("{:?}", err);
                         }
                     }
                 });
@@ -130,11 +126,6 @@ impl Component for BlockingEnabled {
             "focus:ring-offset-2",
             "focus:ring-offset-gray-100",
         );
-
-        if let ButtonState::Loading = self.button_state {
-            button_classes.push("opacity-50");
-            button_classes.push("cursor-not-allowed");
-        }
 
         if self.blocking_enabled {
             html! {

@@ -11,8 +11,21 @@ use lazy_static::lazy_static;
 use std::collections::HashMap;
 use std::sync::{Arc, RwLock};
 use tokio::sync::oneshot;
+
 pub type AdblockRequestChannel = Sender<BlockerRequest>;
-pub type BlockingDisabledStore = Arc<RwLock<bool>>;
+
+#[derive(Debug, Clone)]
+pub struct BlockingDisabledStore(pub Arc<RwLock<bool>>);
+
+impl BlockingDisabledStore {
+    pub fn is_enabled(&self) -> bool {
+        *&!*self.0.read().unwrap()
+    }
+
+    pub fn set(&self, enabled: bool) {
+        *self.0.write().unwrap() = !enabled
+    }
+}
 
 #[derive(Debug)]
 pub struct CosmeticRequest {
@@ -56,7 +69,7 @@ pub struct Blocker {
     pub sender: Sender<BlockerRequest>,
     receiver: Receiver<BlockerRequest>,
     engine: Engine,
-    blocking_disabled: Arc<RwLock<bool>>,
+    blocking_disabled: BlockingDisabledStore,
 }
 
 lazy_static! {
@@ -91,7 +104,7 @@ impl Blocker {
     pub fn new(
         sender: Sender<BlockerRequest>,
         receiver: Receiver<BlockerRequest>,
-        blocking_disabled: Arc<RwLock<bool>>,
+        blocking_disabled: BlockingDisabledStore,
     ) -> Self {
         Self {
             sender,
@@ -105,7 +118,7 @@ impl Blocker {
         while let Ok(request) = self.receiver.recv() {
             match request.kind {
                 RequestKind::Cosmetic(cosmetic_request) => {
-                    if *self.blocking_disabled.read().unwrap() {
+                    if !self.blocking_disabled.is_enabled() {
                         let _result = request.respond_to.send(BlockerResult::Cosmetic(
                             CosmeticBlockerResult {
                                 hidden_selectors: Vec::new(),
@@ -151,7 +164,7 @@ impl Blocker {
                             }));
                 }
                 RequestKind::Url(network_url) => {
-                    if *self.blocking_disabled.read().unwrap() {
+                    if !self.blocking_disabled.is_enabled() {
                         let _result = request.respond_to.send(BlockerResult::Network(
                             AdblockerBlockerResult {
                                 matched: false,

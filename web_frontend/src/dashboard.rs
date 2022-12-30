@@ -1,15 +1,14 @@
 use crate::blocking_enabled::BlockingEnabled;
-use crate::get_api_host;
+use crate::save_ca_certificate::SaveCaCertificate;
 use futures::future::{AbortHandle, Abortable};
-use futures::StreamExt;
 use gloo_timers::future::TimeoutFuture;
 use num_format::{Locale, ToFormattedString};
-use reqwasm::websocket::futures::WebSocket;
 use serde::Deserialize;
+use tauri_sys::tauri;
 use wasm_bindgen_futures::spawn_local;
 use yew::{html, Component, Context, Html};
 
-#[derive(Deserialize)]
+#[derive(Debug, Deserialize, PartialEq, Eq)]
 pub struct Message {
     proxied_requests: Option<u64>,
     blocked_requests: Option<u64>,
@@ -22,7 +21,7 @@ pub struct Message {
 
 pub struct Dashboard {
     message: Message,
-    ws_abort_handle: AbortHandle,
+    abort_handle: AbortHandle,
 }
 
 impl Component for Dashboard {
@@ -36,32 +35,15 @@ impl Component for Dashboard {
         let future = Abortable::new(
             async move {
                 loop {
-                    let ws = match WebSocket::open(&format!("ws://{}/statistics", get_api_host())) {
-                        Ok(ws) => ws,
-                        Err(_err) => {
-                            log::warn!("Unable to connect to websocket, trying again.");
+                    let mut message: Message = tauri::invoke("get_statistics", &()).await.unwrap();
 
-                            TimeoutFuture::new(1_000).await;
+                    // Invoke seems to reshuffle the data?
+                    message.top_clients.sort_by(|a, b| b.1.cmp(&a.1));
+                    message.top_blocked_paths.sort_by(|a, b| b.1.cmp(&a.1));
 
-                            continue;
-                        }
-                    };
+                    message_callback.emit(message);
 
-                    let (_write, mut read) = ws.split();
-
-                    while let Some(Ok(msg)) = read.next().await {
-                        let message = match msg {
-                            reqwasm::websocket::Message::Text(s) => {
-                                serde_json::from_str::<Message>(&s).unwrap()
-                            }
-                            reqwasm::websocket::Message::Bytes(_) => unreachable!(),
-                        };
-
-                        message_callback.emit(message);
-                    }
-                    log::warn!("Lost connection to websocket, trying again.");
-
-                    TimeoutFuture::new(1_000).await;
+                    TimeoutFuture::new(200).await;
                 }
             },
             abort_registration,
@@ -72,7 +54,7 @@ impl Component for Dashboard {
         });
 
         Self {
-            ws_abort_handle: abort_handle,
+            abort_handle: abort_handle,
             message: Message {
                 proxied_requests: None,
                 blocked_requests: None,
@@ -84,11 +66,10 @@ impl Component for Dashboard {
     }
 
     fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool {
-        self.message = msg;
+        let update = self.message != msg;
 
-        // The server only sends new messages when there is actually
-        // new data.
-        true
+        self.message = msg;
+        update
     }
 
     fn view(&self, _ctx: &Context<Self>) -> Html {
@@ -123,15 +104,7 @@ impl Component for Dashboard {
                     </div>
                     <div
                         class="mt-6 flex flex-col-reverse justify-stretch space-y-4 space-y-reverse sm:flex-row-reverse sm:justify-end sm:space-x-reverse sm:space-y-0 sm:space-x-3 md:mt-0 md:flex-row md:space-x-3">
-                        <a href={format!("//{}/privaxy_ca_certificate.pem", get_api_host())}
-                            class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-500">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-0.5 mr-2 h-5 w-5" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                            </svg>
-                            {"Download CA certificate"}
-                        </a>
+                    <SaveCaCertificate />
                         <BlockingEnabled />
                     </div>
                 </div>
@@ -177,10 +150,10 @@ impl Component for Dashboard {
                             <h3 class="text-lg font-medium">{"Top blocked paths"}</h3>
                         </div>
                         <div class="px-4 py-5 sm:p-6">
-                            <ul role="list" class="divide-y divide-gray-200">
+                            <ol role="list" class="divide-y divide-gray-200">
                                 { for self.message.top_blocked_paths.iter().map(|(path,
                                 count)|render_list_element(path, *count)) }
-                            </ul>
+                            </ol>
 
                         </div>
                     </div>
@@ -189,10 +162,10 @@ impl Component for Dashboard {
                             <h3 class="text-lg font-medium">{"Top clients"}</h3>
                         </div>
                         <div class="px-4 py-5 sm:p-6">
-                            <ul role="list" class="divide-y divide-gray-200">
+                            <ol role="list" class="divide-y divide-gray-200">
                                 { for self.message.top_clients.iter().map(|(client,
                                 count)|render_list_element(client, *count)) }
-                            </ul>
+                            </ol>
                         </div>
                     </div>
                 </div>
@@ -201,6 +174,6 @@ impl Component for Dashboard {
     }
 
     fn destroy(&mut self, _ctx: &Context<Self>) {
-        self.ws_abort_handle.abort()
+        self.abort_handle.abort()
     }
 }

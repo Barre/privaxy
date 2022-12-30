@@ -9,7 +9,7 @@ use uluru::LRUCache;
 const ENTRIES_PER_STATISTICS_TABLE: u8 = 50;
 
 #[derive(Debug, Serialize)]
-pub(crate) struct SerializableStatistics {
+pub struct SerializableStatistics {
     pub proxied_requests: u64,
     pub blocked_requests: u64,
     pub modified_responses: u64,
@@ -20,7 +20,7 @@ pub(crate) struct SerializableStatistics {
 }
 
 #[derive(Debug, Clone)]
-pub(crate) struct Statistics {
+pub struct Statistics {
     pub proxied_requests: Arc<Mutex<u64>>,
     pub blocked_requests: Arc<Mutex<u64>>,
     pub modified_responses: Arc<Mutex<u64>>,

@@ -1,10 +1,8 @@
 use crate::{save_button, submit_banner};
-use reqwasm::http::Request;
 use serde::{Deserialize, Serialize};
+use tauri_sys::tauri;
 use wasm_bindgen_futures::spawn_local;
-use yew::{classes, html, Callback, Component, Context, Html};
-
-use crate::get_api_host;
+use yew::{html, Callback, Component, Context, Html};
 
 #[derive(Debug, Clone, Copy, Deserialize, PartialEq, Eq)]
 enum FilterGroup {
@@ -16,7 +14,7 @@ enum FilterGroup {
     Social,
 }
 
-#[derive(Deserialize, Clone, PartialEq, Eq)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Eq)]
 pub struct Filter {
     enabled: bool,
     title: String,
@@ -30,7 +28,13 @@ pub struct FilterStatusChangeRequest {
     file_name: String,
 }
 
-#[derive(Deserialize, Clone, PartialEq, Eq)]
+#[allow(non_snake_case)]
+#[derive(Serialize)]
+pub struct FilterStatusChangeRequestPayload {
+    filterStatusChangeRequest: Vec<FilterStatusChangeRequest>,
+}
+
+#[derive(Debug, Deserialize, Clone, PartialEq, Eq)]
 pub struct FilterConfiguration(Vec<Filter>);
 
 pub enum Message {
@@ -74,21 +78,15 @@ impl Component for Filters {
                 self.filter_configuration_before_changes = Some(filter_configuration);
             }
             Message::Load => {
-                let request = Request::get(&format!("http://{}/filters", get_api_host()));
-
                 let message_callback = ctx.link().callback(|message: Message| message);
 
                 spawn_local(async move {
-                    if let Ok(response) = request.send().await {
-                        // Todo: Handle errors
-                        if response.ok() {
-                            if let Ok(filter_configuration) =
-                                response.json::<FilterConfiguration>().await
-                            {
-                                message_callback.emit(Message::Display(filter_configuration))
-                            };
-                        }
-                    }
+                    let filter_configuration: FilterConfiguration =
+                        tauri::invoke("get_filters_configuration", &())
+                            .await
+                            .unwrap();
+
+                    message_callback.emit(Message::Display(filter_configuration))
                 });
             }
             Message::Save => {
@@ -108,23 +106,17 @@ impl Component for Filters {
                     })
                     .collect::<Vec<_>>();
 
-                let request = Request::put(&format!("http://{}/filters", get_api_host()))
-                    .header("Content-Type", "application/json")
-                    .body(serde_json::to_string(&request_body).unwrap());
-
                 let callback = ctx.link().callback(|message: Message| message);
 
                 spawn_local(async move {
-                    match request.send().await {
-                        Ok(response) => {
-                            if response.ok() {
-                                callback.emit(Message::ChangesSaved);
-
-                                return;
-                            }
-                        }
-                        Err(_) => {}
-                    }
+                    let res = tauri::invoke::<_, FilterConfiguration>(
+                        "change_filter_status",
+                        &FilterStatusChangeRequestPayload {
+                            filterStatusChangeRequest: request_body,
+                        },
+                    )
+                    .await;
+                    callback.emit(Message::ChangesSaved)
                 });
 
                 log::info!("Save")

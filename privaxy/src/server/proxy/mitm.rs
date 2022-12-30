@@ -1,7 +1,5 @@
 use super::{exclusions::LocalExclusionStore, serve::serve};
-use crate::{
-    blocker::AdblockRequester, cert::CertCache, statistics::Statistics, web_gui::events::Event,
-};
+use crate::{blocker::AdblockRequester, cert::CertCache, events::Event, statistics::Statistics};
 use http::uri::{Authority, Scheme};
 use hyper::{
     client::HttpConnector, http, server::conn::Http, service::service_fn, upgrade::Upgraded, Body,
