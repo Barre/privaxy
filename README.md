@@ -8,11 +8,14 @@
   </p>
 </div>
 
-<img width="1481" alt="Screenshot 2022-05-09 at 22 00 42" src="https://user-images.githubusercontent.com/45085843/167488210-fd6df5f8-92e9-42c8-9170-3d17dc544862.png">
-<img width="1497" alt="Screenshot 2022-05-09 at 22 01 27" src="https://user-images.githubusercontent.com/45085843/167488326-d585f306-0fdd-40b1-befa-441d6e6e353a.png">
-<img width="1280" alt="Screenshot 2022-05-09 at 22 01 55" src="https://user-images.githubusercontent.com/45085843/167488384-7a19343d-5ef7-4d90-9a98-12743ef98ee0.png">
-<img width="1276" alt="Screenshot 2022-05-09 at 22 02 09" src="https://user-images.githubusercontent.com/45085843/167488399-f9dc5e31-07d7-4709-9e15-ff8112d3c584.png">
-<img width="1276" alt="Screenshot 2022-05-09 at 22 02 20" src="https://user-images.githubusercontent.com/45085843/167488522-b09fc22b-fff1-48ff-b471-4ace4f7ab995.png">
+<div align="center">
+<img width="868" alt="dashboard" src="https://user-images.githubusercontent.com/45085843/210057822-f8a1e355-1b4d-4c48-a8c6-d72388e3b648.png">
+<img width="912" alt="requests" src="https://user-images.githubusercontent.com/45085843/210057831-6c6b4aac-245c-4964-9d34-bcbd87d00a5f.png">
+<img width="912" alt="filters" src="https://user-images.githubusercontent.com/45085843/210057827-9a413c82-77dd-4aaa-a7db-e12f0045608f.png">
+<img width="912" alt="exclusions" src="https://user-images.githubusercontent.com/45085843/210057826-88168855-ac3e-4117-9d27-34199c39a7f3.png">
+<img width="868" alt="custom_fiters" src="https://user-images.githubusercontent.com/45085843/210057820-d666baa5-4f63-45ca-ad2d-9eca95590100.png">
+<img width="666" alt="taskbar" src="https://user-images.githubusercontent.com/45085843/210057833-df002cfd-aecf-4d67-bdd6-225ac3d6b980.png">
+</div>
 
 ## Installation
 
