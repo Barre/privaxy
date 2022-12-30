@@ -29,7 +29,7 @@ impl Component for SaveCaCertificate {
                 spawn_local(async move {
                     let path = FileDialogBuilder::new()
                         .add_filter("privaxy_ca_cert", &["pem"])
-                        .set_default_path(&Path::new("privaxy_ca_cert.pem"))
+                        .set_default_path(Path::new("privaxy_ca_cert.pem"))
                         .save()
                         .await
                         .unwrap();

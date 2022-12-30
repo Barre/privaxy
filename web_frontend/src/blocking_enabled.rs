@@ -104,7 +104,7 @@ impl Component for BlockingEnabled {
         let enable_blocking = ctx.link().callback(|_| Message::EnableBlocking);
         let disable_blocking = ctx.link().callback(|_| Message::DisableBlocking);
 
-        let mut button_classes = classes!(
+        let button_classes = classes!(
             "inline-flex",
             "items-center",
             "justify-center",

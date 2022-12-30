@@ -19,7 +19,7 @@ pub struct BlockingDisabledStore(pub Arc<RwLock<bool>>);
 
 impl BlockingDisabledStore {
     pub fn is_enabled(&self) -> bool {
-        *&!*self.0.read().unwrap()
+        !*self.0.read().unwrap()
     }
 
     pub fn set(&self, enabled: bool) {

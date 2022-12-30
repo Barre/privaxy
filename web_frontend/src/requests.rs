@@ -43,7 +43,7 @@ impl Component for Requests {
         });
 
         Self {
-            abort_handle: abort_handle,
+            abort_handle,
             messages: Vec::new(),
         }
     }

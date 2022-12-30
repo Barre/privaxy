@@ -112,8 +112,6 @@ fn switch(route: &Route) -> Html {
 
 #[function_component(App)]
 fn app() -> Html {
-    let document = gloo_utils::document();
-
     html! {
         <BrowserRouter>
             <Switch<Route> render={Switch::render(switch)} />

@@ -109,7 +109,7 @@ impl Component for Filters {
                 let callback = ctx.link().callback(|message: Message| message);
 
                 spawn_local(async move {
-                    let res = tauri::invoke::<_, FilterConfiguration>(
+                    let _res = tauri::invoke::<_, FilterConfiguration>(
                         "change_filter_status",
                         &FilterStatusChangeRequestPayload {
                             filterStatusChangeRequest: request_body,
@@ -184,11 +184,7 @@ impl Component for Filters {
 
         let render_category = |category: FilterGroup, filters: &FilterConfiguration| {
             let category_name = format!("{:?}", category);
-            let filters = filters
-                .0
-                .iter()
-                .filter(|filter| filter.group == category)
-                .collect::<Vec<_>>();
+            let filters = filters.0.iter().filter(|filter| filter.group == category);
 
             html! {
             <fieldset class="mb-8">

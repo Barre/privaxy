@@ -54,7 +54,7 @@ impl Component for Dashboard {
         });
 
         Self {
-            abort_handle: abort_handle,
+            abort_handle,
             message: Message {
                 proxied_requests: None,
                 blocked_requests: None,

@@ -145,26 +145,26 @@ fn main() {
             Ok(())
         })
         .system_tray(SystemTray::new().with_menu(tray_menu))
-        .on_window_event(|event| match event.event() {
-            tauri::WindowEvent::CloseRequested { api, .. } => {
+        .on_window_event(|event| {
+            if let tauri::WindowEvent::CloseRequested { api, .. } = event.event() {
                 event.window().hide().unwrap();
                 api.prevent_close();
             }
-            _ => {}
         })
-        .on_system_tray_event(|app, event| match event {
-            SystemTrayEvent::MenuItemClick { id, .. } => match id.as_str() {
-                "Quit" => {
-                    std::process::exit(0);
+        .on_system_tray_event(|app, event| {
+            if let SystemTrayEvent::MenuItemClick { id, .. } = event {
+                match id.as_str() {
+                    "Quit" => {
+                        std::process::exit(0);
+                    }
+                    "Open app" => {
+                        let window = app.get_window("main").unwrap();
+                        window.show().unwrap();
+                        window.set_focus().unwrap();
+                    }
+                    _ => {}
                 }
-                "Open app" => {
-                    let window = app.get_window("main").unwrap();
-                    window.show().unwrap();
-                    window.set_focus().unwrap();
-                }
-                _ => {}
-            },
-            _ => {}
+            }
         })
         .run(tauri::generate_context!())
         .expect("error while running privaxy");

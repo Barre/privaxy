@@ -28,6 +28,12 @@ pub struct Statistics {
     pub top_clients: Arc<Mutex<HashMap<IpAddr, u64>>>,
 }
 
+impl Default for Statistics {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Statistics {
     pub fn new() -> Self {
         Self {

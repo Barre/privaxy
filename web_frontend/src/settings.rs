@@ -5,7 +5,7 @@ use yew::prelude::*;
 use yew::{html, Html};
 use yew_router::prelude::*;
 
-#[derive(Clone, Copy, Routable, PartialEq)]
+#[derive(Clone, Copy, Routable, PartialEq, Eq)]
 pub enum SettingsRoute {
     #[at("/settings/filters")]
     Filters,

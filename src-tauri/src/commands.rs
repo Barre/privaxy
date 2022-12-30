@@ -13,7 +13,7 @@ pub(crate) fn get_statistics(
 
 #[tauri::command]
 pub(crate) fn get_blocking_enabled(privaxy_server: tauri::State<'_, PrivaxyServer>) -> bool {
-    *&!*privaxy_server.blocking_disabled_store.0.read().unwrap()
+    !*privaxy_server.blocking_disabled_store.0.read().unwrap()
 }
 
 #[tauri::command]
@@ -48,7 +48,7 @@ pub(crate) async fn set_custom_filters(
         Err(_) => return Err(()),
     };
 
-    if let Err(_) = configuration.set_custom_filters(&input).await {
+    if configuration.set_custom_filters(&input).await.is_err() {
         return Err(());
     }
 
@@ -87,9 +87,10 @@ pub(crate) async fn set_exclusions(
         Err(_) => return Err(()),
     };
 
-    if let Err(_) = configuration
+    if configuration
         .set_exclusions(&input, privaxy_server.local_exclusion_store.clone())
         .await
+        .is_err()
     {
         return Err(());
     }
@@ -129,9 +130,10 @@ pub(crate) async fn change_filter_status(
     };
 
     for filter in filter_status_change_request {
-        if let Err(_) = configuration
+        if configuration
             .set_filter_enabled_status(&filter.file_name, filter.enabled)
             .await
+            .is_err()
         {
             return Err(());
         }
