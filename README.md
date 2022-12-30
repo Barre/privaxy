@@ -17,37 +17,6 @@
 <img width="666" alt="taskbar" src="https://user-images.githubusercontent.com/45085843/210057833-df002cfd-aecf-4d67-bdd6-225ac3d6b980.png">
 </div>
 
-## Installation
-
-### Disclaimer
-
-This is an early release without authentication on the management API. You should proceed with caution and not expose the service on the internet. To prevent accidental exposure of the service, it's only yet possible to bind on `127.0.0.1`.
-
-### Using a pre-built binary
-
-Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases](https://github.com/Barre/privaxy/releases).
-
-### Using the rust toolchain
-
-1. Begin by [installing rust](https://www.rust-lang.org/tools/install).
-2. Install rust's wasm target: `rustup target add wasm32-unknown-unknown`
-3. [Install trunk](https://trunkrs.dev/#install).
-4. [Install nodejs as well as npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (at least v14).
-5. Clone this repository.
-6. Build the web gui by running `cd web_frontend && npm i && trunk build --release && cd ..`
-7. Build the server by running `cd privaxy && cargo build --release.`
-8. Run privaxy using `cargo run --release --bin privaxy`.
-
-### Local system configuration
-
-1. Navigate to the web gui at `http://127.0.0.1:8000`, click on "Download CA certificate".
-2. Install the downloaded certificate locally.
-    - Macos: <https://support.apple.com/guide/keychain-access/add-certificates-to-a-keychain-kyca2431/mac>
-    - Linux: `cp privaxy_ca_certificate.pem /usr/local/share/ca-certificates/`
-3. Configure your local system to pass http traffic through privaxy.
-   - Macos: <https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac>
-   - Ubuntu (gnome): <https://phoenixnap.com/kb/ubuntu-proxy-settings>
-
 ## About
 
 Privaxy is a MITM HTTP(s) proxy that sits in between HTTP(s) talking applications, such as a web browser and HTTP servers, such as those serving websites.
@@ -75,3 +44,19 @@ Privaxy is also way more capable than DNS-based blockers as it is able to operat
 - Very low resource usage.
   - Around 50MB of memory with approximately 320 000 filters enabled.
   - Able to filter thousands of requests per second on a small machine.
+
+## Installation
+
+### Using a pre-built binary
+
+Pre-built binaries for Macos and Linux (x86_64) are provided on [github releases](https://github.com/Barre/privaxy/releases).
+
+### Local system configuration
+
+1. Go to the GUI, click on "Save CA certificate".
+2. Install the downloaded certificate locally.
+    - Macos: <https://support.apple.com/guide/keychain-access/add-certificates-to-a-keychain-kyca2431/mac>
+    - Linux: `cp privaxy_ca_certificate.pem /usr/local/share/ca-certificates/`
+3. Configure your local system to pass http traffic through privaxy.
+   - Macos: <https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac>
+   - Ubuntu (gnome): <https://phoenixnap.com/kb/ubuntu-proxy-settings>
