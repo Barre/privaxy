@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.5.0
+
+- Add builds for apple silicon
+
 ## v0.4.0
 
 - Now ships as a desktop gui app.
