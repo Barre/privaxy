@@ -89,6 +89,10 @@ jobs:
             os: macos-latest
             rust: stable
             target: x86_64-apple-darwin
+          - buid: macos
+            os: macos-latest
+            rust: stable
+            target: aarch64-apple-darwin
           - build: windows
             os: windows-latest
             rust: stable
@@ -96,6 +100,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Cache build artifacts
+        uses: actions/cache@v3
+        with:
+          key:  no_gui-${{ matrix.os }}-${{ matrix.target }}-artifacts
+          path: |
+            ./target
+            ~/.cargo
 
       - name: Install rust
         uses: actions-rs/toolchain@v1
@@ -174,6 +186,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Cache build artifacts
+        uses: actions/cache@v3
+        with:
+          key:  gui-${{ matrix.os }}-artifacts
+          path: |
+            ./target
+            ~/.cargo
+
       - name: Install rust
         uses: actions-rs/toolchain@v1
         with:
@@ -200,6 +220,10 @@ jobs:
         name: Install gui library packages
         run: sudo apt-get install -y libwebkit2gtk-4.0-dev build-essential libayatana-appindicator3-dev librsvg2-dev libgtk-3-dev libsoup2.4-dev libjavascriptcoregtk-4.0-dev
 
+      - if: startsWith(matrix.os, 'macos') == true
+        name: Install rust apple arm target
+        run: rustup target add aarch64-apple-darwin
+
       - name: Install node packages
         working-directory: ./web_frontend
         run: npm i
@@ -211,7 +235,7 @@ jobs:
 
       - name: Build desktop app
         id: desktop_app
-        uses: tauri-apps/tauri-action@v0
+        uses: tauri-apps/tauri-action@5a6072a9edbbf71718caee364b5b96731d7580fc #v0 does not handle universal builds
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -220,3 +244,4 @@ jobs:
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           prerelease: false
+          args: ${{ startsWith(matrix.os, 'macos') == true && '--target universal-apple-darwin' || '' }}
