@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.5.1
+
+- Apple build of desktop app is now notarized.
+
 ## v0.5.0
 
 - Add builds for apple silicon
