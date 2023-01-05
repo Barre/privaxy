@@ -4,7 +4,6 @@ use crate::proxy::exclusions::LocalExclusionStore;
 use hyper::server::conn::AddrStream;
 use hyper::service::{make_service_fn, service_fn};
 use hyper::{Client, Server};
-use include_dir::{include_dir, Dir};
 use proxy::exclusions;
 use reqwest::redirect::Policy;
 use std::collections::HashSet;

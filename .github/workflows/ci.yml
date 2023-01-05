@@ -92,7 +92,7 @@ jobs:
           - build: windows
             os: windows-latest
             rust: stable
-            target: x86_64-pc-windows-gnu
+            target: x86_64-pc-windows-msvc
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -123,7 +123,6 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: build
-          use-cross: matrix.os != 'windows-latest'
           args: --release --target ${{ matrix.target }} --bin privaxy --target-dir target
         
       - uses: actions/upload-artifact@v3
