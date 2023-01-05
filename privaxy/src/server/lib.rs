@@ -24,8 +24,6 @@ pub mod events;
 mod proxy;
 pub mod statistics;
 
-pub static WEBAPP_FRONTEND_DIR: Dir<'_> = include_dir!("web_frontend/dist");
-
 #[derive(Debug, Clone)]
 pub struct PrivaxyServer {
     pub ca_certificate_pem: String,
