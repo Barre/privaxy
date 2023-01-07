@@ -124,13 +124,13 @@ jobs:
         with:
           command: build
           args: --release --target ${{ matrix.target }} --bin privaxy --target-dir target
-        
+
       - uses: actions/upload-artifact@v3
         if: matrix.os != 'windows-latest'
         with:
           name: privaxy_nogui-${{ matrix.target }}
           path: |
-            target/release/privaxy
+            target/${{ matrix.target }}/release/privaxy
 
       - uses: actions/upload-artifact@v3
         if: matrix.os == 'windows-latest'
