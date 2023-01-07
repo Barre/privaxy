@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.5.2
+
+- Wildcards are allowed in configurable exclusions.
+
 ## v0.5.1
 
 - Apple build of desktop app is now notarized.
