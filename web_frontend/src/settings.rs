@@ -59,6 +59,9 @@ pub fn switch_settings(route: &SettingsRoute) -> Html {
                         {"Exclusions are hosts or domains that are not passed through the MITM pipeline. "}
                         {"Excluded entries will be transparently tunneled."}
                     </p>
+                    <br/>
+                    <p><span class="bg-gray-100 rounded">{"?"}</span>{" matches exactly one occurrence of any character."}</p>
+                    <p><span class="bg-gray-100 rounded">{"*"}</span>{" matches arbitrary many (including zero) occurrences of any character."}</p>
                 </div>
             };
             let textarea_description = "Insert one entry per line";
