@@ -8,8 +8,8 @@ use openssl::{
     x509::X509,
 };
 use serde::{Deserialize, Serialize};
+use std::path::PathBuf;
 use std::{collections::BTreeSet, time::Duration};
-use std::{collections::HashSet, path::PathBuf};
 use thiserror::Error;
 use tokio::sync::{self, mpsc::Sender};
 use tokio::{fs, sync::mpsc::Receiver};
@@ -224,7 +224,7 @@ impl Configuration {
         self.save().await?;
 
         local_exclusion_store
-            .replace_exclusions(HashSet::from_iter(self.exclusions.clone().into_iter()));
+            .replace_exclusions(Vec::from_iter(self.exclusions.clone().into_iter()));
 
         Ok(())
     }

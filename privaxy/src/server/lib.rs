@@ -6,7 +6,6 @@ use hyper::service::{make_service_fn, service_fn};
 use hyper::{Client, Server};
 use proxy::exclusions;
 use reqwest::redirect::Policy;
-use std::collections::HashSet;
 use std::convert::Infallible;
 use std::net::SocketAddr;
 use std::sync::Arc;
@@ -61,9 +60,8 @@ pub async fn start_privaxy() -> PrivaxyServer {
         }
     };
 
-    let local_exclusion_store = LocalExclusionStore::new(HashSet::from_iter(
-        configuration.exclusions.clone().into_iter(),
-    ));
+    let local_exclusion_store =
+        LocalExclusionStore::new(Vec::from_iter(configuration.exclusions.clone().into_iter()));
     let local_exclusion_store_clone = local_exclusion_store.clone();
 
     let ca_certificate = match configuration.ca_certificate() {
