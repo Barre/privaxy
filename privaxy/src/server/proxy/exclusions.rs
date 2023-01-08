@@ -95,13 +95,10 @@ impl LocalExclusionStore {
     }
 
     pub fn contains(&self, element: &str) -> bool {
-        // Items are stored lowercased
-        let element_lowercase = element.to_lowercase();
-
         if DEFAULT_EXCLUSIONS.is_match(element) {
             true
         } else {
-            self.0.read().unwrap().is_match(&element_lowercase)
+            self.0.read().unwrap().is_match(element)
         }
     }
 }
