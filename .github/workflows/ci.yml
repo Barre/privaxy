@@ -137,7 +137,7 @@ jobs:
         with:
           name: privaxy_nogui-${{ matrix.target }}
           path: |
-            target/release/privaxy.exe
+            target/${{ matrix.target }}/release/privaxy.exe
 
   ci_desktop:
     name: CI Desktop
