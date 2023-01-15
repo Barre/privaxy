@@ -31,8 +31,6 @@ impl WildMatchCollection {
 }
 
 lazy_static! {
-    // We don't yet support defining globs for user defined exclusions as we rely on the glob crate, which
-    // is designed to work on paths, not on hostnames.
     static ref DEFAULT_EXCLUSIONS: WildMatchCollection = {
         let mut exclusions = Vec::new();
 
