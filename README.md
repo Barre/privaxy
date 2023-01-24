@@ -56,7 +56,7 @@ Pre-built binaries for major operating systems and platforms are provided at [gi
 1. Go to the GUI, click on "Save CA certificate".
 2. Install the downloaded certificate locally.
     - Macos: <https://support.apple.com/guide/keychain-access/add-certificates-to-a-keychain-kyca2431/mac>
-    - Linux: `cp privaxy_ca_certificate.pem /usr/local/share/ca-certificates/`
+    - Linux: `cp privaxy_ca_cert.pem /usr/local/share/ca-certificates/`
 3. Configure your local system to pass http traffic through privaxy which listens on localhost:8100.
    - Macos: <https://support.apple.com/guide/mac-help/change-proxy-settings-network-preferences-mac-mchlp2591/mac>
    - Ubuntu (gnome): <https://phoenixnap.com/kb/ubuntu-proxy-settings>
