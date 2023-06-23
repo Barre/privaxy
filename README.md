@@ -17,33 +17,33 @@
 <img width="666" alt="taskbar" src="https://user-images.githubusercontent.com/45085843/210057833-df002cfd-aecf-4d67-bdd6-225ac3d6b980.png">
 </div>
 
-## About
+## About Privaxy
 
-Privaxy is a MITM HTTP(s) proxy that sits in between HTTP(s) talking applications, such as a web browser and HTTP servers, such as those serving websites.
+Privaxy is a MITM HTTP(s) proxy that sits between HTTP(s) speaking applications, such as a web browser, and HTTP servers, such as those serving websites.
 
-By establishing a two-way tunnel between both ends, Privaxy is able to block network requests based on URL patterns and to inject scripts as well as styles into HTML documents.
+By establishing a two-way tunnel between the two ends, Privaxy is able to block network requests based on URL patterns and inject scripts and styles into HTML documents.
 
-Operating at a lower level, Privaxy is both more efficient as well as more streamlined than browser add-on-based blockers. A single instance of Privaxy on a small virtual machine, server or even, on the same computer as the traffic is originating from, can filter thousands of requests per second while requiring a very small amount of memory.
+By operating at a lower level, Privaxy is both more efficient and more streamlined than browser add-on-based blockers. A single instance of Privaxy on a small virtual machine, server, or even on the same machine from which the traffic originates can filter thousands of requests per second while using very little memory.
 
-Privaxy is not limited by the browser’s APIs and can operate with any HTTP traffic, not only the traffic flowing from web browsers.
+Privaxy is not limited by browser APIs and can work with any HTTP traffic, not just traffic coming from web browsers.
 
-Privaxy is also way more capable than DNS-based blockers as it is able to operate directly on URLs and to inject resources into web pages.
+Privaxy is also much more powerful than DNS-based blockers because it can operate directly on URLs and inject resources into web pages.
 
 ## Features
 
-- Suppport for [Adblock Plus filters](https://adblockplus.org/filter-cheatsheet), such as [easylist](https://easylist.to/).
-- Web graphical user interface with a statistics display as well as a live request explorer.
+- Support for [Adblock Plus filters](https://adblockplus.org/filter-cheatsheet), such as [easylist](https://easylist.to/).
+- Graphical web interface with statistics display and live request explorer.
 - Support for uBlock origin's `js` syntax.
-- Support for uBlock origin's `redirect` syntax.
+- Support for uBlock origin's `redirect' syntax.
 - Support for uBlock origin's scriptlets.
 - Browser and HTTP client agnostic.
 - Support for custom filters.
-- Support for excluding hosts from the MITM pipeline.
-- Support for protocol upgrades, such as with websockets.
-- Automatic filter lists updates.
+- Support for excluding hosts from MITM pipeline.
+- Support for protocol upgrades, such as websockets.
+- Automatic filter list updates.
 - Very low resource usage.
-  - Around 50MB of memory with approximately 320 000 filters enabled.
-  - Able to filter thousands of requests per second on a small machine.
+  - About 50MB of memory with about 320,000 filters enabled.
+  - Capable of filtering thousands of requests per second on a small machine.
 
 ## Installation
 
