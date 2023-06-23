@@ -34,7 +34,7 @@ Privaxy is also much more powerful than DNS-based blockers because it can operat
 - Support for [Adblock Plus filters](https://adblockplus.org/filter-cheatsheet), such as [easylist](https://easylist.to/).
 - Graphical web interface with statistics display and live request explorer.
 - Support for uBlock origin's `js` syntax.
-- Support for uBlock origin's `redirect' syntax.
+- Support for uBlock origin's `redirect` syntax.
 - Support for uBlock origin's scriptlets.
 - Browser and HTTP client agnostic.
 - Support for custom filters.
